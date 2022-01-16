@@ -1,4 +1,4 @@
-locale: en-US
+locale: ar-EG
 namespace: js
 translations:
     ###########################################################################
@@ -7,47 +7,41 @@ translations:
 
     - key: general.survey_intro_js2021
       t: >
-          First the 2020 Olympics got pushed back to 2021, 
-          and now the 2021 State of JavaScript survey is happening now, in 2022!
+          تم تأجيل أولمبياد 2020 إلى 2021،
+          والآن استبيان عام 2021 من
+          State of JavaScript
+          يحدث الآن، في 2022!
 
+          هذه حقيقة: بين العمل، والعائلة، وكل الاضطرابات العالمية بعض الأشياء يتم تعطيلها قليلًا.
 
-          It's true: between work, family, and and all the turmoil in the world, 
-          some things got disrupted a little.
-          
+          ولكن مع احتمالية اختلاف هذه السنة، نأمل أن تكون البيانات المُقدَّمة من هذا الاستبيان نفسه غنية بالمعلومات ومُلهمة كالعادة.
+          ولا تقلق، سيُعلن عن استبيان آخر بنهاية هذه السنة لنجعل كل شيءٍ مستقيمًا مجددًا!
 
-          But while the year may be off-by-one, we hope the data provided by the 
-          survey itself will be just as informative and insightful as ever. 
-          And don't worry, there will be another survey towards the end of this year to set things straight again!
-          
     ###########################################################################
     # Survey
     ###########################################################################
 
     - key: features.features_intro
       t: >
-          Welcome to the survey! This first part is all about figuring out 
-          which **features** of the JavaScript language respondents actually know about and use. 
+          أهلًا بك بالاستبيان! هذا الجزء الأول يدور حول معرفة أي **مميزات** موجودة بلغة جافا سكريبت يعرفها المشاركون بالاستطلاع ويستخدمونها.
+
+          لكل ميزة، تأكد أنك:
 
 
-          For each feature, check if you: 
-
-
-          - Have never heard about it; or are not sure what it is. 
-          - Know what it is, but have yet to use it in your code.
-          - Have used the feature in your code. 
-
+          - لم تسمع عنها من قبل؛ أو لست متأكد منها. 
+          - تعرفها؛ ولكن لم تستخدمها من قبل.
+          - استخدمت هذه الميزة من قبل.
 
     - key: tools.tools_intro
       t: >
-          The next couple sections focus on the **libraries** that make up the JavaScript
-          ecosystem. 
+          في الجزئين التاليين سنركز على **مكتبات** أسست النظام البيئي للغة جافا سكريبت
 
 
-          For each library, check if you: 
+          لكل مكتبة، تأكد أنك:
 
 
-          - Have never heard about it; or are not sure what it is. 
-          - Have heard of it, and would like to learn to use it at some point. 
-          - Have heard of it, but are **not** interested in learning more. 
-          - Have used it, and would be happy to use it again. 
-          - Have used it, but would rather **not** use it again if possible. 
+          - لم تسمع عنها من قبل؛ أو لست متأكد منها. 
+          - سمعت عنها، وتود أن تتعلمها كي تستعملها في وقتٍ ما.
+          - سمعت عنها، لكن **لست** مهتمًا بتعلمها.
+          - استعملتها، وتسعد باستعمالها ثانيةً.
+          - استعملتها، لكن تفضل **ألا** تستعملها ثانيةً إن أمكن.
