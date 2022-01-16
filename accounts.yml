@@ -1,79 +1,78 @@
-locale: en-US
+locale: ar-EG
 translations:
     - key: accounts.error_incorrect_password
-      t: Incorrect password
+      t: كلمة سر غير صحيحة
     - key: accounts.error_email_required
-      t: Email required
+      t: البريد مطلوب
     - key: accounts.error_email_already_exists
-      t: Email already exists
+      t: البريد موجود مسبقًا
     - key: accounts.error_invalid_email
-      t: Invalid email
+      t: بريد غير صالح
     - key: accounts.error_minchar
-      t: Your password is too short
+      t: كلمة السر صغيرة جدًا
     - key: accounts.error_unknown
-      t: Unknown error
+      t: خطأ مجهول
     - key: accounts.error_user_not_found
-      t: User not found
+      t: لم يتم العثور على المستخدم
     - key: accounts.error_username_already_exists
-      t: Username already exists
+      t: المستخدم موجود مسبقًا
     - key: accounts.enter_username_or_email
-      t: Enter username or email
+      t: أدخِل اسم المستخدم أو البريد
     - key: accounts.error_internal_server_error
-      t: Internal server error
+      t: خطأ في الخادم الداخلي
     - key: accounts.error_token_expired
-      t: Invalid password reset token
+      t: رمز إعادة تعيين كلمة المرور غير صالح
     - key: accounts.username_or_email
-      t: Username or email
+      t: اسم المستخدم أو البريد
     - key: accounts.enter_username
-      t: Enter username
+      t: أدخِل اسم المستخدم
     - key: accounts.username
-      t: Username
+      t: اسم المستخدم
     - key: accounts.enter_email
-      t: Enter email
+      t: أدخِل البريد
     - key: accounts.email
-      t: Email
+      t: البريد
     - key: accounts.enter_password
-      t: Enter password
+      t: أدخِل كلمة السر
     - key: accounts.password
-      t: Password
+      t: كلمة السر
     - key: accounts.choose_password
-      t: Choose password
+      t: اختَر كلمة السر
     - key: accounts.change_password
-      t: Change password
+      t: تغيير كلمة السر
     - key: accounts.reset_your_password
-      t: Reset your password
+      t: إعادة تعيين كلمة السر
     - key: accounts.set_password
-      t: Set password
+      t: تعيين كلمة السر
     - key: accounts.enter_new_password
-      t: Enter new password
+      t: أدخِل كلمة السر الجديدة
     - key: accounts.new_password
-      t: New password
+      t: كلمة سر جديدة
     - key: accounts.forgot_password
-      t: Forgot password
+      t: نسيت كلمة السر
     - key: accounts.sign_up
-      t: Sign up
+      t: الاشتراك
     - key: accounts.sign_in
-      t: Log in
+      t: الدخول
     - key: accounts.switch_to_sign_up
-      t: Don't have an account ? Sign up
+      t: ليس عندك حساب؟ اشترك
     - key: accounts.switch_to_sign_in
-      t: Already have an account? Log in
+      t: لديك حساب بالفعل؟ سجل دخولك
     - key: accounts.sign_out
-      t: Sign out
+      t: تسجيل الخروج
     - key: accounts.cancel
-      t: Cancel
+      t: الإلغاء
     - key: accounts.info_email_sent
-      t: Email sent.
+      t: تم إرسال البريد
     - key: accounts.info_password_changed
-      t: Password changed.
+      t: تم تغيير كلمة السر
     - key: accounts.please_pick_password
-      t: Please pick a new password to continue.
+      t: من فضلك ضع كلمة سر جديدة للاستمرار
     - key: accounts.please_log_in
-      t: Please log in or sign up to begin.
+      t: للبدء قم بالاشتراك أو تسجيل الدحول
     - key: accounts.logged_in_as
-      t: Logged in as {email}
+      t: الدخول كـ {email}
     - key: accounts.questions
-      t: >
-          If you have any questions about how we use your data, or would like
-          us to remove your data from our records,
-          please <a href="mailto:hello@stateofjs.com">get in touch</a>.
+      t:
+          إذا كان عندك سؤال عن كيفية استخدامنا لبياناتك، أو تريدنا أن نزيل بياناتك من سجلاتنا، من فضلك
+          <a href="mailto:hello@stateofjs.com">تواصل معنا</a>.
