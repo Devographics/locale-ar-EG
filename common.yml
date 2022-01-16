@@ -27,7 +27,7 @@ translations:
     - key: general.survey_preview
       t: >
           This survey is in preview mode. Its questions are subject to change, and all 
-          inputted data will be deleted when the actual survey starts. 
+          inputted data will be deleted when the actual survey starts.
 
     - key: general.survey_read_only_back
       t: >
@@ -67,7 +67,7 @@ translations:
     - key: general.survey_results
       t: View Survey Results »
     - key: general.surveys_available_languages
-      t: 'Surveys available in:'
+      t: "Surveys available in:"
     - key: general.help_us_translate
       t: Help us translate the surveys »
     - key: general.translators
@@ -140,7 +140,7 @@ translations:
           Also, you can help us get the word out by sharing this survey. Every bit counts, and it'll help make our data even
           more representative:
     - key: thanks.learn_more_about
-      t: 'Some of the features you might want to learn more about:'
+      t: "Some of the features you might want to learn more about:"
     - key: thanks.knowledge_score
       t: Knowledge Score
     - key: thanks.score_explanation
@@ -178,16 +178,16 @@ translations:
     - key: notfound.title
       t: 404 Not Found
     - key: notfound.description
-      t: Sorry, we couldn't find what you were looking for. 
+      t: Sorry, we couldn't find what you were looking for.
 
     # other
     - key: general.join_discord
-      t: Join us on <a href="{link}">Discord</a>. 
+      t: Join us on <a href="{link}">Discord</a>.
     - key: general.translator_mode
-      t: Press option/alt to enable translator mode. 
+      t: Press option/alt to enable translator mode.
     - key: general.charts_nivo
       t: Charts built with <a href="{link}">Nivo</a>.
-      
+
     ###########################################################################
     # Nav
     ###########################################################################
@@ -361,7 +361,7 @@ translations:
 
     # age (short versions)
     - key: options.age.range_less_than_10.short
-      t: '<10'
+      t: "<10"
     - key: options.age.range_10_18.short
       t: 10-18
     - key: options.age.range_18_24.short
@@ -375,7 +375,7 @@ translations:
     - key: options.age.range_55_64.short
       t: 55-64
     - key: options.age.range_more_than_65.short
-      t: '>65'
+      t: ">65"
 
     # years of experience
     - key: options.years_of_experience.range_less_than_1
@@ -393,7 +393,7 @@ translations:
 
     # years of experience (short versions)
     - key: options.years_of_experience.range_less_than_1.short
-      t: '<1 years'
+      t: "<1 years"
     - key: options.years_of_experience.range_1_2.short
       t: 1-2 years
     - key: options.years_of_experience.range_2_5.short
@@ -403,7 +403,7 @@ translations:
     - key: options.years_of_experience.range_10_20.short
       t: 10-20 years
     - key: options.years_of_experience.range_more_than_20.short
-      t: '>20 years'
+      t: ">20 years"
 
     # company size
     - key: options.company_size.range_1
@@ -439,7 +439,7 @@ translations:
     - key: options.company_size.range_100_1000.short
       t: 100-1000
     - key: options.company_size.range_more_than_1000.short
-      t: '>1000'
+      t: ">1000"
 
     # salary
     - key: options.yearly_salary.range_work_for_free
@@ -471,7 +471,7 @@ translations:
     - key: options.yearly_salary.range_100_200.short
       t: $100k-$200k
     - key: options.yearly_salary.range_more_than_200.short
-      t: '>$200k'
+      t: ">$200k"
 
     # job titles
     - key: options.job_title.cto
@@ -624,36 +624,36 @@ translations:
     # Disability Status
     - key: options.disability_status.visual_impairments
       t: >
-        Visual impairments (such as: blindness, color blindness, etc.)
+          Visual impairments (such as: blindness, color blindness, etc.)
     - key: options.disability_status.hearing_impairments
       t: >
-        Hearing impairments (such as: deafness, tinnitus, etc.)
+          Hearing impairments (such as: deafness, tinnitus, etc.)
     - key: options.disability_status.mobility_impairments
       t: >
-        Mobility impairments (such as: arthritis, carpal tunnel, etc.)
+          Mobility impairments (such as: arthritis, carpal tunnel, etc.)
     - key: options.disability_status.cognitive_impairments
       t: >
-        Cognitive impairments (such as: anxiety, dyslexia, etc.)
+          Cognitive impairments (such as: anxiety, dyslexia, etc.)
     - key: options.disability_status.not_listed
       t: >
-        Not Listed
+          Not Listed
 
     # Disability Status (short)
     - key: options.disability_status.visual_impairments
       t: >
-        Visual impairments
+          Visual impairments
     - key: options.disability_status.hearing_impairments
       t: >
-        Hearing impairments
+          Hearing impairments
     - key: options.disability_status.mobility_impairments
       t: >
-        Mobility impairments
+          Mobility impairments
     - key: options.disability_status.cognitive_impairments
       t: >
-        Cognitive impairments
+          Cognitive impairments
     - key: options.disability_status.not_listed
       t: >
-        Not Listed
+          Not Listed
 
     # Form Factors
     - key: options.form_factors.desktop
@@ -767,8 +767,6 @@ translations:
     - key: options.tool_evaluation.community_inclusivity.description
       t: Does it have a welcoming, vibrant community built around it?
 
-
-
     # accessibility features
     - key: options.accessibility_features.keyboard_navigation
       t: Keyboard navigation
@@ -878,7 +876,7 @@ translations:
     - key: user_info.yearly_salary
       t: Yearly Salary
     - key: user_info.yearly_salary.description
-      t: Your yearly salary in U.S. dollar. 
+      t: Your yearly salary in U.S. dollar.
 
     # job title
     - key: user_info.job_title
@@ -909,32 +907,32 @@ translations:
       t: Gender
     - key: user_info.gender.description
       t: >
-        Which of the following options describes you, if any? Please pick one.
+          Which of the following options describes you, if any? Please pick one.
     - key: user_info.gender.note
       t: >
-        While we know collecting and publishing diversity data can be a sensitive issue, 
-        we do think it's important to obtain this data to help measure and improve 
-        the survey's efforts in terms of inclusivity and representativeness. 
-        
+          While we know collecting and publishing diversity data can be a sensitive issue, 
+          we do think it's important to obtain this data to help measure and improve 
+          the survey's efforts in terms of inclusivity and representativeness.
+
     # race & ethnicity
     - key: user_info.race_ethnicity
       t: Race & Ethnicity
     - key: user_info.race_ethnicity.description
       t: >
-        Which of the following options describe you, if any? Please check all that apply.
+          Which of the following options describe you, if any? Please check all that apply.
     - key: user_info.race_ethnicity.note
       t: >
-        While we know collecting and publishing diversity data can be a sensitive issue, 
-        we do think it's important to obtain this data to help measure and improve 
-        the survey's efforts in terms of inclusivity and representativeness. 
-        
+          While we know collecting and publishing diversity data can be a sensitive issue, 
+          we do think it's important to obtain this data to help measure and improve 
+          the survey's efforts in terms of inclusivity and representativeness.
+
     # disability status
     - key: user_info.disability_status
       t: Disability Status
     - key: user_info.disability_status.description
       t: >
-        Which of the following disabilities do you experience, if any? Please check all that apply.
-        Note that this can include temporary disabilities or injuries. 
+          Which of the following disabilities do you experience, if any? Please check all that apply.
+          Note that this can include temporary disabilities or injuries.
 
     # disability status (other)
     - key: user_info.disability_status.others
@@ -954,16 +952,16 @@ translations:
       t: Your GitHub Username
     - key: user_info.github_username.description
       t: >
-        We might use GitHub usernames in the future to look at
-        repos and cross-reference publicly available information. 
-      
+          We might use GitHub usernames in the future to look at
+          repos and cross-reference publicly available information.
+
     - key: user_info.twitter_username
       t: Your Twitter Username
     - key: user_info.twitter_username.description
       t: >
-        We might use Twitter usernames in the future to look at
-        Twitter activity and cross-reference publicly available information
-         (such as the list of people you're following). 
+          We might use Twitter usernames in the future to look at
+          Twitter activity and cross-reference publicly available information
+           (such as the list of people you're following).
 
     - key: user_info.industry_sector
       t: Industry Sector
@@ -1060,7 +1058,7 @@ translations:
       t: Other First Learning Methods
     - key: resources.first_steps.others.description
       t: Other answers (freeform field).
-    
+
     # blogs & magazines
     - key: resources.blogs_news_magazines
       t: Blogs & Magazines
@@ -1104,5 +1102,5 @@ translations:
       t: People
     - key: resources.people.others.description
       t: >
-        People you read, follow, or just want to highlight for their work 
-        (freeform field, comma-separated names).
+          People you read, follow, or just want to highlight for their work 
+          (freeform field, comma-separated names).
