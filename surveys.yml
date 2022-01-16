@@ -1,73 +1,73 @@
-locale: en-US
+locale: ar-EG
 translations:
     ###########################################################################
     # General
     ###########################################################################
 
     - key: general.no_preview_surveys
-      t: No surveys to preview
+      t: لا يوجد استبيان لعرضه
     - key: general.global_nav
-      t: Global
+      t: عام
 
     ###########################################################################
     # FAQ
     ###########################################################################
 
     - key: general.faq
-      t: FAQ
+      t: الأسئلة الأكثر شيوعًا
     - key: faq.create_account
-      t: Why do I need to create an account?
+      t: لماذا عليَّ أن أُنشئ حسابًا؟
     - key: faq.create_account.description
-      t: We ask you to create an account in order to avoid duplicate responses, save your data, and notify you when results are published.
+      t: نحن نطلب منك أن تنشئ حسابًا لتجنب الردود المكررة، وحفظ بياناتك، وإشعارك عند إعلان النتائج.
     - key: faq.anonymous_survey
-      t: Can I take the survey anonymously?
+      t: هل يمكنني المشاركة في الاستبيان بشكل متخفٍ؟
     - key: faq.anonymous_survey.description
-      t: Yes, you can use a fake (something@example.com) or non-identifying email to take the survey as long as you save it for future access. 
+      t: بلى، يمكنك استخدام بريد مزيف (شيئ@مثال.كوم) أو بريد مجهول للمشاركة في الاستبيان ما دمت ستحفظه للولوج مستقبلًا.
     - key: faq.questions_required
-      t: Is answering every question required?
+      t: هل الإجابة عن كل الأسئلة مطلوب؟
     - key: faq.questions_required.description
-      t: No, every question of the survey is optional and can freely be skipped. 
+      t: لا، الإجابة عن الأسئلة اختياري يمكنك تجاوز أيًا منها.
     - key: faq.data_published
-      t: Will my data be made public?
+      t: هل بياناتي ستكون علنيةً؟
     - key: faq.data_published.description
-      t: Yes, all data will be released publicly, but only after being purged of any identifying information (emails, usernames, IDs, etc.).
+      t: بلى، كل البيانات ستُنشر علنيةً، ولكن فقط بعد تطهيرها من أي معلومات تعريف (مثل البريد واسم المسخدم ورقم البطاقة إلخ).
     - key: faq.survey_design
-      t: How are the surveys designed?
+      t: كيف تم تصميم الاستبيان؟
     - key: faq.survey_design.description
-      t: Surveys are designed based on community feedback, as well as reviewed by experts. You can [learn more here](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb). 
+      t: قد تم تصميم الاستبيانات بناءً على آراء المجتمع، وتمت مراجعتها من قبل الخبراء. يمكنك [معرفة المزيد من هنا](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb)
     - key: faq.results_released
-      t: When will the results be released?
+      t: متى ستُعلن النتائج؟
     - key: faq.results_released.description
-      t: Results are generally released a few weeks after the survey closes.
+      t: تُعلن النتائج بعد أسابيع من إغلاق الاستبيان.
     - key: faq.survey_deadline
-      t: When will the survey close?
+      t: متى يغلق الاستبيان؟
     - key: faq.survey_deadline.description
-      t: This survey is scheduled to run until {date}
+      t: هذا الاستبيان تم جدولته للعمل حتى {date}
     - key: faq.team
-      t: Who runs these surveys?
+      t: من يدير هذه الاستبيانات؟
     - key: faq.team.description
-      t: Surveys are primarily run by [me](http://sachagreif.com) in collaboration with contributors, translators, and volunteers. 
+      t: هذه الاستبيانات تدار أساسيًا بواسطتي [أنا](http://sachagreif.com) 
+      وبمساعدة مشاركين ومترجمين ومتطوعين.
+
 
     ###########################################################################
     # Form Controls
     ###########################################################################
 
     - key: bracket.vs
-      t: VS
+      t: ضد
     - key: bracket.start_over
-      t: Start Over
+      t: البدء مجددًا
     - key: bracket.winner
-      t: >
-      Winner: 
+      t: الفائز:
     - key: bracket.round
-      t: Round
+      t: الجولة
     - key: bracket.empty_bracket
-      t: Pending result (complete the previous round first)
+      t: النتيجة معلقة (أكمل الجولة السابقة أولًا)
     - key: bracket.result
-      t: Result
+      t: النتيجة
     - key: bracket.cancel
-      t: Cancel
-
+      t: الإلغاء
 
     ###########################################################################
     # Demographics (About You/User Info)
