@@ -183,7 +183,7 @@ translations:
 
     # 404
     - key: notfound.title
-      t: 404 Not Found
+      t: خطأ 404 - لم يُعثر عليه.
     - key: notfound.description
       t: معذرةً، لم نستطع إيجاد ما كنت تبحث عنه
 
@@ -216,7 +216,7 @@ translations:
     - key: sections.features.title
       t: مميزات
     - key: sections.features.description
-      t: Syntax, keywords, and other language features.
+      t: Syntax, keywords ومميزات أخرى باللغة.
 
     - key: sections.resources.title
       t: المصادر
@@ -270,7 +270,7 @@ translations:
     - key: options.patterns.use_sparingly
       t: نادرًا ما أستعملها
     - key: options.patterns.use_neutral
-      t: عادي
+      t: محايد
     - key: options.patterns.use_frequently
       t: عادةً ما أستعملها
     - key: options.patterns.use_always
@@ -318,11 +318,11 @@ translations:
     - key: options.happiness.1
       t: غير راضٍ
     - key: options.happiness.2
-      t: عادي
+      t: محايد
     - key: options.happiness.3
-      t: Happy
+      t: راضٍ
     - key: options.happiness.4
-      t: Very Happy
+      t: راضٍ جدًا
 
     # happiness (short version)
     - key: options.happiness.0.short
@@ -330,11 +330,11 @@ translations:
     - key: options.happiness.1.short
       t: غير راضٍ
     - key: options.happiness.2.short
-      t: عادي
+      t: محايد
     - key: options.happiness.3.short
-      t: Happy
+      t: راضٍ
     - key: options.happiness.4.short
-      t: Very Happy
+      t: راضٍ جدًا
 
     # opinions
     - key: options.opinions.0
@@ -342,7 +342,7 @@ translations:
     - key: options.opinions.1
       t: أعارض
     - key: options.opinions.2
-      t: عادي
+      t: محايد
     - key: options.opinions.3
       t: موافق
     - key: options.opinions.4
@@ -514,54 +514,53 @@ translations:
 
     # CSS proficiency
     - key: options.css_proficiency.0
-      t: Virtually no knowledge of CSS
+      t: عمليا لا توجد معرفة بـ CSS
     - key: options.css_proficiency.1
-      t: Using CSS frameworks and tweaking existing styles
+      t: استخدام أطر CSS وأستطيع تعديل الأنماط الموجودة
     - key: options.css_proficiency.2
-      t: Knowing specificity rules, being able to create layouts
+      t: أعرف قواعد التخصيص، وأستطيع صناعة layouts
     - key: options.css_proficiency.3
-      t: Mastering animations, interactions, transitions, etc.
+      t: متقن لـ animations, interactions, transitions, إلخ.
     - key: options.css_proficiency.4
-      t: Able to style an entire front-end from scratch following a consistent methodology
+      t: أقدر على تصميم واجهة أمامية كاملة من الصفر باتباع منهجية متسقة
 
     # Back-end proficiency
     - key: options.backend_proficiency.0
-      t: Not able to handle any back-end work
+      t: غير قادر على ضبط أي عمل خاص بالـbackend
     - key: options.backend_proficiency.1
-      t: Able to set up all-in-one CMSs (WordPress, etc.) or static site generators (Jekyll, etc.)
+      t: أستطيع تنصيب all-in-one CMSs (WordPress, etc.) أو مولدات الموقع الثابت مثل (Jekyll, etc.)
     - key: options.backend_proficiency.2
-      t: Able to develop apps using pre-existing frameworks (Rails, Laravel, etc.)
+      t: قادر على تطوير التطبيقات باستخدام الأطر الموجودة مسبقًا(Rails, Laravel, etc.)
     - key: options.backend_proficiency.3
-      t: Setting up an entire back-end from scratch (Go, Node.js, etc.)
+      t: أستطيع تنصيب الـbackend بالكامل من الصفر (Go, Node.js, etc.)
     - key: options.backend_proficiency.4
-      t: Able to handle complex multi-server or microservices architectures
-
+      t: قادر على التعامل مع البنيات المعقدة متعددة الخوادم أو الخدمات المصغرة (complex multi-server or microservices architectures)
     # Proficiency (generic versions)
     - key: options.proficiency.0
-      t: None
+      t: لا شيء
     - key: options.proficiency.1
-      t: Beginner
+      t: مبتدئ
     - key: options.proficiency.2
-      t: Intermediate
+      t: متوسط
     - key: options.proficiency.3
-      t: Advanced
+      t: متقدم
     - key: options.proficiency.4
-      t: Expert
+      t: خبير
 
     # Gender
 
     - key: options.gender.female
-      t: Woman
+      t: أنثى
     - key: options.gender.male
-      t: Man
+      t: ذكر
     - key: options.gender.non_binary
-      t: Non-Binary or Gender Non-Conforming
+      t: غير ثنائي
     - key: options.gender.questioning
-      t: Questioning
+      t: متسائل
     - key: options.gender.prefer_not_to_say
-      t: Prefer Not to Say
+      t: أفضل عدم الإفصاح
     - key: options.gender.not_listed
-      t: Not Listed
+      t: غير مدرج
 
     # Gender (short)
 
@@ -570,7 +569,7 @@ translations:
     - key: options.gender.male.short
       t: رجل
     - key: options.gender.non_binary.short
-      t: لست ثنائي
+      t: غير ثنائي
     - key: options.gender.questioning.short
       t: متسائل
     - key: options.gender.prefer_not_to_say.short
@@ -593,7 +592,7 @@ translations:
     - key: options.race_ethnicity.middle_eastern
       t: شرق أوسطي
     - key: options.race_ethnicity.black_african
-      t: أسود أو من أصول سوداء
+      t: أسود أو من أصول إفريقية
     - key: options.race_ethnicity.multiracial
       t: متعدد الأعراق
     - key: options.race_ethnicity.biracial
@@ -606,139 +605,139 @@ translations:
     # Race & Ethnicity (short)
 
     - key: options.race_ethnicity.white_european.short
-      t: White
+      t: أبيض
     - key: options.race_ethnicity.south_asian.short
-      t: South Asian
+      t: جنوب أسيوي
     - key: options.race_ethnicity.south_east_asian.short
-      t: SE Asian
+      t: جنوب شرق أسيوي
     - key: options.race_ethnicity.hispanic_latin.short
-      t: Hispanic/Latin
+      t: من أصل أسباني أو لاتيني
     - key: options.race_ethnicity.east_asian.short
-      t: East Asian
+      t: شرق أسيوي
     - key: options.race_ethnicity.middle_eastern.short
-      t: Middle Eastern
+      t: شرق أوسطي
     - key: options.race_ethnicity.black_african.short
-      t: Black/African Descent
+      t: أسود أو من أصول إفريقية
     - key: options.race_ethnicity.multiracial.short
-      t: Multiracial
+      t: متعدد الأعراق
     - key: options.race_ethnicity.biracial.short
-      t: Biracial
+      t: من عرقين
     - key: options.race_ethnicity.native_american_islander_australian.short
-      t: Native American/Pacific Islander/Indigenous Australian
+      t: أمريكي أصلي أو من سكان جزر المحيط الهادئ أو أسترالي من السكان الأصليين
     - key: options.race_ethnicity.not_listed.short
-      t: Not listed
+      t: غير مردج
 
     # Disability Status
     - key: options.disability_status.visual_impairments
       t: >
-          Visual impairments (such as: blindness, color blindness, etc.)
+          الإعاقات البصرية (مثل: العمى ، عمى الألوان ، إلخ.)
     - key: options.disability_status.hearing_impairments
       t: >
-          Hearing impairments (such as: deafness, tinnitus, etc.)
+          ضعف السمع (مثل: الصمم ، طنين الأذن ، إلخ.)
     - key: options.disability_status.mobility_impairments
       t: >
-          Mobility impairments (such as: arthritis, carpal tunnel, etc.)
+          ضعف الحركة (مثل: التهاب المفاصل ، النفق الرسغي ، إلخ.)
     - key: options.disability_status.cognitive_impairments
       t: >
-          Cognitive impairments (such as: anxiety, dyslexia, etc.)
+          ضعف الإدراك (مثل: القلق ، وعسر القراءة ، وما إلى ذلك.)
     - key: options.disability_status.not_listed
       t: >
-          Not Listed
+          غير مدرج
 
     # Disability Status (short)
     - key: options.disability_status.visual_impairments
       t: >
-          Visual impairments
+          الإعاقات البصرية
     - key: options.disability_status.hearing_impairments
       t: >
-          Hearing impairments
+          ضعف السمع
     - key: options.disability_status.mobility_impairments
       t: >
-          Mobility impairments
+          ضعف الحركة
     - key: options.disability_status.cognitive_impairments
       t: >
-          Cognitive impairments
+          ضعف الإدراك
     - key: options.disability_status.not_listed
       t: >
-          Not Listed
+          غير مدرج
 
     # Form Factors
     - key: options.form_factors.desktop
-      t: Desktop
+      t: سطح المكتب
     - key: options.form_factors.keyboard_only
-      t: Desktop with keyboard only
+      t: سطح المكتب ولوحة المفاتيح
     - key: options.form_factors.smartphone
-      t: Smartphone
+      t: الهاتف الذكي
     - key: options.form_factors.feature_phone
-      t: Feature phone
+      t: مواصفات الهاتف
     - key: options.form_factors.tablet
-      t: Tablet
+      t: تابلت
     - key: options.form_factors.smart_watch
-      t: Smartwatch
+      t: ساعة ذكية
     - key: options.form_factors.tv
-      t: TV
+      t: تلفاز
     - key: options.form_factors.gaming_console
       t: Gaming console
     - key: options.form_factors.screen_reader
-      t: Screen reader
+      t: قارئ الشاشة
     - key: options.form_factors.print
-      t: Print
+      t: طباعة
     - key: options.form_factors.testing_tools
-      t: Testing Tools (Axe, Lighthouse, etc.)
+      t: أدوات اختبار (Axe, Lighthouse, etc.)
     - key: options.form_factors.vision_simulator
       t: Altered Vision Simulator (color blindness, etc.)
 
     # Industry Sector
     - key: options.industry_sector.ecommerce
-      t: Ecommerce & Retail
+      t: التجارة الإلكترونية والتجزئة
     - key: options.industry_sector.news_media
-      t: News, Media, & Blogging
+      t: الأخبار ووسائل الإعلام والتدوين
     - key: options.industry_sector.healthcare
-      t: Healthcare
+      t: الرعاية الصحية
     - key: options.industry_sector.finance
-      t: Finance
+      t: التمويل
     - key: options.industry_sector.programming_tools
-      t: Programming & Technical Tools
+      t: البرمجة والأدوات التقنية
     - key: options.industry_sector.socialmedia
-      t: Social Media
+      t: وسائل التواصل الاجتماعي
     - key: options.industry_sector.marketing_tools
-      t: Marketing/Sales/Analytics Tools
+      t: أدوات التسويق / المبيعات / التحليلات
     - key: options.industry_sector.education
-      t: Education
+      t: التعليم
     - key: options.industry_sector.real_estate
-      t: Real Estate
+      t: العقارات
     - key: options.industry_sector.government
-      t: Government
+      t: حكومي
     - key: options.industry_sector.entertainment
-      t: Entertainment
+      t: ترفيهي
     - key: options.industry_sector.consulting
-      t: Consulting & Services
+      t: خدمات استشارية
     - key: options.industry_sector.travel
-      t: Travel
+      t: سفر
     - key: options.industry_sector.insurance
-      t: Insurance
+      t: تأمين
     - key: options.industry_sector.logistics
-      t: Logistics
+      t: الخدمات اللوجستية
     - key: options.industry_sector.energy
-      t: Energy
+      t: الطاقة
     - key: options.industry_sector.telecommunications
-      t: Telecommunications
+      t: الاتصالات
     - key: options.industry_sector.student
-      t: Student
+      t: طالب
     - key: options.industry_sector.hospitality
-      t: Hospitality
+      t: ضيافة
     - key: options.industry_sector.cyber_security
-      t: Cyber Security
+      t: الأمن السيبراني
     - key: options.industry_sector.construction
-      t: Construction
+      t: البناء والتشييد
     - key: options.industry_sector.automotive
-      t: Automotive
+      t: صناعة السيارات
     - key: options.industry_sector.agriculture
-      t: Agriculture
+      t: الزراعة
     - key: options.industry_sector.transport
-      t: Transport
+      t: النقل
     - key: options.industry_sector.manufacturing
-      t: Manufacturing
+      t: التصنيع
 
     # tool evaluation
     - key: options.tool_evaluation.learning_curve_documentation
@@ -796,41 +795,41 @@ translations:
 
     # learning methods
     - key: options.first_steps.books
-      t: Books
+      t: الكتب
     - key: options.first_steps.videos
-      t: Videos & screencasts
+      t: الفيديوهات
     - key: options.first_steps.school
-      t: School & higher education
+      t: المدرسة والتعليم العالي
     - key: options.first_steps.courses_free
-      t: Online courses (free)
+      t: المساقات الأونلاين (المجانية)
     - key: options.first_steps.courses_paid
-      t: Online courses (paid)
+      t: المساقات الأونلاين (المدفوعة)
     - key: options.first_steps.podcasts
-      t: Podcasts
+      t: بودكاستات
     - key: options.first_steps.bootcamp
       t: Coding bootcamp
     - key: options.first_steps.on_the_job
-      t: On-the-job training
+      t: تدريب العمل
     - key: options.first_steps.self_directed
-      t: Self-directed learning (Google, Stack Overflow, etc.)
+      t: تعليم ذاتي (Google, Stack Overflow, etc.)
     - key: options.first_steps.mentoring
-      t: Mentoring
+      t: إشراف
 
     # degree
     - key: options.higher_education_degree.no_degree
-      t: No
+      t: لا
     - key: options.higher_education_degree.yes_related
-      t: Yes, in a field related to my current profession
+      t: بلى، بمجال قريب من مهنتي الحالية.
     - key: options.higher_education_degree.yes_unrelated
-      t: Yes, but in a field unrelated to my current profession
+      t: بلى، ولكن بمجال غير متعلق بمهنتي الحالية.
 
     # degree (short versions)
     - key: options.higher_education_degree.no_degree.short
-      t: No
+      t: لا
     - key: options.higher_education_degree.yes_related.short
-      t: Yes, related field
+      t: بلى، مجال قريب.
     - key: options.higher_education_degree.yes_unrelated.short
-      t: Yes, unrelated field
+      t: بلى، مجال بعيد.
 
     # bracket
     - key: options.bracket.round1
@@ -847,210 +846,208 @@ translations:
     ###########################################################################
 
     - key: tools.other_tools
-      t: Other Options
+      t: خيارات أخرى
     - key: tools.other_tools.description
-      t: Other options you use for the current section not mentioned in the list above.
+      t: الخيارات الأخرى التي تستخدمها للقسم الحالي وغير مذكورة في القائمة العُليا.
     - key: tools.happiness
-      t: Overall Happiness
+      t: مستوى الرضا
     - key: tools.happiness.description
       t: >
-          On a scale of one (غير راضٍ تمامًا) to five (very happy), how happy are
-          you with the current overall state of things as it relates to the options listed above?
-
+          على مقياس واحد (غير راضٍ تمامًا) إلى خمسة (راضٍ جدًا)، ما مدى رضاك عن المستوى العام الحالي للأشياء من حيث صلتها بالخيارات المذكورة أعلاه؟
     ###########################################################################
     # Demographics (About You/User Info)
     ###########################################################################
 
     # age
     - key: user_info.age
-      t: Age
+      t: السن
     - key: user_info.age.description
-      t: How old are you, in years?
+      t: كم عمرك، بالسنين؟
 
     # years of experience
     - key: user_info.years_of_experience
-      t: Years of Experience
+      t: سنوات من الخبرة
     - key: user_info.years_of_experience.description
-      t: How long have you been working or studying in this field, in years?
+      t: ما هي المدة التي قضيتها في التعلم أو العمل بهذا المجال، بالسنين؟
 
     # company size
     - key: user_info.company_size
-      t: Company Size
+      t: حجم الشركة
     - key: user_info.company_size.description
-      t: How big is your company, in number of employees?
+      t: ما حجم شركتك، وفقا لعدد العاملين؟
 
     # salary ranges
     - key: user_info.yearly_salary
-      t: Yearly Salary
+      t: الراتب السنوي
     - key: user_info.yearly_salary.description
-      t: Your yearly salary in U.S. dollar.
+      t: راتبك السنوي بالدولار الأمريكي
 
     # job title
     - key: user_info.job_title
-      t: Job Title
+      t: المسمى الوظيفي
     - key: user_info.job_title.description
-      t: How do you introduce yourself to others?
+      t: كيف تعرف نفسك للآخرين؟
 
     # javascript proficiency
     - key: user_info.javascript_proficiency
-      t: JavaScript Proficiency
+      t: إتقانك لجافا سكريبت
     - key: user_info.javascript_proficiency.description
-      t: How proficient are you at JavaScript?
+      t: ما مدى إتقانك لجافا سكريبت؟
 
     # css proficiency
     - key: user_info.css_proficiency
-      t: CSS Proficiency
+      t: CSS إتقانك لـ
     - key: user_info.css_proficiency.description
-      t: How proficient are you at CSS?
+      t: ما مدى إتقانك لـ CSS?
 
     # backend proficiency
     - key: user_info.backend_proficiency
-      t: Back-end Proficiency
+      t: Back-end إتقانك للـ
     - key: user_info.backend_proficiency.description
-      t: How proficient are you at back-end development?
+      t: ما مدى إتقان لتطوير الـ back-end?
 
     # gender
     - key: user_info.gender
-      t: Gender
+      t: الجنس
     - key: user_info.gender.description
       t: >
-          Which of the following options describes you, if any? Please pick one.
+          أي من الخيارات التالية يصفك، إن وجد؟ الرجاء اختيار واحدة.
     - key: user_info.gender.note
       t: >
-          While we know collecting and publishing diversity data can be a sensitive issue, 
-          we do think it's important to obtain this data to help measure and improve 
-          the survey's efforts in terms of inclusivity and representativeness.
+          رغم علمنا أن تجميع ونشر بيانات متنوعة يمكن أن تكون مشكلة حساسة،
+          إلا أننا نعتقد أن الحصول على هذه البيانات مهم للمساعدة في قياس وتحسين جهود الاستبيان
+          من حيث الشمولية والتعبير.
 
     # race & ethnicity
     - key: user_info.race_ethnicity
-      t: Race & Ethnicity
+      t: العرق والإثن
     - key: user_info.race_ethnicity.description
       t: >
-          Which of the following options describe you, if any? Please check all that apply.
+          أي من الخيارات التالية يصفك، إن وجد؟ الرجاء اختيار واحدة.
     - key: user_info.race_ethnicity.note
       t: >
-          While we know collecting and publishing diversity data can be a sensitive issue, 
-          we do think it's important to obtain this data to help measure and improve 
-          the survey's efforts in terms of inclusivity and representativeness.
+          رغم علمنا أن تجميع ونشر بيانات متنوعة يمكن أن تكون مشكلة حساسة،
+          إلا أننا نعتقد أن الحصول على هذه البيانات مهم للمساعدة في قياس وتحسين جهود الاستبيان
+          من حيث الشمولية والتعبير.
 
     # disability status
     - key: user_info.disability_status
-      t: Disability Status
+      t: حالة الإعاقة
     - key: user_info.disability_status.description
       t: >
-          Which of the following disabilities do you experience, if any? Please check all that apply.
-          Note that this can include temporary disabilities or injuries.
+          أي من الإعاقات التالية تواجهها ، إن وجدت؟ يرجى التحقق من كل ما ينطبق.
+          لاحظ أن هذا يمكن أن يشمل الإعاقات أو الإصابات المؤقتة.
 
     # disability status (other)
     - key: user_info.disability_status.others
-      t: Other Disabilities
+      t: إعاقات أخرى
 
     # other info
     - key: user_info.how_did_user_find_out_about_the_survey
-      t: How did you find out about this survey?
+      t: كيف عرفت بهذا الاستبيان
     - key: user_info.email
-      t: Your Email
+      t: بريدك
     - key: user_info.country
-      t: Your Country or Region
+      t: بلدك أو منطقتك
     - key: user_info.country.description
-      t: Where do you currently reside?
+      t: أين تقيم حاليًا؟
 
     - key: user_info.github_username
-      t: Your GitHub Username
+      t: اسم مستخدم (github) الخاص بك
     - key: user_info.github_username.description
       t: >
-          We might use GitHub usernames in the future to look at
-          repos and cross-reference publicly available information.
+          قد نستخدم مستقبلًا اسم مستخدم 
+          GitHub
+          للنظر في المستودعات والمعلومات المتاحة للجمهور
 
     - key: user_info.twitter_username
-      t: Your Twitter Username
+      t: اسم المستخدم الخاص بك على تويتر
     - key: user_info.twitter_username.description
       t: >
-          We might use Twitter usernames in the future to look at
-          Twitter activity and cross-reference publicly available information
-           (such as the list of people you're following).
+          قد نستخدم مستقبلًا اسم مستخدم تويتر للنظر في المستودعات والمعلومات المتاحة للجمهور
+          (كالأشخاص الذين تتابعهم).
 
     - key: user_info.industry_sector
-      t: Industry Sector
+      t: قطاع الصناعة؟
     - key: user_info.industry_sector.description
-      t: Which industry sector(s) do you work in?
+      t: في أي قطاع صناعي تعمل حاليًا؟
     - key: user_info.industry_sector.others
-      t: Other Industry Sectors
+      t: قطاعات صناعة أخرى
     - key: user_info.industry_sector.others.description
-      t: Other industry sector(s) you work in not mentioned above.
+      t: قطاع آخر غير مذكور
 
     # degree
     - key: user_info.higher_education_degree
-      t: Higher Education Degree
+      t: درجة التعليم العالي
     - key: user_info.higher_education_degree.description
-      t: Do you have a higher education degree?
+      t: هل حصلت على درجة تعليم عالي؟
 
     ###########################################################################
     # Other Tools
     ###########################################################################
 
     - key: tools_others.libraries
-      t: Libraries
+      t: المكتبات
     - key: tools_others.libraries.description
-      t: Which libraries do you regularly use?
+      t: أي مكتبة تستخدمها عادةً؟
     - key: tools_others.libraries.others
-      t: Other Libraries
+      t: مكتبات أخرى
     - key: tools_others.libraries.others.description
-      t: Other answers (freeform field).
+      t: إجابات أخرى (حقل حر).
 
     - key: tools_others.text_editors
-      t: Text Editors
+      t: محرري النصوص
     - key: tools_others.text_editors.description
-      t: Which text editor(s) do you regularly use?
+      t: أي محرر/و نص تستخدمه/هم عادةً؟
     - key: tools_others.text_editors.others
-      t: Other Text Editors
+      t: محررو نصوص غيرهم
     - key: tools_others.text_editors.others.description
-      t: Other answers (freeform field).
+      t: إجابات أخرى (حقل حر)
 
     - key: tools_others.utilities
-      t: Utilities
+      t: الخدمات
     - key: tools_others.utilities.description
-      t: Which utilities or tools do you regularly use?
+      t: أي خدمات أو أدوات تستخدمها عادةً؟
     - key: tools_others.utilities.others
-      t: Other Utilities
+      t: خدمات أخرى
     - key: tools_others.utilities.others.description
-      t: Other utilities (freeform field).
+      t: إجابات أخرى (حقل حر)
 
     - key: tools_others.browsers
-      t: Browsers
+      t: المتصفحات
     - key: tools_others.browsers.description
-      t: Which browser(s) do you primarily work in during initial development?
+      t: أي متصفح/ـات تستخدمه بشكلٍ أساسي أثناء التطوير؟
     - key: tools_others.browsers.others
-      t: Other Browsers
+      t: متصفحات أخرى
     - key: tools_others.browsers.others.description
-      t: Other answers (freeform field).
+      t: إجابات أخرى (حقل حر)
 
     - key: tools_others.build_tools
-      t: Build Tools
+      t: أدوات البناء
     - key: tools_others.build_tools.description
-      t: Which build tools do you use?
+      t: أي أدوات بناء تستخدمها عادةً؟
     - key: tools_others.build_tools.others
-      t: Other Build Tools
+      t: أدوات أخرى
     - key: tools_others.build_tools.others.description
-      t: Other answers (freeform field).
+      t: إجابات أخرى (حقل حر)
 
     - key: tools_others.non_js_languages
-      t: Non-JavaScript Languages
+      t: لغات غير الجافاسكريبت
     - key: tools_others.non_js_languages.description
-      t: Which other programming languages do you use?
+      t: أي لغات برمجة تستعملها؟
     - key: tools_others.non_js_languages.others
-      t: Other Languages
+      t: لغات أخرى
     - key: tools_others.non_js_languages.others.description
-      t: Other answers (freeform field).
+      t: إجابات أخرى (حقل حر)
 
     - key: tools_others.javascript_flavors
-      t: JavaScript Flavors
+      t: نكهات جافا سكريبت
     - key: tools_others.javascript_flavors.description
-      t: Languages that compile to JavaScript
+      t: اللغات التي تترجم إلى JavaScript
     - key: tools_others.javascript_flavors.others
-      t: Other JavaScript Flavors
+      t: نكهات أخرى للجافا سكريبت
     - key: tools_others.javascript_flavors.others.description
-      t: Other answers (freeform field).
+      t: إجابات أخرى (حقل حر)
 
     ###########################################################################
     # Resources
@@ -1058,56 +1055,56 @@ translations:
 
     # learning method
     - key: resources.first_steps
-      t: First Learning Methods
+      t: طرق التعلم الأولى
     - key: resources.first_steps.description
-      t: When first starting out, how did you initially learn coding?
+      t: عند البدء، كيف تعلمت البرمجة في البداية؟
     - key: resources.first_steps.others
-      t: Other First Learning Methods
+      t: طرق تعلم أولية أخرى
     - key: resources.first_steps.others.description
-      t: Other answers (freeform field).
+      t: إجابات أخرى (حقل حر)
 
     # blogs & magazines
     - key: resources.blogs_news_magazines
-      t: Blogs & Magazines
+      t: المدونات والمجلات
     - key: resources.blogs_news_magazines.description
-      t: Which blogs/magazines/etc. do you read?
+      t: أي مدونات أو مجلات إلخ تقرأ؟
     - key: resources.blogs_news_magazines.others
-      t: Other Blogs & Magazines
+      t: مدونات ومجلات أخرى
     - key: resources.blogs_news_magazines.others.description
-      t: Other answers (freeform field).
+      t: إجابات أخرى (حقل حر)
 
     # sites & courses
     - key: resources.sites_courses
-      t: Sites & Courses
+      t: المواقع والمساقات
     - key: resources.sites_courses.description
-      t: Which sites/courses/etc. do you consult?
+      t: أي موقع أو مساق إلخ، ترجع إليه؟
     - key: resources.sites_courses.others
-      t: Other Sites & Courses
+      t: مواقع ومساقات أخرى
     - key: resources.sites_courses.others.description
-      t: Other answers (freeform field).
+      t: إجابات أخرى (حقل حر)
 
     # podcasts
     - key: resources.podcasts
-      t: Podcasts
+      t: بودكاستات
     - key: resources.podcasts.description
-      t: Which programming-related podcasts do you listen to?
+      t: أي بودكاست متعلق بالبرمجة تستمع إليه؟
     - key: resources.podcasts.others
-      t: Other Podcasts
+      t: أخرى
     - key: resources.podcasts.others.description
-      t: Other answers (freeform field).
+      t: إجابات أخرى (حقل حر)
 
     # people
     - key: resources.people
-      t: People
+      t: الشخصيات
     - key: resources.people.description
-      t: People you read, follow, or just want to highlight.
+      t: أشخاص تقرأ لهم، أو تتابعهم، أو تريد إبرازهم
     # - key: resources.people.others
     #   t: Other People
     # - key: resources.people.others.description
     #   t: Other answers (freeform field).
     - key: resources.people.others
-      t: People
+      t: آخرين
     - key: resources.people.others.description
       t: >
-          People you read, follow, or just want to highlight for their work 
-          (freeform field, comma-separated names).
+          أشخاص تقرأ لهم، أو تتابعهم، أو تريد إبرازهم لعملهم
+          (حقل حر، قم بفصل أساميهم باستخدام الفاصلة)
