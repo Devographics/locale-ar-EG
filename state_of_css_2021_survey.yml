@@ -1,4 +1,4 @@
-locale: en-US
+locale: ar-EG
 namespace: css
 translations:
     ###########################################################################
@@ -7,11 +7,17 @@ translations:
 
     - key: general.survey_intro_css2021
       t: >
-          Hey CSS, what have you been up to lately? Oh really, `@container`? Oh and 
-          intrinsic sizing? And `@property` too?! Wow, you've been busy!
+          أهلًا يا CSS
+          ماذا كنتِ تفعلين مؤخرًا؟
+          `@container` بجد؟
+          والتحجيم الأساسي؟ intrinsic sizing
+          والـ `@property` كمان?!
+          حسنًا، يبدو أنكِ كنتِ مشغولة!
 
 
-          Even though the pandemic kept on making everybody's lives harder throughout 2021, somehow
-          dedicated contributors around the world managed to keep CSS moving forward. 
-          And so once more it's time to survey the CSS ecosystem and figure out
-          where this is all going. And maybe learn about a few new things while you're at it!
+          على الرغم من أن الوباء استمر في جعل حياة الجميع أكثر صعوبة طوال 2021، ولكن بطريقةٍ ما
+          مساهمون متفانون من جميع أنحاء العالم قرروا الاستمرار في تطوير CSS
+          لذلك مرة أخرى، حان الوقت لاستطلاع النظام البيئي لـ
+          CSS 
+          ومعرفة إلى أين يتجه كل هذا
+          وربما تتعرف على بعض الأشياء الجديدة أثناء تواجدك فيه!
