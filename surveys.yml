@@ -46,8 +46,7 @@ translations:
     - key: faq.team
       t: من يدير هذه الاستبيانات؟
     - key: faq.team.description
-      t: هذه الاستبيانات تدار أساسيًا بواسطتي [أنا](http://sachagreif.com) 
-      وبمساعدة مشاركين ومترجمين ومتطوعين.
+      t: هذه الاستبيانات تدار أساسيًا بواسطتي [أنا](http://sachagreif.com) وبمساعدة مشاركين ومترجمين ومتطوعين.
 
 
     ###########################################################################
@@ -59,7 +58,7 @@ translations:
     - key: bracket.start_over
       t: البدء مجددًا
     - key: bracket.winner
-      t: الفائز:
+      t: 'الفائز:'
     - key: bracket.round
       t: الجولة
     - key: bracket.empty_bracket
