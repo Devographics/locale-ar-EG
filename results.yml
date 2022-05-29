@@ -1,60 +1,60 @@
-locale: en-US
+locale: ar-EG
 translations:
   ###########################################################################
   # General
   ###########################################################################
 
   - key: results.start
-    t: Start
+    t: بدء
 
   - key: page.previous
-    t: "Previous:"
+    t: "السابق: "
   - key: page.next
-    t: "Next:"
+    t: "التالي:"
 
   - key: general.state_of_css_link
     t: State of CSS
 
   - key: general.netlify_link
-    t: Hosted by <a href="{link}">Netlify</a>.
+    t: مستضاف بواسطة <a href="{link}">Netlify</a>.
 
   - key: general.completion_percentage
-    t: "Completion percentage:"
+    t: "نسبة الأكتمال :"
 
   - key: partners.thanks
-    t: Thanks to our partners for supporting us!
+    t: شكرا لشركائنا لدعمنا!
 
   - key: partners.learn_more
-    t: Learn more.
+    t: تعرف علي المزيد.
 
   - key: tabs.all_respondents
-    t: All Respondents
+    t: كل المستجيبين
   - key: tabs.main_answers
-    t: Main Answers
+    t: الإجابات الرئيسية
   - key: tabs.other_answers
-    t: Other Answers
+    t: الإجابات الأخرى
   - key: tabs.bracket_wins
     t: Wins
   - key: tabs.bracket_matchups
-    t: Matchups
+    t: المطابقات
   - key: tabs.chart
-    t: Chart
+    t: رسم بياني
   - key: tabs.data
-    t: Data
+    t: بيانات
   - key: tabs.share
-    t: Share
+    t: مشاركة
   - key: tabs.debug
     t: Debug
   - key: tabs.by_country
-    t: By Country
+    t: حسب الدولة
   - key: tabs.by_experience
-    t: By Experience
+    t: حسب الخبرة
   - key: tabs.by_degree
-    t: By Degree
+    t: حسب الدرجة العلمية
   - key: tabs.by_salary
-    t: By Salary
+    t: حسب الراتب
   - key: tabs.by_gender
-    t: By Gender
+    t: حسب النوع
 
   ###########################################################################
   # Block
@@ -68,29 +68,29 @@ translations:
   ###########################################################################
 
   - key: options.experience_ranking.satisfaction
-    t: Satisfaction
+    t: الارتياح
   - key: options.experience_ranking.interest
-    t: Interest
+    t: الاهتمام
   - key: options.experience_ranking.usage
-    t: Usage
+    t: الاستخدام
   - key: options.experience_ranking.awareness
-    t: Awareness
+    t: الوعي
 
   - key: options.features_mode.grouped
-    t: Grouped
+    t: مجمعة
   - key: options.features_mode.awareness_rank
-    t: By Awareness
+    t: حسب الوعي
   - key: options.features_mode.usage_rank
-    t: By Usage
+    t: حسب الاستخدام
   - key: options.features_mode.usage_ratio_rank
-    t: By Usage Ratio
+    t: حسب نسبة الاستخدام
 
   - key: options.features_simplified.know_it
-    t: Know about it
+    t: اعرف عنها
   - key: options.features_simplified.used_it
-    t: Have used it
+    t: لقد استخدمته
   - key: options.features_simplified.usage_ratio
-    t: Usage ratio
+    t: نسبة الاستخدام
 
   - key: options.quadrant.assess
     t: ASSESS
@@ -127,7 +127,7 @@ translations:
     t: Forums
   - key: options.first_steps.view_source
     t: View Source
-  
+
   # other disablities
   - key: options.disability_status_others.adhd
     t: ADHD
@@ -143,7 +143,7 @@ translations:
     t: Epilepsy
   - key: options.disability_status_others.aspergers
     t: Aspergers
-    
+
   ###########################################################################
   # Sections
   ###########################################################################
@@ -358,9 +358,9 @@ translations:
     t: Technology Usage Cardinality
   - key: blocks.all_sections_tools_cardinality_by_user.description
     t: >
-        For each section, which percentage of respondents **use** 
-        (defined as having answered “would use again”) one, two, three, etc. technologies.
-        The bottom-most bar represents the sum of all other bars.  
+      For each section, which percentage of respondents **use** 
+      (defined as having answered “would use again”) one, two, three, etc. technologies.
+      The bottom-most bar represents the sum of all other bars.
 
   - key: blocks.cardinality.max
     t: Most common answer
@@ -516,13 +516,13 @@ translations:
   - key: custom_data.details
     t: >
 
-        1. Copy the contents of the "GraphQL Query" textfield and paste them into the middle panel of the [GraphQL API explorer](https://graphiql.stateofjs.com/).
+      1. Copy the contents of the "GraphQL Query" textfield and paste them into the middle panel of the [GraphQL API explorer](https://graphiql.stateofjs.com/).
 
-        2. Modify the query by adding one or more **filters** using the left-hand explorer sidebar. Make sure to keep the overall structure of the data the same.
+      2. Modify the query by adding one or more **filters** using the left-hand explorer sidebar. Make sure to keep the overall structure of the data the same.
 
-        3. In the explorer window, click the Play ("Execute Query") button.
+      3. In the explorer window, click the Play ("Execute Query") button.
 
-        4. Copy the results of the modified query (`{ data: … }` ) into the "Custom Data" textfield above and submit.
+      4. Copy the results of the modified query (`{ data: … }` ) into the "Custom Data" textfield above and submit.
 
   # Tools usage variations
   - key: blocks.tools_usage_variations
@@ -602,7 +602,7 @@ translations:
   - key: charts.all_respondents
     t: All Respondents
   - key: charts.facet_responses
-    t: '{count} responses'
+    t: "{count} responses"
 
   - key: charts.axis_legends.years_of_experience
     t: Years of Experience
@@ -784,7 +784,6 @@ translations:
   - key: table.awareness_percentage
     aliasFor: charts.axis_legends.awareness_percentage
 
-
   - key: table.percentages_table
     t: Percentages
   - key: table.rankings_table
@@ -913,7 +912,7 @@ translations:
   - key: hints.share_hint
     t: >
       The <span class="hint-icon hint-share-button">Share</span> tab makes it easy to share any chart, 
-      or even download it as an image. 
+      or even download it as an image.
 
   - key: hints.bracket_hint
     t: >
