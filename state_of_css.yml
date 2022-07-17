@@ -775,7 +775,7 @@ translations:
     # Resources
     ###########################################################################
     
-    - key: resources.first_steps
+    - key: resources.first_steps_css
       t: First Steps With CSS
-    - key: resources.first_steps.description
+    - key: resources.first_steps_css.description
       t: When first starting out, how did you initially learn CSS?
