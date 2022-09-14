@@ -176,9 +176,9 @@ translations:
     t: حذف السؤال
 
   # partners
-  - key: partners.our_partners
+  - key: sponsors.our_partners
     t: شركاؤنا
-  - key: partners.become_partner
+  - key: sponsors.become_partner
     t: كن شريكًا
 
   # 404

@@ -21,10 +21,10 @@ translations:
   - key: general.completion_percentage
     t: "نسبة الأكتمال :"
 
-  - key: partners.thanks
+  - key: sponsors.thanks
     t: شكرا لشركائنا لدعمنا!
 
-  - key: partners.learn_more
+  - key: sponsors.learn_more
     t: تعرف علي المزيد.
 
   - key: tabs.all_respondents
