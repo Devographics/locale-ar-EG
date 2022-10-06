@@ -114,69 +114,73 @@ translations:
       ANALYZE: High usage, low satisfaction. Reassess these technologies if you're currently using them.
 
   - key: ranges.selector.years_of_experience
-    t: Experience
+    t: سنوات الخبرة
   - key: ranges.selector.yearly_salary
-    t: Salary
+    t: الراتب السنوي
   - key: ranges.selector.company_size
-    t: Company Size
+    t: حجم الشركة
 
   # other learning methods
   - key: options.first_steps.blogs
-    t: Blogs
+    t: المدونات
   - key: options.first_steps.forums
-    t: Forums
+    t: المنتديات
   - key: options.first_steps.view_source
-    t: View Source
+    t: مشاهدة المصدر
 
   # other disablities
   - key: options.disability_status_others.adhd
-    t: ADHD
+    t: اضطراب انتباه و تركيز
   - key: options.disability_status_others.autism
-    t: Autism
+    t: التوحد
   - key: options.disability_status_others.glasses
-    t: Glasses
+    t: نظارات
   - key: options.disability_status_others.old
-    t: Old Age
+    t: كبير السن
   - key: options.disability_status_others.back_pain
-    t: Back Pain
+    t: ألم في الظهر
   - key: options.disability_status_others.epilepsy
-    t: Epilepsy
+    t: الصرع
   - key: options.disability_status_others.aspergers
-    t: Aspergers
+    t: اضطراب اسبرجرز
 
   ###########################################################################
   # Sections
   ###########################################################################
 
   - key: sections.introduction.title
-    t: Introduction
+    t: مقدمة
 
   - key: sections.demographics.title
-    t: Demographics
+    t: السكان
 
   - key: sections.tshirt.title
-    t: T-shirt
+    t: تي شيرت
 
   - key: sections.technologies.title
-    t: Technologies
+    t: التقنيات
 
   - key: sections.conclusion.title
-    t: Conclusion
+    t: الخاتمة
 
   - key: sections.about.title
-    t: About
+    t: عن الدراسة
 
   - key: sections.support.title
-    t: Support Us
+    t: أدعمنا
   - key: sections.support.description
     t: >
       We run this survey as a side project, but in order to make the
       project sustainable we’re always looking for partners who can help support us,
       either financially or by helping us spread the word.
       If you think you could help in any way, please don’t hesitate to [get in touch](mailto:hello@stateofjs.com)!
+      أجرينا هذا الاستطلاع كمشروع جانبي ، ولكن من أجل جعل
+       المشروع مستدامًا ، نبحث دائمًا عن شركاء يمكنهم مساعدتنا في دعمنا ،
+        سواء من حيث المال أو من خلال مساعدتنا في نشر الكلمة.
+         إذا كنت تعتقد أنك يمكن أن تساعدنا بأي طريقة ، فلا تتردد في [الاتصال بنا](mailto:hello@stateofjs.com)!
 
   - key: sections.awards.title
-    t: Awards
+    t: الجوائز
   - key: sections.awards.description
     t: Things that stood out this year.
 
@@ -185,7 +189,7 @@ translations:
   ###########################################################################
 
   - key: user_info.locale
-    t: Language
+    t: اللغة
   - key: user_info.locale.description
     t: What language did respondents select to fill out the survey?
   - key: user_info.locale.note
