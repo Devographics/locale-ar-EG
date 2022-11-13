@@ -61,7 +61,7 @@ translations:
     t: إنهاء الاستبيان
   - key: general.next_section
     t: الجزء التالي.
-  - key: general.prev_section
+  - key: general.previous_section
     t: الجزء السابق.
   - key: general.survey_closed
     t: هذا الاستبيان مغلق حاليًا
