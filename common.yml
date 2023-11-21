@@ -1056,7 +1056,7 @@ translations:
   # learning method
   - key: resources.first_steps
     t: طرق التعلم الأولى
-  - key: resources.first_steps.description
+  - key: resources.first_steps.question
     t: عند البدء، كيف تعلمت البرمجة في البداية؟
   - key: resources.first_steps.others
     t: طرق تعلم أولية أخرى
@@ -1066,7 +1066,7 @@ translations:
   # blogs & magazines
   - key: resources.blogs_news_magazines
     t: المدونات والمجلات
-  - key: resources.blogs_news_magazines.description
+  - key: resources.blogs_news_magazines.question
     t: أي مدونات أو مجلات إلخ تقرأ؟
   - key: resources.blogs_news_magazines.others
     t: مدونات ومجلات أخرى
@@ -1076,7 +1076,7 @@ translations:
   # sites & courses
   - key: resources.sites_courses
     t: المواقع والمساقات
-  - key: resources.sites_courses.description
+  - key: resources.sites_courses.question
     t: أي موقع أو مساق إلخ، ترجع إليه؟
   - key: resources.sites_courses.others
     t: مواقع ومساقات أخرى
@@ -1086,7 +1086,7 @@ translations:
   # podcasts
   - key: resources.podcasts
     t: بودكاستات
-  - key: resources.podcasts.description
+  - key: resources.podcasts.question
     t: أي بودكاست متعلق بالبرمجة تستمع إليه؟
   - key: resources.podcasts.others
     t: أخرى
