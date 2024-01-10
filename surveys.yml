@@ -3,326 +3,325 @@ translations:
   ###########################################################################
   # General
   ###########################################################################
-- key: general.title
-  t: استطلاعات Devographics
-- key: general.description
-  t: حالة JavaScript، حالة CSS، حالة HTML، واستطلاعات المطورين الأخرى.
+  - key: general.title
+    t: استطلاعات Devographics
+  - key: general.description
+    t: حالة JavaScript، حالة CSS، حالة HTML، واستطلاعات المطورين الأخرى.
 
-- key: general.no_preview_surveys
-  t: لا توجد استطلاعات للمعاينة
-- key: general.global_nav
-  t: عالمي
-- key: general.survey_status_preview
-  t: معاينة
-- key: general.survey_status_open
-  t: مفتوح
-- key: general.survey_status_closed
-  t: مغلق
-- key: general.survey_status_hidden
-  t: مخفي
+  - key: general.no_preview_surveys
+    t: لا توجد استطلاعات للمعاينة
+  - key: general.global_nav
+    t: عالمي
+  - key: general.survey_status_preview
+    t: معاينة
+  - key: general.survey_status_open
+    t: مفتوح
+  - key: general.survey_status_closed
+    t: مغلق
+  - key: general.survey_status_hidden
+    t: مخفي
 
-- key: general.pick_up_to
-  t: اختر حتى {limit} عناصر.
+  - key: general.pick_up_to
+    t: اختر حتى {limit} عناصر.
 
-- key: general.privacy_policy
-  t: سياسة الخصوصية
-- key: general.privacy_policy.description
-  t: >
-    ### 1. جمع البيانات
+  - key: general.privacy_policy
+    t: سياسة الخصوصية
+  - key: general.privacy_policy.description
+    t: >
+      ### 1. جمع البيانات
 
-    بالإضافة إلى البيانات التي يتم جمعها من خلال أسئلة الاستطلاع، نجمع بيانات جهازك، المتصفح، نظام التشغيل، إصدار المتصفح، والمرجع.
+      بالإضافة إلى البيانات التي يتم جمعها من خلال أسئلة الاستطلاع، نجمع بيانات جهازك، المتصفح، نظام التشغيل، إصدار المتصفح، والمرجع.
 
-    يرجى ملاحظة أن جميع الأسئلة اختيارية تمامًا، ونحن لا نقوم بربط أي معلومات يمكن تحديدها (مثل عناوين البريد الإلكتروني) بإجابات استطلاعك.
+      يرجى ملاحظة أن جميع الأسئلة اختيارية تمامًا، ونحن لا نقوم بربط أي معلومات يمكن تحديدها (مثل عناوين البريد الإلكتروني) بإجابات استطلاعك.
 
-    ### 2. جمع البريد الإلكتروني
+      ### 2. جمع البريد الإلكتروني
 
-    قد نقوم اختياريًا بجمع عنوان بريدك الإلكتروني للقيام بالآتي:
-
-
-    1. إنشاء رابط تسجيل دخول سحري، بعد ذلك نتخلص من بريدك الإلكتروني ونحتفظ فقط بتجزئة في قاعدة بيانات المستخدم لدينا.
-
-    2. الاتصال بك عندما تكون نتائج الاستطلاع متاحة، بالإضافة إلى عندما نطلق نسخًا مستقبلية من الاستطلاع ولإعلانات نادرة. يمكنك إلغاء الاشتراك من قائمة البريد الإلكتروني لدينا في أي وقت، ويتم التخلص من بريدك الإلكتروني من سجلاتنا بمجرد إرساله إلى موفر خدمة النشر الإلكتروني لدينا.
-
-    3. إرسال قائمة ملخصة للميزات أو الأدوات التي ترغب في معرفة المزيد عنها. سنتخلص من عنوانك بمجرد إرسال البريد الإلكتروني من خلال موفر خدمة البريد الإلكتروني التفاعلي لدينا.
+      قد نقوم اختياريًا بجمع عنوان بريدك الإلكتروني للقيام بالآتي:
 
 
-    عندما نقوم بجمع عنوان بريدك الإلكتروني، فإنه لا يتم ربطه أبدًا بردود استطلاعك أو بحسابك الشخصي.
+      1. إنشاء رابط تسجيل دخول سحري، بعد ذلك نتخلص من بريدك الإلكتروني ونحتفظ فقط بتجزئة في قاعدة بيانات المستخدم لدينا.
 
-    ### 3. الكوكيز
+      2. الاتصال بك عندما تكون نتائج الاستطلاع متاحة، بالإضافة إلى عندما نطلق نسخًا مستقبلية من الاستطلاع ولإعلانات نادرة. يمكنك إلغاء الاشتراك من قائمة البريد الإلكتروني لدينا في أي وقت، ويتم التخلص من بريدك الإلكتروني من سجلاتنا بمجرد إرساله إلى موفر خدمة النشر الإلكتروني لدينا.
 
-    نقوم بتعيين كوكيز تسجيل الدخول، وموفر الاستضافة الخاص بنا (Vercel) قد يقوم أيضًا بتعيين كوكيز خاصة به. لا نقوم بتعيين أي كوكيز أخرى أو استخدام تحليلات أو إعلانات على الجانب العميل.
+      3. إرسال قائمة ملخصة للميزات أو الأدوات التي ترغب في معرفة المزيد عنها. سنتخلص من عنوانك بمجرد إرسال البريد الإلكتروني من خلال موفر خدمة البريد الإلكتروني التفاعلي لدينا.
 
-    ### 4. استخدام البيانات
 
-    نقوم بمعالجة البيانات ثم نستخدمها لنشر التقارير. كما نجعل السجل بأكمله متاحًا للجمهور.
+      عندما نقوم بجمع عنوان بريدك الإلكتروني، فإنه لا يتم ربطه أبدًا بردود استطلاعك أو بحسابك الشخصي.
 
-    ### 5. حذف البيانات/الحساب
+      ### 3. الكوكيز
 
-    يمكنك مراسلتنا عبر البريد الإلكتروني على [hello@stateofjs.com](mailto:hello@stateofjs.com) إذا كنت ترغب في حذف جميع أو جزء من بياناتك.
+      نقوم بتعيين كوكيز تسجيل الدخول، وموفر الاستضافة الخاص بنا (Vercel) قد يقوم أيضًا بتعيين كوكيز خاصة به. لا نقوم بتعيين أي كوكيز أخرى أو استخدام تحليلات أو إعلانات على الجانب العميل.
 
+      ### 4. استخدام البيانات
+
+      نقوم بمعالجة البيانات ثم نستخدمها لنشر التقارير. كما نجعل السجل بأكمله متاحًا للجمهور.
+
+      ### 5. حذف البيانات/الحساب
+
+      يمكنك مراسلتنا عبر البريد الإلكتروني على [hello@stateofjs.com](mailto:hello@stateofjs.com) إذا كنت ترغب في حذف جميع أو جزء من بياناتك.
 
   ###########################################################################
   # Other UI Strings
   ###########################################################################
 
-- key: textlist.placeholder
-  t: عنصر {index}...
+  - key: textlist.placeholder
+    t: عنصر {index}...
 
-- key: feature.unimplemented
-  t: لا توجد تنفيذات في المتصفح حتى الآن
+  - key: feature.unimplemented
+    t: لا توجد تنفيذات في المتصفح حتى الآن
 
-- key: general.skip_question
-  t: تخطي
+  - key: general.skip_question
+    t: تخطي
 
-- key: general.unskip_question
-  t: الإجابة على السؤال
+  - key: general.unskip_question
+    t: الإجابة على السؤال
 
-- key: general.skip_question.description
-  t: تخطي السؤال ووسمه كمكتمل
+  - key: general.skip_question.description
+    t: تخطي السؤال ووسمه كمكتمل
 
-- key: general.unskip_question.description
-  t: إلغاء تخطي السؤال والإجابة عليه
+  - key: general.unskip_question.description
+    t: إلغاء تخطي السؤال والإجابة عليه
 
-- key: years.less_than_one_year
-  t: أقل من سنة واحدة
+  - key: years.less_than_one_year
+    t: أقل من سنة واحدة
 
-- key: years.years
-  t: سنوات
+  - key: years.years
+    t: سنوات
 
-- key: likert.option.0
-  t: غير راضٍ على الإطلاق
-- key: likert.option.1
-  t: غير راضٍ
-- key: likert.option.2
-  t: محايد
-- key: likert.option.3
-  t: راضٍ
-- key: likert.option.4
-  t: راضٍ جداً
+  - key: likert.option.0
+    t: غير راضٍ على الإطلاق
+  - key: likert.option.1
+    t: غير راضٍ
+  - key: likert.option.2
+    t: محايد
+  - key: likert.option.3
+    t: راضٍ
+  - key: likert.option.4
+    t: راضٍ جداً
 
-- key: general.numeric_input.invalid_input
-  t: يرجى التأكد من إدخال رقم صحيح.
+  - key: general.numeric_input.invalid_input
+    t: يرجى التأكد من إدخال رقم صحيح.
 
   ###########################################################################
   # Errors & Messages
   ###########################################################################
 
-- key: error.duplicate_response
-  t: عذرًا، لديك بالفعل جلسة قائمة لهذا الاستطلاع.
+  - key: error.duplicate_response
+    t: عذرًا، لديك بالفعل جلسة قائمة لهذا الاستطلاع.
 
-- key: error.report_issue
-  t: الإبلاغ عن مشكلة
+  - key: error.report_issue
+    t: الإبلاغ عن مشكلة
 
-- key: success.data_saved
-  t: تم حفظ البيانات
+  - key: success.data_saved
+    t: تم حفظ البيانات
 
-- key: success.data_saved.description
-  t: تم حفظ بياناتك.
+  - key: success.data_saved.description
+    t: تم حفظ بياناتك.
 
   ###########################################################################
   # Accounts
   ###########################################################################
 
   - key: accounts.create_account
-  t: الاستمرار بحساب
-- key: accounts.create_account.description
-  t: إنشاء حساب يسمح لك **بالوصول إلى بياناتك في المستقبل** ويخطرك عند نشر نتائج الاستطلاع.
-- key: accounts.create_account.note
-  t: إذا كنت تملك **حسابًا بالفعل**، سنرسل لك رابط تسجيل دخول سحري عبر البريد الإلكتروني.
-- key: accounts.create_account.action
-  t: الاستمرار بحساب
-- key: accounts.your_email
-  t: بريدك الإلكتروني
+    t: الاستمرار بحساب
+  - key: accounts.create_account.description
+    t: إنشاء حساب يسمح لك **بالوصول إلى بياناتك في المستقبل** ويخطرك عند نشر نتائج الاستطلاع.
+  - key: accounts.create_account.note
+    t: إذا كنت تملك **حسابًا بالفعل**، سنرسل لك رابط تسجيل دخول سحري عبر البريد الإلكتروني.
+  - key: accounts.create_account.action
+    t: الاستمرار بحساب
+  - key: accounts.your_email
+    t: بريدك الإلكتروني
 
-- key: accounts.upgrade_account.action
-  t: ترقية حسابك
-- key: accounts.upgrade_account.description
-  t: ترقية حسابك بوجود عنوان بريد إلكتروني سيتيح لك الوصول إلى استجابتك للاستطلاع بعد انتهاء جلستك.
+  - key: accounts.upgrade_account.action
+    t: ترقية حسابك
+  - key: accounts.upgrade_account.description
+    t: ترقية حسابك بوجود عنوان بريد إلكتروني سيتيح لك الوصول إلى استجابتك للاستطلاع بعد انتهاء جلستك.
 
-- key: accounts.continue_as_guest
-  t: المتابعة كضيف
-- key: accounts.continue_as_guest.description
-  t: أداء الاستطلاع بشكل مجهول يعني أنك **لن تتمكن من الوصول إلى بياناتك مرة أخرى** بعد انتهاء جلستك.
-- key: accounts.continue_as_guest.action
-  t: المتابعة كضيف
+  - key: accounts.continue_as_guest
+    t: المتابعة كضيف
+  - key: accounts.continue_as_guest.description
+    t: أداء الاستطلاع بشكل مجهول يعني أنك **لن تتمكن من الوصول إلى بياناتك مرة أخرى** بعد انتهاء جلستك.
+  - key: accounts.continue_as_guest.action
+    t: المتابعة كضيف
 
-- key: accounts.magic_link.no_email
-  t: يرجى إدخال بريدك الإلكتروني
-- key: accounts.magic_link.success
-  t: تحقق من بريدك الوارد! لقد أرسلنا لك رابطًا سحريًا، قم بالنقر عليه لتأكيد حسابك وتسجيل الدخول.
-- key: accounts.magic_link.browser
-  t: <a href="{link}">انقر لفتح بريدك الوارد.</a>
+  - key: accounts.magic_link.no_email
+    t: يرجى إدخال بريدك الإلكتروني
+  - key: accounts.magic_link.success
+    t: تحقق من بريدك الوارد! لقد أرسلنا لك رابطًا سحريًا، قم بالنقر عليه لتأكيد حسابك وتسجيل الدخول.
+  - key: accounts.magic_link.browser
+    t: <a href="{link}">انقر لفتح بريدك الوارد.</a>
 
   ###########################################################################
   # FAQ
   ###########################################################################
 
-- key: general.faq
-  t: الأسئلة الشائعة
-- key: faq.create_account
-  t: لماذا يتعين علي إنشاء حساب؟
-- key: faq.create_account.description
-  t: نطلب منك إنشاء حساب لتجنب الردود المكررة، وحفظ بياناتك، وإعلامك عند نشر النتائج.
-- key: faq.anonymous_survey
-  t: هل يمكنني أداء الاستطلاع بشكل مجهول؟
-- key: faq.anonymous_survey.description
-  t: نعم، يمكنك استخدام بريد إلكتروني وهمي (something@example.com) أو غير محدد الهوية لأداء الاستطلاع طالما قمت بحفظه للوصول في المستقبل.
-- key: faq.questions_required
-  t: هل الإجابة على كل سؤال مطلوبة؟
-- key: faq.questions_required.description
-  t: لا، كل سؤال في الاستطلاع اختياري ويمكن تخطيه بحرية.
-- key: faq.data_published
-  t: هل ستتم نشر بياناتي علنًا؟
-- key: faq.data_published.description
-  t: نعم، ستتم إطلاق جميع البيانات علنًا، ولكن فقط بعد أن يتم تنقيتها من أي معلومات تحديدية (عناوين بريد إلكتروني، أسماء مستخدمين، هويات، إلخ).
-- key: faq.survey_design
-  t: كيف يتم تصميم الاستطلاعات؟
-- key: faq.survey_design.description
-  t: يتم تصميم الاستطلاعات استنادًا إلى ملاحظات المجتمع، بالإضافة إلى استعراضها من قبل خبراء. يمكنك [معرفة المزيد هنا](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb).
-- key: faq.results_released
-  t: متى ستتم نشر النتائج؟
-- key: faq.results_released.description
-  t: عادةً ما يتم نشر النتائج بعد بضعة أسابيع من إغلاق الاستطلاع.
-- key: faq.survey_deadline
-  t: متى سيتم إغلاق الاستطلاع؟
-- key: faq.survey_deadline.description
-  t: من المقرر أن يستمر هذا الاستطلاع حتى {date}.
-- key: faq.team
-  t: من يدير هذا الاستطلاع؟
-- key: faq.team.description
-  t: يدير هذا الاستطلاع [Devographics](http://devographics.com) بالتعاون مع مجموعة من المساهمين والمترجمين والمتطوعين.
+  - key: general.faq
+    t: الأسئلة الشائعة
+  - key: faq.create_account
+    t: لماذا يتعين علي إنشاء حساب؟
+  - key: faq.create_account.description
+    t: نطلب منك إنشاء حساب لتجنب الردود المكررة، وحفظ بياناتك، وإعلامك عند نشر النتائج.
+  - key: faq.anonymous_survey
+    t: هل يمكنني أداء الاستطلاع بشكل مجهول؟
+  - key: faq.anonymous_survey.description
+    t: نعم، يمكنك استخدام بريد إلكتروني وهمي (something@example.com) أو غير محدد الهوية لأداء الاستطلاع طالما قمت بحفظه للوصول في المستقبل.
+  - key: faq.questions_required
+    t: هل الإجابة على كل سؤال مطلوبة؟
+  - key: faq.questions_required.description
+    t: لا، كل سؤال في الاستطلاع اختياري ويمكن تخطيه بحرية.
+  - key: faq.data_published
+    t: هل ستتم نشر بياناتي علنًا؟
+  - key: faq.data_published.description
+    t: نعم، ستتم إطلاق جميع البيانات علنًا، ولكن فقط بعد أن يتم تنقيتها من أي معلومات تحديدية (عناوين بريد إلكتروني، أسماء مستخدمين، هويات، إلخ).
+  - key: faq.survey_design
+    t: كيف يتم تصميم الاستطلاعات؟
+  - key: faq.survey_design.description
+    t: يتم تصميم الاستطلاعات استنادًا إلى ملاحظات المجتمع، بالإضافة إلى استعراضها من قبل خبراء. يمكنك [معرفة المزيد هنا](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb).
+  - key: faq.results_released
+    t: متى ستتم نشر النتائج؟
+  - key: faq.results_released.description
+    t: عادةً ما يتم نشر النتائج بعد بضعة أسابيع من إغلاق الاستطلاع.
+  - key: faq.survey_deadline
+    t: متى سيتم إغلاق الاستطلاع؟
+  - key: faq.survey_deadline.description
+    t: من المقرر أن يستمر هذا الاستطلاع حتى {date}.
+  - key: faq.team
+    t: من يدير هذا الاستطلاع؟
+  - key: faq.team.description
+    t: يدير هذا الاستطلاع [Devographics](http://devographics.com) بالتعاون مع مجموعة من المساهمين والمترجمين والمتطوعين.
 
   ###########################################################################
   # Form Controls
   ###########################################################################
 
- - key: bracket.vs
-  t: مقابل
-- key: bracket.start_over
-  t: إعادة البدء
-- key: bracket.winner
-  t: >
-    الفائز:
-- key: bracket.round
-  t: الجولة
-- key: bracket.empty_bracket
-  t: نتيجة معلقة (أكمل الجولة السابقة أولاً)
-- key: bracket.result
-  t: النتيجة
-- key: bracket.cancel
-  t: إلغاء
+  - key: bracket.vs
+    t: مقابل
+  - key: bracket.start_over
+    t: إعادة البدء
+  - key: bracket.winner
+    t: >
+      الفائز:
+  - key: bracket.round
+    t: الجولة
+  - key: bracket.empty_bracket
+    t: نتيجة معلقة (أكمل الجولة السابقة أولاً)
+  - key: bracket.result
+    t: النتيجة
+  - key: bracket.cancel
+    t: إلغاء
 
-- key: experience.leave_comment
-  t: ترك تعليق (اختياري)
-- key: experience.leave_comment_short
-  t: ترك تعليق
-- key: experience.tell_us_more
-  t: "لقد أجبت بـ “{response}”. أخبرنا المزيد عن اختيارك:"
-- key: experience.tell_us_more_generic
-  t: "أخبرنا المزيد عن إجابتك:"
-- key: experience.tell_us_more_no_value
-  t: "لم تختر أي إجابة. أخبرنا لماذا:"
+  - key: experience.leave_comment
+    t: ترك تعليق (اختياري)
+  - key: experience.leave_comment_short
+    t: ترك تعليق
+  - key: experience.tell_us_more
+    t: "لقد أجبت بـ “{response}”. أخبرنا المزيد عن اختيارك:"
+  - key: experience.tell_us_more_generic
+    t: "أخبرنا المزيد عن إجابتك:"
+  - key: experience.tell_us_more_no_value
+    t: "لم تختر أي إجابة. أخبرنا لماذا:"
 
   ###########################################################################
   # Response
   ###########################################################################
 
-- key: response.completion
-  t: "{completion}% تم الانتهاء"
+  - key: response.completion
+    t: "{completion}% تم الانتهاء"
 
-- key: response.details
-  t: بدأ في {startedAt}، تم الانتهاء بنسبة {completion}%.
+  - key: response.details
+    t: بدأ في {startedAt}، تم الانتهاء بنسبة {completion}%.
 
   ###########################################################################
   # Reading List
   ###########################################################################
 
-- key: readinglist.prompt
-  t: >
-    لقد اخترت “{option}”. إذا كنت ترغب في معرفة المزيد حول هذه الميزة في نهاية الاستطلاع، يمكنك النقر على أيقونة "+" أعلاه لإضافتها إلى **قائمة القراءة** الخاصة بك.
+  - key: readinglist.prompt
+    t: >
+      لقد اخترت “{option}”. إذا كنت ترغب في معرفة المزيد حول هذه الميزة في نهاية الاستطلاع، يمكنك النقر على أيقونة "+" أعلاه لإضافتها إلى **قائمة القراءة** الخاصة بك.
 
-- key: readinglist.add_to_list
-  t: إضافة إلى قائمة القراءة الخاصة بك
+  - key: readinglist.add_to_list
+    t: إضافة إلى قائمة القراءة الخاصة بك
 
-- key: readinglist.remove_from_list
-  t: إزالة من قائمة القراءة
+  - key: readinglist.remove_from_list
+    t: إزالة من قائمة القراءة
 
-- key: readinglist.added_to_list
-  t: تمت إضافة “{label}” إلى قائمة القراءة الخاصة بك.
+  - key: readinglist.added_to_list
+    t: تمت إضافة “{label}” إلى قائمة القراءة الخاصة بك.
 
-- key: readinglist.title
-  t: قائمة القراءة
+  - key: readinglist.title
+    t: قائمة القراءة
 
-- key: readinglist.description
-  t: >
-    احفظ العناصر هنا باستخدام زر "+"، وستحصل على قائمة بروابط للتعرف عليها أكثر في نهاية الاستطلاع.
+  - key: readinglist.description
+    t: >
+      احفظ العناصر هنا باستخدام زر "+"، وستحصل على قائمة بروابط للتعرف عليها أكثر في نهاية الاستطلاع.
 
-- key: readinglist.empty
-  t: >
-    ليس لديك أي عناصر في قائمة القراءة الخاصة بك.
-    جرب العودة إلى الاستطلاع وإضافة الميزات أو المكتبات التي تود تعلم المزيد عنها باستخدام زر "+".
+  - key: readinglist.empty
+    t: >
+      ليس لديك أي عناصر في قائمة القراءة الخاصة بك.
+      جرب العودة إلى الاستطلاع وإضافة الميزات أو المكتبات التي تود تعلم المزيد عنها باستخدام زر "+".
 
-- key: readinglist.results
-  t: >
-    إليك بعض المصادر للتعرف على المزيد حول العناصر في قائمة القراءة الخاصة بك:
+  - key: readinglist.results
+    t: >
+      إليك بعض المصادر للتعرف على المزيد حول العناصر في قائمة القراءة الخاصة بك:
 
-- key: readinglist.homepage_link
-  t: الصفحة الرئيسية
+  - key: readinglist.homepage_link
+    t: الصفحة الرئيسية
 
-- key: readinglist.receive_copy
-  t: >
-    أدخل بريدك الإلكتروني للحصول على نسخة من قائمة القراءة مباشرة في بريدك الوارد:
-- key: readinglist.send_by_email
-  t: إرسال
-- key: readinglist.email_sent
-  t: شكرًا! قائمة القراءة الخاصة بك في طريقها إلى بريدك الوارد.
+  - key: readinglist.receive_copy
+    t: >
+      أدخل بريدك الإلكتروني للحصول على نسخة من قائمة القراءة مباشرة في بريدك الوارد:
+  - key: readinglist.send_by_email
+    t: إرسال
+  - key: readinglist.email_sent
+    t: شكرًا! قائمة القراءة الخاصة بك في طريقها إلى بريدك الوارد.
 
   ###########################################################################
   # Score & Knowledge Ranks
   ###########################################################################
 
-- key: knowledge_rank.your_rank
-  t: "ترتيبك:"
-- key: knowledge_rank.rank1
-  t: مبتدئ
-- key: knowledge_rank.rank2
-  t: متدرب
-- key: knowledge_rank.rank3
-  t: متوسط
-- key: knowledge_rank.rank4
-  t: خبير
-- key: knowledge_rank.rank5
-  t: عالِم
-- key: knowledge_rank.rank6
-  t: نخبة
+  - key: knowledge_rank.your_rank
+    t: "ترتيبك:"
+  - key: knowledge_rank.rank1
+    t: مبتدئ
+  - key: knowledge_rank.rank2
+    t: متدرب
+  - key: knowledge_rank.rank3
+    t: متوسط
+  - key: knowledge_rank.rank4
+    t: خبير
+  - key: knowledge_rank.rank5
+    t: عالِم
+  - key: knowledge_rank.rank6
+    t: نخبة
 
   ###########################################################################
   # Survey-Specific Intros
   ###########################################################################
 
- - key: general.js2020.survey_intro
-  t: |
-    كان عام 2020 عامًا صعبًا بالنسبة للجميع، مما يجعل القلق بشأن أحدث أطُق JavaScript أمرًا تافهًا بالمقارنة.
+  - key: general.js2020.survey_intro
+    t: |
+      كان عام 2020 عامًا صعبًا بالنسبة للجميع، مما يجعل القلق بشأن أحدث أطُق JavaScript أمرًا تافهًا بالمقارنة.
 
-    ومع ذلك، يجب على العالم المضي قدمًا، وكذلك JavaScript. ومرة أخرى، بمساعدتك، سنحاول بناء صورة شاملة للنظام البيئي لنعرف قليلاً أكثر عن متى سيتجه.
+      ومع ذلك، يجب على العالم المضي قدمًا، وكذلك JavaScript. ومرة أخرى، بمساعدتك، سنحاول بناء صورة شاملة للنظام البيئي لنعرف قليلاً أكثر عن متى سيتجه.
 
-- key: general.css2021.survey_intro
-  t: |
-    مرحبًا CSS، ماذا كنتَ تفعل في الفترة الأخيرة؟ حقًا، `@container`؟ وحجم داخلي؟ و `@property` أيضًا؟! نجاحًا، لقد كنتَ نشطًا!
+  - key: general.css2021.survey_intro
+    t: |
+      مرحبًا CSS، ماذا كنتَ تفعل في الفترة الأخيرة؟ حقًا، `@container`؟ وحجم داخلي؟ و `@property` أيضًا؟! نجاحًا، لقد كنتَ نشطًا!
 
-    حتى ولو أن الجائحة استمرت في جعل حياة الجميع أكثر صعوبة طوال عام 2021، إلا أن المساهمين الملتزمين في جميع أنحاء العالم تمكنوا بطريقة ما من الحفاظ على تطور CSS.
-    ولذلك، مرة أخرى، حان الوقت لاستطلاع نظام CSS ومعرفة أين يتجه هذا الكل.
+      حتى ولو أن الجائحة استمرت في جعل حياة الجميع أكثر صعوبة طوال عام 2021، إلا أن المساهمين الملتزمين في جميع أنحاء العالم تمكنوا بطريقة ما من الحفاظ على تطور CSS.
+      ولذلك، مرة أخرى، حان الوقت لاستطلاع نظام CSS ومعرفة أين يتجه هذا الكل.
 
-- key: general.js2021.survey_intro
-  t: |
-    أولاً تم تأجيل دورة الألعاب الأولمبية لعام 2021،
-    والآن استطلاع حالة JavaScript لعام 2021 يحدث الآن، في عام 2022!
+  - key: general.js2021.survey_intro
+    t: |
+      أولاً تم تأجيل دورة الألعاب الأولمبية لعام 2021،
+      والآن استطلاع حالة JavaScript لعام 2021 يحدث الآن، في عام 2022!
 
-    صحيح: بين العمل والأسرة وجميع التشويش في العالم،
-    تعطلت بعض الأمور قليلاً.
+      صحيح: بين العمل والأسرة وجميع التشويش في العالم،
+      تعطلت بعض الأمور قليلاً.
 
-    ولكن بينما قد يكون العام خاطئاً بواحد، نأمل أن تكون البيانات التي تقدمها
-    الاستبيان ذاته مفيدة وذكية كما كانت دائما. ولا تقلق، سيكون هناك استطلاع آخر نحو نهاية هذا العام لتصحيح الأمور مرة أخرى!
+      ولكن بينما قد يكون العام خاطئاً بواحد، نأمل أن تكون البيانات التي تقدمها
+      الاستبيان ذاته مفيدة وذكية كما كانت دائما. ولا تقلق، سيكون هناك استطلاع آخر نحو نهاية هذا العام لتصحيح الأمور مرة أخرى!
 
   - key: general.graphql2022.survey_intro
     t: |
@@ -332,32 +331,32 @@ translations:
 
       Now, for the first time ever we're surveying the GraphQL community to figure out which of these many tools are the most popular, and which features are actually being used. With your help, let's see what GraphQL has been up to in 2022!
 
- - key: general.css2022.survey_intro
-  t: |
-    يستمر CSS في التقدم بوتيرة لا مثيل لها. في هذا العام، حصلنا على مساعدة من شخص في طليعة كل هذه التغييرات: [Lea Verou](https://lea.verou.me/) قاد العمل على اختيار أسئلة هذا العام، مع التركيز الخاص على إبراز ميزات CSS الجديدة والقادمة.
+  - key: general.css2022.survey_intro
+    t: |
+      يستمر CSS في التقدم بوتيرة لا مثيل لها. في هذا العام، حصلنا على مساعدة من شخص في طليعة كل هذه التغييرات: [Lea Verou](https://lea.verou.me/) قاد العمل على اختيار أسئلة هذا العام، مع التركيز الخاص على إبراز ميزات CSS الجديدة والقادمة.
 
-    وما هو أكثر من ذلك، ستساعد نتائج الاستطلاع أيضًا مزودي المتصفحات في تحديد أولويات خرائط الطريق الخاصة بهم والعمل نحو تحسين التوافقية بين المتصفحات.
+      وما هو أكثر من ذلك، ستساعد نتائج الاستطلاع أيضًا مزودي المتصفحات في تحديد أولويات خرائط الطريق الخاصة بهم والعمل نحو تحسين التوافقية بين المتصفحات.
 
-    بعد كل هذا، دعونا نرى كيف تطور CSS في عام 2022!
+      بعد كل هذا، دعونا نرى كيف تطور CSS في عام 2022!
 
-- key: general.js2022.survey_intro
-  t: |
-    للمرة الأولى منذ فترة طويلة، يبدو أن وضع JavaScript الاعتيادي يتسائل.
+  - key: general.js2022.survey_intro
+    t: |
+      للمرة الأولى منذ فترة طويلة، يبدو أن وضع JavaScript الاعتيادي يتسائل.
 
-    مع تسريع التجميع مع Vite، وهندسة الجزيرة مع Astro، وإمكانية الاستئناف مع Qwik... يقوم المشاركون الجدد بتحدي الفريق القديم، والنتيجة هي إثارة أكبر، ولكن أيضًا
-    الكثير من عدم اليقين.
+      مع تسريع التجميع مع Vite، وهندسة الجزيرة مع Astro، وإمكانية الاستئناف مع Qwik... يقوم المشاركون الجدد بتحدي الفريق القديم، والنتيجة هي إثارة أكبر، ولكن أيضًا
+      الكثير من عدم اليقين.
 
-    لذا، مرة أخرى، دعونا نحاول معًا معرفة إلى أين يتجه JavaScript، في عام 2022 وما بعده.
+      لذا، مرة أخرى، دعونا نحاول معًا معرفة إلى أين يتجه JavaScript، في عام 2022 وما بعده.
 
-- key: general.css2023.survey_intro
-  t: |
-    لمساعدتك في متابعة `:has()`، `@container`، وجميع الميزات الجديدة الأخرى في CSS، نقدم ميزة جديدة هذا العام: **قائمة القراءة**.
+  - key: general.css2023.survey_intro
+    t: |
+      لمساعدتك في متابعة `:has()`، `@container`، وجميع الميزات الجديدة الأخرى في CSS، نقدم ميزة جديدة هذا العام: **قائمة القراءة**.
 
-    أثناء أدائك للاستبيان، ستكون قادرًا على إشارة أي ميزة تريدها وتعلم المزيد عنها بعد تقديم إجاباتك.
+      أثناء أدائك للاستبيان، ستكون قادرًا على إشارة أي ميزة تريدها وتعلم المزيد عنها بعد تقديم إجاباتك.
 
-    في هذا العام، [Chen Hui Jing](https://chenhuijing.com/) قاد تصميم الاستبيان، بناءً على العمل الذي قامت به [Lea Verou](https://lea.verou.me/) العام الماضي. وكالعادة، ستلعب ملاحظاتك هنا دورًا مهمًا في مساعدة مزودي المتصفحات في تحديد أولوياتهم والعمل نحو تحسين التوافقية بين المتصفحات.
+      في هذا العام، [Chen Hui Jing](https://chenhuijing.com/) قاد تصميم الاستبيان، بناءً على العمل الذي قامت به [Lea Verou](https://lea.verou.me/) العام الماضي. وكالعادة، ستلعب ملاحظاتك هنا دورًا مهمًا في مساعدة مزودي المتصفحات في تحديد أولوياتهم والعمل نحو تحسين التوافقية بين المتصفحات.
 
-    بعد كل هذا، دعونا نرى كيف تطور CSS حتى الآن في عام 2023!
+      بعد كل هذا، دعونا نرى كيف تطور CSS حتى الآن في عام 2023!
 
   # Intro for actual survey page
   - key: general.html2023.survey_intro
@@ -382,7 +381,7 @@ translations:
       The survey will be open for 3 weeks, but responses entered **within the first 9 days (until October 1st)** will have a much higher impact on the Web,
       as preliminary data will be used for certain prioritization efforts that have deadlines before then.
 
- - key: general.react2023.survey_intro
+  - key: general.react2023.survey_intro
     t: |
       بمجرد أن تمت إدخال React لأول مرة، كان واضحًا أنه سيصبح أمرًا كبيرًا للويب.
 
@@ -410,7 +409,7 @@ translations:
 
   # CSS
 
-   - key: faq.data_used_css
+  - key: faq.data_used_css
     t: كيف سيتم استخدام هذه البيانات؟
   - key: faq.data_used_css.description
     t: >
@@ -452,180 +451,179 @@ translations:
     t: كيف سيتم استخدام هذه البيانات؟
   - key: faq.data_used_css2022.description
     t: ستتم نشر جميع البيانات المجمعة علنيًا. ستصبح بعد ذلك مصدرًا للمطورين، الذين يستفيدون منها لاتخاذ قراراتهم التكنولوجية، وكذلك لمزودي المتصفحات، الذين يستخدمونها لتحديد مجالات التركيز وإعلام خططهم الاستراتيجية.
-  
+
   # CSS 2023
 
-- key: faq.how_long_will_survey_take_css2023
-  t: "كم سيستغرق الرد على الاستبيان؟"
-- key: faq.how_long_will_survey_take_css2023.description
-  t: >
-    يعتمد ذلك على عدد الأسئلة التي تجيب عليها (يمكن تخطي جميع الأسئلة)،
-    ومن المتوقع أن يستغرق ملء الاستبيان حوالي 10-15 دقيقة.
+  - key: faq.how_long_will_survey_take_css2023
+    t: "كم سيستغرق الرد على الاستبيان؟"
+  - key: faq.how_long_will_survey_take_css2023.description
+    t: >
+      يعتمد ذلك على عدد الأسئلة التي تجيب عليها (يمكن تخطي جميع الأسئلة)،
+      ومن المتوقع أن يستغرق ملء الاستبيان حوالي 10-15 دقيقة.
 
-- key: faq.learn_more_css2023
-  t: "أين يمكنني معرفة المزيد؟"
-- key: faq.learn_more_css2023.description
-  t: "يمكنك معرفة المزيد عن هذا الاستبيان في [مقال الإعلان الخاص بنا](https://dev.to/sachagreif/the-2023-state-of-css-survey-is-now-open-18bk)."
+  - key: faq.learn_more_css2023
+    t: "أين يمكنني معرفة المزيد؟"
+  - key: faq.learn_more_css2023.description
+    t: "يمكنك معرفة المزيد عن هذا الاستبيان في [مقال الإعلان الخاص بنا](https://dev.to/sachagreif/the-2023-state-of-css-survey-is-now-open-18bk)."
 
-- key: faq.survey_design_css2023
-  t: "كيف تم تصميم هذا الاستبيان؟"
-- key: faq.survey_design_css2023.description
-  t: >
-    هذا العام، بفضل منحة من [صندوق واجهة المستخدم](https://web.dev/ui-fund/) من Google،
-    تمكنت [Chen Hui Jing](https://chenhuijing.com/) من المساعدة في إدارة [عملية تصميم الاستبيان المفتوحة](https://github.com/Devographics/surveys/issues/84).
+  - key: faq.survey_design_css2023
+    t: "كيف تم تصميم هذا الاستبيان؟"
+  - key: faq.survey_design_css2023.description
+    t: >
+      هذا العام، بفضل منحة من [صندوق واجهة المستخدم](https://web.dev/ui-fund/) من Google،
+      تمكنت [Chen Hui Jing](https://chenhuijing.com/) من المساعدة في إدارة [عملية تصميم الاستبيان المفتوحة](https://github.com/Devographics/surveys/issues/84).
 
-- key: faq.results_released_css2023
-  t: "متى ستتم نشر النتائج؟"
-- key: faq.results_released_css2023.description
-  t: "سيتم تشغيل الاستبيان حتى 15 يوليو 2023، وسيتم نشر نتائج الاستبيان في الأسابيع التالية."
-  
+  - key: faq.results_released_css2023
+    t: "متى ستتم نشر النتائج؟"
+  - key: faq.results_released_css2023.description
+    t: "سيتم تشغيل الاستبيان حتى 15 يوليو 2023، وسيتم نشر نتائج الاستبيان في الأسابيع التالية."
 
   # JS 2022
 
-- key: faq.learn_more_js2022
-  t: "أين يمكنني معرفة المزيد؟"
-- key: faq.learn_more_js2022.description
-  t: "يمكنك معرفة المزيد حول [استبيان العام الماضي هنا](https://2021.stateofjs.com/en-US/about/)."
-  
+  - key: faq.learn_more_js2022
+    t: "أين يمكنني معرفة المزيد؟"
+  - key: faq.learn_more_js2022.description
+    t: "يمكنك معرفة المزيد حول [استبيان العام الماضي هنا](https://2021.stateofjs.com/en-US/about/)."
+
   # - key: faq.survey_design_js2022
   #   t: How was this survey designed?
   # - key: faq.survey_design_css2022.description
   #   t: This year, thanks to a grant from Google's [UI Fund](https://web.dev/ui-fund/), [Lea Verou](https://lea.verou.me/) was able to take the lead and managed the [open survey design process](https://github.com/orgs/Devographics/projects/1/views/1) on GitHub.
 
-- key: faq.data_used_html2023
-  t: "كيف سيتم استخدام هذه البيانات؟"
-- key: faq.data_used_html2023.description
-  t: >
-    سيتم نشر جميع البيانات المجمعة علانية لأي مطور أو شركة للرجوع إليها.
-    مزودو المتصفحات أيضًا [يستخدمون هذه البيانات](https://web.dev/interop-2023/) لتحديد مجالات التركيز وإعلام خططهم الاستراتيجية.
+  - key: faq.data_used_html2023
+    t: "كيف سيتم استخدام هذه البيانات؟"
+  - key: faq.data_used_html2023.description
+    t: >
+      سيتم نشر جميع البيانات المجمعة علانية لأي مطور أو شركة للرجوع إليها.
+      مزودو المتصفحات أيضًا [يستخدمون هذه البيانات](https://web.dev/interop-2023/) لتحديد مجالات التركيز وإعلام خططهم الاستراتيجية.
 
-- key: faq.survey_goals_html2023
-  t: "ما هي أهداف الاستبيان؟"
-- key: faq.survey_goals_html2023.description
-  t: >
-    أهداف الاستبيان هي قياس الوعي بميزات HTML الجديدة وواجهات برمجة تطبيقات المتصفح،
-    ومساعدة المطورين في تتبع كيفية تطور استخدامهم لها.
+  - key: faq.survey_goals_html2023
+    t: "ما هي أهداف الاستبيان؟"
+  - key: faq.survey_goals_html2023.description
+    t: >
+      أهداف الاستبيان هي قياس الوعي بميزات HTML الجديدة وواجهات برمجة تطبيقات المتصفح،
+      ومساعدة المطورين في تتبع كيفية تطور استخدامهم لها.
 
-- key: faq.who_should_take_survey_html2023
-  t: "من يجب أن يأخذ هذا الاستبيان؟"
-- key: faq.who_should_take_survey_html2023.description
-  t: >
-    هذا استبيان مفتوح لأي شخص يقوم بإنشاء مواقع وتطبيقات الويب، سواء بانتظام أو بشكل عرضي،
-    سواء كان ذلك جزءًا من وظيفته، أو كطالب، أو مجرد للمرح!
+  - key: faq.who_should_take_survey_html2023
+    t: "من يجب أن يأخذ هذا الاستبيان؟"
+  - key: faq.who_should_take_survey_html2023.description
+    t: >
+      هذا استبيان مفتوح لأي شخص يقوم بإنشاء مواقع وتطبيقات الويب، سواء بانتظام أو بشكل عرضي،
+      سواء كان ذلك جزءًا من وظيفته، أو كطالب، أو مجرد للمرح!
 
-- key: faq.how_long_will_survey_take_html2023
-  t: "ما هو المدى الزمني اللازم للإجابة على الاستبيان؟"
-- key: faq.how_long_will_survey_take_html2023.description
-  t: >
-    اعتمادًا على عدد الأسئلة التي تجيب عليها (يمكن تخطي جميع الأسئلة)،
-    يجب أن يستغرق الإجابة على الاستبيان حوالي 15-20 دقيقة.
+  - key: faq.how_long_will_survey_take_html2023
+    t: "ما هو المدى الزمني اللازم للإجابة على الاستبيان؟"
+  - key: faq.how_long_will_survey_take_html2023.description
+    t: >
+      اعتمادًا على عدد الأسئلة التي تجيب عليها (يمكن تخطي جميع الأسئلة)،
+      يجب أن يستغرق الإجابة على الاستبيان حوالي 15-20 دقيقة.
 
-- key: faq.learn_more_html2023
-  t: "أين يمكنني معرفة المزيد؟"
-- key: faq.learn_more_html2023.description
-  t: "يمكنك معرفة المزيد حول هذا الاستبيان في [مقال الإعلان](https://lea.verou.me/blog/2023/design-state-of-html/)."
+  - key: faq.learn_more_html2023
+    t: "أين يمكنني معرفة المزيد؟"
+  - key: faq.learn_more_html2023.description
+    t: "يمكنك معرفة المزيد حول هذا الاستبيان في [مقال الإعلان](https://lea.verou.me/blog/2023/design-state-of-html/)."
 
-- key: faq.survey_design_html2023
-  t: "كيف تم تصميم هذا الاستبيان؟"
-- key: faq.survey_design_html2023.description
-  t: >
-    تم تصميم الاستبيان من قبل [Lea Verou](https://lea.verou.me)، مع مساهمات من مزودي المتصفحات وكذلك مجموعات مثل
-    [WebDX Community Group](https://www.w3.org/community/webdx/).
+  - key: faq.survey_design_html2023
+    t: "كيف تم تصميم هذا الاستبيان؟"
+  - key: faq.survey_design_html2023.description
+    t: >
+      تم تصميم الاستبيان من قبل [Lea Verou](https://lea.verou.me)، مع مساهمات من مزودي المتصفحات وكذلك مجموعات مثل
+      [WebDX Community Group](https://www.w3.org/community/webdx/).
 
-- key: faq.results_released_html2023
-  t: "متى ستتم نشر النتائج؟"
-- key: faq.results_released_html2023.description
-  t: "سيستمر الاستبيان من 19 سبتمبر إلى 16 أكتوبر، وستتم نشر نتائج الاستبيان بعد ذلك بفترة قصيرة."
+  - key: faq.results_released_html2023
+    t: "متى ستتم نشر النتائج؟"
+  - key: faq.results_released_html2023.description
+    t: "سيستمر الاستبيان من 19 سبتمبر إلى 16 أكتوبر، وستتم نشر نتائج الاستبيان بعد ذلك بفترة قصيرة."
   # HTML 2023
-- key: faq.data_used_html2023
-  t: "كيف سيتم استخدام هذه البيانات؟"
-- key: faq.data_used_html2023.description
-  t: >
-    سيتم نشر جميع البيانات المجمعة علانية لأي مطور أو شركة للرجوع إليها.
-    مزودو المتصفحات أيضًا [يستخدمون هذه البيانات](https://web.dev/interop-2023/) لتحديد مجالات التركيز وإعلام خططهم الاستراتيجية.
+  - key: faq.data_used_html2023
+    t: "كيف سيتم استخدام هذه البيانات؟"
+  - key: faq.data_used_html2023.description
+    t: >
+      سيتم نشر جميع البيانات المجمعة علانية لأي مطور أو شركة للرجوع إليها.
+      مزودو المتصفحات أيضًا [يستخدمون هذه البيانات](https://web.dev/interop-2023/) لتحديد مجالات التركيز وإعلام خططهم الاستراتيجية.
 
-- key: faq.survey_goals_html2023
-  t: "ما هي أهداف الاستبيان؟"
-- key: faq.survey_goals_html2023.description
-  t: >
-    أهداف الاستبيان هي قياس الوعي بميزات HTML الجديدة وواجهات برمجة تطبيقات المتصفح،
-    ومساعدة المطورين في تتبع كيفية تطور استخدامهم لها.
+  - key: faq.survey_goals_html2023
+    t: "ما هي أهداف الاستبيان؟"
+  - key: faq.survey_goals_html2023.description
+    t: >
+      أهداف الاستبيان هي قياس الوعي بميزات HTML الجديدة وواجهات برمجة تطبيقات المتصفح،
+      ومساعدة المطورين في تتبع كيفية تطور استخدامهم لها.
 
-- key: faq.who_should_take_survey_html2023
-  t: "من يجب أن يأخذ هذا الاستبيان؟"
-- key: faq.who_should_take_survey_html2023.description
-  t: >
-    هذا استبيان مفتوح لأي شخص يقوم بإنشاء مواقع وتطبيقات الويب، سواء بانتظام أو بشكل عرضي،
-    سواء كان ذلك جزءًا من وظيفته، أو كطالب، أو مجرد للمرح!
+  - key: faq.who_should_take_survey_html2023
+    t: "من يجب أن يأخذ هذا الاستبيان؟"
+  - key: faq.who_should_take_survey_html2023.description
+    t: >
+      هذا استبيان مفتوح لأي شخص يقوم بإنشاء مواقع وتطبيقات الويب، سواء بانتظام أو بشكل عرضي،
+      سواء كان ذلك جزءًا من وظيفته، أو كطالب، أو مجرد للمرح!
 
-- key: faq.how_long_will_survey_take_html2023
-  t: "ما هو المدى الزمني اللازم للإجابة على الاستبيان؟"
-- key: faq.how_long_will_survey_take_html2023.description
-  t: >
-    اعتمادًا على عدد الأسئلة التي تجيب عليها (يمكن تخطي جميع الأسئلة)،
-    يجب أن يستغرق الإجابة على الاستبيان حوالي 15-20 دقيقة.
+  - key: faq.how_long_will_survey_take_html2023
+    t: "ما هو المدى الزمني اللازم للإجابة على الاستبيان؟"
+  - key: faq.how_long_will_survey_take_html2023.description
+    t: >
+      اعتمادًا على عدد الأسئلة التي تجيب عليها (يمكن تخطي جميع الأسئلة)،
+      يجب أن يستغرق الإجابة على الاستبيان حوالي 15-20 دقيقة.
 
-- key: faq.learn_more_html2023
-  t: "أين يمكنني معرفة المزيد؟"
-- key: faq.learn_more_html2023.description
-  t: "يمكنك معرفة المزيد حول هذا الاستبيان في [مقال الإعلان](https://lea.verou.me/blog/2023/design-state-of-html/)."
+  - key: faq.learn_more_html2023
+    t: "أين يمكنني معرفة المزيد؟"
+  - key: faq.learn_more_html2023.description
+    t: "يمكنك معرفة المزيد حول هذا الاستبيان في [مقال الإعلان](https://lea.verou.me/blog/2023/design-state-of-html/)."
 
-- key: faq.survey_design_html2023
-  t: "كيف تم تصميم هذا الاستبيان؟"
-- key: faq.survey_design_html2023.description
-  t: >
-    تم تصميم الاستبيان من قبل [Lea Verou](https://lea.verou.me)، مع مساهمات من مزودي المتصفحات وكذلك مجموعات مثل
-    [WebDX Community Group](https://www.w3.org/community/webdx/).
+  - key: faq.survey_design_html2023
+    t: "كيف تم تصميم هذا الاستبيان؟"
+  - key: faq.survey_design_html2023.description
+    t: >
+      تم تصميم الاستبيان من قبل [Lea Verou](https://lea.verou.me)، مع مساهمات من مزودي المتصفحات وكذلك مجموعات مثل
+      [WebDX Community Group](https://www.w3.org/community/webdx/).
 
-- key: faq.results_released_html2023
-  t: "متى ستتم نشر النتائج؟"
-- key: faq.results_released_html2023.description
-  t: "سيستمر الاستبيان من 19 سبتمبر إلى 16 أكتوبر، وستتم نشر نتائج الاستبيان بعد ذلك بفترة قصيرة."
-  
+  - key: faq.results_released_html2023
+    t: "متى ستتم نشر النتائج؟"
+  - key: faq.results_released_html2023.description
+    t: "سيستمر الاستبيان من 19 سبتمبر إلى 16 أكتوبر، وستتم نشر نتائج الاستبيان بعد ذلك بفترة قصيرة."
+
   # React 2023
-    - key: faq.data_used_react2023
-  t: "كيف سيتم استخدام هذه البيانات؟"
-- key: faq.data_used_react2023.description
-  t: >
-    ستتم نشر جميع البيانات المجمعة علانية لأي شخص يرغب في الرجوع إليها. يمكن للمطورين أو الشركات استخدامها لتحديد مجالات التركيز وإعلام خططهم الاستراتيجية.
+  - key: faq.data_used_react2023
+    t: "كيف سيتم استخدام هذه البيانات؟"
+  - key: faq.data_used_react2023.description
+    t: >
+      ستتم نشر جميع البيانات المجمعة علانية لأي شخص يرغب في الرجوع إليها. يمكن للمطورين أو الشركات استخدامها لتحديد مجالات التركيز وإعلام خططهم الاستراتيجية.
 
-- key: faq.survey_goals_react2023
-  t: "ما هي أهداف الاستبيان؟"
-- key: faq.survey_goals_react2023.description
-  t: >
-    أهداف الاستبيان هي قياس الوعي والشعبية لواجهات برمجة تطبيقات React، وكذلك المكتبات في نظام React البيئي.
+  - key: faq.survey_goals_react2023
+    t: "ما هي أهداف الاستبيان؟"
+  - key: faq.survey_goals_react2023.description
+    t: >
+      أهداف الاستبيان هي قياس الوعي والشعبية لواجهات برمجة تطبيقات React، وكذلك المكتبات في نظام React البيئي.
 
-- key: faq.who_should_take_survey_react2023
-  t: "من يجب أن يأخذ هذا الاستبيان؟"
-- key: faq.who_should_take_survey_react2023.description
-  t: >
-    هذا استبيان مفتوح لأي شخص يستخدم React، سواء بانتظام أو بشكل عرضي،
-    سواء كان ذلك جزءًا من وظيفته، أو كطالب، أو مجرد للمرح!
+  - key: faq.who_should_take_survey_react2023
+    t: "من يجب أن يأخذ هذا الاستبيان؟"
+  - key: faq.who_should_take_survey_react2023.description
+    t: >
+      هذا استبيان مفتوح لأي شخص يستخدم React، سواء بانتظام أو بشكل عرضي،
+      سواء كان ذلك جزءًا من وظيفته، أو كطالب، أو مجرد للمرح!
 
-- key: faq.how_long_will_survey_take_react2023
-  t: "ما هو المدى الزمني اللازم للإجابة على الاستبيان؟"
-- key: faq.how_long_will_survey_take_react2023.description
-  t: >
-    اعتمادًا على عدد الأسئلة التي تجيب عليها (جميع الأسئلة اختيارية)،
-    يجب أن يستغرق الإجابة على الاستبيان حوالي 15-20 دقيقة.
+  - key: faq.how_long_will_survey_take_react2023
+    t: "ما هو المدى الزمني اللازم للإجابة على الاستبيان؟"
+  - key: faq.how_long_will_survey_take_react2023.description
+    t: >
+      اعتمادًا على عدد الأسئلة التي تجيب عليها (جميع الأسئلة اختيارية)،
+      يجب أن يستغرق الإجابة على الاستبيان حوالي 15-20 دقيقة.
 
-- key: faq.learn_more_react2023
-  t: "أين يمكنني معرفة المزيد؟"
-- key: faq.learn_more_react2023.description
-  t: "يمكنك معرفة المزيد حول هذا الاستبيان في [مقال الإعلان](https://dev.to/sachagreif/announcing-the-first-ever-state-of-react-survey-3k6b)."
+  - key: faq.learn_more_react2023
+    t: "أين يمكنني معرفة المزيد؟"
+  - key: faq.learn_more_react2023.description
+    t: "يمكنك معرفة المزيد حول هذا الاستبيان في [مقال الإعلان](https://dev.to/sachagreif/announcing-the-first-ever-state-of-react-survey-3k6b)."
 
-- key: faq.survey_design_react2023
-  t: "كيف تم تصميم هذا الاستبيان؟"
-- key: faq.survey_design_react2023.description
-  t: >
-    تم تصميم الاستبيان بمشاركة من المجتمع من خلال
-    [موضوع التعليقات المفتوحة](https://github.com/Devographics/surveys/issues/85).
+  - key: faq.survey_design_react2023
+    t: "كيف تم تصميم هذا الاستبيان؟"
+  - key: faq.survey_design_react2023.description
+    t: >
+      تم تصميم الاستبيان بمشاركة من المجتمع من خلال
+      [موضوع التعليقات المفتوحة](https://github.com/Devographics/surveys/issues/85).
 
-- key: faq.results_released_react2023
-  t: "متى ستتم نشر النتائج؟"
-- key: faq.results_released_react2023.description
-  t: "سيستمر الاستبيان من 27 أكتوبر إلى 15 نوفمبر، وستتم نشر نتائج الاستبيان بعد ذلك بفترة قصيرة."
-  
+  - key: faq.results_released_react2023
+    t: "متى ستتم نشر النتائج؟"
+  - key: faq.results_released_react2023.description
+    t: "سيستمر الاستبيان من 27 أكتوبر إلى 15 نوفمبر، وستتم نشر نتائج الاستبيان بعد ذلك بفترة قصيرة."
+
   # JS 2023
 
   - key: general.js2023.survey_intro
