@@ -988,7 +988,7 @@ translations:
 
   - key: tools_others.libraries
     t: المكتبات
-  - key: tools_others.libraries.description
+  - key: tools_others.libraries.question
     t: أي مكتبة تستخدمها عادةً؟
   - key: tools_others.libraries.others
     t: مكتبات أخرى
@@ -997,7 +997,7 @@ translations:
 
   - key: tools_others.text_editors
     t: محرري النصوص
-  - key: tools_others.text_editors.description
+  - key: tools_others.text_editors.question
     t: أي محرر/و نص تستخدمه/هم عادةً؟
   - key: tools_others.text_editors.others
     t: محررو نصوص غيرهم
@@ -1006,7 +1006,7 @@ translations:
 
   - key: tools_others.utilities
     t: الخدمات
-  - key: tools_others.utilities.description
+  - key: tools_others.utilities.question
     t: أي خدمات أو أدوات تستخدمها عادةً؟
   - key: tools_others.utilities.others
     t: خدمات أخرى
@@ -1015,7 +1015,7 @@ translations:
 
   - key: tools_others.browsers
     t: المتصفحات
-  - key: tools_others.browsers.description
+  - key: tools_others.browsers.question
     t: أي متصفح/ـات تستخدمه بشكلٍ أساسي أثناء التطوير؟
   - key: tools_others.browsers.others
     t: متصفحات أخرى
@@ -1024,7 +1024,7 @@ translations:
 
   - key: tools_others.build_tools
     t: أدوات البناء
-  - key: tools_others.build_tools.description
+  - key: tools_others.build_tools.question
     t: أي أدوات بناء تستخدمها عادةً؟
   - key: tools_others.build_tools.others
     t: أدوات أخرى
@@ -1033,7 +1033,7 @@ translations:
 
   - key: tools_others.non_js_languages
     t: لغات غير الجافاسكريبت
-  - key: tools_others.non_js_languages.description
+  - key: tools_others.non_js_languages.question
     t: أي لغات برمجة تستعملها؟
   - key: tools_others.non_js_languages.others
     t: لغات أخرى
@@ -1042,7 +1042,7 @@ translations:
 
   - key: tools_others.javascript_flavors
     t: نكهات جافا سكريبت
-  - key: tools_others.javascript_flavors.description
+  - key: tools_others.javascript_flavors.question
     t: اللغات التي تترجم إلى JavaScript
   - key: tools_others.javascript_flavors.others
     t: نكهات أخرى للجافا سكريبت
