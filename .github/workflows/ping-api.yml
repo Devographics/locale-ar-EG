@@ -19,4 +19,8 @@ jobs:
           I18N_SECRET_KEY: ${{ secrets.I18N_SECRET_KEY }} # Set your secret in repository settings
           ACTIONS_ENDPOINT_URL: ${{ secrets.ACTIONS_ENDPOINT_URL }} # Set your secret in repository settings
         run: |
+          if [[ -z "$I18N_SECRET_KEY" || -z "$ACTIONS_ENDPOINT_URL" ]]; then
+            echo "::error::I18N_SECRET_KEY and ACTIONS_ENDPOINT_URL must be configured as repository secrets."
+            exit 1
+          fi
           curl -X GET "$ACTIONS_ENDPOINT_URL?locale=${{ steps.repo_name.outputs.name }}&secretKey=$I18N_SECRET_KEY"
