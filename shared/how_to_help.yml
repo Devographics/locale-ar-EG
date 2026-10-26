@@ -1,1 +1,4 @@
 locale: ar-EG
+translations:
+  - key: foo
+    t: bar
