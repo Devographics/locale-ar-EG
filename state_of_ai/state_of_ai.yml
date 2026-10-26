@@ -1,3 +1,5 @@
 locale: ar-EG
 namespace: ai
-translations: []
+translations:
+  - key: foo
+    t: bar
