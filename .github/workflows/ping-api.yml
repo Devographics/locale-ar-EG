@@ -7,12 +7,13 @@ on:
 
 jobs:
   ping-api:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
+    timeout-minutes: 1
 
     steps:
       - name: Get Repository Name
         id: repo_name
-        run: echo "::set-output name=name::$(basename $GITHUB_REPOSITORY)"
+        run: echo "{name}={basename $GITHUB_REPOSITORY}" >> $GITHUB_OUTPUT
 
       - name: Ping API
         env:
