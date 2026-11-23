@@ -330,7 +330,7 @@ translations:
     t: المملكة المتحدة
     aliases:
       - options.country_of_origin.GBR
-  - key: options.country.SCT # not a country but still adding it
+  - key: options.country.SCT   # not a country but still adding it
     t: Scotland
     aliases:
       - options.country_of_origin.SCT
@@ -347,4 +347,4 @@ translations:
     aliases:
       - options.country_of_origin.VNM
 
-# from https://github.com/lukes/ISO-3166-Countries-with-Regional-Codes/blob/master/slim-3/slim-3.json
+  # from https://github.com/lukes/ISO-3166-Countries-with-Regional-Codes/blob/master/slim-3/slim-3.json

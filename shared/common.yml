@@ -1955,7 +1955,7 @@ translations:
   - key: options.work_areas.manual_testing
     t: الاختبار اليدوي
   - key: options.work_areas.test_automation
-    t:  الاختبار الآلي
+    t: الاختبار الآلي
   - key: options.work_areas.performance_testing
     t: اختبار الأداء
   - key: options.work_areas.accessibility_testing
