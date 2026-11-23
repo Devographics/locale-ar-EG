@@ -1,60 +1,133 @@
 locale: ar-EG
 translations:
-    ###########################################################################
-    # Homepage
-    ###########################################################################
+  - key: homepage.hand_coded
+    t: تمت برمجته يدوياً في اليابان.
+  - key: homepage.leave_issue
+    t: الإِبلاغ عن مشكلة
+  - key: homepage.get_in_touch
+    t: تواصل معنا
 
-    - key: homepage.hand_coded
-      t: تمت كتابة الكود في اليابان.
-    - key: homepage.leave_issue
-      t: ترك مسألة
-    - key: homepage.get_in_touch
-      t: تواصل معنا
+  - key: homepage.previous_years
+    t: السنوات السابقة
 
-    - key: homepage.made_by
-      t: "The State of CSS is Made by:"
+  - key: homepage.take_survey
+    t: شارك في الإِستطلاع
 
-    - key: homepage.previous_years
-      t: "السنوات السابقة:"
+  - key: homepage.view_results
+    t: عرض النتائج
 
-    - key: homepage.intro
-      t:
-          ## CSS
-          ## تتطور أكثر من ذي قبل!
+  - key: homepage.results_coming_soon
+    t: النتائج ستُعلنُ قريباً
 
-          Flexbox, Grid, Multi-Column…
-          لا أستطيع التعبير عن نماذج التصميم الجديدة مثل
-          CSS-in-JS.
+  - key: share.help_spread
+    t: ساعِدْ في نشر الخَبَر
 
-          بعد نجاح استبياننا السنوي
-          [State Of JavaScript](https://stateofjs.com),
-          قد  قررنا أن نتناول
-          عالم الأنماط والمحددات للمساعدة في التعرف على الأشياء الشائعة...
-          ومحاولة صنع أكبر
-          “great front-end divide”!
+  - key: homepage.other_surveys
+    t: استطلاعات أُخرى
 
-    - key: homepage.take_survey
-      t: شارك في الاستبيان
+  - key: homepage.survey_open_now
+    t: مفتوح حالياً
+  - key: homepage.survey_preview
+    t: معايُنة الإستطلاع
 
-    - key: homepage.view_results
-      t: مشاهدة نتائح 2019
+  - key: homepage.most_recent_survey
+    t: أحدث إستطلاع
 
-    - key: share.help_spread
-      t: المساعدة في نشره للعالم!
+  - key: homepage.current_survey
+    t: الإستطلاع الحالي
 
-    - key: newsletter.stay_tuned
-      t: تابع
-    - key: newsletter.leave_your_email
-      t: اترك بريدك وسنعلمك بميعاد الاستبيان القادم.
-    - key: author.sacha.bio
-      t: صانع [Nivo](http://nivo.rocks/)
-          JavaScript data visualization مكتبة
-          وكذلك
-          [Mozaik](http://mozaik.rocks/),
-          أداة لصنع لوحات جميلة.
+  - key: homepage.past_surveys
+    t: الإستطلاعات السابِقة
 
-    - key: author.raphael.bio
-      t: صانع [Sidebar](http://sidebar.io)
-          الأخبار اليومية
-          وكذلك
-          [VulcanJS](http://vulcanjs.org), a React+GraphQL open-source framework.
+  - key: homepage.view_questions
+    t: عرض الأسئلة
+
+  - key: homepage.preview_questions
+    t: معايُنة الأسئلة
+
+  # newsletter
+  - key: newsletter.stay_tuned
+    t: لا تفوت الإستطلاع القادم
+  - key: newsletter.leave_your_email
+    t: اترك لنا بريدك الإلكتروني وسنُعلمك عندما يُعقد الإستطلاع التالي.
+  - key: newsletter.email
+    t: بريدك الإلكتروني
+  - key: newsletter.submit
+    t: أبلغني
+  - key: newsletter.thanks
+    t: شكراً لتسجيلك!
+
+  # languages
+  - key: languages.available_languages
+    t: اللغات المتاحة
+  - key: languages.help_us_translate
+    t: ساعدنا في ترجمة الاستبيان إلى لغتك →
+
+  # partners
+  - key: homepage.with_support_from
+    aliasFor: الرعاة. بدعم من
+
+  # footer
+  - key: homepage.made_by_devographics
+    aliasFor: general.made_by_devographics
+  - key: homepage.netlify_link
+    aliasFor: general.netlify_link
+
+  - key: homepage.join_discord
+    aliasFor: general.join_discord
+  - key: homepage.astro_link
+    t: Powered by [Astro](https://astro.build/)
+
+  # creators
+  - key: creators.heading
+    t: المبدعون الذين ندعمهم
+
+  - key: creators.description
+    t: |
+      لا يمكن إجراء استطلاعاتنا إلا بفضل الدعم المستمر من مجتمع المطورين، ومن الطبيعي أن نرد الجميل عندما نستطيع.
+
+      هؤلاء بعض منشئي المحتوى والمنظمات الرائعة التي ندعمها مالياً، في مقابل زيادة الوعي حول الاستطلاعات.
+
+  - key: creators.stephanie_walter.description
+    t: |
+      ستيفاني والتر باحثة ومصممة وكاتبة بارعة في مجال تجربة المستخدم، تعيش في لوكسمبورغ، ولديها موهبة في جعل المواضيع المعقدة واضحة وسهلة الفهم.
+
+  - key: creators.afor_digital.description
+    t: |
+      تُعد أفور شخصية رئيسية في مجتمع البث المباشر لتطوير مواقع الويب باللغة الإسبانية، وقد أدى موهبتها في جعل محتوى البرمجة جذابًا إلى نجاحها المستحق.
+
+  - key: creators.shruti_kapoor.description
+    t: |
+      بين التدوين وإنتاج مقاطع الفيديو على يوتيوب والتحدث في المؤتمرات، وكونها بشكل عام شخصًا رائعًا بكل المقاييس، كانت شروتي ركيزة أساسية في نظام React البيئي لفترة من الوقت الآن.
+  
+  - key: creators.codebar.description
+    t: |
+      Codebar هي منظمة رائعة تقوم بتنظيم ورش عمل تكلف عادةً آلاف الدولارات، وتجعلها متاحة مجانًا عبر الإنترنت من أجل بناء مجتمع مطورين أكثر شمولاً.
+
+  # calendar
+
+  - key: calendar.heading
+    t: |
+      {currentYear} استطلاعات
+  - key: calendar.feedbackAt
+    t: بدء التعليقات
+  - key: calendar.startedAt
+    t: بدء الاستطلاع
+  - key: calendar.endedAt
+    t: نهاية الاستطلاع
+  - key: calendar.releasedAt
+    t: إعلان النتائج
+  - key: calendar.past_editions
+    t: استطلاعات سابقة
+  - key: calendar.ongoing_editions
+    t: استطلاعات الرأي الجارية
+  - key: calendar.upcoming_editions
+    t: الاستطلاعات القادمة
+  - key: calendar.no_editions
+    t: لا توجد استطلاعات رأي.
+  - key: calendar.give_feedback
+    t: اقتراح أسئلة →
+  - key: calendar.take_survey
+    t: شارك في الاستطلاع →
+  - key: calendar.view_results
+    t: عرض النتائج →

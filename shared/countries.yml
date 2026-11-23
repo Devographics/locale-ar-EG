@@ -1,176 +1,350 @@
-# تضم هذه القائمة نحو 50 دولة فقط من أكثر دول العالم سكانًا،
-# ويمكننا إضافة دول أخرى إذا وردت في الاستطلاع. راجع القائمة الكاملة أدناه.
+# this list includes only the top ~50 countries in the world ranked by population,
+# we can add more countries if they appear in the survey. See full list below
 locale: ar-EG
 translations:
   - key: options.country.AFG
     t: أفغانستان
+    aliases:
+      - options.country_of_origin.AFG
   - key: options.country.DZA
     t: الجزائر
-  - key: options.country.ARG      
+    aliases:
+      - options.country_of_origin.DZA
+  - key: options.country.ARG
     t: الأرجنتين
-  - key: options.country.ARM  
+    aliases:
+      - options.country_of_origin.ARG
+  - key: options.country.ARM
     t: أرمينيا
+    aliases:
+      - options.country_of_origin.ARM
   - key: options.country.AUS
     t: أستراليا
+    aliases:
+      - options.country_of_origin.AUS
   - key: options.country.AUT
-    t: النمسا   
-  - key: options.country.BGD    
+    t: النمسا
+    aliases:
+      - options.country_of_origin.AUT
+  - key: options.country.BGD
     t: بنغلاديش
+    aliases:
+      - options.country_of_origin.BGD
   - key: options.country.BEL
     t: بلجيكا
+    aliases:
+      - options.country_of_origin.BEL
   - key: options.country.BLR
     t: بيلاروسيا
+    aliases:
+      - options.country_of_origin.BLR
   - key: options.country.BIH
-    t: البوسنة و الهرسك
+    t: البوسنة والهرسك
+    aliases:
+      - options.country_of_origin.BIH
   - key: options.country.BRA
     t: البرازيل
+    aliases:
+      - options.country_of_origin.BRA
   - key: options.country.BGR
-    t: بلغاريا   
+    t: بلغاريا
+    aliases:
+      - options.country_of_origin.BGR
   - key: options.country.CAN
     t: كندا
+    aliases:
+      - options.country_of_origin.CAN
   - key: options.country.CRI
     t: كوستاريكا
+    aliases:
+      - options.country_of_origin.CRI
   - key: options.country.HRV
     t: كرواتيا
+    aliases:
+      - options.country_of_origin.HRV
   - key: options.country.CHE
     t: سويسرا
+    aliases:
+      - options.country_of_origin.CHE
   - key: options.country.CHL
     t: تشيلي
+    aliases:
+      - options.country_of_origin.CHL
   - key: options.country.CHN
     t: الصين
+    aliases:
+      - options.country_of_origin.CHN
   - key: options.country.COD
     t: جمهورية الكونغو الديمقراطية
+    aliases:
+      - options.country_of_origin.COD
   - key: options.country.COL
     t: كولومبيا
+    aliases:
+      - options.country_of_origin.COL
   - key: options.country.CIV
     t: ساحل العاج
+    aliases:
+      - options.country_of_origin.CIV
   - key: options.country.CYP
     t: قبرص
+    aliases:
+      - options.country_of_origin.CYP
   - key: options.country.CZE
-    t: تشيكيا
+    t: التشيك
+    aliases:
+      - options.country_of_origin.CZE
   - key: options.country.DEU
     t: ألمانيا
+    aliases:
+      - options.country_of_origin.DEU
   - key: options.country.GRC
     t: اليونان
+    aliases:
+      - options.country_of_origin.GRC
   - key: options.country.DNK
     t: الدنمارك
+    aliases:
+      - options.country_of_origin.DNK
   - key: options.country.EGY
     t: مصر
+    aliases:
+      - options.country_of_origin.EGY
   - key: options.country.EST
     t: إستونيا
+    aliases:
+      - options.country_of_origin.EST
   - key: options.country.ETH
     t: إثيوبيا
+    aliases:
+      - options.country_of_origin.ETH
   - key: options.country.FIN
     t: فنلندا
+    aliases:
+      - options.country_of_origin.FIN
   - key: options.country.FRA
     t: فرنسا
+    aliases:
+      - options.country_of_origin.FRA
   - key: options.country.GEO
     t: جورجيا
+    aliases:
+      - options.country_of_origin.GEO
   - key: options.country.GHA
     t: غانا
+    aliases:
+      - options.country_of_origin.GHA
   - key: options.country.HKG
     t: هونغ كونغ
+    aliases:
+      - options.country_of_origin.HKG
   - key: options.country.HUN
-    t: المجر
+    t: هنغاريا
+    aliases:
+      - options.country_of_origin.HUN
   - key: options.country.IND
-    t: الهند    
+    t: الهند
+    aliases:
+      - options.country_of_origin.IND
   - key: options.country.IDN
     t: إندونيسيا
+    aliases:
+      - options.country_of_origin.IDN
   - key: options.country.IRL
     t: أيرلندا
+    aliases:
+      - options.country_of_origin.IRL
   - key: options.country.ISL
     t: أيسلندا
+    aliases:
+      - options.country_of_origin.ISL
   - key: options.country.IRN
     t: إيران
+    aliases:
+      - options.country_of_origin.IRN
   - key: options.country.IRQ
     t: العراق
+    aliases:
+      - options.country_of_origin.IRQ
   - key: options.country.ITA
     t: إيطاليا
+    aliases:
+      - options.country_of_origin.ITA
   - key: options.country.ISR
     t: إسرائيل
+    aliases:
+      - options.country_of_origin.ISR
   - key: options.country.JPN
     t: اليابان
+    aliases:
+      - options.country_of_origin.JPN
   - key: options.country.KEN
     t: كينيا
+    aliases:
+      - options.country_of_origin.KEN
   - key: options.country.LTU
-    t: لتوانيا
+    t: ليتوانيا
+    aliases:
+      - options.country_of_origin.LTU
   - key: options.country.LVA
     t: لاتفيا
+    aliases:
+      - options.country_of_origin.LVA
   - key: options.country.LUX
-    t: لوكمسبورغ
+    t: لوكسمبورغ
+    aliases:
+      - options.country_of_origin.LUX
   - key: options.country.MDA
     t: مولدوفا
+    aliases:
+      - options.country_of_origin.MDA
   - key: options.country.MEX
     t: المكسيك
+    aliases:
+      - options.country_of_origin.MEX
   - key: options.country.MMR
     t: ميانمار
+    aliases:
+      - options.country_of_origin.MMR
   - key: options.country.NPL
     t: نيبال
+    aliases:
+      - options.country_of_origin.NPL
   - key: options.country.MKD
     t: مقدونيا الشمالية
+    aliases:
+      - options.country_of_origin.MKD
   - key: options.country.NOR
     t: النرويج
+    aliases:
+      - options.country_of_origin.NOR
   - key: options.country.NLD
     t: هولندا
+    aliases:
+      - options.country_of_origin.NLD
   - key: options.country.NGA
     t: نيجيريا
+    aliases:
+      - options.country_of_origin.NGA
   - key: options.country.NZL
     t: نيوزيلندا
+    aliases:
+      - options.country_of_origin.NZL
   - key: options.country.POL
     t: بولندا
+    aliases:
+      - options.country_of_origin.POL
   - key: options.country.PRT
     t: البرتغال
+    aliases:
+      - options.country_of_origin.PRT
   - key: options.country.PAK
     t: باكستان
+    aliases:
+      - options.country_of_origin.PAK
   - key: options.country.PER
     t: بيرو
+    aliases:
+      - options.country_of_origin.PER
   - key: options.country.PHL
     t: الفلبين
+    aliases:
+      - options.country_of_origin.PHL
   - key: options.country.ROU
     t: رومانيا
+    aliases:
+      - options.country_of_origin.ROU
   - key: options.country.RUS
     t: روسيا
+    aliases:
+      - options.country_of_origin.RUS
   - key: options.country.SAU
-    t: السعودية
+    t: المملكة العربية السعودية
+    aliases:
+      - options.country_of_origin.SAU
   - key: options.country.SRB
     t: صربيا
+    aliases:
+      - options.country_of_origin.SRB
   - key: options.country.SGP
     t: سنغافورة
+    aliases:
+      - options.country_of_origin.SGP
   - key: options.country.SVK
     t: سلوفاكيا
+    aliases:
+      - options.country_of_origin.SVK
   - key: options.country.SVN
     t: سلوفينيا
+    aliases:
+      - options.country_of_origin.SVN
   - key: options.country.ZAF
     t: جنوب أفريقيا
+    aliases:
+      - options.country_of_origin.ZAF
   - key: options.country.KOR
     t: كوريا الجنوبية
+    aliases:
+      - options.country_of_origin.KOR
   - key: options.country.ESP
     t: إسبانيا
+    aliases:
+      - options.country_of_origin.ESP
   - key: options.country.SWE
     t: السويد
+    aliases:
+      - options.country_of_origin.SWE
   - key: options.country.TWN
     t: تايوان
+    aliases:
+      - options.country_of_origin.TWN
   - key: options.country.TZA
-    t: تانزانيا
+    t: تنزانيا
+    aliases:
+      - options.country_of_origin.TZA
   - key: options.country.THA
     t: تايلاند
+    aliases:
+      - options.country_of_origin.THA
   - key: options.country.TUR
     t: تركيا
+    aliases:
+      - options.country_of_origin.TUR
   - key: options.country.UGA
     t: أوغندا
+    aliases:
+      - options.country_of_origin.UGA
   - key: options.country.UKR
     t: أوكرانيا
+    aliases:
+      - options.country_of_origin.UKR
   - key: options.country.URY
     t: أوروغواي
+    aliases:
+      - options.country_of_origin.URY
   - key: options.country.ARE
     t: الإمارات العربية المتحدة
+    aliases:
+      - options.country_of_origin.ARE
   - key: options.country.GBR
     t: المملكة المتحدة
-  - key: options.country.SCT
-    t: اسكتلندا
+    aliases:
+      - options.country_of_origin.GBR
+  - key: options.country.SCT   # not a country but still adding it
+    t: Scotland
+    aliases:
+      - options.country_of_origin.SCT
   - key: options.country.USA
-    t: الولايات المتحدة الأمريكية
-  - key: options.country.VEN  
+    t: الولايات المتحدة
+    aliases:
+      - options.country_of_origin.USA
+  - key: options.country.VEN
     t: فنزويلا
+    aliases:
+      - options.country_of_origin.VEN
   - key: options.country.VNM
     t: فيتنام
+    aliases:
+      - options.country_of_origin.VNM
+
+  # from https://github.com/lukes/ISO-3166-Countries-with-Regional-Codes/blob/master/slim-3/slim-3.json

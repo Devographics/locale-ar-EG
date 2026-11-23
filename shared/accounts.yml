@@ -69,10 +69,18 @@ translations:
     - key: accounts.please_pick_password
       t: من فضلك ضع كلمة سر جديدة للاستمرار
     - key: accounts.please_log_in
-      t: للبدء قم بالاشتراك أو تسجيل الدحول
+      t: للبدء، اشترك أو سجّل الدخول
     - key: accounts.logged_in_as
-      t: الدخول كـ {email}
+      t: تم تسجيل الدخول باستخدام بريدك الإلكتروني
+    - key: accounts.logged_in_as_guest
+      t: تم تسجيل الدخول كضيف
     - key: accounts.questions
-      t:
+      t: >
           إذا كان عندك سؤال عن كيفية استخدامنا لبياناتك، أو تريدنا أن نزيل بياناتك من سجلاتنا، من فضلك
           <a href="mailto:hello@stateofjs.com">تواصل معنا</a>.
+
+    - key: accounts.token_verified
+      t: تم التحقق من الرمز بنجاح، جارٍ إعادة التوجيه…
+
+    - key: accounts.your_surveys
+      t: استطلاعاتك

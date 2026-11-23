@@ -1,0 +1,1074 @@
+locale: ar-EG
+translations:
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  # homepage
+  - key: general.why_create_account
+    t: لماذا أحتاج إلى إنشاء حساب؟
+  - key: general.create_account_reasons
+    t: >
+      نطلب منك إنشاء حساب من أجل:
+
+      - تجنب الإجابات المكررة
+
+      - إتاحة الوصول إلى بياناتك
+
+      - حفظ جلستك أثناء تقدمك
+
+      - إعلامك عند نشر النتائج
+  - key: general.survey_closed_detailed
+    t: >
+      عذرًا، أُغلق الاستطلاع الآن! لا يزال بإمكانك مراجعة بياناتك، لكن لن تتمكن من تعديلها.
+  - key: general.survey_read_only
+    t: >
+      أنت تشاهد هذا الاستطلاع حاليًا في وضع القراءة فقط.
+  - key: general.survey_preview
+    t: >
+      هذا الاستطلاع في وضع المعاينة. قد تتغير أسئلته، وستُحذف جميع
+      البيانات المُدخلة عند بدء الاستطلاع الفعلي.
+
+  - key: general.survey_read_only_back
+    t: >
+      <a href="{link}">عُد</a> إلى صفحة الاستطلاع الرئيسية لبدء جلسة أو استئنافها.
+  - key: general.take_survey
+    t: شارك في استطلاع {name}
+
+  # surveys
+  - key: general.open_surveys
+    t: الاستطلاعات المفتوحة
+  - key: general.no_open_surveys
+    t: لا توجد استطلاعات مفتوحة حاليًا.
+  - key: general.closed_surveys
+    t: الاستطلاعات المغلقة
+  - key: general.no_closed_surveys
+    t: لا توجد استطلاعات مغلقة حاليًا.
+  - key: general.preview_surveys
+    t: استطلاعات المعاينة
+  - key: general.no_preview_surveys.legacy
+    t: لا توجد استطلاعات متاحة للمعاينة.
+  - key: general.start_survey
+    t: ابدأ الاستطلاع »
+  - key: general.continue_survey
+    t: تابع الاستطلاع »
+  - key: general.review_survey
+    t: راجع الاستطلاع »
+  - key: general.preview_survey
+    t: عاين الاستطلاع »
+  - key: general.finish_survey
+    t: إنهاء الاستطلاع
+  - key: general.next_section
+    t: القسم التالي
+  - key: general.previous_section
+    t: القسم السابق
+  - key: general.survey_closed
+    t: أُغلق هذا الاستطلاع الآن.
+  - key: general.survey_results
+    t: عرض نتائج الاستطلاع »
+  - key: general.surveys_available_languages
+    t: "الاستطلاعات متاحة باللغات التالية:"
+  - key: general.help_us_translate
+    t: ساعدنا في ترجمة الاستطلاعات »
+  - key: general.translators
+    t: المترجمون
+  - key: general.translation_help
+    t: المساعدة في الترجمة
+  - key: general.newly_added
+    t: أُضيف حديثًا هذا العام
+  - key: general.new
+    t: جديد
+  - key: general.devographics_banner
+    t: <a href="https://www.devographics.com/" target="_blank">Devographics</a> هو الاسم الجديد للمجموعة التي تدير استطلاعات حالة JavaScript وCSS وGraphQL.
+
+  # credits
+  - key: credits.thanks
+    t: شكر خاص
+  - key: credits.contributors
+    t: المساهمون
+  - key: credits.contributors.description
+    t: شكر خاص للأشخاص التالية أسماؤهم لمساعدتنا في تصميم الاستطلاع.
+  - key: credits.accessibility
+    t: استشارات سهولة الوصول
+  - key: credits.survey_design
+    t: تصميم الاستطلاع
+  - key: credits.logo_design
+    t: تصميم الشعار
+  - key: credits.mobile_testing
+    t: اختبار الأجهزة المحمولة
+  - key: credits.data_visualizations
+    t: تصورات البيانات
+  - key: credits.repo_architecture
+    t: بنية المستودع
+  - key: credits.code_refactoring
+    t: إعادة هيكلة الشيفرة
+  - key: credits.data_processing
+    t: معالجة البيانات
+
+  # support
+  - key: general.support_from
+    t: بدعم من
+
+  # footer
+  - key: general.privacy_policy.legacy
+    t: سياسة الخصوصية
+  - key: general.leave_issue
+    t: هل لديك أسئلة أو وجدت خطأ؟ <a href="{link}" target="_blank">أبلغنا عن المشكلة</a>.
+  - key: general.emoji_icons
+    t: أيقونات الرموز التعبيرية من <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
+
+  # navigation
+  - key: general.table_of_contents
+    t: جدول المحتويات
+  - key: general.all_questions_optional
+    t: >
+      ملاحظة: جميع الأسئلة اختيارية، ولا يلزم إكمال الاستطلاع بنسبة 100%.
+  - key: general.data_is_saved
+    t: تُحفظ بياناتك كلما انتقلت إلى القسم السابق أو التالي.
+  - key: general.close_nav
+    t: إغلاق القائمة
+  - key: general.open_nav
+    t: فتح القائمة
+  - key: general.more_actions
+    t: مزيد من الإجراءات
+  - key: general.skip_to_content
+    t: الانتقال إلى المحتوى
+
+  # thanks
+  - key: general.back
+    t: رجوع
+  - key: general.thanks
+    t: >
+      شكرًا لإكمال الاستطلاع! حُفظت بياناتك.
+
+
+      يمكنك أيضًا مساعدتنا في نشر الاستطلاع بمشاركته. فكل مساهمة مهمة، وستساعد في جعل بياناتنا
+      أكثر تمثيلًا:
+  - key: thanks.learn_more_about
+    t: "بعض الميزات التي قد ترغب في معرفة المزيد عنها:"
+  - key: thanks.knowledge_score
+    t: درجة المعرفة
+  - key: thanks.score_explanation
+    t: >
+      سمعت عن أو استخدمت <span class="score-number score-number-known">{known}</span> من أصل
+      <span class="score-number score-number-total">{total}</span> ميزة وردت في الاستطلاع، وهذا
+      يضعك ضمن أعلى <span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>
+      من جميع المشاركين.
+  - key: thanks.share_on_twitter
+    t: المشاركة على Twitter
+  - key: thanks.share_score_message
+    t: >
+      حصلت على درجة معرفة {score}% في استطلاع #{hashtag} لهذا العام! شارك في الاستطلاع من هنا: {shareUrl}
+  # share
+  - key: general.share_subject
+    t: >
+      استطلاع {surveyName}
+  - key: general.share_text
+    t: >
+      استطلاع {surveyName} لهذا العام مفتوح الآن! {link}
+
+  # forms
+  - key: forms.select_option
+    t: اختر خيارًا
+  - key: forms.clear_field
+    t: مسح السؤال
+
+  # partners
+  - key: sponsors.our_partners
+    t: شركاؤنا
+  - key: sponsors.become_partner
+    t: كن شريكًا
+
+  # 404
+  - key: notfound.title
+    t: 404 غير موجود
+  - key: notfound.description
+    t: عذرًا، لم نتمكن من العثور على ما تبحث عنه.
+
+  # other
+  - key: general.join_discord
+    t: انضم إلينا على <a href="{link}">Discord</a>.
+  - key: general.translator_mode
+    t: اضغط على Option/Alt لتمكين وضع الترجمة.
+  - key: general.charts_nivo
+    t: رسوم بيانية مبنية باستخدام <a href="{link}">Nivo</a>.
+  - key: general.made_by_devographics
+    t: من إعداد <a href="{link}">Devographics</a>
+
+  ###########################################################################
+  # Nav
+  ###########################################################################
+
+  - key: nav.surveys
+    t: الاستطلاعات
+  - key: nav.account
+    t: الحساب
+
+  ###########################################################################
+  # Sections
+  ###########################################################################
+
+  - key: sections.user_info.title
+    t: عنك
+  - key: sections.user_info.description.legacy
+    t: لنتعرف عليك أكثر.
+
+  - key: sections.resources.title
+    t: الموارد
+  - key: sections.resources.description
+    t: ما الموارد التي تستعين بها؟
+
+  - key: sections.opinions.title
+    t: الآراء
+  - key: sections.opinions.description
+    t: ما رأيك في حالة {topic}؟
+
+  - key: sections.other_tools.title
+    t: أدوات أخرى
+  - key: sections.other_tools.description
+    t: حدد الأدوات والتقنيات التي تستخدمها بانتظام.
+
+  - key: sections.report.title
+    t: تقرير الاتجاهات
+
+  ###########################################################################
+  # Options
+  ###########################################################################
+
+  # features
+  - key: options.features.never_heard
+    t: <span aria-hidden="true">🤷</span> لم أسمع به من قبل/لا أعرف ما هو
+  - key: options.features.heard
+    t: <span aria-hidden="true">✅</span> أعرف ما هو، لكنني لم أستخدمه
+  - key: options.features.used
+    t: <span aria-hidden="true">👍</span> استخدمته
+
+  # features (no emoji)
+  - key: options.features.never_heard.label
+    t: لم أسمع به من قبل/لا أعرف ما هو
+  - key: options.features.heard.label
+    t: أعرف ما هو، لكنني لم أستخدمه
+  - key: options.features.used.label
+    t: استخدمته
+
+  # patterns
+  - key: options.patterns.use_never
+    t: أتجنبه دائمًا تقريبًا
+  - key: options.patterns.use_sparingly
+    t: أستخدمه نادرًا
+  - key: options.patterns.use_neutral
+    t: محايد
+  - key: options.patterns.use_frequently
+    t: أستخدمه كثيرًا
+  - key: options.patterns.use_always
+    t: أستخدمه قدر استطاعتي
+
+  # tools experience
+  - key: options.tools.never_heard
+    t: <span aria-hidden="true">🤷</span> لم أسمع به من قبل/لا أعرف ما هو
+  - key: options.tools.interested
+    t: <span aria-hidden="true">✅</span> سمعت به > أرغب في تعلمه
+  - key: options.tools.not_interested
+    t: <span aria-hidden="true">🚫</span> سمعت به > غير مهتم
+  - key: options.tools.would_use
+    t: <span aria-hidden="true">👍</span> استخدمته > سأستخدمه مجددًا
+  - key: options.tools.would_not_use
+    t: <span aria-hidden="true">👎</span> استخدمته > لن أستخدمه مجددًا
+
+  # tools experience (no emoji)
+  - key: options.tools.never_heard.legend
+    t: لم أسمع به من قبل/لا أعرف ما هو
+  - key: options.tools.interested.legend
+    t: سمعت به > أرغب في تعلمه
+  - key: options.tools.not_interested.legend
+    t: سمعت به > غير مهتم
+  - key: options.tools.would_use.legend
+    t: استخدمته > سأستخدمه مجددًا
+  - key: options.tools.would_not_use.legend
+    t: استخدمته > لن أستخدمه مجددًا
+
+  # tools experience (short versions)
+  - key: options.tools.never_heard.short
+    t: لم أسمع به
+  - key: options.tools.interested.short
+    t: مهتم
+  - key: options.tools.not_interested.short
+    t: غير مهتم
+  - key: options.tools.would_use.short
+    t: سأستخدمه مجددًا
+  - key: options.tools.would_not_use.short
+    t: لن أستخدمه
+
+  # happiness
+  - key: options.happiness.0
+    t: غير سعيد جدًا
+  - key: options.happiness.1
+    t: غير سعيد
+  - key: options.happiness.2
+    t: محايد
+  - key: options.happiness.3
+    t: سعيد
+  - key: options.happiness.4
+    t: سعيد جدًا
+
+  # happiness (short version)
+  - key: options.happiness.0.short
+    t: غير سعيد جدًا
+  - key: options.happiness.1.short
+    t: غير سعيد
+  - key: options.happiness.2.short
+    t: محايد
+  - key: options.happiness.3.short
+    t: سعيد
+  - key: options.happiness.4.short
+    t: سعيد جدًا
+
+  # opinions
+  - key: options.opinions.0
+    t: لا أوافق بشدة
+  - key: options.opinions.1
+    t: لا أوافق
+  - key: options.opinions.2
+    t: محايد
+  - key: options.opinions.3
+    t: أوافق
+  - key: options.opinions.4
+    t: أوافق بشدة
+
+  # age
+  - key: options.age.range_less_than_10
+    t: 10 سنوات أو أقل
+  - key: options.age.range_10_18
+    t: 11-18 سنة
+  - key: options.age.range_18_24
+    t: 19-24 سنة
+  - key: options.age.range_25_34
+    t: 25-34 سنة
+  - key: options.age.range_35_44
+    t: 35-44 سنة
+  - key: options.age.range_45_54
+    t: 45-54 سنة
+  - key: options.age.range_55_64
+    t: 55-64 سنة
+  - key: options.age.range_more_than_65
+    t: 65 سنة أو أكثر
+
+  # age (short versions)
+  - key: options.age.range_less_than_10.short
+    t: "<=10"
+  - key: options.age.range_10_18.short
+    t: 11-18
+  - key: options.age.range_18_24.short
+    t: 19-24
+  - key: options.age.range_25_34.short
+    t: 25-34
+  - key: options.age.range_35_44.short
+    t: 35-44
+  - key: options.age.range_45_54.short
+    t: 45-54
+  - key: options.age.range_55_64.short
+    t: 55-64
+  - key: options.age.range_more_than_65.short
+    t: ">65"
+
+  # years of experience
+  - key: options.years_of_experience.range_less_than_1
+    t: أقل من سنة
+  - key: options.years_of_experience.range_1_2
+    t: من سنة إلى سنتين
+  - key: options.years_of_experience.range_2_5
+    t: من 3 إلى 5 سنوات
+  - key: options.years_of_experience.range_5_10
+    t: من 6 إلى 10 سنوات
+  - key: options.years_of_experience.range_10_20
+    t: من 11 إلى 20 سنة
+  - key: options.years_of_experience.range_more_than_20
+    t: أكثر من 20 سنة
+
+  # years of experience (short versions)
+  - key: options.years_of_experience.range_less_than_1.short
+    t: "<1 سنة"
+  - key: options.years_of_experience.range_1_2.short
+    t: 1-2 سنة
+  - key: options.years_of_experience.range_2_5.short
+    t: 3-5 سنوات
+  - key: options.years_of_experience.range_5_10.short
+    t: 6-10 سنوات
+  - key: options.years_of_experience.range_10_20.short
+    t: 11-20 سنة
+  - key: options.years_of_experience.range_more_than_20.short
+    t: ">20 سنة"
+
+  # company size
+  - key: options.company_size.range_1
+    t: موظف واحد
+  - key: options.company_size.range_1_5
+    t: من موظفين إلى 5 موظفين
+  - key: options.company_size.range_5_10
+    t: من 6 إلى 10 موظفين
+  - key: options.company_size.range_10_20
+    t: من 11 إلى 20 موظفًا
+  - key: options.company_size.range_20_50
+    t: من 21 إلى 50 موظفًا
+  - key: options.company_size.range_50_100
+    t: من 51 إلى 100 موظف
+  - key: options.company_size.range_100_1000
+    t: من 101 إلى 1000 موظف
+  - key: options.company_size.range_more_than_1000
+    t: أكثر من 1000 موظف
+
+  # company size (short versions)
+  - key: options.company_size.range_1.short
+    t: 1
+  - key: options.company_size.range_1_5.short
+    t: 1-5
+  - key: options.company_size.range_5_10.short
+    t: 6-10
+  - key: options.company_size.range_10_20.short
+    t: 11-20
+  - key: options.company_size.range_20_50.short
+    t: 21-50
+  - key: options.company_size.range_50_100.short
+    t: 51-100
+  - key: options.company_size.range_100_1000.short
+    t: 101-1000
+  - key: options.company_size.range_more_than_1000.short
+    t: ">1000"
+
+  # salary
+  - key: options.yearly_salary.range_work_for_free
+    t: أعمل دون أجر
+  - key: options.yearly_salary.range_0_10
+    t: $0k-$10k
+  - key: options.yearly_salary.range_10_30
+    t: $10k-$30k
+  - key: options.yearly_salary.range_30_50
+    t: $30k-$50k
+  - key: options.yearly_salary.range_50_100
+    t: $50k-$100k
+  - key: options.yearly_salary.range_100_200
+    t: $100k-$200k
+  - key: options.yearly_salary.range_more_than_200
+    t: أكثر من 200 ألف دولار
+
+  # salary (short versions)
+  - key: options.yearly_salary.range_work_for_free.short
+    t: $0
+  - key: options.yearly_salary.range_0_10.short
+    t: $0-$10k
+  - key: options.yearly_salary.range_10_30.short
+    t: $10k-$30k
+  - key: options.yearly_salary.range_30_50.short
+    t: $30k-$50k
+  - key: options.yearly_salary.range_50_100.short
+    t: $50k-$100k
+  - key: options.yearly_salary.range_100_200.short
+    t: $100k-$200k
+  - key: options.yearly_salary.range_more_than_200.short
+    t: ">$200k"
+
+  # Proficiency (generic versions)
+  - key: options.proficiency.0
+    t: لا شيء
+  - key: options.proficiency.1
+    t: مبتدئ
+  - key: options.proficiency.2
+    t: متوسط
+  - key: options.proficiency.3
+    t: متقدم
+  - key: options.proficiency.4
+    t: خبير
+
+  # Gender
+
+  - key: options.gender.female
+    t: امرأة
+  - key: options.gender.male
+    t: رجل
+  - key: options.gender.non_binary
+    t: غير ثنائي أو غير ممتثل للنوع الاجتماعي
+  - key: options.gender.questioning
+    t: غير متأكد من هويته
+  - key: options.gender.prefer_not_to_say
+    t: أفضل عدم الإفصاح
+  - key: options.gender.not_listed
+    t: غير مدرج
+
+  # Gender (short)
+
+  - key: options.gender.female.short
+    t: امرأة
+  - key: options.gender.male.short
+    t: رجل
+  - key: options.gender.non_binary.short
+    t: غير ثنائي أو غير ممتثل للنوع الاجتماعي
+  - key: options.gender.questioning.short
+    t: غير متأكد من هويته
+  - key: options.gender.prefer_not_to_say.short
+    t: أفضل عدم الإفصاح
+  - key: options.gender.not_listed.short
+    t: غير مدرج
+
+  # Race & Ethnicity
+
+  - key: options.race_ethnicity.white_european
+    t: أبيض أوروبي
+  - key: options.race_ethnicity.south_asian
+    t: جنوب آسيوي
+  - key: options.race_ethnicity.south_east_asian
+    t: جنوب شرق آسيوي
+  - key: options.race_ethnicity.hispanic_latin
+    t: هسباني أو لاتيني/لاتينية
+  - key: options.race_ethnicity.east_asian
+    t: شرق آسيوي
+  - key: options.race_ethnicity.middle_eastern
+    t: شرق أوسطي
+  - key: options.race_ethnicity.black_african
+    t: أسود أو من أصل أفريقي
+  - key: options.race_ethnicity.multiracial
+    t: متعدد الأعراق
+  - key: options.race_ethnicity.biracial
+    t: من عرقين
+  - key: options.race_ethnicity.native_american_islander_australian
+    t: أمريكي أصلي أو من جزر المحيط الهادئ أو أسترالي من السكان الأصليين
+  - key: options.race_ethnicity.not_listed
+    t: غير مدرج
+
+  # Race & Ethnicity (short)
+
+  - key: options.race_ethnicity.white_european.short
+    t: أبيض أوروبي
+  - key: options.race_ethnicity.south_asian.short
+    t: جنوب آسيوي
+  - key: options.race_ethnicity.south_east_asian.short
+    t: جنوب شرق آسيوي
+  - key: options.race_ethnicity.hispanic_latin.short
+    t: هسباني/لاتيني
+  - key: options.race_ethnicity.east_asian.short
+    t: شرق آسيوي
+  - key: options.race_ethnicity.middle_eastern.short
+    t: شرق أوسطي
+  - key: options.race_ethnicity.black_african.short
+    t: أسود/من أصل أفريقي
+  - key: options.race_ethnicity.multiracial.short
+    t: متعدد الأعراق
+  - key: options.race_ethnicity.biracial.short
+    t: من عرقين
+  - key: options.race_ethnicity.native_american_islander_australian.short
+    t: أمريكي أصلي/من جزر المحيط الهادئ/أسترالي من السكان الأصليين
+  - key: options.race_ethnicity.not_listed.short
+    t: غير مدرج
+
+  # Disability Status
+  - key: options.disability_status.visual_impairments
+    t: >
+      إعاقات بصرية (مثل العمى وعمى الألوان وغيرها)
+  - key: options.disability_status.hearing_impairments
+    t: >
+      إعاقات سمعية (مثل الصمم وطنين الأذن وغيرها)
+  - key: options.disability_status.mobility_impairments
+    t: >
+      إعاقات حركية (مثل التهاب المفاصل ومتلازمة النفق الرسغي وغيرها)
+  - key: options.disability_status.cognitive_impairments
+    t: >
+      إعاقات إدراكية (مثل القلق وعسر القراءة وغيرها)
+  - key: options.disability_status.not_listed
+    t: >
+      غير مدرج
+
+  # Disability Status (short)
+  - key: options.disability_status.visual_impairments
+    t: >
+      إعاقات بصرية
+  - key: options.disability_status.hearing_impairments
+    t: >
+      إعاقات سمعية
+  - key: options.disability_status.mobility_impairments
+    t: >
+      إعاقات حركية
+  - key: options.disability_status.cognitive_impairments
+    t: >
+      إعاقات إدراكية
+  - key: options.disability_status.not_listed
+    t: >
+      غير مدرج
+
+  # Form Factors
+  - key: options.form_factors.desktop
+    t: حاسوب مكتبي
+  - key: options.form_factors.keyboard_only
+    t: حاسوب مكتبي بلوحة مفاتيح فقط
+  - key: options.form_factors.smartphone
+    t: هاتف ذكي
+  - key: options.form_factors.feature_phone
+    t: هاتف تقليدي
+  - key: options.form_factors.tablet
+    t: جهاز لوحي
+  - key: options.form_factors.smart_watch
+    t: ساعة ذكية
+  - key: options.form_factors.tv
+    t: تلفاز
+  - key: options.form_factors.gaming_console
+    t: جهاز ألعاب
+  - key: options.form_factors.screen_reader
+    t: قارئ شاشة
+  - key: options.form_factors.print
+    t: مطبوعات
+  - key: options.form_factors.testing_tools
+    t: أدوات الاختبار (Axe وLighthouse وغيرها)
+  - key: options.form_factors.vision_simulator
+    t: محاكي اضطرابات الرؤية (مثل عمى الألوان)
+
+  # Industry Sector
+  - key: options.industry_sector.ecommerce
+    t: التجارة الإلكترونية والبيع بالتجزئة
+  - key: options.industry_sector.news_media
+    t: الأخبار والإعلام والتدوين
+  - key: options.industry_sector.healthcare
+    t: الرعاية الصحية
+  - key: options.industry_sector.finance
+    t: التمويل
+  - key: options.industry_sector.programming_tools
+    t: أدوات البرمجة والتقنية
+  - key: options.industry_sector.socialmedia
+    t: وسائل التواصل الاجتماعي
+  - key: options.industry_sector.marketing_tools
+    t: أدوات التسويق والمبيعات والتحليلات
+  - key: options.industry_sector.education
+    t: التعليم
+  - key: options.industry_sector.real_estate
+    t: العقارات
+  - key: options.industry_sector.government
+    t: الحكومة
+  - key: options.industry_sector.entertainment
+    t: الترفيه
+  - key: options.industry_sector.consulting
+    t: الاستشارات والخدمات
+  - key: options.industry_sector.travel
+    t: السفر
+  - key: options.industry_sector.insurance
+    t: التأمين
+  - key: options.industry_sector.logistics
+    t: الخدمات اللوجستية
+  - key: options.industry_sector.energy
+    t: الطاقة
+  - key: options.industry_sector.telecommunications
+    t: الاتصالات
+  - key: options.industry_sector.student
+    t: طالب
+  - key: options.industry_sector.hospitality
+    t: الضيافة
+  - key: options.industry_sector.cyber_security
+    t: الأمن السيبراني
+  - key: options.industry_sector.construction
+    t: الإنشاءات
+  - key: options.industry_sector.automotive
+    t: صناعة السيارات
+  - key: options.industry_sector.agriculture
+    t: الزراعة
+  - key: options.industry_sector.transport
+    t: النقل
+  - key: options.industry_sector.manufacturing
+    t: التصنيع
+
+  # tool evaluation
+  - key: options.tool_evaluation.learning_curve_documentation
+    t: التوثيق
+  - key: options.tool_evaluation.learning_curve_documentation.description
+    t: هل يسهل تعلمه و/أو يتوفر له توثيق جيد؟
+  - key: options.tool_evaluation.momentum_popularity
+    t: الرواج والزخم
+  - key: options.tool_evaluation.momentum_popularity.description
+    t: هل يحظى حاليًا باهتمام واسع؟
+  - key: options.tool_evaluation.user_base_size
+    t: حجم قاعدة المستخدمين
+  - key: options.tool_evaluation.user_base_size.description
+    t: هل هو خيار راسخ وله سجل طويل؟
+  - key: options.tool_evaluation.developer_experience_tooling
+    t: تجربة المطور
+  - key: options.tool_evaluation.developer_experience_tooling.description
+    t: هل يوفر أدوات جيدة للمطورين ومنظومة واسعة من الإضافات وما إلى ذلك؟
+  - key: options.tool_evaluation.performance_user_experience
+    t: تجربة المستخدم
+  - key: options.tool_evaluation.performance_user_experience.description
+    t: هل يساعدك على إنشاء تجارب مستخدم سلسة وعالية الأداء؟
+  - key: options.tool_evaluation.creator_team
+    t: المبتكر والفريق
+  - key: options.tool_evaluation.creator_team.description
+    t: هل يدعمه فريق معروف أو ممول جيدًا أو ذو خبرة؟
+  - key: options.tool_evaluation.accessibility_features
+    t: ميزات سهولة الوصول
+  - key: options.tool_evaluation.accessibility_features.description
+    t: هل يساعد على إنشاء تجارب يسهل الوصول إليها لجميع المستخدمين؟
+  - key: options.tool_evaluation.community_inclusivity
+    t: المجتمع والشمول
+  - key: options.tool_evaluation.community_inclusivity.description
+    t: هل يتمتع بمجتمع نشط ومرحب؟
+
+  # accessibility features
+  - key: options.accessibility_features.keyboard_navigation
+    t: التنقل باستخدام لوحة المفاتيح
+  - key: options.accessibility_features.compliant_contrast
+    t: تباين متوافق مع WCAG
+  - key: options.accessibility_features.focus_indicators
+    t: مؤشرات التركيز
+  - key: options.accessibility_features.skip_to_content_link
+    t: رابط الانتقال إلى المحتوى
+  - key: options.accessibility_features.color_themes
+    t: سمات الألوان (مثل الوضع الداكن والتباين العالي)
+  - key: options.accessibility_features.prefers_reduced_motion
+    t: تفضيل تقليل الحركة
+  - key: options.accessibility_features.alt_text
+    t: النصوص البديلة
+  - key: options.accessibility_features.semantic_markup
+    t: الترميز الدلالي
+  - key: options.accessibility_features.aria_attributes
+    t: سمات ARIA في HTML
+
+  # learning methods
+  - key: options.first_steps.books
+    t: الكتب
+  - key: options.first_steps.videos
+    t: مقاطع الفيديو وتسجيلات الشاشة
+  - key: options.first_steps.school
+    t: المدرسة والتعليم العالي
+  - key: options.first_steps.courses_free
+    t: دورات عبر الإنترنت (مجانية)
+  - key: options.first_steps.courses_paid
+    t: دورات عبر الإنترنت (مدفوعة)
+  - key: options.first_steps.podcasts
+    t: البودكاست
+  - key: options.first_steps.bootcamp
+    t: معسكر تدريبي للبرمجة
+  - key: options.first_steps.on_the_job
+    t: التدريب أثناء العمل
+  - key: options.first_steps.self_directed
+    t: التعلم الذاتي (Google وStack Overflow وغيرها)
+  - key: options.first_steps.mentoring
+    t: الإرشاد
+
+  # degree
+  - key: options.higher_education_degree.no_degree
+    t: لا
+  - key: options.higher_education_degree.yes_related
+    t: نعم، في مجال مرتبط بمهمنتي الحالية
+  - key: options.higher_education_degree.yes_unrelated
+    t: نعم، لكن في مجال غير مرتبط بمهنِتي الحالية
+
+  # degree (short versions)
+  - key: options.higher_education_degree.no_degree.short
+    t: لا
+  - key: options.higher_education_degree.yes_related.short
+    t: نعم، مجال مرتبط
+  - key: options.higher_education_degree.yes_unrelated.short
+    t: نعم، مجال غير مرتبط
+
+  # bracket
+  - key: options.bracket.round1
+    t: انتصارات الجولة 1
+  - key: options.bracket.round2
+    t: انتصارات الجولة 2
+  - key: options.bracket.round3
+    t: انتصارات الجولة 3
+  - key: options.bracket.combined
+    t: الإجمالي
+
+  # email_temporary (receive updates?)
+  - key: options.receive_notifications.yes
+    t: نعم، أرسلوا إليّ بريدًا إلكترونيًا عند نشر نتائج الاستطلاع
+
+  ###########################################################################
+  # Tools
+  ###########################################################################
+
+  - key: tools.other_tools
+    t: خيارات أخرى
+  - key: tools.other_tools.description
+    t: خيارات أخرى تستخدمها في هذا القسم ولم تُذكر في القائمة أعلاه.
+  - key: tools.happiness
+    t: السعادة العامة
+  - key: tools.happiness.description
+    t: >
+      على مقياس من واحد (غير سعيد جدًا) إلى خمسة (سعيد جدًا)، ما مدى رضاك
+      عن الوضع العام الحالي فيما يتعلق بالخيارات المذكورة أعلاه؟
+
+  ###########################################################################
+  # Demographics (About You/User Info)
+  ###########################################################################
+
+  # age
+  - key: user_info.age
+    t: العمر
+  - key: user_info.age.question
+    t: كم عمرك بالسنوات؟
+
+  # years of experience
+  - key: user_info.years_of_experience
+    t: سنوات الخبرة
+  - key: user_info.years_of_experience.question
+    t: منذ كم سنة تعمل أو تدرس في هذا المجال؟
+
+  # company size
+  - key: user_info.company_size
+    t: حجم الشركة
+  - key: user_info.company_size.question
+    t: ما حجم شركتك من حيث عدد الموظفين؟
+
+  # salary ranges
+  - key: user_info.yearly_salary
+    t: الراتب السنوي
+  - key: user_info.yearly_salary.question
+    t: راتبك السنوي بالدولار الأمريكي.
+
+  # job title
+  - key: user_info.job_title
+    t: المسمى الوظيفي
+  - key: user_info.job_title.question
+    t: كيف تعرّف نفسك للآخرين؟
+
+  # javascript proficiency
+  - key: user_info.javascript_proficiency
+    t: مستوى إتقان JavaScript
+  - key: user_info.javascript_proficiency.question
+    t: ما مستوى إتقانك لـ JavaScript؟
+
+  # css proficiency
+  - key: user_info.css_proficiency
+    t: مستوى إتقان CSS
+  - key: user_info.css_proficiency.question
+    t: ما مستوى إتقانك لـ CSS؟
+
+  # backend proficiency
+  - key: user_info.backend_proficiency
+    t: مستوى إتقان تطوير الواجهات الخلفية
+  - key: user_info.backend_proficiency.question
+    t: ما مستوى إتقانك لتطوير الواجهات الخلفية؟
+
+  # gender
+  - key: user_info.gender
+    t: النوع الاجتماعي
+  - key: user_info.gender.question
+    t: >
+      أيّ من الخيارات التالية يصفك، إن وُجد؟ يُرجى اختيار خيار واحد.
+  - key: user_info.gender.note
+    t: >
+      ندرك أن جمع بيانات التنوع ونشرها قد يكون أمرًا حساسًا،
+      لكننا نرى أهمية جمعها للمساعدة في قياس جهود الاستطلاع وتحسينها
+      من حيث الشمول والتمثيل.
+
+  # race & ethnicity
+  - key: user_info.race_ethnicity
+    t: العرق والأصل الإثني
+  - key: user_info.race_ethnicity.question
+    t: >
+      أيّ من الخيارات التالية يصفك، إن وُجد؟ يُرجى تحديد كل ما ينطبق.
+  - key: user_info.race_ethnicity.note
+    t: >
+      ندرك أن جمع بيانات التنوع ونشرها قد يكون أمرًا حساسًا،
+      لكننا نرى أهمية جمعها للمساعدة في قياس جهود الاستطلاع وتحسينها
+      من حيث الشمول والتمثيل.
+  - key: user_info.race_ethnicity.not_allowed
+    t: >
+      امتثالًا للسياسات المحلية، عُطّل جمع بيانات العرق أو الأصل الإثني
+        في بلدك أو منطقتك.
+
+  # disability status
+  - key: user_info.disability_status
+    t: حالة الإعاقة
+  - key: user_info.disability_status.question
+    t: >
+      أيّ من الإعاقات التالية لديك، إن وُجدت؟ يُرجى تحديد كل ما ينطبق.
+      ويشمل ذلك الإعاقات أو الإصابات المؤقتة.
+
+  # disability status (other)
+  - key: user_info.disability_status.others
+    t: إعاقات أخرى
+
+  # other info
+  - key: user_info.how_did_user_find_out_about_the_survey
+    t: كيف عرفت بهذا الاستطلاع؟
+  - key: user_info.email
+    t: بريدك الإلكتروني
+  - key: user_info.email.description
+    t: >
+      أكملت الاستطلاع دون الكشف عن هويتك. إذا رغبت، يمكنك إدخال بريدك الإلكتروني اختياريًا لتتمكن من الوصول إلى بياناتك لاحقًا، ولإعلامك عند نشر نتائج الاستطلاع.
+  - key: user_info.email.note
+    t: >
+      لا نخزن أي بيانات شخصية؛ لذا سنستخدم عنوان بريدك الإلكتروني لإنشاء معرّف مجهول وفريد، ثم نحذف العنوان نفسه من سجلاتنا.
+  - key: user_info.country
+    t: البلد أو المنطقة
+  - key: user_info.country.description
+    t: أين تقيم حاليًا؟
+
+  - key: user_info.github_username
+    t: اسم المستخدم على GitHub
+  - key: user_info.github_username.description
+    t: >
+      قد نستخدم أسماء المستخدمين على GitHub مستقبلًا للاطلاع على
+      المستودعات ومقارنتها بالمعلومات المتاحة للعامة.
+
+  - key: user_info.twitter_username
+    t: اسم المستخدم على Twitter
+  - key: user_info.twitter_username.description
+    t: >
+      قد نستخدم أسماء المستخدمين على Twitter مستقبلًا للاطلاع على
+      النشاط ومقارنته بالمعلومات المتاحة للعامة
+       (مثل قائمة الأشخاص الذين تتابعهم).
+
+  - key: user_info.industry_sector
+    t: قطاع العمل
+  - key: user_info.industry_sector.question
+    t: في أي قطاع أو قطاعات تعمل؟
+  - key: user_info.industry_sector.others
+    t: قطاعات عمل أخرى
+  - key: user_info.industry_sector.others.description
+    t: قطاعات العمل الأخرى التي تعمل بها ولم تُذكر أعلاه.
+
+  # degree
+  - key: user_info.higher_education_degree
+    t: شهادة تعليم عالٍ
+  - key: user_info.higher_education_degree.question
+    t: هل لديك شهادة تعليم عالٍ؟
+
+  # email_temporary (receive updates?)
+  - key: user_info.receive_notifications
+    t: هل ترغب في إعلامك عند نشر نتائج الاستطلاع؟
+  - key: user_info.receive_notifications.note
+    t: >
+      لا نخزن أي بيانات خاصة؛ لذا سنحذف عنوان بريدك الإلكتروني من سجلاتنا
+      بعد إرساله إلى مزود قائمتنا البريدية.
+
+  # how can we improve the survey?
+  - key: user_info.how_can_we_improve
+    t: كيف يمكننا تحسين هذا الاستطلاع؟
+
+  ###########################################################################
+  # Other Tools
+  ###########################################################################
+
+  - key: tools_others.libraries
+    t: مكتبات
+  - key: tools_others.libraries.question
+    t: ما المكتبات التي تستخدمها بانتظام؟
+  - key: tools_others.libraries.others
+    t: مكتبات أخرى
+  - key: tools_others.libraries.others.description
+    t: إجابات أخرى (حقل نصي حر).
+
+  - key: tools_others.text_editors
+    t: محررات النصوص
+  - key: tools_others.text_editors.question
+    t: ما محررات النصوص التي تستخدمها بانتظام؟
+  - key: tools_others.text_editors.others
+    t: محررات نصوص أخرى
+  - key: tools_others.text_editors.others.description
+    t: إجابات أخرى (حقل نصي حر).
+
+  - key: tools_others.utilities
+    t: أدوات مساعدة
+  - key: tools_others.utilities.question
+    t: ما الأدوات المساعدة أو الأدوات الأخرى التي تستخدمها بانتظام؟
+  - key: tools_others.utilities.others
+    t: أدوات مساعدة أخرى
+  - key: tools_others.utilities.others.description
+    t: أدوات مساعدة أخرى (حقل نصي حر).
+
+  - key: tools_others.browsers
+    t: المتصفحات
+  - key: tools_others.browsers.question
+    t: ما المتصفحات التي تعمل عليها عادةً أثناء التطوير الأولي؟
+  - key: tools_others.browsers.others
+    t: متصفحات أخرى
+  - key: tools_others.browsers.others.description
+    t: إجابات أخرى (حقل نصي حر).
+
+  - key: tools_others.build_tools
+    t: أدوات البناء
+  - key: tools_others.build_tools.question
+    t: ما أدوات البناء التي تستخدمها؟
+  - key: tools_others.build_tools.others
+    t: أدوات بناء أخرى
+  - key: tools_others.build_tools.others.description
+    t: إجابات أخرى (حقل نصي حر).
+
+  - key: tools_others.non_js_languages
+    t: لغات غير JavaScript
+  - key: tools_others.non_js_languages.question
+    t: ما لغات البرمجة الأخرى التي تستخدمها؟
+  - key: tools_others.non_js_languages.others
+    t: لغات أخرى
+  - key: tools_others.non_js_languages.others.description
+    t: إجابات أخرى (حقل نصي حر).
+
+  - key: tools_others.javascript_flavors
+    t: تنويعات JavaScript
+  - key: tools_others.javascript_flavors.question
+    t: اللغات التي تُترجم إلى JavaScript
+  - key: tools_others.javascript_flavors.others
+    t: تنويعات أخرى من JavaScript
+  - key: tools_others.javascript_flavors.others.description
+    t: إجابات أخرى (حقل نصي حر).
+
+  ###########################################################################
+  # Resources
+  ###########################################################################
+
+  # first steps
+  - key: resources.first_steps
+    t: طرق التعلم الأولى
+  - key: resources.first_steps.question
+    t: عندما بدأت، كيف تعلمت البرمجة أول مرة؟
+  - key: resources.first_steps.others
+    t: طرق تعلم أولى أخرى
+  - key: resources.first_steps.others.description
+    t: إجابات أخرى (حقل نصي حر).
+
+  # blogs & magazines
+  - key: resources.blogs_news_magazines
+    t: المدونات والمجلات
+  - key: resources.blogs_news_magazines.question
+    t: ما المدونات أو المجلات وغيرها التي تقرؤها؟
+  - key: resources.blogs_news_magazines.others
+    t: مدونات ومجلات أخرى
+  - key: resources.blogs_news_magazines.others.description
+    t: إجابات أخرى (حقل نصي حر).
+
+  # sites & courses
+  - key: resources.sites_courses
+    t: المواقع والدورات
+  - key: resources.sites_courses.question
+    t: ما المواقع أو الدورات وغيرها التي تستعين بها؟
+  - key: resources.sites_courses.others
+    t: مواقع ودورات أخرى
+  - key: resources.sites_courses.others.description
+    t: إجابات أخرى (حقل نصي حر).
+
+  # podcasts
+  - key: resources.podcasts
+    t: البودكاست
+  - key: resources.podcasts.question
+    t: ما برامج البودكاست المتعلقة بالبرمجة التي تستمع إليها؟
+  - key: resources.podcasts.others
+    t: برامج بودكاست أخرى
+  - key: resources.podcasts.others.description
+    t: إجابات أخرى (حقل نصي حر).
+
+  # people
+  - key: resources.people
+    t: أشخاص
+  - key: resources.people.description
+    t: أشخاص تقرأ لهم أو تتابعهم أو ترغب في إبرازهم.
+  - key: resources.people.others
+    t: أشخاص
+  - key: resources.people.others.description
+    t: >
+      أشخاص تقرأ لهم أو تتابعهم أو ترغب في إبراز أعمالهم
+      (حقل نصي حر، تُفصل الأسماء بفواصل).
+
+  # other surveys
+  - key: resources.other_surveys
+    t: استطلاعات أخرى
+  - key: resources.other_surveys.question
+    t: ما استطلاعات المطورين الأخرى التي تشارك فيها؟
+  - key: resources.other_surveys.others
+    t: استطلاعات إضافية لم تُذكر أعلاه

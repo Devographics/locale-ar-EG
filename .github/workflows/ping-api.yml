@@ -8,6 +8,8 @@ on:
 jobs:
   ping-api:
     runs-on: ubuntu-26.04
+    permissions:
+      contents: read
     timeout-minutes: 1
 
     steps:
