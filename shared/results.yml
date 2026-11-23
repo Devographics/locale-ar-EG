@@ -5,70 +5,129 @@ translations:
   ###########################################################################
 
   - key: results.start
-    t: بدء
+    t: ابدأ
 
   - key: page.previous
-    t: "السابق: "
+    t: "السابق:"
   - key: page.next
     t: "التالي:"
 
   - key: general.state_of_css_link
-    t: State of CSS
+    t: حالة CSS
 
   - key: general.netlify_link
-    t: مستضاف بواسطة <a href="{link}">Netlify</a>.
+    t: مستضاف على <a href="{link}">Netlify</a>.
 
   - key: general.completion_percentage
-    t: "نسبة الأكتمال :"
+    t: "نسبة الإكمال:"
 
   - key: sponsors.thanks
-    t: شكرا لشركائنا لدعمنا!
+    t: محتوى برعاية شركائنا.
 
   - key: sponsors.learn_more
-    t: تعرف علي المزيد.
+    t: اعرف المزيد.
+
+  - key: general.disclaimer.representation
+    t: >
+      وُزّع هذا الاستطلاع أساسًا عبر منصات الإنترنت، ولكل منها انحيازاتها الديموغرافية الخاصة. لذلك فهو يمثل تكوين هذه المجتمعات تحديدًا، وقد لا يمثل مجتمع المطورين عمومًا.
+
+  - key: results.ongoing_survey
+    t: مفتوح الآن
+
+  - key: general.other_editions
+    t: إصدارات أخرى
+  - key: general.previous_editions
+    t: الإصدارات السابقة
+  - key: general.other_surveys
+    t: استطلاعات أخرى
+  - key: general.all_editions
+    t: عرض المزيد…
+
+  - key: general.view_full_results
+    t: عرض النتائج كاملة »
+
+  ###########################################################################
+  # Tabs
+  ###########################################################################
 
   - key: tabs.all_respondents
-    t: كل المستجيبين
+    t: جميع المشاركين
   - key: tabs.main_answers
     t: الإجابات الرئيسية
   - key: tabs.other_answers
-    t: الإجابات الأخرى
+    t: إجابات أخرى
   - key: tabs.bracket_wins
-    t: Wins
+    t: الانتصارات
   - key: tabs.bracket_matchups
-    t: المطابقات
+    t: المواجهات
   - key: tabs.chart
-    t: رسم بياني
+    t: الرسم البياني
   - key: tabs.data
-    t: بيانات
+    t: البيانات
   - key: tabs.share
     t: مشاركة
   - key: tabs.debug
-    t: Debug
+    t: تصحيح الأخطاء
   - key: tabs.by_country
-    t: حسب الدولة
+    t: حسب البلد
   - key: tabs.by_experience
     t: حسب الخبرة
   - key: tabs.by_degree
-    t: حسب الدرجة العلمية
+    t: حسب المؤهل
   - key: tabs.by_salary
-    t: حسب الراتب
+    t: حسب الدخل
+  - key: tabs.by_salary_experience_fixed
+    t: مقابل الدخل (الخبرة نفسها)
   - key: tabs.by_gender
-    t: حسب النوع
+    t: حسب النوع الاجتماعي
+  - key: tabs.by_race_ethnicity
+    t: حسب العرق/الأصل الإثني
+  - key: tabs.low_vs_high_income
+    t: الدخل المنخفض مقابل المرتفع
+  - key: tabs.usa_vs_the_world
+    t: الولايات المتحدة مقابل العالم
+  - key: tabs.spanish
+    t: باللغة الإسبانية
+  - key: tabs.outreach
+    t: التواصل المجتمعي
+  - key: tabs.men_vs_non_men
+    t: الرجال مقابل غير الرجال
+  - key: tabs.white_vs_non_white
+    t: البيض مقابل غير البيض
+  - key: tabs.by_age
+    t: حسب العمر
+  - key: tabs.vs_age
+    t: مقابل العمر
+  - key: tabs.by_remote_work_policy
+    t: حسب العمل عن بُعد
+  - key: tabs.vs_job_happiness
+    t: مقابل الرضا الوظيفي
+  - key: tabs.developers_engineers
+    t: المطورون مقابل المهندسين
+  - key: tabs.by_os
+    t: حسب نظام التشغيل
+  - key: tabs.vs_company_size
+    t: مقابل حجم الشركة
+  - key: tabs.browsers_not_big_4
+    t: المتصفحات غير الرئيسية
 
-  ###########################################################################
-  # Block
-  ###########################################################################
-
-  - key: block.data_from
-    t: foo
+  - key: tabs.all_pain_points
+    t: جميع نقاط الصعوبة
+  - key: tabs.limitations
+    t: القيود
+  - key: tabs.browser_support
+    t: دعم المتصفح
+  - key: tabs.features
+    t: الميزات
+  - key: tabs.all_topics
+    t: جميع النقاط
 
   ###########################################################################
   # Options
   ###########################################################################
 
   - key: options.experience_ranking.satisfaction
-    t: الارتياح
+    t: الاستبقاء
   - key: options.experience_ranking.interest
     t: الاهتمام
   - key: options.experience_ranking.usage
@@ -76,73 +135,156 @@ translations:
   - key: options.experience_ranking.awareness
     t: الوعي
 
+  - key: ratios.interest
+    aliasFor: options.experience_ranking.interest
+  - key: ratios.usage
+    aliasFor: options.experience_ranking.usage
+  - key: ratios.awareness
+    aliasFor: options.experience_ranking.awareness
+  - key: ratios.retention
+    t: الرضا
+  - key: ratios.positivity
+    t: الإيجابية
+  - key: ratios.positivityRelative
+    t: الإيجابية
+  - key: ratios.appreciation
+    t: التقدير
+
+  - key: ratios.interest.description
+    t: >
+      نسبة **الانطباع الإيجابي** بين المشاركين الذين **سمعوا عن** عنصر وأبدوا انطباعًا عنه
+  - key: ratios.usage.description
+    t: >
+      نسبة المشاركين الذين **استخدموا** عنصرًا
+  - key: ratios.awareness.description
+    t: >
+      نسبة المشاركين الذين **سمعوا عن عنصر أو استخدموه**
+  - key: ratios.retention.description
+    t: >
+      نسبة **الانطباع الإيجابي** بين المشاركين الذين **استخدموا** عنصرًا وأبدوا انطباعًا عنه
+  - key: ratios.positivity.description
+    t: >
+      نسبة **الانطباع الإيجابي** بين جميع المشاركين
+  - key: ratios.positivityRelative.description
+    t: >
+      نسبة **الانطباع الإيجابي** بين جميع المشاركين الذين أبدوا انطباعًا، بصرف النظر عن خبرتهم بالعنصر.
+  - key: ratios.appreciation.description
+    t: >
+      الفرق بالنقاط المئوية بين **الاهتمام** (**الانطباع الإيجابي** لدى من “سمعوا به”) و**الرضا** (**الانطباع الإيجابي** لدى من “استخدموه”). بعبارة أخرى، مدى زيادة استمتاع المشاركين بالعنصر بعد استخدامه مقارنةً بسماعهم عنه فقط.
+
+  - key: modes.rank
+    t: الترتيب
+  - key: modes.value
+    t: القيمة
+  - key: modes.rank.description
+    t: الترتيب حسب المرتبة
+  - key: modes.value.description
+    t: الترتيب حسب القيمة
+
   - key: options.features_mode.grouped
-    t: مجمعة
+    t: مجمّع
   - key: options.features_mode.awareness_rank
     t: حسب الوعي
   - key: options.features_mode.usage_rank
     t: حسب الاستخدام
   - key: options.features_mode.usage_ratio_rank
-    t: حسب نسبة الاستخدام
+    t: حسب النسبة
 
   - key: options.features_simplified.know_it
-    t: اعرف عنها
+    t: أعرفه
   - key: options.features_simplified.used_it
-    t: لقد استخدمته
+    t: استخدمته
   - key: options.features_simplified.usage_ratio
-    t: نسبة الاستخدام
+    t: النسبة
 
   - key: options.quadrant.assess
-    t: ASSESS
+    t: قيّم
   - key: options.quadrant.assess.long
     t: |
-      ASSESS: Low usage, high satisfaction. Technologies worth keeping an eye on.
+      قيّم: استخدام منخفض واستبقاء مرتفع. تقنيات تستحق المتابعة.
   - key: options.quadrant.adopt
-    t: ADOPT
+    t: اعتمد
   - key: options.quadrant.adopt.long
     t: |
-      ADOPT: High usage, high satisfaction. Safe technologies to adopt.
+      اعتمد: استخدام واستبقاء مرتفعان. تقنيات آمنة للاعتماد عليها.
   - key: options.quadrant.avoid
-    t: AVOID
+    t: تجنب
   - key: options.quadrant.avoid.long
     t: |
-      AVOID: Low usage, low satisfaction. Technologies probably best avoided currently.
+      تجنب: استخدام واستبقاء منخفضان. من الأفضل غالبًا تجنب هذه التقنيات حاليًا.
   - key: options.quadrant.analyze
-    t: ANALYZE
+    t: حلّل
   - key: options.quadrant.analyze.long
     t: |
-      ANALYZE: High usage, low satisfaction. Reassess these technologies if you're currently using them.
+      حلّل: استخدام مرتفع واستبقاء منخفض. أعد تقييم هذه التقنيات إذا كنت تستخدمها حاليًا.
+
+  - key: options.quadrant.1
+    t: 1
+  - key: options.quadrant.1.long
+    t: |
+      1: استخدام منخفض واستبقاء مرتفع. تقنيات تستحق المتابعة.
+  - key: options.quadrant.2
+    t: 2
+  - key: options.quadrant.2.long
+    t: |
+      2: استخدام واستبقاء مرتفعان. تقنيات آمنة للاعتماد عليها.
+  - key: options.quadrant.3
+    t: 3
+  - key: options.quadrant.3.long
+    t: |
+      3: استخدام واستبقاء منخفضان. يصعب التوصية بهذه التقنيات.
+  - key: options.quadrant.4
+    t: 4
+  - key: options.quadrant.4.long
+    t: |
+      4: استخدام مرتفع واستبقاء منخفض. أعد تقييم هذه التقنيات إذا كنت تستخدمها حاليًا.
 
   - key: ranges.selector.years_of_experience
-    t: سنوات الخبرة
+    t: الخبرة
   - key: ranges.selector.yearly_salary
-    t: الراتب السنوي
+    t: الدخل
   - key: ranges.selector.company_size
     t: حجم الشركة
 
-  # other learning methods
-  - key: options.first_steps.blogs
-    t: المدونات
-  - key: options.first_steps.forums
-    t: المنتديات
-  - key: options.first_steps.view_source
-    t: مشاهدة المصدر
-
   # other disablities
   - key: options.disability_status_others.adhd
-    t: اضطراب انتباه و تركيز
+    t: اضطراب فرط الحركة وتشتت الانتباه
   - key: options.disability_status_others.autism
     t: التوحد
   - key: options.disability_status_others.glasses
-    t: نظارات
+    t: النظارات
   - key: options.disability_status_others.old
-    t: كبير السن
+    t: كبر السن
   - key: options.disability_status_others.back_pain
-    t: ألم في الظهر
+    t: ألم الظهر
   - key: options.disability_status_others.epilepsy
     t: الصرع
   - key: options.disability_status_others.aspergers
-    t: اضطراب اسبرجرز
+    t: متلازمة أسبرجر
+  - key: options.disability_status_others.color_blindness
+    t: عمى الألوان
+  - key: options.disability_status_others.anxiety
+    t: القلق
+  - key: options.disability_status_others.dyslexia
+    t: عسر القراءة
+  - key: options.disability_status_others.diabetes
+    t: السكري
+  - key: options.disability_status_others.carpal_tunnel
+    t: متلازمة النفق الرسغي
+  - key: options.disability_status_others.migraine
+    t: الشقيقة
+  - key: options.disability_status_others.speech_impairment
+    t: اضطراب النطق
+  - key: options.disability_status_others.ocd
+    t: الوسواس القهري
+  - key: options.disability_status_others.chronic_pain
+    t: ألم مزمن
+  - key: options.disability_status_others.chronic_fatigue
+    t: إرهاق مزمن
+  - key: options.disability_status_others.crohn
+    t: داء كرون
+  - key: options.disability_status_others.depression
+    t: الاكتئاب
 
   ###########################################################################
   # Sections
@@ -152,37 +294,53 @@ translations:
     t: مقدمة
 
   - key: sections.demographics.title
-    t: السكان
+    t: الخصائص الديموغرافية
 
   - key: sections.tshirt.title
-    t: تي شيرت
+    t: القميص
 
   - key: sections.technologies.title
     t: التقنيات
+
+  - key: sections.libraries.title
+    t: المكتبات
 
   - key: sections.conclusion.title
     t: الخاتمة
 
   - key: sections.about.title
-    t: عن الدراسة
+    t: نبذة
+
+  - key: sections.how_to_help.title
+    t: كيف تساعد
 
   - key: sections.support.title
-    t: أدعمنا
+    t: ادعمنا
   - key: sections.support.description
     t: >
-      We run this survey as a side project, but in order to make the
-      project sustainable we’re always looking for partners who can help support us,
-      either financially or by helping us spread the word.
-      If you think you could help in any way, please don’t hesitate to [get in touch](mailto:hello@stateofjs.com)!
-      أجرينا هذا الاستطلاع كمشروع جانبي ، ولكن من أجل جعل
-       المشروع مستدامًا ، نبحث دائمًا عن شركاء يمكنهم مساعدتنا في دعمنا ،
-        سواء من حيث المال أو من خلال مساعدتنا في نشر الكلمة.
-         إذا كنت تعتقد أنك يمكن أن تساعدنا بأي طريقة ، فلا تتردد في [الاتصال بنا](mailto:hello@stateofjs.com)!
+      لضمان استدامة إجراء الاستطلاع، نبحث دائمًا عن شركاء يمكنهم دعمنا،
+      ماليًا أو عبر مساعدتنا على نشر الخبر.
+      إذا كنت ترى أنك تستطيع المساعدة بأي طريقة، فلا تتردد في [التواصل معنا](mailto:hello@stateofjs.com)!
 
   - key: sections.awards.title
     t: الجوائز
   - key: sections.awards.description
-    t: Things that stood out this year.
+    t: أبرز ما ميّز هذا العام.
+
+  - key: sections.user_metadata.title
+    t: البيانات الوصفية
+    aliases:
+      - sections._user_metadata.title
+  - key: sections.user_metadata.description
+    t: بيانات وصفية إضافية جُمعت عن المشاركين.
+    aliases:
+      - sections._user_metadata.description
+
+  - key: sections.correlations.title
+    t: الارتباطات
+
+  - key: sections.correlations.description
+    t: استكشف ارتباط العوامل المختلفة بعضها ببعض.
 
   ###########################################################################
   # User Info
@@ -190,140 +348,421 @@ translations:
 
   - key: user_info.locale
     t: اللغة
+    aliases:
+      - user_metadata.locale
+      - _user_metadata.locale
   - key: user_info.locale.description
-    t: What language did respondents select to fill out the survey?
-  - key: user_info.locale.note
-    t: >
-      This data is collected automatically based on respondent's settings while taking the survey; 
-      Languages with fewer than 20 respondents not shown.
+    t: اللغة التي اختارها المشاركون للإجابة عن الاستطلاع.
+    aliases:
+      - user_metadata.locale.description
+      - _user_metadata.locale.description
 
   - key: user_info.source
-    t: Source
+    t: المصدر
+    aliases:
+      - user_metadata.source
+      - _user_metadata.source
   - key: user_info.source.description
-    t: How did respondents find out about the survey?
+    t: كيف عرف المشاركون بهذا الاستطلاع.
+    aliases:
+      - user_metadata.source.description
+      - _user_metadata.source.description
   - key: user_info.source.note
-    t: This data is a mix of self-reported answers, referrer data, and URL tracking data.
+    t: يُحدد مصدر المشاركين استنادًا إلى بيانات الإحالة وتتبع عناوين URL والإجابات التي يقدمونها بأنفسهم.
+    aliases:
+      - user_metadata.source.note
+      - _user_metadata.source.note
+
+  - key: options.source.other_answers
+    t: مصادر أخرى
+
+  - key: user_info.source_by_gender
+    t: المصدر حسب النوع الاجتماعي
+
+  - key: user_info.source_by_race_ethnicity
+    t: المصدر حسب العرق والأصل الإثني
 
   - key: user_info.gender_by_country
-    t: Gender By Country
+    t: النوع الاجتماعي حسب البلد
   - key: user_info.gender_by_country.description
-    t: Gender distribution by country with at least 100 respondents, sorted by "mean gender" (each gender key being assigned an integer value in ascending order) descending.
+    t: توزيع النوع الاجتماعي حسب البلدان التي تضم 100 مشارك على الأقل، مرتّبًا تنازليًا حسب «متوسط النوع الاجتماعي» (إذ تُسند قيمة عددية تصاعدية إلى كل فئة).
 
   - key: user_info.years_of_experience_by_salary
-    t: Years of Experience by Salary Range
+    t: سنوات الخبرة حسب نطاق الراتب
   - key: user_info.years_of_experience_by_salary.description
-    t: Years of experience by salary range.
+    t: سنوات الخبرة حسب نطاق الراتب.
+
+  - key: user_info.average_income_by_years_of_experience
+    t: متوسط الدخل حسب سنوات الخبرة
+  - key: user_info.average_income_by_years_of_experience.description
+    t: متوسط الدخل حسب سنوات الخبرة.
+
+  - key: user_info.average_income_by_company_size
+    t: متوسط الدخل حسب حجم الشركة
+  - key: user_info.average_income_by_company_size.description
+    t: متوسط الدخل حسب حجم الشركة.
 
   - key: user_info.yearly_salary_by_country
-    t: Salary By Country
+    t: الراتب حسب البلد
   - key: user_info.yearly_salary_by_country.description
-    t: Yearly salary distribution by country with at least 100 respondents, sorted by mean salary descending.
+    t: توزيع الرواتب السنوية حسب البلدان التي تضم 100 مشارك على الأقل، مرتّبًا تنازليًا حسب متوسط الراتب.
 
   - key: user_info.yearly_salary_by_degree
-    t: Salary By Higher Education Degree
+    t: الراتب حسب مؤهل التعليم العالي
   - key: user_info.yearly_salary_by_degree.description
-    t: Yearly salary distribution by higher education degree, sorted by mean salary descending.
+    t: توزيع الرواتب السنوية حسب مؤهل التعليم العالي، مرتبًا تنازليًا حسب متوسط الراتب.
 
   - key: user_info.yearly_salary_by_experience
-    t: Salary By Experience
+    t: الراتب حسب الخبرة
   - key: user_info.yearly_salary_by_experience.description
-    t: Yearly salary distribution by experience, sorted by mean salary descending.
+    t: توزيع الرواتب السنوية حسب الخبرة، مرتبًا تنازليًا حسب متوسط الراتب.
+
+  - key: user_info.yearly_salary_usa_vs_the_world
+    t: >
+      الدخل السنوي: الولايات المتحدة مقابل العالم
 
   - key: user_info.race_ethnicity_by_years_of_experience
-    t: Race & Ethnicity by Years of Experience
+    t: العرق والأصل الإثني حسب سنوات الخبرة
   - key: user_info.race_ethnicity_by_years_of_experience.description
-    t: Race & ethnicity distribution by years of experience, sorted by mean experience ascending.
+    t: توزيع العرق والأصل الإثني حسب سنوات الخبرة، مرتبًا تصاعديًا حسب متوسط الخبرة.
 
   - key: user_info.higher_education_degree_by_gender
-    t: Higher Education Degree by Gender
+    t: مؤهل التعليم العالي حسب النوع الاجتماعي
   - key: user_info.higher_education_degree_by_gender.description
-    t: Higher education degree distribution by gender.
+    t: توزيع مؤهلات التعليم العالي حسب النوع الاجتماعي.
 
-  ###########################################################################
-  # Locales
-  ###########################################################################
+  - key: user_metadata.past_surveys
+    t: الاستطلاعات السابقة
+    aliases:
+      - _user_metadata.past_surveys
+  - key: user_metadata.past_surveys.description
+    t: استطلاعات Devographics السابقة التي شارك فيها المستجيبون.
+    aliases:
+      - _user_metadata.past_surveys.description
+  - key: user_metadata.past_surveys.note
+    t: يظهر المشاركون الذين أجابوا كضيوف على أنهم «بلا إجابة».
+    aliases:
+      - _user_metadata.past_surveys.note
+  - key: options.past_surveys.no_answer
+    aliasFor: charts.no_data
+  - key: options.past_surveys.no_answer.short
+    aliasFor: charts.no_data
 
-  - key: options.locale.en-US
-    t: English
-  - key: options.locale.ca-ES
-    t: Catalan
-  - key: options.locale.es-ES
-    t: Spanish
-  - key: options.locale.ru-RU
-    t: Russian
-  - key: options.locale.fr-FR
-    t: French
-  - key: options.locale.zh-Hant
-    t: Chinese (Traditional)
-  - key: options.locale.de-DE
-    t: German
-  - key: options.locale.cs-CZ
-    t: Czech
-  - key: options.locale.pt-PT
-    t: Portuguese
-  - key: options.locale.it-IT
-    t: Italian
-  - key: options.locale.sv-SE
-    t: Swedish
-  - key: options.locale.tr-TR
-    t: Turkish
-  - key: options.locale.id-ID
-    t: Indonesian
-  - key: options.locale.hi-IN
-    t: Hindi
-  - key: options.locale.zh-Hans
-    t: Chinese (Simplified)
-  - key: options.locale.ja-JP
-    t: Japanese
-  - key: options.locale.ua-UA
-    t: Ukrainian
-  - key: options.locale.pl-PL
-    t: Polish
-  - key: options.locale.fa-IR
-    t: Farsi
-  - key: options.locale.nl-NL
-    t: Dutch
-  - key: options.locale.ko-KR
-    t: Korean
-  - key: options.locale.ro-RO
-    t: Romanian
+  - key: user_metadata.past_editions
+    t: الإصدارات السابقة
+    aliases:
+      - _user_metadata.past_editions
+  - key: user_metadata.past_editions.description
+    t: الإصدارات السابقة من هذا الاستطلاع التي شارك فيها المستجيبون.
+    aliases:
+      - _user_metadata.past_editions.description
+  - key: options.past_editions.no_answer
+    aliasFor: charts.no_data
+  - key: options.past_editions.no_answer.short
+    aliasFor: charts.no_data
+
+  # completion
+  - key: user_info.completion_stats
+    t: إكمال الاستطلاع
+    aliases:
+      - user_metadata.completion_stats
+      - _user_metadata.completion_stats
+  - key: user_info.completion_stats.description
+    t: نسبة الاستطلاع التي أكملها المشاركون.
+    aliases:
+      - user_metadata.completion_stats.description
+      - _user_metadata.completion_stats.description
+  - key: options.completion_stats.no_answer
+    aliasFor: charts.no_data
+  - key: options.completion_stats.no_answer.short
+    aliasFor: charts.no_data
+
+  # skipped
+  - key: user_info.skipped
+    t: الأسئلة التي تم تخطيها
+    aliases:
+      - _user_metadata.skipped
+  - key: user_info.skipped.description
+    t: الأسئلة الأكثر تخطيًا.
+    aliases:
+      - _user_metadata.skipped.description
+  - key: options.skipped.no_answer
+    aliasFor: charts.no_data
+  - key: options.skipped.no_answer.short
+    aliasFor: charts.no_data
+
+  - key: user_metadata.past_same_survey_count
+    t: عدد مرات المشاركة
+    aliases:
+      - _user_metadata.past_same_survey_count
+  - key: user_metadata.past_same_survey_count.description
+    t: عدد مرات مشاركة المستجيبين في الإصدارات السابقة من هذا الاستطلاع.
+    aliases:
+      - _user_metadata.past_same_survey_count.description
+  - key: user_metadata.past_same_survey_count.note
+    aliasFor: user_metadata.past_surveys.note
+  - key: options.past_same_survey_count.no_answer
+    aliasFor: charts.no_data
+  - key: options.past_same_survey_count.no_answer.short
+    aliasFor: charts.no_data
+
+  - key: user_metadata.created_at_date
+    t: الإجابات بمرور الوقت
+    aliases:
+      - _user_metadata.created_at_date
+  - key: user_metadata.created_at_date.description
+    t: توزيع زمني يوضح وقت جمع الإجابات.
+    aliases:
+      - _user_metadata.created_at_date.description
+  - key: options.created_at_date.no_answer
+    aliasFor: charts.no_data
+  - key: options.created_at_date.no_answer.short
+    aliasFor: charts.no_data
+
+  - key: user_metadata.authmode
+    t: المصادقة
+    aliases:
+      - _user_metadata.authmode
+  - key: user_metadata.authmode.description
+    t: ما إذا كان المشاركون قد سجلوا الدخول أو أتموا الاستطلاع كضيوف.
+    aliases:
+      - _user_metadata.authmode.description
+
+  - key: options.authmode.anonymous
+    t: حساب ضيف
+  - key: options.authmode.passwordless
+    t: حساب مسجل الدخول
+  - key: options.authmode.no_answer
+    aliasFor: charts.no_data
+  - key: options.authmode.no_answer.short
+    aliasFor: charts.no_data
+
+  - key: user_metadata.device
+    t: الجهاز
+    aliases:
+      - _user_metadata.device
+  - key: user_metadata.device.description
+    t: الجهاز المستخدم للمشاركة في الاستطلاع.
+    aliases:
+      - _user_metadata.device.description
+  - key: options.device.no_answer
+    aliasFor: charts.no_data
+  - key: options.device.no_answer.short
+    aliasFor: charts.no_data
+
+  - key: user_metadata.browser
+    t: المتصفح
+    aliases:
+      - _user_metadata.browser
+  - key: user_metadata.browser.description
+    t: المتصفح المستخدم للمشاركة في الاستطلاع.
+    aliases:
+      - _user_metadata.browser.description
+  - key: options.browser.no_answer
+    aliasFor: charts.no_data
+  - key: options.browser.no_answer.short
+    aliasFor: charts.no_data
+
+  - key: user_metadata.version
+    t: إصدار المتصفح
+    aliases:
+      - _user_metadata.version
+  - key: user_metadata.version.description
+    t: إصدار المتصفح المستخدم للمشاركة في الاستطلاع.
+    aliases:
+      - _user_metadata.version.description
+  - key: options.version.no_answer
+    aliasFor: charts.no_data
+  - key: options.version.no_answer.short
+    aliasFor: charts.no_data
+
+  - key: user_metadata.os
+    t: نظام التشغيل
+    aliases:
+      - _user_metadata.os
+  - key: user_metadata.os.description
+    t: إصدار نظام التشغيل المستخدم للمشاركة في الاستطلاع.
+    aliases:
+      - _user_metadata.os.description
+  - key: options.os.no_answer
+    aliasFor: charts.no_data
+  - key: options.os.no_answer.short
+    aliasFor: charts.no_data
+
+  # job_info
+
+  - key: options.job_title.ceo
+    t: مدير تنفيذي
+  - key: options.job_title.co_founder
+    t: مؤسس/شريك مؤسس
+  - key: options.job_title.consultant
+    t: مستشار
+  - key: options.job_title.student
+    t: طالب
+  - key: options.job_title.freelancer
+    t: مستقل
+  - key: options.job_title.cto
+    t: مدير تقني
+  - key: options.job_title.engineering_manager
+    t: مدير هندسي
+  - key: options.job_title.director_of_engineering
+    t: مدير الهندسة
+  - key: options.job_title.software_development_manager
+    t: مدير تطوير البرمجيات
+  # head
+  - key: options.job_title.head_of_engineering
+    t: رئيس قسم الهندسة
+  - key: options.job_title.head_of_development
+    t: رئيس قسم التطوير
+  - key: options.job_title.head_of_product
+    t: رئيس قسم المنتجات
+  # architect
+  - key: options.job_title.software_architect
+    t: معماري برمجيات
+  - key: options.job_title.solution_architect
+    t: معماري حلول
+  - key: options.job_title.frontend_architect
+    t: معماري واجهات أمامية
+  # lead
+  - key: options.job_title.technical_lead
+    t: قائد تقني
+  - key: options.job_title.frontend_lead
+    t: قائد واجهات أمامية
+  - key: options.job_title.lead
+    t: قائد فريق
+  # engineer
+  - key: options.job_title.software_engineer
+    t: مهندس برمجيات
+  - key: options.job_title.frontend_engineer
+    t: مهندس واجهات أمامية
+  - key: options.job_title.backend_engineer
+    t: مهندس واجهات خلفية
+  - key: options.job_title.fullstack_engineer
+    t: مهندس شامل
+  - key: options.job_title.junior_engineer
+    t: مهندس مبتدئ
+  - key: options.job_title.senior_engineer
+    t: مهندس أول
+  - key: options.job_title.lead_engineer
+    t: مهندس قائد
+  - key: options.job_title.systems_engineer
+    t: مهندس أنظمة
+  # developer
+  - key: options.job_title.developer
+    t: مطور
+  - key: options.job_title.frontend_developer
+    t: مطور واجهات أمامية
+  - key: options.job_title.backend_developer
+    t: مطور واجهات خلفية
+  - key: options.job_title.fullstack_developer
+    t: مطور شامل
+  - key: options.job_title.junior_developer
+    t: مطور مبتدئ
+  - key: options.job_title.senior_developer
+    t: مطور أول
+  - key: options.job_title.lead_developer
+    t: مطور قائد
+  # programmer
+  - key: options.job_title.programmer
+    t: مبرمج
+  - key: options.job_title.senior_programmer
+    t: مبرمج أول
+  # manager
+  - key: options.job_title.manager
+    t: مدير
+  - key: options.job_title.project_manager
+    t: مدير مشاريع
+  - key: options.job_title.product_manager
+    t: مدير منتجات
+  - key: options.job_title.computer_scientist
+    t: عالم حاسوب
+  - key: options.job_title.creative_technologist
+    t: تقني إبداعي
+  - key: options.job_title.data_scientist
+    t: عالم بيانات
+  - key: options.job_title.designer
+    t: مصمم
+  - key: options.job_title.head_of_design
+    t: رئيس قسم التصميم
+  - key: options.job_title.head_of_technology
+    t: رئيس قسم التقنية
+
+  - key: options.job_title.principal_engineer
+    t: مهندس رئيسي
 
   ###########################################################################
   # Features
   ###########################################################################
 
+  - key: features.pain_points
+    t: نقاط الصعوبة
+
+  - key: features.pain_points.default
+    t: أبرز نقاط الصعوبة عمومًا.
+
+  - key: features.pain_points.limitations
+    t: أبرز نقاط الصعوبة المتعلقة بتعذر تحقيق هدف بسبب قيود الميزة أو المنصة.
+
+  - key: features.pain_points.interop_issues
+    t: أبرز نقاط الصعوبة المتعلقة بضعف دعم المتصفحات أو غيره من حالات عدم التوافق بينها وبين المنصات.
+
+  - key: features.pain_points.features
+    t: أبرز نقاط الصعوبة المرتبطة بميزات محددة في منصة الويب.
+
+  - key: features.all_features
+    t: جميع الميزات
+
+  - key: features.features_ratios_over_time
+    t: تطور الميزات بمرور الوقت
+  - key: features.features_ratios_over_time.description
+    t: |
+      يعرض هذا الرسم البياني اتجاهات الميزات على مر السنين، إلى جانب ست نسب أساسية تستند بدورها إلى بيانات الخبرة والانطباع.
+
+      يمكنك بعد ذلك عزل مجموعة فرعية من الميزات، بتقييدها بقسم محدد، أو إبراز العناصر الأعلى أو الأدنى، أو حتى العناصر التي سجلت أكبر زيادة أو انخفاض سنوي في أي مقياس.
+
   - key: features.learn_more
-    t: Learn More (MDN)
+    t: اعرف المزيد (MDN)
   - key: features.mdn_link
     t: MDN
   - key: features.caniuse_link
-    t: Can I use
+    t: هل يمكنني استخدامه؟
   - key: features.specification_link
-    t: W3C Specification
+    t: مواصفات W3C
 
   # knowledge score
   - key: features.knowledge_score
-    t: Knowledge Score
+    t: درجة المعرفة
   - key: features.knowledge_score.description
-    t: Out of all the features mentioned in the survey, how many did the respondent know about?
+    t: كم ميزة من الميزات المذكورة في الاستطلاع كان المشارك يعرفها؟
 
   ###########################################################################
   # Tools & Methodologies
   ###########################################################################
 
+  - key: tools.all_items.experience
+    t: الخبرة والانطباع عن المكتبات
+    aliases:
+      - libraries.all_tools_experience
+
+  - key: tools.all_items.experience.short
+    aliasFor: tools.experience
+
   # general
   - key: tools.links
-    t: Links
+    t: الروابط
   - key: tools.github_link
     t: GitHub
   - key: tools.github_stars
-    t: stars
+    t: نجوم
   - key: tools.homepage_link
-    t: Homepage
+    t: الصفحة الرئيسية
   - key: tools.npm_link
     t: NPM
   - key: tools.technology
-    t: Technology
+    t: التقنية
+
+  - key: tools.all_sections
+    t: جميع الأقسام
 
   ###########################################################################
   # Blocks
@@ -331,445 +770,817 @@ translations:
 
   # heatmaps
   - key: blocks.tools_company_size_heatmap
-    t: Usage by Company Size
+    t: الاستخدام حسب حجم الشركة
   - key: blocks.tools_company_size_heatmap.description
     t: |
-      For each technology, how usage is spread among respondents
-      who picked different company size ranges.
+      يوضح توزيع استخدام كل تقنية بين المشاركين
+      الذين اختاروا نطاقات مختلفة لحجم الشركة.
 
   - key: blocks.tools_yearly_salary_heatmap
-    t: Usage by Salary Range
+    t: الاستخدام حسب نطاق الراتب
   - key: blocks.tools_yearly_salary_heatmap.description
     t: |
-      For each technology, how usage is spread among respondents
-      who picked different salary ranges.
+      يوضح توزيع استخدام كل تقنية بين المشاركين
+      الذين اختاروا نطاقات رواتب مختلفة.
 
   - key: blocks.tools_years_of_experience_heatmap
-    t: Usage by Years Of Experience
+    t: الاستخدام حسب سنوات الخبرة
   - key: blocks.tools_years_of_experience_heatmap.description
     t: |
-      For each technology, how usage is spread among respondents who picked different experience ranges.
-      Note that the experience in question here is general experience, not experience with a specific technology.
+      يوضح توزيع استخدام كل تقنية بين المشاركين الذين اختاروا نطاقات مختلفة للخبرة.
+      المقصود هنا هو الخبرة العامة، لا الخبرة بتقنية معينة.
 
   # tool
   - key: blocks.entity.homepage_link
-    t: Homepage
+    t: الصفحة الرئيسية
   - key: blocks.entity.github_link
     t: GitHub
+  - key: blocks.entity.twitter_link
+    t: Twitter
+  - key: blocks.entity.x_link
+    t: X
+  - key: blocks.entity.mastodon_link
+    t: Mastodon
+  - key: blocks.entity.blog_link
+    t: المدونة
+  - key: blocks.entity.rss_link
+    t: RSS
+  - key: blocks.entity.twitch_link
+    t: Twitch
+  - key: blocks.entity.npm_link
+    t: npm
+  - key: blocks.entity.youtube_link
+    t: YouTube
+  - key: blocks.entity.mdn_link
+    t: MDN
+  - key: blocks.entity.caniuse_link
+    t: CanIUse
+  - key: blocks.entity.threads_link
+    t: Threads
+  - key: blocks.entity.bluesky_link
+    t: Bluesky
+
+  - key: blocks.entity.steam_link
+    t: Steam
+  - key: blocks.entity.wikipedia_link
+    t: Wikipedia
+  - key: blocks.entity.amazon_link
+    t: اشترِ من Amazon
+  - key: blocks.entity.amazon_link.affiliate
+    t: رابط تسويق بالعمولة
+
+  # people
+  - key: blocks.people.name
+    t: الاسم
+  - key: blocks.people.social_links
+    t: الروابط
+  - key: blocks.people.responses
+    t: الإجابات
 
   # cardinality
   - key: blocks.all_sections_tools_cardinality_by_user
-    t: Technology Usage Cardinality
+    t: عدد التقنيات المستخدمة
   - key: blocks.all_sections_tools_cardinality_by_user.description
     t: >
-      For each section, which percentage of respondents **use** 
-      (defined as having answered “would use again”) one, two, three, etc. technologies.
-      The bottom-most bar represents the sum of all other bars.
+      لكل قسم، ما نسبة المشاركين الذين **يستخدمون**
+      تقنية واحدة أو اثنتين أو ثلاثًا، وهكذا (أي أجابوا بأنهم «سيستخدمونها مجددًا»).
+      يمثّل الشريط الأدنى مجموع جميع الأشرطة الأخرى.
 
   - key: blocks.cardinality.max
-    t: Most common answer
+    t: الإجابة الأكثر شيوعًا
 
   # tools arrows
   - key: blocks.tools_arrows
-    t: Changes Over Time
+    t: التغيرات بمرور الوقت
   - key: blocks.tools_arrows.description
     t: |
-      Each line goes from 2016 to 2020. A higher point means a technology has been used by more people,
-      and a point further to the right means more users want to learn it; or have used it and would use it again.
+      يمتد كل خط من أقدم سنة تتوفر عنها بيانات إلى أحدثها. تشير النقطة الأعلى إلى أن عددًا أكبر من الأشخاص استخدموا التقنية،
+      وتشير النقطة الأبعد إلى اليمين إلى أن مزيدًا من المستخدمين يرغبون في تعلمها أو استخدموها ويرغبون في استخدامها مجددًا.
   - key: blocks.tools_arrows.note
     t: |
-      - Some lines skip years.
-      - Technologies with only one year of data are not shown. 
-      - Velocity formula = (most recent opinion - oldest opinion) + (most recent usage) - (oldest usage)
-      - A positive velocity means the usage and/or positive opinions have increased over time.
+      - تتخطى بعض الخطوط سنوات.
+      - لا تظهر التقنيات التي تتوفر بياناتها لسنة واحدة فقط.
+      - معادلة سرعة التغير = (أحدث انطباع - أقدم انطباع) + (أحدث استخدام) - (أقدم استخدام)
+      - تعني سرعة التغير الإيجابية زيادة الاستخدام و/أو الانطباعات الإيجابية بمرور الوقت.
+
+  # tools_ratios_over_time
+
+  - key: tools.tools_ratios_over_time
+    t: النسب بمرور الوقت
+    aliases:
+      - libraries.tools_ratios_over_time
 
   # tools quadrant
   - key: blocks.tools_quadrant
-    t: Satisfaction vs Usage
+    t: الرضا مقابل الاستخدام
+    aliases:
+      - tools.scatterplot_overview
+      - libraries.scatterplot_overview
   - key: blocks.tools_quadrant.description
     t: |
-      This chart shows each technology's **satisfaction ratio** (or **interest ratio**) over its total **user count**.
-      It can be divided into four quadrants:
+      يعرض هذا الرسم البياني **نسبة استبقاء** كل تقنية مقارنةً بإجمالي **عدد مستخدميها**.
+      ويمكن تقسيمه إلى أربعة أرباع:
 
-        - **ASSESS**: Low usage, high satisfaction. Technologies worth keeping an eye on.
+        - **1**: استخدام منخفض واستبقاء مرتفع. تقنيات تستحق المتابعة.
 
-        - **ADOPT**: High usage, high satisfaction. Safe technologies to adopt.
+        - **2**: استخدام واستبقاء مرتفعان. تقنيات آمنة للاعتماد عليها.
 
-        - **AVOID**: Low usage, low satisfaction. Technologies probably best avoided currently.
+        - **3**: استخدام واستبقاء منخفضان. يصعب التوصية بهذه التقنيات حاليًا.
 
-        - **ANALYZE**: High usage, low satisfaction. Reassess these technologies if you're currently using them.
+        - **4**: استخدام مرتفع واستبقاء منخفض. أعد تقييم هذه التقنيات إذا كنت تستخدمها حاليًا.
 
   # category other tools
   - key: blocks.category_other_tools
-    t: Other Tools
+    t: أدوات أخرى
   - key: blocks.category_other_tools.description
-    t: Other tools in this category (freeform answers).
+    t: أدوات أخرى في هذه الفئة (إجابات حرة).
 
   # tool experience
   - key: blocks.tool_experience
-    t: "{name} Experience"
+    t: "الخبرة مع {name}"
   - key: blocks.tool_experience.description
-    t: Respondent's experience with {name}.
+    t: خبرة المشارك مع {name}.
 
   # tool positive/negative split ("marimekko" chart)
   - key: blocks.tools_experience_marimekko
-    t: Positive/Negative Split
+    t: توزيع الإيجابي والسلبي
   - key: blocks.tools_experience_marimekko.description
     t: |
-      This chart splits positive (“want to learn”, “would use again”) vs
-      negative (“not interested”, “would not use again”) experiences on
-      both sides of a central axis.
+      يقسم هذا الرسم البياني التجارب الإيجابية («أرغب في التعلم» و«سأستخدمه مجددًا»)
+      والسلبية («غير مهتم» و«لن أستخدمه مجددًا») على جانبي محور مركزي.
 
-      Bar thickness represents the number of respondents aware of a technology.
+      يمثّل سُمك الشريط عدد المشاركين الذين يعرفون التقنية.
+
+  # tool tier list
+  - key: blocks.tools_tier_list
+    t: تصنيف المكتبات
+  - key: blocks.tools_tier_list.note
+    t: |
+      يرتب هذا الرسم البياني المكتبات حسب نسبة استبقائها (نسبة المستخدمين
+      الذين سيستخدمون المكتبة مجددًا). لا يشمل المكتبات التي يستخدمها أقل من 10% من المشاركين.
+  - key: blocks.tools_tier_list.bounds
+    t: >
+      {lowerBound}% - {upperBound}%
 
   # tools section streams
   - key: blocks.tools_section_streams
-    t: Experience Over Time
+    t: الخبرة بمرور الوقت
   - key: blocks.tools_section_streams.description
     t: |
-      Overview of opinions on the technologies surveyed over time.
+      نظرة عامة على الآراء بشأن التقنيات المشمولة بالاستطلاع بمرور الوقت.
   - key: blocks.tools_section_streams.note
     t: |
-      Technologies with only one year of data are not included.
+      لا تُدرج التقنيات التي تتوفر بياناتها لسنة واحدة فقط.
 
   # tools section overview
   - key: blocks.tools_section_overview
-    t: Category Overview
+    t: نظرة عامة على الفئة
   - key: blocks.tools_section_overview.description
     t: |
-      Overview of opinions on the technologies surveyed. Darker segments represent positive opinions,
-      while lighter segments correspond to negative sentiment.
+      نظرة عامة على الآراء بشأن التقنيات المشمولة بالاستطلاع. تمثل الأجزاء الداكنة الآراء الإيجابية،
+      بينما تمثل الأجزاء الفاتحة الانطباعات السلبية.
 
   # tools experience ranking
   - key: blocks.tools_experience_ranking
-    t: Rankings
+    t: الترتيب بمرور الوقت
+  - key: blocks.tools_experience_ranking.percentages
+    t: النسب المئوية
+  - key: blocks.tools_experience_ranking.rankings
+    t: الترتيب
   - key: blocks.tools_experience_ranking.description
-    t: Satisfaction, interest, usage, and awareness ratio rankings.
+    t: ترتيب نسب الاستبقاء والاهتمام والاستخدام والوعي.
   - key: blocks.tools_experience_ranking.note
     t: |
-      Technologies with less than 10% awareness not included. Each ratio is defined as follows:
+      لا تُدرج التقنيات التي يقل الوعي بها عن 10%. تُعرّف كل نسبة كما يلي:
 
-      - Satisfaction: **would use again** / (**would use again** + **would not use again**)
-      - Interest: **want to learn** / (**want to learn** + **not interested**)
-      - Usage: (**would use again** + **would not use again**) / **total**
-      - Awareness: (**total** - **never heard**) / **total**
+      - الاستبقاء: **سيستخدمه مجددًا** / (**سيستخدمه مجددًا** + **لن يستخدمه مجددًا**)
+      - الاهتمام: **يرغب في التعلم** / (**يرغب في التعلم** + **غير مهتم**)
+      - الاستخدام: (**سيستخدمه مجددًا** + **لن يستخدمه مجددًا**) / **الإجمالي**
+      - الوعي: (**الإجمالي** - **لم يسمع به من قبل**) / **الإجمالي**
+
+  # tools experience linechart
+  - key: blocks.tools_experience_linechart
+    t: النسب بمرور الوقت
+  - key: blocks.tools_experience_linechart.description
+    t: نسب الاستبقاء والاهتمام والاستخدام والوعي بمرور الوقت.
+  - key: blocks.tools_experience_linechart.note
+    aliasFor: blocks.tools_experience_ranking.note
 
   # happiness
   - key: blocks.happiness
-    t: Overall Happiness
+    t: السعادة العامة
   - key: blocks.happiness.description
     t: |
-      On a scale of one (very unhappy) to five (very happy), how happy are developers
-      with the current overall state of this category?
+      على مقياس من واحد (غير سعيد جدًا) إلى خمسة (سعيد جدًا)، ما مدى رضا المطورين
+      عن الوضع العام الحالي لهذه الفئة؟
 
   # newsletter
   - key: blocks.newsletter.title
-    t: Stay Tuned
+    t: ابقَ على اطلاع
   - key: blocks.newsletter.description
     t: |
-      If you'd like to know when we release additional results or announce next year's edition,
-      just leave us your email below:
+      إذا رغبت في معرفة موعد نشر نتائج إضافية أو الإعلان عن إصدار العام المقبل،
+      فاترك بريدك الإلكتروني أدناه:
   - key: blocks.newsletter.email
-    t: Your Email
+    t: بريدك الإلكتروني
   - key: blocks.newsletter.submit
-    t: Notify Me
+    t: أبلغني
 
   # features_overview
   - key: blocks.features_overview
-    t: Usage Overview
+    t: نظرة عامة على الميزات
   - key: blocks.features_overview.description
     t: |
-      This chart presents the various adoption rates for all features, grouped by category.
+      يتناسب حجم **الدائرة الخارجية** مع إجمالي عدد المستخدمين الذين يعرفون الميزة (المشاركون الذين *يعرفونها* أو *استخدموها*)،
+      بينما تمثل **الدائرة الداخلية** من استخدموها بالفعل (*المشاركون الذين استخدموها*).
 
-      The size of the <span class="text-teal-darker text-bold">outer circle</span>
-      corresponds to the total number of users who know about a feature, while
-      the <span class="text-teal text-bold">inner one</span> represents those who have actually used it.
+      مرر المؤشر فوق كل دائرة للاطلاع على إحصاءات تفصيلية، بما فيها النسبة بين القيمتين.
 
-      Hover on each node to view detailed data along with an <span class="text-blackpink text-bold">overlay</span>
-      representing the total number of survey respondents.
+  # features_experience_linechart
+  - key: blocks.features_experience_linechart
+    t: النسب بمرور الوقت
+  - key: blocks.features_experience_linechart.description
+    t: نسب الاستخدام والوعي بمرور الوقت للميزات الأعلى تقييمًا.
+  - key: blocks.features_experience_linechart.note
+    t: |
+      تُعرّف كل نسبة كما يلي:
+
+      - الاستخدام: (**استخدموه**) / **الإجمالي**
+      - الوعي: (**استخدموه** + **يعرفونه**) / **الإجمالي**
+
+  - key: blocks.features_experience_ranking
+    t: الترتيب بمرور الوقت
+  - key: blocks.features_experience_ranking.description
+    t: ترتيب الاستخدام والوعي بمرور الوقت.
+  - key: blocks.features_experience_ranking.note
+    aliasFor: blocks.features_experience_linechart.note
 
   # export
   - key: export.export
-    t: Export
+    t: تصدير
   - key: export.title
-    t: Export data for {title}
+    t: تصدير بيانات {title}
   - key: export.nocsv
-    t: Sorry, CSV export is not available for this dataset.
+    t: عذرًا، لا يتوفر تصدير CSV لمجموعة البيانات هذه.
   - key: export.graphql
     t: >
-      You can copy paste this query into our <a target="_blank" rel="nofollow" href="https://graphiql.devographics.com/">public GraphQL API</a>.
+      يمكنك نسخ هذا الاستعلام ولصقه في <a target="_blank" rel="nofollow" href="https://graphiql.devographics.com/">واجهة GraphQL العامة</a>.
   - key: export.export_json
-    t: Get JSON Data
+    t: بيانات JSON
   - key: export.export_graphql
-    t: Get GraphQL Query
+    t: استعلام GraphQL
+  - key: export.export_filters
+    t: كود عوامل التصفية
+  - key: export.debug
+    t: تصحيح الأخطاء
 
   - key: custom_data.heading
-    t: Custom Chart
+    t: رسم بياني مخصص
   - key: custom_data.custom_data
-    t: Custom Data
+    t: بيانات مخصصة
   - key: custom_data.graphql_query
-    t: GraphQL Query
+    t: استعلام GraphQL
   - key: custom_data.chart_title
-    t: Custom Chart
+    t: رسم بياني مخصص
   - key: custom_data.submit
-    t: Submit
+    t: إرسال
+  - key: custom_data.empty_contents
+    t: يُرجى إدخال بيانات في حقل "البيانات المخصصة".
   - key: custom_data.edit_title
-    t: Edit Chart Title
+    t: تعديل عنوان الرسم البياني
   - key: custom_data.customize
-    t: Customize Data
+    t: تخصيص البيانات
   - key: custom_data.details
     t: >
 
-      1. Copy the contents of the "GraphQL Query" textfield and paste them into the middle panel of the [GraphQL API explorer](https://graphiql.stateofjs.com/).
+      1. انسخ محتوى حقل "استعلام GraphQL" والصقه في اللوحة الوسطى من [مستكشف GraphQL API](https://graphiql.stateofjs.com/).
 
-      2. Modify the query by adding one or more **filters** using the left-hand explorer sidebar. Make sure to keep the overall structure of the data the same.
+      2. عدّل الاستعلام بإضافة **عوامل تصفية** باستخدام الشريط الجانبي الأيسر للمستكشف. احرص على إبقاء بنية البيانات العامة كما هي.
 
-      3. In the explorer window, click the Play ("Execute Query") button.
+      3. في نافذة المستكشف، انقر زر التشغيل ("تنفيذ الاستعلام").
 
-      4. Copy the results of the modified query (`{ data: … }` ) into the "Custom Data" textfield above and submit.
+      4. انسخ نتائج الاستعلام المعدّل (`{ data: … }`) إلى حقل "البيانات المخصصة" أعلاه ثم أرسلها.
 
   # Tools usage variations
   - key: blocks.tools_usage_variations
-    t: Usage Variations
+    t: اختلافات الاستخدام
   - key: blocks.tools_usage_variations.description
     t: |
-      How different factors such as salary range, years of experience
-      or company size influence usage (participants who answered either
-      “would use again” or “would not use again”).
+      كيف تؤثر عوامل مختلفة، مثل نطاق الراتب وسنوات الخبرة
+      أو حجم الشركة، في الاستخدام (أي المشاركون الذين أجابوا
+      «سأستخدمه مجددًا» أو «لن أستخدمه مجددًا»).
 
-      The baseline represents the base usage for each tool and the offsets
-      correspond to the delta from this baseline in each range. Let's say
-      tool X has an overall usage of 10% across all respondents (the baseline),
-      then if the percentage of users having from 1 to 2 years of experience
-      using this tool is 13% (compared to all users having from 1 to 2 years
-      of experience), then we have a positive delta of +3%.
+      يمثل خط الأساس الاستخدام الأساسي لكل أداة، وتمثل الإزاحات الفرق عن خط الأساس في كل نطاق. لنفترض
+      أن الاستخدام الإجمالي للأداة X يبلغ 10% من جميع المشاركين (خط الأساس)،
+      وأن نسبة المستخدمين ذوي الخبرة من سنة إلى سنتين الذين يستخدمونها تبلغ 13%
+      (مقارنةً بجميع المستخدمين ضمن نطاق الخبرة نفسه)، عندها يكون الفرق إيجابيًا بمقدار +3%.
   - key: blocks.tools_usage_variations.note
     t: |
-      Please keep in mind that tools having a lower overall usage tends to vary more.
+      يُرجى ملاحظة أن الأدوات ذات الاستخدام الإجمالي الأقل تميل إلى تفاوت أكبر.
 
   # Recommended Resources
   - key: blocks.recommended_resources
-    t: Recommended Resources
+    t: موارد موصى بها
+  - key: blocks.recommended_events
+    t: فعاليات موصى بها
 
   # Brackets
   - key: tool_evaluation.tool_evaluation_wins
-    t: Library Evaluation Rankings
+    t: ترتيب تقييم المكتبات
   - key: tool_evaluation.tool_evaluation_wins.description
-    t: Which factors do you prioritize when evaluating a new library? Results are ranked by number of tournament rounds won.
+    t: ما العوامل التي تعطيها الأولوية عند تقييم مكتبة جديدة؟ رُتبت النتائج حسب عدد جولات البطولة التي فاز بها كل عامل.
 
   - key: tool_evaluation.tool_evaluation_matchups
-    t: Library Evaluation Rankings (Matchups)
+    t: ترتيب تقييم المكتبات (المواجهات)
   - key: tool_evaluation.tool_evaluation_matchups.description
-    t: Which factors do you prioritize when evaluating a new library? Percentage of rounds won by left-hand item against top-side item.
+    t: ما العوامل التي تعطيها الأولوية عند تقييم مكتبة جديدة؟ نسبة الجولات التي فاز فيها العنصر الأيسر على العنصر العلوي.
 
-  - key: css_pain_points.css_pain_points_wins
-    t: CSS Pain Points
-  - key: css_pain_points.css_pain_points_wins.description
-    t: Which aspect of CSS do you struggle with the most? Results are ranked by number of tournament rounds won.
+  # other
+  - key: blocks.freeform
+    t: نص حر
+  - key: blocks.multiple
+    t: متعدد
+  - key: blocks.option_limit
+    t: محدود
 
-  - key: css_pain_points.css_pain_points_matchups
-    t: CSS Pain Points (Matchups)
-  - key: css_pain_points.css_pain_points_matchups.description
-    t: Which aspect of CSS do you struggle with the most? Percentage of rounds won by left-hand item against top-side item.
-
-  - key: css_missing_features.css_missing_features_wins
-    t: Features Missing From CSS
-  - key: css_missing_features.css_missing_features_wins.description
-    t: Which feature would you most like to be able to use in CSS today? Results are ranked by number of tournament rounds won.
-
-  - key: css_missing_features.css_missing_features_matchups
-    t: Features Missing From CSS (Matchups)
-  - key: css_missing_features.css_missing_features_matchups.description
-    t: Which feature would you most like to be able to use in CSS today? Percentage of rounds won by left-hand item against top-side item.
+  # Reading List
+  - key: features.reading_list
+    t: قائمة القراءة
+  - key: features.reading_list.note
+    t: >
+      عدد المرات التي أُضيف فيها كل عنصر إلى قائمة قراءة المشاركين، وهي ميزة تتيح لهم
+      معرفة المزيد عن نقاط محددة أثناء إكمال الاستطلاع.
 
   ###########################################################################
   # Charts
   ###########################################################################
 
   - key: chart_units.respondents
-    t: "{count} question respondents ({percentage}% completion percentage)"
+    t: "**{count}** ممن أجابوا عن السؤال من أصل **{total}** مشاركًا في الاستطلاع (**{percentage}%** نسبة الإكمال)"
   - key: chart_units.percentage
-    t: Percents
+    t: النسب المئوية
   - key: chart_units.count
-    t: Count
+    t: العدد
   - key: chart_units.percentage_question
-    t: "% of question respondents"
+    t: "% من المشاركين الذين أجابوا عن السؤال"
+  - key: chart_units.percentageQuestion
+    aliasFor: chart_units.percentage_question
   - key: chart_units.percentage_survey
-    t: "% of survey respondents"
+    t: "% من المشاركين في الاستطلاع"
+  - key: chart_units.percentageSurvey
+    aliasFor: chart_units.percentage_survey
+  - key: chart_units.percentage_bucket
+    t: النسب المئوية
+  - key: chart_units.percentageBucket
+    aliasFor: chart_units.percentage_bucket
+  - key: chart_units.medianByFacet
+    t: الوسيط
+  - key: chart_units.average
+    t: المتوسط
+  - key: chart_units.averageByFacet
+    aliasFor: chart_units.average
+
+  - key: chart_units.facetCounts
+    t: الأعداد
+
+  - key: chart_units.percentilesByFacet
+    t: المئينات
 
   - key: charts.average
-    t: Average
+    t: متوسط {axis}
   - key: charts.mean
-    t: Mean
-  - key: charts.overall
-    t: Overall
+    t: الوسط الحسابي
   - key: charts.all_respondents
-    t: All Respondents
+    t: جميع المشاركين
+  - key: charts.overall
+    aliasFor: charts.all_respondents
   - key: charts.facet_responses
-    t: "{count} responses"
+    t: "{count} إجابة"
+  - key: charts.facet_respondents
+    t: "({count} مشارك)"
+  - key: charts.facet_detail
+    t: "({count} من أصل {totalRespondents} مشاركًا)"
+  - key: charts.facet_detail_answers
+    t: "({count} من أصل {totalAnswers} إجابة)"
+
+  - key: charts.average.used
+    t: متوسط «استخدموه»
+  - key: charts.average.positive
+    t: متوسط «إيجابي»
+  - key: charts.average.negative
+    t: متوسط «سلبي»
+
+  - key: charts.nth_percentile
+    t: "المئين {percentile}"
+  - key: charts.nth_percentile_value
+    t: "المئين {percentile}: {value}"
+
+  - key: charts.average_value
+    t: "المتوسط: {value}"
+
+  - key: charts.freeform_data_indicator
+    t: (إجابات حرة)
+  - key: charts.insufficient_data
+    t: بيانات غير كافية
+  - key: charts.insufficient_data.description
+    t: لا تُدرج في النتائج الشرائح التي تضم أقل من {value} مشاركًا.
 
   - key: charts.axis_legends.years_of_experience
-    t: Years of Experience
+    t: سنوات الخبرة
   - key: charts.axis_legends.yearly_salary
-    t: Salary Range (USD)
+    t: نطاق الراتب (بالدولار الأمريكي)
   - key: charts.axis_legends.company_size
-    t: Number of Employees
+    t: حجم المؤسسة
   - key: charts.axis_legends.backend_proficiency
-    t: Back-end Proficiency
+    t: إتقان تطوير الواجهات الخلفية
   - key: charts.axis_legends.css_proficiency
-    t: CSS Proficiency
+    t: إتقان CSS
   - key: charts.axis_legends.javascript_proficiency
-    t: JavaScript Proficiency
+    t: إتقان JavaScript
   - key: charts.axis_legends.users_percentage
-    t: Percentage of Users
+    t: نسبة المستخدمين
   - key: charts.axis_legends.users_count
-    t: User Count
+    t: عدد المستخدمين
+  - key: charts.axis_legends.users_average
+    t: متوسط {axis}
+  - key: charts.axis_legends.average_value
+    t: متوسط {axis}
   - key: charts.axis_legends.interest_percentage
-    t: Interest %
+    t: نسبة الاهتمام
   - key: charts.axis_legends.satisfaction_percentage
-    t: Satisfaction %
+    t: نسبة الرضا
+  - key: charts.axis_legends.retention_percentage
+    t: نسبة الرضا
   - key: charts.axis_legends.usage_percentage
-    t: Usage %
+    t: نسبة الاستخدام
   - key: charts.axis_legends.awareness_percentage
-    t: Awareness %
+    t: نسبة الوعي
+  - key: charts.axis_legends.r2
+    t: |
+      R²: {r2}
+  - key: charts.axis_legends.r2.description
+    t: |
+      يقيس R² (معامل التحديد) مدى قرب النقاط من خط الاتجاه، من 0 (لا توجد علاقة) إلى 1 (تطابق خطي مثالي).
+
+  - key: chart_units.interest_percentage
+    aliasFor: charts.axis_legends.interest_percentage
+  - key: chart_units.satisfaction_percentage
+    aliasFor: charts.axis_legends.satisfaction_percentage
+  - key: chart_units.usage_percentage
+    aliasFor: charts.axis_legends.usage_percentage
+  - key: chart_units.awareness_percentage
+    aliasFor: charts.axis_legends.awareness_percentage
+
   - key: charts.axis_legends.happiness
-    t: Happiness
+    t: السعادة
   - key: charts.axis_legends.knowledge_score
-    t: Known Features
+    t: الميزات المعروفة
   - key: charts.axis_legends.frequency
-    t: Frequency
+    t: التكرار
   - key: charts.axis_legends.age
-    t: Age
+    t: العمر
   - key: charts.axis_legends.users_percentage_survey
-    t: "% of survey respondents"
+    t: "% من المشاركين في الاستطلاع"
+  - key: charts.axis_legends.users_percentageSurvey
+    aliasFor: charts.axis_legends.users_percentage_survey
   - key: charts.axis_legends.users_percentage_question
-    t: "% of question respondents"
+    t: "% من المشاركين الذين أجابوا عن السؤال"
+  - key: charts.axis_legends.users_percentageQuestion
+    aliasFor: charts.axis_legends.users_percentage_question
+  - key: charts.axis_legends.users_percentage_bucket
+    t: "% من المشاركين في الفئة"
+  - key: charts.axis_legends.users_percentageBucket
+    aliasFor: charts.axis_legends.users_percentage_bucket
+
+  - key: charts.axis_legends.users_averageByFacet
+    aliasFor: chart_units.average
+  - key: charts.axis_legends.users_percentilesByFacet
+    aliasFor: chart_units.percentilesByFacet
 
   - key: charts.ranges_multiple_diverging_lines.baseline
-    t: baseline
+    t: خط الأساس
   - key: charts.ranges_multiple_diverging_lines.positive_offset
-    t: positive offset
+    t: إزاحة إيجابية
   - key: charts.ranges_multiple_diverging_lines.negative_offset
-    t: negative offset
+    t: إزاحة سلبية
 
   - key: charts.tools_arrows.negative_opinion
-    t: Negative opinions
+    t: آراء سلبية
   - key: charts.tools_arrows.positive_opinion
-    t: Positive opinions
+    t: آراء إيجابية
   - key: charts.tools_arrows.have_not_used
-    t: Have not used
+    t: لم يستخدموه
   - key: charts.tools_arrows.have_used
-    t: Have used
+    t: استخدموه
   - key: charts.tools_arrows.x_axis
-    t: X-axis range
+    t: نطاق المحور الأفقي
   - key: charts.tools_arrows.y_axis
-    t: Y-axis range
+    t: نطاق المحور الرأسي
   - key: charts.tools_arrows.legend
-    t: Legend
+    t: مفتاح الرسم
   - key: charts.tools_arrows.velocity
-    t: Velocity
+    t: سرعة التغير
   - key: charts.tools_arrows.velocity_positive
-    t: Overall more positive opinions and/or usage over time
+    t: زيادة عامة في الآراء الإيجابية و/أو الاستخدام بمرور الوقت
   - key: charts.tools_arrows.velocity_negative
-    t: Overall more negative opinions and/or less usage over time
+    t: زيادة عامة في الآراء السلبية و/أو انخفاض الاستخدام بمرور الوقت
   - key: charts.tools_arrows.opinions_positive
-    t: Mostly positive opinions
+    t: آراء إيجابية في الغالب
   - key: charts.tools_arrows.opinions_negative
-    t: Mostly negative opinions
+    t: آراء سلبية في الغالب
   - key: charts.tools_arrows.low_usage
-    t: Low usage
+    t: استخدام منخفض
   - key: charts.tools_arrows.high_usage
-    t: High usage
+    t: استخدام مرتفع
   - key: charts.tools_arrows.popularity_positive
-    t: Rising popularity
-  - key: charts.tools_arrows.negative
-    t: Falling popularity
+    t: تزايد الشعبية
+  - key: charts.tools_arrows.popularity_negative
+    t: تراجع الشعبية
 
-  - key: options.features_categories.layout
-    aliasFor: sections.layout.title
-  - key: options.features_categories.shapes_graphics
-    aliasFor: sections.shapes_graphics.title
-  - key: options.features_categories.interactions
-    aliasFor: sections.interactions.title
-  - key: options.features_categories.typography
-    aliasFor: sections.typography.title
-  - key: options.features_categories.animations_transforms
-    aliasFor: sections.animations_transforms.title
-  - key: options.features_categories.accessibility
-    aliasFor: sections.accessibility.title
-  - key: options.features_categories.media_queries
-    aliasFor: sections.media_queries.title
-  - key: options.features_categories.other_features
-    aliasFor: sections.other_features.title
+  - key: charts.no_answer
+    t: بلا إجابة
+    aliases:
+      - charts.no_answer.short
+
+  - key: charts.no_data
+    t: لا توجد بيانات
+    aliases:
+      - charts.no_data.short
+
+  - key: charts.no_match
+    t: إجابات غير مطابقة
+  - key: charts.no_match.short
+    t: إجابات غير مطابقة
+  - key: charts.no_match.description
+    t: إجابات حرة تعذرت مطابقتها بنقطة بيانات محددة
+
+  - key: charts.cutoff_answers
+    t: الإجابات المستبعدة
+  - key: charts.cutoff_answers.short
+    t: الإجابات المستبعدة
+  - key: charts.cutoff_answers.description
+    t: مجموعة إجمالية للعناصر التي حصل كل منها على أقل من **{cutoff}** إجابة
+
+  - key: charts.other_answers
+    t: إجابات أخرى
+  - key: charts.other_answers.short
+    t: إجابات أخرى
+  - key: charts.other_answers.description
+    t: إجابات أخرى غير مدرجة أعلاه
+
+  - key: charts.overlimit_answers
+    t: تجاوزت الحد
+  - key: charts.overlimit_answers.short
+    t: تجاوزت الحد
+  - key: charts.overlimit_answers.description
+    t: العناصر التي جاء ترتيبها بعد الحد المحدد البالغ {limit} صفًا.
+
+  - key: charts.freeform_data
+    t: بيانات حرة
+  - key: charts.freeform_data.description
+    t: كتب المشاركون إجاباتهم في حقل نصي مفتوح
+
+  - key: charts.multiple_data
+    t: اختيار متعدد
+  - key: charts.multiple_data.description
+    t: أمكن للمشاركين تقديم أكثر من إجابة عن هذا السؤال
+
+  - key: charts.option_limit
+    t: حد الخيارات
+  - key: charts.option_limit.description
+    t: اقتصر اختيار المشاركين لهذا السؤال على {limit} خيارات
+
+  - key: charts.tick.links
+    t: الروابط
+
+  - key: charts.resources
+    t: روابط مفيدة
+
+  - key: charts.facets_clarification
+    t: >
+      تجدر الإشارة إلى أن النسب المئوية أعلاه تتأثر بعدد المشاركين
+      المنتمين إجمالًا إلى كل مجموعة.
+
+  - key: charts.average_clarification
+    t: >
+      تُحسب المتوسطات باستخدام نقطة المنتصف في كل نطاق كقيمة تقريبية ممثلة له.
+
+  - key: charts.share
+    t: مشاركة الرسم البياني…
+  - key: charts.export
+    t: تصدير البيانات…
+
+  - key: charts.mode
+    t: >
+      الوضع:
+  - key: charts.view
+    t: >
+      العرض:
+
+  - key: charts.no_data
+    t: عذرًا، لم يُرجع هذا الاستعلام أي بيانات.
+
+  - key: charts.show_neutral_sentiment
+    t: إظهار المحايد
+
+  # other bucket
+  - key: charts.other_bucket.previous_edition.percents.positive
+    t: |
+      أعلى بنسبة +{value}% مقارنةً بالاستطلاع السابق
+  - key: charts.other_bucket.previous_edition.percents.negative
+    t: |
+      أقل بنسبة -{value}% مقارنةً بالاستطلاع السابق
+  - key: charts.other_bucket.different_serie.percents.positive
+    t: |
+      أعلى بنسبة +{value}% مقارنةً بالرسم البياني الأيسر
+  - key: charts.other_bucket.different_serie.percents.negative
+    t: |
+      أقل بنسبة -{value}% مقارنةً بالرسم البياني الأيسر
+  - key: charts.other_bucket.ranks.positive
+    t: |
+      تقدّم {value} مرتبة
+  - key: charts.other_bucket.ranks.negative
+    t: |
+      تراجع {value} مرتبة
+
+  # subsets filtering
+
+  - key: charts.subsets.filters
+    t: |
+      عوامل التصفية:
+
+  - key: charts.subsets.presets
+    t: |
+      إعدادات مسبقة:
+
+  - key: charts.subsets.top_items
+    t: العناصر الأعلى
+  - key: charts.subsets.top_items.description
+    t: إبراز العناصر التي حققت أعلى النتائج هذا العام
+
+  - key: charts.subsets.bottom_items
+    t: العناصر الأدنى
+  - key: charts.subsets.bottom_items.description
+    t: إبراز العناصر التي حققت أدنى النتائج هذا العام
+
+  - key: charts.subsets.largest_increase
+    t: أكبر زيادة
+  - key: charts.subsets.largest_increase.description
+    t: إبراز العناصر التي شهدت أكبر زيادة خلال العام الماضي
+
+  - key: charts.subsets.largest_decrease
+    t: أكبر انخفاض
+  - key: charts.subsets.largest_decrease.description
+    t: إبراز العناصر التي شهدت أكبر انخفاض خلال العام الماضي
+
+  - key: charts.subsets.sections
+    t: |
+      الأقسام:
+
+  - key: charts.nested_toggle
+    t: |
+      العرض:
+  - key: charts.nested_toggle.nested
+    t: |
+      متداخل
+  - key: charts.nested_toggle.flat
+    t: |
+      مسطح
+
+  ###########################################################################
+  # Comments
+  ###########################################################################
+
+  - key: comments.comments
+    t: التعليقات
+  - key: comments.comments_for
+    t: "تعليقات على «{name}»"
+  - key: comments.description
+    t: |
+      أُرسلت هذه التعليقات ضمن الاستطلاع
+      عبر حقل نصي اختياري بجوار السؤال الرئيسي.
+  - key: comments.report_abuse
+    t: الإبلاغ عن هذا التعليق
+  - key: comments.share
+    t: مشاركة التعليق
+
+  - key: comments.filter.experience
+    t: "الخبرة: "
+  - key: comments.filter.sentiment
+    t: "الانطباع: "
+  - key: comments.filter.all
+    t: الكل
+  - key: comments.filter.clear
+    t: مسح
+  - key: comments.filter.no_items
+    t: لا توجد عناصر.
+
+  - key: comment.like.description
+    t: أعجبني هذا التعليق
+
+  - key: comments.filter.show
+    t: إظهار عوامل التصفية
+  - key: comments.filter.hide
+    t: إخفاء عوامل التصفية
+
+  - key: comments.filter.by_keyword
+    t: أبرز الكلمات المفتاحية
+  - key: comments.filter.by_keyword.description
+    t: التصفية حسب أبرز الكلمات المفتاحية المذكورة.
+  - key: comments.filter.by_token
+    t: نقاط أخرى
+  - key: comments.filter.by_token.description
+    t: التصفية حسب النقاط الأخرى المذكورة.
+  - key: comments.filter.by_search
+    t: بحث
+  - key: comments.filter.by_search.description
+    t: البحث باستخدام كلمة مفتاحية مخصصة.
+  - key: comments.filter.by_answer
+    t: الإجابة المحددة
+  - key: comments.filter.by_answer.description
+    t: التصفية حسب الإجابة أو الإجابات التي اختارها المشاركون.
+
+  - key: comments.filter.by_experience
+    t: الخبرة
+  - key: comments.filter.by_experience.description
+    t: التصفية حسب خبرة المشارك مع العنصر الرئيسي.
+  - key: comments.filter.by_sentiment
+    t: الانطباع
+  - key: comments.filter.by_sentiment.description
+    t: التصفية حسب انطباعات المشارك عن العنصر الرئيسي.
+
+  - key: comments.download
+    t: تنزيل JSON
+    aliases:
+      - comments.filter.by_download
+
+  - key: comments.download.description
+    t: تنزيل ملف JSON يتضمن هذه العناصر.
+    aliases:
+      - comments.filter.by_download.description
 
   ###########################################################################
   # Sharing
   ###########################################################################
 
   - key: share.share
-    t: Share
+    t: مشاركة
   - key: share.options
-    t: Share Options
+    t: خيارات المشاركة
   - key: share.preview
-    t: Social media preview
+    t: معاينة وسائل التواصل الاجتماعي
   - key: share.site.title
-    t: Discover the {siteTitle} results
+    t: اكتشف نتائج {siteTitle}
   - key: share.site.twitter_text
-    t: "Discover the {siteTitle} results {link}"
+    t: "اكتشف نتائج {siteTitle} {link}"
+  - key: share.site.x_text
+    t: "اكتشف نتائج {siteTitle} {link}"
   - key: share.site.subject
-    t: "{siteTitle} Survey Results"
+    t: "نتائج استطلاع {siteTitle}"
   - key: share.site.body
-    t: "Here are some interesting survey results: {link}"
+    t: "إليك بعض نتائج الاستطلاع المثيرة للاهتمام: {link}"
   - key: share.block.twitter_text
-    t: "{hashtag} {year}: {title} {link}"
+    t: "{siteTitle}: {title}"
   - key: share.block.subject
-    t: "{siteTitle} Survey Results"
+    t: "نتائج استطلاع {siteTitle}"
   - key: share.block.body
-    t: "Here are some interesting survey results ({title}): {link}"
-  - key: share.twitter
-    t: Share on Twitter
-  - key: share.facebook
-    t: Share on Facebook
-  - key: share.linkedin
-    t: Share on LinkedIn
-  - key: share.email
-    t: Share by email
-  - key: share.image
-    t: Get image
-  - key: share.link
-    t: Link to section
-  - key: share.url
-    t: Get link
+    t: "إليك بعض نتائج الاستطلاع المثيرة للاهتمام ({title}): {link}"
   - key: share.close
-    t: Close
+    t: إغلاق
 
   ###########################################################################
   # Views
   ###########################################################################
   - key: views.viz
-    t: Graph
+    t: رسم بياني
   - key: views.table
-    t: Table
+    t: جدول
 
   ###########################################################################
   # Tables
   ###########################################################################
   - key: table.label
-    t: Label
+    t: التسمية
   - key: table.item
-    t: Item
+    t: العنصر
   - key: table.percentage_survey
-    t: "% of survey respondents"
+    t: "% من المشاركين في الاستطلاع"
+  - key: table.percentageSurvey
+    aliasFor: table.percentage_survey
   - key: table.percentage_question
-    t: "% of question respondents"
+    t: "% من المشاركين الذين أجابوا عن السؤال"
+  - key: table.percentageQuestion
+    aliasFor: table.percentage_question
   - key: table.percentage_facet
-    t: "% of facet respondents"
+    t: "% من المشاركين في الفئة"
+  - key: table.percentageFacet
+    aliasFor: table.percentage_facet
   - key: table.count
-    t: Count
+    t: العدد
   - key: table.year
-    t: Year
+    t: السنة
   - key: table.mean
-    t: Mean
+    t: الوسط الحسابي
   - key: table.usage
     aliasFor: options.features_simplified.used_it
   - key: table.awareness
@@ -789,79 +1600,132 @@ translations:
     aliasFor: charts.axis_legends.awareness_percentage
 
   - key: table.percentages_table
-    t: Percentages
+    t: النسب المئوية
   - key: table.rankings_table
-    t: Rankings
+    t: الترتيب
 
   - key: table.satisfaction_rank
-    t: Satisfaction Rank
+    t: ترتيب الاستبقاء
   - key: table.interest_rank
-    t: Interest Rank
+    t: ترتيب الاهتمام
   - key: table.usage_rank
-    t: Usage Rank
+    t: ترتيب الاستخدام
   - key: table.awareness_rank
-    t: Awareness Rank
+    t: ترتيب الوعي
 
   - key: table.would_not_use_percentage
-    t: Would not use %
+    t: نسبة عدم الاستخدام
   - key: table.not_interested_percentage
-    t: Not interested %
+    t: نسبة عدم الاهتمام
   - key: table.would_use_percentage
-    t: Would use again %
+    t: نسبة الاستخدام مجددًا
   - key: table.interested_percentage
-    t: Interested %
+    t: نسبة المهتمين
+
+  - key: table.not_available
+    t: لا يتوفر جدول بيانات.
 
   ###########################################################################
   # Awards
   ###########################################################################
 
   - key: awards.runner_ups
-    t: Runner Ups
+    t: الوصيفون
 
   - key: award.feature_adoption_award.title
-    t: Most Used Feature
+    t: الميزة الأكثر استخدامًا
   - key: award.feature_adoption_award.description
-    t: Awarded to the most adopted feature.
+    t: تُمنح للميزة الأكثر اعتمادًا.
 
   - key: award.feature_adoption_delta_award.title
-    t: Most Adopted Feature
+    t: الميزة الأكثر اعتمادًا
   - key: award.feature_adoption_delta_award.description
-    t: Awarded to the feature with the largest year-over-year ”have used” progression.
+    t: تُمنح للميزة التي حققت أكبر زيادة سنوية في نسبة من استخدموها.
 
   - key: award.tool_usage_award.title
-    t: Most Used Technology
+    t: التقنية الأكثر استخدامًا
   - key: award.tool_usage_award.description
-    t: Awarded to the technology with the largest user base.
+    t: تُمنح للتقنية ذات أكبر قاعدة مستخدمين.
 
   - key: award.tool_usage_delta_award.title
-    t: Most Adopted Technology
+    t: التقنية الأكثر اعتمادًا
   - key: award.tool_usage_delta_award.description
-    t: Awarded to the technology with the largest year-over-year “would use again” progression.
+    t: تُمنح للتقنية التي حققت أكبر زيادة سنوية في الاستخدام.
+
+  - key: award.tool_retention_award.title
+    t: الأعلى رضا
+  - key: award.tool_retention_award.description
+    t: تُمنح للتقنية ذات أعلى نسبة من المستخدمين الراضين.
 
   - key: award.tool_satisfaction_award.title
-    t: Highest Satisfaction
+    aliasFor: award.tool_retention_award.title
   - key: award.tool_satisfaction_award.description
-    t: Awarded to the technology with the highest percentage of satisfied users.
+    aliasFor: award.tool_retention_award.description
 
   - key: award.tool_interest_award.title
-    t: Highest Interest
+    t: الأعلى اهتمامًا
   - key: award.tool_interest_award.description
-    t: Awarded to the technology developers are most interested in learning once they are aware of it.
+    t: تُمنح للتقنية التي يرغب المطورون أكثر في تعلمها بعد معرفتهم بها.
 
   - key: award.resource_usage_award.title
-    t: Most Used Resource
+    t: المورد الأكثر استخدامًا
   - key: award.resource_usage_award.description
-    t: Awarded to the resource with the largest user base.
+    t: تُمنح للمورد ذي أكبر قاعدة مستخدمين.
 
   - key: award.prediction_award.title
-    t: Prediction Award
+    t: جائزة التوقعات
   - key: award.prediction_award.description
-    t: Awarded to an up-and-coming technology that might take over… or not?
+    t: تُمنح لتقنية صاعدة قد تهيمن على المجال… أو لا؟
 
   - key: award.most_write_ins_award.title
-    t: Most Write-Ins
+    t: الأكثر ذكرًا كتابةً
   - key: award.most_write_ins_award.description
-    t: Awarded to the item with the most write-in answers
+    t: تُمنح للعنصر الذي حصل على أكبر عدد من الإجابات المكتوبة يدويًا.
+
+  - key: award.most_commented_feature_award.title
+    t: الميزة الأكثر تعليقًا
+  - key: award.most_commented_feature_award.description
+    t: تُمنح للميزة التي تلقت أكبر عدد من التعليقات.
+
+  - key: award.most_commented_tool_award.title
+    t: المكتبة الأكثر تعليقًا
+  - key: award.most_commented_tool_award.description
+    t: تُمنح للمكتبة التي تلقت أكبر عدد من التعليقات.
+
+  - key: award.most_loved_tool_award.title
+    t: المكتبة الأكثر تفضيلًا
+  - key: award.most_loved_tool_award.description
+    t: تُمنح للتقنية ذات أعلى نسبة من الآراء الإيجابية.
+
+  - key: award.most_used_feature_award.title
+    t: الميزة الأكثر استخدامًا
+  - key: award.most_used_feature_award.description
+    t: تُمنح للميزة ذات أعلى نسبة من المستخدمين.
+
+  - key: award.least_used_feature_award.title
+    t: الميزة الأقل استخدامًا
+  - key: award.least_used_feature_award.description
+    t: تُمنح للميزة ذات أقل نسبة من المستخدمين.
+
+  - key: award.most_loved_feature_award.title
+    t: الميزة الأكثر تفضيلًا
+  - key: award.most_loved_feature_award.description
+    t: تُمنح للميزة ذات أعلى نسبة من الآراء الإيجابية.
+
+  - key: award.most_hated_feature_award.title
+    t: الميزة الأقل تفضيلًا
+  - key: award.most_hated_feature_award.description
+    t: تُمنح للميزة ذات أعلى نسبة من الآراء السلبية.
+
+  - key: award.largest_awareness_progression_award.title
+    t: أكبر زيادة في الوعي
+  - key: award.largest_awareness_progression_award.description
+    t: تُمنح للميزة التي حققت أكبر زيادة سنوية في الوعي.
+
+  - key: award.largest_usage_progression_award.title
+    t: أكبر زيادة في الاستخدام
+  - key: award.largest_usage_progression_award.description
+    t: تُمنح للميزة التي حققت أكبر زيادة سنوية في الاستخدام.
 
   ###########################################################################
   # Hints
@@ -869,56 +1733,1110 @@ translations:
 
   - key: hints.hint_hint
     t: >
-      You'll find little hints like this one throughout the survey results
-      that will point out extra features and details.
+      ستجد تلميحات صغيرة كهذه في أنحاء نتائج الاستطلاع
+      لتعرّفك على ميزات وتفاصيل إضافية.
 
   - key: hints.units_switcher_hint
     t: >
-      You can use the segmented control at the bottom of each block to switch 
-      between different units to get an alternate view of the same data.
+      يمكنك استخدام أداة الاختيار المقسمة أسفل كل لوحة للتبديل
+      بين وحدات مختلفة وعرض البيانات نفسها بطريقة أخرى.
 
   - key: hints.export_hint
     t: >
-      The <span class="hint-icon hint-export-button">Data</span> tab lets you view the raw 
-      data for any chart, view it as JSON, or get a GraphQL query you can 
-      run against our public API.
+      تتيح لك علامة التبويب <span class="hint-icon hint-export-button">البيانات</span> عرض البيانات الخام لأي رسم بياني،
+      أو عرضها بتنسيق JSON، أو الحصول على استعلام GraphQL يمكنك
+      تشغيله على واجهة API العامة.
 
   - key: hints.completion_hint
     t: >
-      Since all questions are optional, some of them got fewer responses than others. 
-      The completion indicator (<span class="hint-completion-indicator">◕</span>) tells you exactly how many people answered any given question.
+      بما أن جميع الأسئلة اختيارية، تلقى بعضها إجابات أقل من غيره.
+      يوضح مؤشر الإكمال (<span class="hint-completion-indicator">◕</span>) عدد الأشخاص الذين أجابوا عن أي سؤال بالتحديد.
 
   - key: hints.tool_modal_hint
     t: >
-      You can click on any technology name to get extra details and 
-      a more in-depth look at its related data.
+      يمكنك النقر على اسم أي تقنية للاطلاع على تفاصيل إضافية
+      ونظرة أعمق على البيانات المرتبطة بها.
 
   - key: hints.rankings_modes_hint
     t: >
-      The Rankings chart can be toggled between satisfaction, interest, usage, and awareness
-      to give you a fuller picture of a category's rankings.
+      يمكنك التبديل في رسم «الخبرة بمرور الوقت» بين الاستبقاء والاهتمام والاستخدام والوعي
+      للحصول على صورة أشمل عن الفئة.
 
   - key: hints.sharing_hint
     t: >
-      Sharing this survey on Twitter, Facebook, or by email is scientifically proven to 
-      improve your coding performance by up to 15%.
+      ثبت علميًا أن مشاركة هذا الاستطلاع على Twitter أو Facebook أو عبر البريد الإلكتروني
+      تحسن أداءك في البرمجة بنسبة تصل إلى 15%.
 
   - key: hints.tshirt_hint
     t: >
-      Another guaranteed scientific finding: buying our t-shirt will 
-      increase your programming skills by over 9000!
+      ومن النتائج العلمية المؤكدة أيضًا: شراء قميصنا
+      سيزيد مهاراتك البرمجية بأكثر من 9000!
 
   - key: hints.variants_hint
     t: >
-      Some charts feature additional tabs that offer complementary breakdowns of the same data,
-      or related data. Make sure to check them out!
+      تتضمن بعض الرسوم البيانية علامات تبويب إضافية تعرض تفصيلات مكملة للبيانات نفسها
+      أو بيانات ذات صلة. لا تنسَ الاطلاع عليها!
 
   - key: hints.share_hint
     t: >
-      The <span class="hint-icon hint-share-button">Share</span> tab makes it easy to share any chart, 
-      or even download it as an image.
+      تسهّل علامة التبويب <span class="hint-icon hint-share-button">مشاركة</span> مشاركة أي رسم بياني،
+      أو حتى تنزيله كصورة.
 
   - key: hints.bracket_hint
     t: >
-      <span class="hint-bracket"><span class="hint-text">The following chart provides the results of a tournament-style 8-player bracket in which
-      respondents were tasked with picking the winner of each match-up until a single winner remained.</span><span class="hint-diagram"/></span>
+      <span class="hint-bracket"><span class="hint-text">يعرض الرسم البياني التالي نتائج بطولة بنظام الإقصاء تضم 8 مشاركين، حيث طُلب من
+      المشاركين اختيار الفائز في كل مواجهة حتى يتبقى فائز واحد.</span><span class="hint-diagram"/></span>
+
+  - key: hints.comments_hint
+    t: >
+      تتيح لك علامة التبويب <span class="hint-icon hint-comment-button">التعليق</span> الاطلاع على التعليقات التي تركها المشاركون أثناء إكمال الاستطلاع.
+
+  ###########################################################################
+  # Sponsor Chart
+  ###########################################################################
+
+  - key: sections.sponsor_finish.title
+    t: شكرًا
+
+  - key: sponsor.sponsor_finish
+    t: >
+      شكرًا لدعمك الاستطلاع. من المفترض أن تظهر صورتك الرمزية بجوار الرسم البياني الذي اخترته
+      خلال ساعة تقريبًا. إذا لم تظهر، يُرجى [التواصل معنا](mailto:chartsponsor@stateofjs.com).
+
+  - key: sponsor.sponsored_by
+    t: >
+      تبرع **{name}** بمبلغ **${amount}** لرعاية هذا الرسم البياني
+
+  - key: sponsor.sponsor_button
+    t: رعاية هذا الرسم البياني
+
+  - key: sponsor.sponsor_chart.title
+    t: رعاية الرسم البياني "{title}"
+
+  - key: sponsor.sponsor_chart.description
+    t: >
+      ادعم هذا الاستطلاع ماليًا بالتبرع بمبلغ 10 دولارات أو أكثر، واعرض صورتك الرمزية على Twitter بجوار أحد الرسوم البيانية!
+
+  - key: sponsor.chart_id
+    t: "معرّف الرسم البياني: "
+
+  - key: sponsor.sponsor_this_chart
+    t: رعاية هذا الرسم البياني (${baseAmount}+)
+
+  - key: sponsor.how_it_works.title
+    t: كيف يعمل ذلك
+
+  - key: sponsor.how_it_works.description
+    t: >
+      1. عند **النقر على زر "رعاية هذا الرسم البياني"**، ستُحوّل إلى صفحة الدفع لدى شريكنا [SendOwl](https://www.sendowl.com/).
+
+
+      2. يمكنك بعد ذلك **تعديل المبلغ** الذي ترغب في التبرع به لدعم الاستطلاع، بدءًا من 10 دولارات أمريكية.
+
+
+      3. بعد إتمام الدفع، ستتمكن من **إدخال اسم المستخدم على Twitter**.
+
+
+      4. ستظهر لك صفحة **تنزيل ملف**، ويمكنك تجاهلها بأمان.
+
+
+      5. سيُعاد بناء الموقع في الخلفية، وسيظهر اسم المستخدم ومبلغ التبرع **بجوار الرسم البياني خلال ساعة**.
+
+  - key: sponsor.faq.title
+    t: الأسئلة الشائعة
+
+  - key: sponsor.faq.usage.title
+    t: فيمَ سيُستخدم تبرعي؟
+
+  - key: sponsor.faq.usage.description
+    t: سيساعد تبرعك في دعم القائمين على الاستطلاع وتوظيف مزيد من المساهمين (كالرسامين وخبراء سهولة الوصول والتنوع وغيرهم).
+
+  - key: sponsor.faq.public.title
+    t: هل سيُعلن عن تبرعي؟
+
+  - key: sponsor.faq.public.description
+    t: نعم. سيُعرض **اسم المستخدم على Twitter** و**مبلغ التبرع** علنًا بجوار الرسم البياني.
+
+  # - key: sponsor.faq.donation_public.title
+  #   t: Can I donate on somebody else's behalf?
+
+  # - key: sponsor.faq.donation_public.description
+  #   t: You can enter a Twitter username other than your own, but that person will have the right to remove the donation if they request it.
+
+  - key: sponsor.faq.refund.title
+    t: ما سياسة استرداد الأموال؟
+
+  - key: sponsor.faq.refund.description
+    t: يمكن استرداد جميع التبرعات خلال أسبوع، بعد خصم رسوم المعاملة.
+
+  - key: sponsor.faq.influence.title
+    t: هل تؤثر التبرعات في محتوى الاستطلاع؟
+
+  - key: sponsor.faq.influence.description
+    t: تُقدّم التبرعات بعد نشر الاستطلاع، ولا يؤثر المتبرعون في محتواه.
+
+  - key: sponsor.faq.feedback.title
+    t: أين يمكنني إبداء الملاحظات أو طرح الأسئلة؟
+
+  - key: sponsor.faq.feedback.description
+    t: يمكنك فعل ذلك [على GitHub](https://github.com/StateOfJS/Monorepo/issues/69) أو [في خادم Discord](https://discord.gg/tuWRUWVyJs).
+
+  ###########################################################################
+  # Data Explorer
+  ###########################################################################
+
+  - key: sections.data_explorer.title
+    t: مستكشف البيانات
+  - key: sections.data_explorer.description
+    t: |
+      استكشف المشاركين في الاستطلاع تفاعليًا باختيار سؤالين ومشاهدة كيفية
+      توزيع المشاركين بينهما.
+
+  - key: hints.data_explorer
+    t: |
+      هذه نسخة معاينة من مستكشف البيانات الجديد. إذا صادفت مشكلات أو تناقضات في البيانات، يُرجى [إبلاغنا]({issueLink}).
+
+  # heading
+
+  - key: explorer.main_heading
+    t: «{xAxisLabel}» مقابل «{yAxisLabel}»
+
+  - key: explorer.total_respondents
+    t: |
+      (**{totalCount}** إجمالي المشاركين)
+
+  - key: explorer.count_per_dot
+    t: |
+      {respondentsPerDot} مشارك
+  - key: explorer.percentage_per_dot
+    t: |
+      {percentsPerDot}%
+  - key: explorer.extra_respondents
+    t: مشاركون إضافيون
+  - key: explorer.missing_respondents
+    t: مشاركون أقل من المتوقع
+
+  - key: explorer.count_per_dot.tooltip
+    t: |
+      تمثل كل نقطة {respondentsPerDot} مشاركًا
+  - key: explorer.percentage_per_dot.tooltip
+    t: |
+      تمثل كل نقطة {percentsPerDot}% من المشاركين
+  - key: explorer.extra_respondents.tooltip
+    t: تشير النقاط المميزة إلى نتائج أعلى من المتوقع.
+  - key: explorer.missing_respondents.tooltip
+    t: تشير النقاط الفارغة إلى نتائج أقل من المتوقع.
+
+  - key: explorer.units_count
+    t: العدد
+  - key: explorer.units_percentage
+    t: "% من الصف"
+
+  - key: explorer.edit
+    t: تعديل المعلمات…
+
+  - key: explorer.get_data
+    t: الحصول على البيانات…
+
+  # loading
+
+  - key: explorer.loading.1
+    t: جارٍ الاستعلام من API…
+  - key: explorer.loading.2
+    t: بانتظار الرد…
+  - key: explorer.loading.3
+    t: ما زلنا نعمل…
+  - key: explorer.loading.4
+    t: انتظر قليلًا بعد…
+  - key: explorer.loading.5
+    t: عذرًا، يستغرق هذا بعض الوقت. يمكنك الانتظار قليلًا أو [الإبلاغ عن مشكلة]({issueLink}).
+  - key: explorer.timeout
+    t: انتهت المهلة
+  - key: explorer.timeout.description
+    t: لم تستجب API في الوقت المحدد. يُرجى المحاولة لاحقًا أو [الإبلاغ عن مشكلة]({issueLink}).
+
+  # share
+
+  - key: explorer.share
+    t: مشاركة…
+  - key: explorer.share.title
+    t: مشاركة «{xAxisLabel}» مقابل «{yAxisLabel}»
+  - key: explorer.share.tweet
+    t: «{xAxisLabel}» مقابل «{yAxisLabel}» من استطلاع {surveyName} لعام {year}
+
+  # axis
+
+  - key: explorer.axis_total
+    t: "{totalCount} مشارك"
+  - key: explorer.axis_percent
+    t: "{percentCount}% من المشاركين"
+
+  - key: explorer.x_axis_details
+    t: |
+      من بين جميع المشاركين الذين أجابوا عن سؤال «{yAxisLabel}»، اختار **{totalCount}** مشاركًا في الاستطلاع «{xQuestionLabel}» لسؤال «{xAxisLabel}»
+  - key: explorer.y_axis_details
+    t: |
+      اختار **{totalCount}** مشاركًا في الاستطلاع «{yQuestionLabel}»
+  - key: explorer.main_legend_count
+    t: |
+      **{totalCount}** مشارك، **1** نقطة = **{respondentsPerDot}** مشارك، **{dotsPerLine}** نقطة في كل سطر
+
+  # controls
+  - key: explorer.dots_per_line
+    t: النقاط في كل سطر
+  - key: explorer.respondents_per_dot
+    t: المشاركون لكل نقطة
+  - key: explorer.show_cell_counts
+    t: إظهار أعداد الخلايا
+  - key: explorer.show_no_answer
+    t: إظهار خلايا «بلا إجابة»
+
+  - key: explorer.all_fields
+    t: جميع الحقول
+  - key: explorer.select_item
+    t: اختيار عنصر
+
+  # details views
+
+  - key: explorer.count_details.1
+    t: |
+      اختار **{xAxisTotal}** من المشاركين في «{xAxisLabel}» الإجابة «{xAnswerLabel}».
+
+  - key: explorer.count_details.2
+    t: |
+      اختار **{yAxisPercentage}%** من المشاركين في «{yAxisLabel}» الإجابة «{yAnswerLabel}».
+
+  - key: explorer.count_details.3
+    t: |
+      عند تطبيق هذه النسبة على عدد المشاركين السابق البالغ **{xAxisTotal}**
+      نحصل على خط أساس متوقع قدره **{normalizedCount}** مشاركًا في هذا التقاطع.
+
+  - key: explorer.count_details.4_extra
+    t: |
+      العدد الفعلي هو **{cellCount}**، وقد تم *تمييز* هؤلاء المشاركين الإضافيين وعددهم **{normalizedCountDelta}**.
+
+  - key: explorer.count_details.4_missing
+    t: |
+      العدد الفعلي هو **{cellCount}**، ويظهر هؤلاء المشاركون الناقصون وعددهم **{normalizedCountDelta}** كنقاط فارغة.
+
+  - key: explorer.percentage_details.1_extra
+    t: |
+      إجمالًا، اختار **{xAxisPercentage}%** من المشاركين في «{xAxisLabel}» الإجابة «{xAnswerLabel}»،
+      لكن ترتفع هذه النسبة إلى **{bucketPercentage}%** بين **المشاركين في «{yAxisLabel}» الذين اختاروا «{yAnswerLabel}»**.
+
+  - key: explorer.percentage_details.1_missing
+    t: |
+      إجمالًا، اختار **{xAxisPercentage}%** من المشاركين في «{xAxisLabel}» الإجابة «{xAnswerLabel}»،
+      لكن تنخفض هذه النسبة إلى **{bucketPercentage}%** بين **المشاركين في «{yAxisLabel}» الذين اختاروا «{yAnswerLabel}»**.
+
+  - key: explorer.percentage_details.2_extra
+    t: |
+      تم *تمييز* هؤلاء المشاركين الإضافيين، ونسبتهم **{normalizedPercentageDelta}%**.
+
+  - key: explorer.percentage_details.2_missing
+    t: |
+      يظهر هؤلاء المشاركون الناقصون، ونسبتهم **{normalizedPercentageDelta}%**، كنقاط فارغة.
+
+  # - key: explorer.percentage_details.1
+  #   t: |
+  #     **{xAxisPercentage}%** of **{xAxisTotal}** “{xAxisLabel}” respondents selected “{xAnswerLabel}”.
+
+  # - key: explorer.percentage_details.2
+  #   t: |
+  #       **{yAxisPercentage}%** of “{yAxisLabel}” respondents selected “{yAnswerLabel}”.
+
+  # - key: explorer.percentage_details.3
+  #   t: |
+  #       Applying that percentage to the previous **{xAxisTotal}** respondents figure
+  #       gives us an expected baseline of **{normalizedPercentage}%** of respondents in this intersection.
+
+  # - key: explorer.percentage_details.4_extra
+  #   t: |
+  #       The actual percentage is **{bucketPercentage}%**, and those extra **{normalizedPercentageDelta}%** respondents are *highlighted*.
+
+  # - key: explorer.percentage_details.4_missing
+  #   t: |
+  #       The actual count is **{bucketPercentage}%**, and those missing **{normalizedPercentageDelta}%** respondents appear as empty dots.
+
+  - key: explorer.extra_missing_respondents
+    t: |
+      ### المشاركون الإضافيون والناقصون
+
+      يهدف الرسم البياني أعلاه إلى تحديد المواضع التي تظهر قيمًا أعلى أو أدنى من المتوقع
+      مقارنة بخط أساس محسوب.
+
+      على سبيل المثال، إذا افترضنا وجود 1000 مستخدم لـ CSS Grid وأن 50% من المشاركين يعملون في شركات كبيرة،
+      فسنتوقع أن يعمل 500 من مستخدمي CSS Grid في شركات كبيرة.
+
+      قد يشير أي اختلاف عن هذا العدد المتوقع إلى وجود علاقة مهمة بين المتغيرين،
+      ويُبرز في الرسم البياني بنقاط ملونة (للمشاركين الإضافيين فوق خط الأساس)
+      أو نقاط فارغة (للمشاركين الناقصين).
+
+  ###########################################################################
+  # Filters
+  ###########################################################################
+
+  - key: filters.compare_data
+    t: مقارنة البيانات
+  - key: filters.customize_chart
+    t: منشئ الاستعلامات…
+  - key: filters.docs
+    t: الوثائق
+  - key: filters.compare_chart
+    t: تخصيص «{chartName}»
+  - key: filters.edit_variant_with_name
+    t: تعديل «{name}»
+  - key: filters.edit_name
+    t: "تعديل الاسم"
+  - key: filters.edit_name.description
+    t: "تعديل اسم نسخة الرسم البياني:"
+  - key: filters.create_variant
+    t: إنشاء نسخة جديدة
+  - key: filters.delete_variant
+    t: حذف الرسم البياني
+  - key: filters.delete_variant_confirm
+    t: هل تريد حذف نسخة الرسم البياني «{name}»؟
+  - key: filters.edit_variant
+    t: تعديل الخيارات…
+  - key: filters.filters.description
+    t: |
+      حدّد مجموعة من عوامل التصفية لمقارنة عدة نسخ من الرسم البياني نفسه جنبًا إلى جنب
+  - key: filters.facets.description
+    t: |
+      اختر متغيرًا واستخدمه لتقسيم كل صف في الرسم البياني إلى شرائح إضافية.
+  - key: filters.grid_mode
+    t: عوامل التصفية
+  - key: filters.combined_mode
+    t: مجمّع
+  - key: filters.facet_mode
+    t: فئات فرعية
+  - key: filters.facet
+    t: "الفئة الفرعية:"
+  - key: filters.optional
+    t: (اختياري)
+  - key: filters.axis1
+    t: المتغير 1
+  - key: filters.axis2
+    t: المتغير 2
+  - key: filters.axis1.description
+    t: |
+      اختر المتغير الرئيسي الذي تريد تحليله (المحور الرأسي).
+  - key: filters.axis2.description
+    t: |
+      اختر متغيرًا آخر لمقارنته بالأول (المحور الأفقي).
+
+  - key: filters.facet_view
+    t: أشرطة مقسمة
+  - key: filters.grid_view
+    t: شبكة جنبًا إلى جنب
+
+  - key: filters.series.heading
+    t: السلسلة {index}
+  - key: filters.series.add
+    t: إضافة سلسلة…
+  - key: filters.series.delete
+    t: حذف السلسلة
+  - key: filters.series.year
+    t: |
+      بيانات {year}
+  - key: filters.series.show_default
+    t: |
+      إظهار السلسلة الافتراضية
+  - key: filters.series.no_data
+    t: لا توجد بيانات
+
+  - key: filters.condition.add
+    t: إضافة عامل تصفية
+  - key: filters.condition.delete
+    t: حذف عامل التصفية
+  - key: filters.condition.and
+    t: و
+  - key: filters.operators.eq
+    t: يساوي
+  - key: filters.operators.in
+    t: أحد هذه القيم
+  - key: filters.operators.nin
+    t: ليس أحد هذه القيم
+  - key: filters.operators.lt
+    t: أقل من
+  - key: filters.operators.gt
+    t: أكبر من
+  - key: filters.value.add
+    t: إضافة قيمة
+  - key: filters.value.delete
+    t: حذف القيمة
+
+  - key: filters.legend.default
+    t: افتراضي
+
+  - key: filters.cancel
+    t: إلغاء
+  - key: filters.submit
+    t: تحديث الرسم البياني
+  - key: filters.copy_link
+    t: نسخ رابط عوامل التصفية
+  - key: filters.code
+    t: كود عوامل التصفية
+  - key: filters.get_code
+    t: الحصول على الكود
+  - key: filters.import_code
+    t: استيراد الكود
+  - key: filters.paste_filters_code
+    t: الصق كود عوامل التصفية هنا
+
+  - key: filters.presets.title
+    t: "الإعدادات المسبقة:"
+  - key: filters.presets.save
+    t: حفظ عوامل التصفية الحالية كإعداد مسبق…
+  - key: filters.presets.delete
+    t: حذف الإعداد المسبق
+  - key: filters.presets.enter_name
+    t: |
+      أدخل اسمًا للإعداد المسبق الجديد:
+  - key: filters.presets.previous_years
+    t: السنوات السابقة
+  - key: filters.presets.gender
+    t: الجنس
+  - key: filters.presets.top_countries
+    t: أبرز البلدان
+  - key: filters.presets.salary_low_high
+    t: |
+      الراتب المنخفض مقابل المرتفع
+  - key: filters.presets.experience_low_high
+    t: |
+      الخبرة المنخفضة مقابل المرتفعة
+  - key: filters.presets.company_size_low_high
+    t: |
+      الشركة الصغيرة مقابل الكبيرة
+
+  - key: filters.facet.select
+    t: اختر فئة فرعية…
+
+  - key: filters.by_x
+    t: حسب {name}
+
+  - key: filters.vs_x
+    t: مقابل {name}
+
+  - key: dataloader.failed_request
+    t: >
+      عذرًا! فشل طلب API بالرسالة التالية:
+  - key: dataloader.submit_report_prompt
+    t: >
+      أرسل تقريرًا عن الخطأ لإبلاغنا بهذه المشكلة، وسنبذل قصارى جهدنا
+      لإصلاحها:
+  - key: dataloader.submit_issue
+    t: الإبلاغ عن مشكلة
+
+  # advanced options
+
+  - key: filters.advanced_options
+    t: خيارات متقدمة
+
+  - key: filters.options.cutoff
+    t: حد الاستبعاد
+  - key: filters.options.cutoff.description
+    t: استبعاد أي قيمة أقل من هذا الحد من البيانات.
+
+  - key: filters.options.limit
+    t: الحد
+  - key: filters.options.limit.description
+    t: حصر النتائج في أول n من العناصر.
+
+  - key: filters.options.showDefaultSeries
+    aliasFor: filters.series.show_default
+  - key: filters.options.showDefaultSeries.description
+    t: إظهار سلسلة البيانات الافتراضية (غير المصفاة) عند استخدام وضع الشبكة.
+
+  - key: filters.bucketsFilter.eq
+    t: العناصر التي قيمتها «{value}»
+  - key: filters.bucketsFilter.in
+    t: العناصر التي قيمتها إحدى «{value}»
+  - key: filters.bucketsFilter.nin
+    t: العناصر التي ليست قيمتها إحدى «{value}»
+  - key: filters.bucketsFilter.hasTags
+    t: العناصر الموسومة بـ «{value}»
+
+  ###########################################################################
+  # Chart Controls
+  ###########################################################################
+
+  - key: charts.group_by
+    t: >
+      تجميع حسب:
+  - key: charts.group.experience
+    t: الخبرة
+  - key: charts.group.sentiment
+    t: الانطباع
+  - key: charts.grouped_by_group
+    t: >
+      مجمّع حسب "**{group}**""
+  - key: charts.group_by_group
+    t: >
+      تجميع حسب "**{group}**""
+
+  - key: charts.display_mode
+    t: >
+      وضع العرض:
+  - key: charts.display_mode.split
+    t: عرض مقسم
+  - key: charts.display_mode.stacked
+    t: عرض مكدس
+
+  - key: charts.order
+    t: >
+      ترتيب الفرز
+
+  - key: charts.sort_by
+    t: >
+      فرز حسب:
+  - key: charts.sort_by_sort
+    t: >
+      فرز حسب "**{sort}**"
+  - key: charts.sorted_by_sort_order
+    t: >
+      تم الفرز حسب "**{sort}**"، **{order}**
+  - key: charts.order.asc
+    t: تصاعدي
+  - key: charts.order.desc
+    t: تنازلي
+
+  - key: charts.actions.customize
+    aliasFor: filters.customize_chart
+  - key: charts.actions.data
+    t: الحصول على بيانات الرسم البياني
+  - key: charts.actions.share
+    t: مشاركة الرسم البياني
+
+  - key: charts.vs
+    t: مقابل
+  - key: charts.facet_median
+    t: (الوسيط)
+  - key: charts.facet_average
+    t: (المتوسط)
+
+  - key: charts.custom_variant
+    t: النسخة {index}
+  - key: charts.new_variant_name_prompt
+    t: أدخل اسمًا وصفيًا قصيرًا للرسم البياني الجديد (مثل «مقارنة بالدخل» أو «حسب الجنس»).
+
+  - key: charts.show_all_rows
+    t: إظهار الكل
+  - key: charts.show_all_rows.x_hidden
+    t: إظهار الكل (إخفاء {count})
+
+  - key: charts.metadata.completion
+    t: >
+      **{value}** نسبة الإكمال (من أصل {total} مشارك في الاستطلاع)
+  - key: charts.metadata.respondents
+    t: >
+      **{value}** مشارك أجاب عن السؤال
+  - key: charts.metadata.answers
+    t: >
+      **{value}** إجابة عن السؤال
+  - key: charts.metadata.average
+    t: >
+      **{value}** قيمة الوسط الحسابي (المتوسط)
+  - key: charts.metadata.median
+    t: >
+      **{value}** قيمة الوسيط
+  - key: charts.metadata.limit
+    t: >
+      عرض أعلى **{value}** عنصر
+  - key: charts.metadata.cutoff
+    t: >
+      عرض العناصر التي لديها أكثر من **{value}** إجابة فقط
+  - key: charts.metadata.sort_asc
+    t: >
+      تم الفرز حسب **{value}**، **تصاعديًا**
+  - key: charts.metadata.sort_desc
+    t: >
+      تم الفرز حسب **{value}**، **تنازليًا**
+  - key: charts.metadata.averageCardinality
+    t: >
+      اختار المشاركون **{value}** خيارات في المتوسط
+
+  - key: charts.average.marker
+    t: >
+      المتوسط: **{value}**
+
+  - key: charts.median.marker
+    t: >
+      الوسيط: **{value}**
+
+  - key: charts.marker.toggle.average
+    t: تبديل الوسيط
+
+  - key: charts.marker.toggle.median
+    t: تبديل المتوسط
+
+  - key: charts.filter_by
+    t: >
+      تصفية حسب:
+  - key: charts.all_filters
+    t: الكل
+  - key: charts.all_filters.description
+    t: إظهار الكل
+  - key: charts.filter_by_value
+    t: >
+      تصفية حسب «{value}»
+  - key: charts.filtered_by_value
+    t: >
+      تمت التصفية حسب «{value}»
+
+  - key: charts.filter_by.sections
+    t: |
+      الفئة:
+  - key: charts.filter_by.baseline
+    t: |
+      حالة خط الأساس:
+
+  - key: charts.toggle_view
+    t: >
+      إظهار
+
+  ###########################################################################
+  # Multi Items Experience Chart
+  ###########################################################################
+
+  - key: charts.multiexp.cell_group_tooltip.experience
+    t: >
+      أجاب **{count}** مشاركًا (**{value}%**) بـ "**{answer}**"
+
+  - key: charts.multiexp.cell_group_tooltip.sentiment
+    t: >
+      كان لدى **{count}** مشاركًا (**{value}%**) انطباع **{answer}**
+
+  - key: charts.multiexp.cell_tooltip
+    t: >
+      أجاب **{count}** مشاركًا (**{value}%**) بـ "**{experience}**" وكان لديهم انطباع **{sentiment}**
+
+  - key: charts.multiexp.cell_tooltip_neutral
+    t: >
+      أجاب **{count}** مشاركًا (**{value}%**) بـ "**{experience}**" ولم يحددوا أي انطباع
+
+  ###########################################################################
+  # Raw Freeform Answers
+  ###########################################################################
+
+  - key: answers.answers
+    t: إجابات حرة
+  - key: answers.answers_for
+    t: |
+      الإجابات المطابقة لـ «{name}»
+  - key: answers.answers_for_count
+    t: |
+      {count} إجابة مطابقة لـ «{name}»
+  - key: answers.description
+    t: |
+      طوبقت هذه الإجابات الحرة مع موضوع **{name}** عبر مزيج من
+      معالجة البيانات الآلية واليدوية.
+  - key: answers.report_abuse
+    t: الإبلاغ عن هذه الإجابة
+
+  - key: answers.alphabetical
+    t: الترتيب الأبجدي
+
+  - key: answers.length
+    t: طول الإجابة
+
+  - key: answers.keyword
+    t: |
+      كلمة مفتاحية:
+
+  - key: answers.keyword_count
+    t: |
+      {count} نتيجة
+
+  - key: answers.download
+    t: تنزيل الإجابات
+
+  ###########################################################################
+  # Tshirt
+  ###########################################################################
+
+  - key: tshirt.getit
+    t: احصل عليه
+  - key: tshirt.price
+    t: 32 دولارًا أمريكيًا + الشحن
+  - key: tshirt.designer.heading
+    t: نبذة عن المصمم
+  - key: tshirt.designer.name
+    t: Christopher Kirk-Nielsen
+  - key: tshirt.designer.bio
+    t: >
+      كريس فرنسي الأصل ويقيم حاليًا في الولايات المتحدة، وهو ليس مطور واجهات أمامية بارعًا فحسب، بل رسام موهوب متخصص في التصاميم ذات الطابع القديم أيضًا. ندعوك للاطلاع على [تصاميمه الأخرى للقمصان](https://chriskirknielsen.com/designs/)!
+
+  ###########################################################################
+  # Banners
+  ###########################################################################
+
+  - key: banner.html2024
+    t: استطلاع State of HTML 2024 متاح الآن! شارك فيه →
+
+  ###########################################################################
+  # Cardinalities
+  ###########################################################################
+
+  - key: tools.cardinalities
+    t: عدد العناصر
+  - key: tools.cardinalities.description
+    t: عدد العناصر في هذه الفئة التي استخدمها المشاركون.
+
+  ###########################################################################
+  # Highlight (learn this next)
+  ###########################################################################
+
+  - key: highlight.heading.feature
+    t: |
+      ميزة بارزة:
+
+  - key: highlight.heading.library
+    t: |
+      مكتبة بارزة:
+
+  - key: highlight.description
+    t: نسلط الضوء على ميزات أو مكتبات مثيرة للاهتمام نعتقد أن عليك معرفتها.
+
+  - key: highlight.resources
+    t: موارد مفيدة
+
+  ###########################################################################
+  # Correlations
+  ###########################################################################
+
+  - key: correlations.correlations_trigger
+    t: عُثر على {count} علاقة ارتباط بمتغيرات أخرى
+
+  # heading
+
+  # note: we need tu support a custom directionLabel for heading such as
+  # "correlation for scoring **to the right** on…"
+
+  - key: correlations.heading.trend
+    t: |
+      الارتباطات مع الحصول على تقييم <span class="correlation-direction">{directionLabel}</span> في **«{questionLabel}»**
+
+  - key: correlations.heading.option
+    t: |
+      الارتباطات مع اختيار **«{optionLabel}»** لسؤال **«{questionLabel}»**
+
+  - key: correlations.heading.cardinality
+    t: |
+      الارتباطات مع اختيار عناصر <span class="correlation-direction">أكثر</span> لسؤال **«{questionLabel}»**
+
+  - key: correlations.exclusions
+    t: "مستبعدة: "
+  - key: correlations.exclusions.description
+    t: تُصفّى بعض أزواج الارتباط يدويًا إذا عُدّت واضحة جدًا أو غير ذات صلة.
+
+  - key: correlations.no_correlations
+    t: لم يُعثر على ارتباطات.
+
+  - key: correlations.note
+    t: |
+      تُقارن الأسئلة والإجابات الفردية بعضها ببعض باستخدام [معامل ارتباط الرتب لسبيرمان](https://en.wikipedia.org/wiki/Spearman%27s_rank_correlation_coefficient). لا تُعرض إلا الارتباطات المستندة إلى عدد كافٍ من الإجابات والتي تتجاوز حدًا أدنى للقوة، وقد تُستبعد الارتباطات البديهية تلقائيًا (مثل «السكن في إسبانيا يرتبط بالتحدث بالإسبانية»).
+
+      يُرجى ملاحظة أن [الارتباط لا يعني السببية](https://en.wikipedia.org/wiki/Correlation_does_not_imply_causation)، وأن هذه علاقات خام منشأة تلقائيًا دون [ضبط العوامل الأخرى](https://en.wikipedia.org/wiki/Confounding). ومع مقارنة آلاف الأزواج، قد تكون بعض الارتباطات [ناجمة عن الصدفة](https://en.wikipedia.org/wiki/Multiple_comparisons_problem).
+
+  - key: correlations.takeaway.with_question
+    t: |
+      ارتباط <span class="correlation-item-content-strength">{strengthLevelLabel}</span> بالحصول على تقييم <span class="correlation-direction">{directionLabel}</span> في **«{questionLabel}»**.
+    aliases:
+      - correlations.takeaway.shape1
+      - correlations.takeaway.shape2
+      - correlations.takeaway.shape7
+
+  - key: correlations.takeaway.with_option
+    t: |
+      ارتباط <span class="correlation-item-content-strength">{strengthLevelLabel}</span> <span class="correlation-direction">{directionLabel}</span> باختيار **«{optionLabel}»** لسؤال **«{questionLabel}»**
+    aliases:
+      - correlations.takeaway.shape3
+      - correlations.takeaway.shape4
+      - correlations.takeaway.shape8
+
+  - key: correlations.takeaway.with_cardinality
+    t: |
+      ارتباط <span class="correlation-item-content-strength">{strengthLevelLabel}</span> باختيار عدد <span class="correlation-direction">{directionLabel}</span> من العناصر لسؤال **«{questionLabel}»**.
+    aliases:
+      - correlations.takeaway.shape5
+      - correlations.takeaway.shape6
+      - correlations.takeaway.shape9
+
+  - key: correlations.respondent_count.description
+    t: استنادًا إلى عينة من {respondentCount} مشاركًا أجابوا عن السؤالين
+
+  - key: correlations.strength_levels
+    t: مستويات قوة الارتباط
+
+  - key: correlations.strength_levels.description
+    t: لا تعني الارتباطات الأقوى دائمًا رؤى أفضل.
+
+  # option
+
+  - key: correlations.option.subheading
+    t: اختاروا «{optionLabel}»
+
+  # trend
+
+  - key: correlations.trend.subheading
+    t: الاتجاه العام
+
+  # cardinality
+
+  - key: correlations.cardinality.subheading
+    t: عدد العناصر المحددة
+  - key: correlations.cardinality.negative
+    t: أقل
+  - key: correlations.cardinality.positive
+    t: أكثر
+
+  # strength
+
+  - key: correlations.strength
+    t: القوة
+  - key: correlations.strength.description
+    t: مدى قوة الارتباط
+
+  - key: correlations.strength.very_strong
+    t: قوي جدًا
+  - key: correlations.strength.strong
+    t: قوي
+  - key: correlations.strength.moderate
+    t: متوسط
+  - key: correlations.strength.weak
+    t: ضعيف
+
+  # direction
+  - key: correlations.direction
+    t: الاتجاه
+  - key: correlations.direction.description
+    t: ما إذا كان المتغيران يتحركان معًا أم في اتجاهين متعاكسين
+
+  - key: correlations.direction.positive
+    t: إيجابي
+  - key: correlations.direction.positive.title
+    t: ارتباطات إيجابية
+  - key: correlations.direction.positive.description
+    t: |
+      عندما يزداد المتغير A، **يزداد** المتغير B.
+
+  - key: correlations.direction.negative
+    t: سلبي
+  - key: correlations.direction.negative.title
+    t: ارتباطات سلبية
+  - key: correlations.direction.negative.description
+    t: |
+      عندما يزداد المتغير A، **ينخفض** المتغير B.
+
+  - key: correlations.direction.lower
+    t: أقل
+  - key: correlations.direction.higher
+    t: أعلى
+
+  - key: correlations.value
+    t: القيمة
+  - key: correlations.value.description
+    t: معامل الارتباط
+
+  - key: correlations.variable
+    t: المتغير
+  - key: correlations.variable.description
+    t: المتغير المرتبط
+
+  - key: correlations.sample_size
+    t: |
+      حجم العينة:
+  - key: correlations.sample_size.description
+    t: حجم عينة المشاركين التي يستند إليها الارتباط
+
+  - key: correlations.respondents
+    t: |
+      {n} مشارك
+
+  ###########################################################################
+  # Download
+  ###########################################################################
+
+  - key: sections.download.title
+    t: |
+      تنزيل مجموعة البيانات
+
+  - key: sections.download.description
+    t: |
+      يمكنك طلب الحصول على مجموعة بيانات CSV كاملة مجانًا عبر [الانضمام إلى مجموعة Discord](https://discord.gg/2E7bbgnrJJ) وطرح طلبك في قناة **#general**.
+
+  ###########################################################################
+  # Help
+  ###########################################################################
+
+  - key: help.title
+    t: >
+      ميزة تحت الضوء:
+
+  - key: help.description
+    t: تعرّف على المزيد عن ميزات الاستطلاع
+
+  - key: help.correlations
+    t: الارتباطات
+
+  - key: help.correlations.description
+    t: >
+      تساعد هذه الدرجات المنشأة تلقائيًا على إبراز ارتباط عنصرين في مجموعة البيانات، استنادًا إلى مقاييس مثل الحصول على تقييم **أعلى** لسؤال، أو اختيار **عناصر أكثر** لسؤال، أو اختيار **إجابة محددة**.
+
+  - key: help.query_builder
+    t: منشئ الاستعلامات
+
+  - key: help.query_builder.description
+    t: >
+      يتيح لك منشئ الاستعلامات إضافة عوامل تصفية إلى الرسم البياني الحالي للاستعلام تفاعليًا من Devographics API وإنشاء نسخة مخصصة.
+
+  - key: help.export_data
+    t: تصدير البيانات
+
+  - key: help.export_data.description
+    t: >
+      يمكنك تصدير بيانات JSON الخام المستخدمة لإنشاء الرسم البياني، أو الحصول على استعلام GraphQL الذي استُخدم لجلب البيانات.
+
+  - key: help.comments
+    t: التعليقات
+
+  - key: help.comments.description
+    t: >
+      أُتيحت للمشاركين أثناء الاستطلاع إمكانية إبداء ملاحظاتهم على كل سؤال عبر حقل تعليق نصي منفصل واختياري.
+
+  - key: help.freeform_answers
+    t: إجابات حرة
+
+  - key: help.freeform_answers.description
+    t: >
+      تُطابق إجابات الأسئلة ذات الحقول النصية الحرة مع كلمات مفتاحية محددة (في هذه الحالة **{topic}**) عبر مزيج من معالجة البيانات الآلية واليدوية.
+
+  - key: help.boxplot
+    t: مخطط الصندوق
+
+  - key: help.boxplot.description
+    t: >
+      تعرض مخططات الصندوق المئينات 10 و25 و50 (أي **الوسيط**) و75 و90 لمجموعة البيانات. يمكنك أيضًا استخدام عناصر التحكم المدمجة لعرض **المتوسط** (أو **الوسط الحسابي**) بدلًا من ذلك.
+
+  - key: help.stacked_bar
+    t: مخطط أعمدة مكدس
+
+  - key: help.stacked_bar.description
+    t: >
+      يعرض مخطط الأعمدة المكدس سؤالًا، ثم يقسم كل عمود لإظهار كيفية إجابة تلك المجموعة الفرعية عن سؤال آخر. يمكنك استخدام مفتاح الرسم لتبديل الفرز والترتيب.
+
+  - key: help.two_series_scatterplot
+    t: مخطط مبعثر
+
+  - key: help.two_series_scatterplot.description
+    t: >
+      يعرض المخطط المبعثر مجموعة من العناصر على شبكة مع [خط اتجاه](https://www.mathsisfun.com/definitions/trend-line.html)، ويمثل كل محور متغيرًا مختلفًا.
+
+  ###########################################################################
+  # Sponsors
+  ###########################################################################
+
+  - key: sponsors.neon.description
+    t: أطلق العنان لتطبيقات الذكاء الاصطناعي المتطورة باستخدام Postgres.
+
+  - key: sponsors.frontendmasters.description
+    t: طوّر مهاراتك من خلال دورات متعمقة وحديثة في هندسة الواجهات الأمامية.
+
+  - key: sponsors.polypane.description
+    t: المتصفح للمطورين الطموحين. أنشئ مواقع متجاوبة وسهلة الوصول وسريعة بكل سهولة.
+
+  - key: sponsors.nijibox.description
+    t: استشارات تجربة المستخدم وتطوير المنتجات في قلب طوكيو.
+
+  - key: sponsors.renderatl.description
+    t: أكبر مؤتمر تقني يضم مسارًا مخصصًا للتصميم وCSS.
+
+  - key: sponsors.google_chrome.description
+    t: شكرًا لفريق Google Chrome على دعم عملنا.
+
+  - key: sponsors.tokyodev.description
+    t: اعثر اليوم على وظيفة أحلامك كمطور في اليابان.
+
+  - key: sponsors.gitnation.description
+    t: تعرّف على أحدث الاتجاهات مباشرةً من أوائل المتبنين ومؤلفي المحتوى التقني.
+
+  - key: sponsors.algolia.description
+    t: انشر بحثًا سريعًا وقابلًا للتوسع ومدعومًا بالذكاء الاصطناعي في أي مكان، مع تصميم Algolia المعتمد على API أولًا.
+
+  - key: sponsors.storyblok.description
+    t: حقق أثرًا أكبر وأسرع في السوق باستخدام نظام إدارة المحتوى الذي يترك لك حرية العمل.
+
+  - key: sponsors.jetbrains.description
+    t: مجموعة متكاملة من الأدوات التي توفر تجربة استثنائية للمطورين.
+
+  - key: sponsors.webstorm.description
+    t: اكتب الشيفرة بإنتاجية أكبر مع بيئة تطوير JavaScript المتكاملة التي توفر كل ما تحتاج إليه.
+
+  - key: sponsors.sentry.description
+    t: منصة مراقبة التطبيقات المفضلة لدى المطورين حول العالم.
+
+  - key: sponsors.clerk.description
+    t: مصادقة متكاملة وإدارة للمستخدمين تساعدك على الإطلاق بسرعة والتوسع بسهولة.
+
+  - key: sponsors.certificates_dev.description
+    t: شهادات للمطورين أُعدت بالتعاون مع مبتكري أطر العمل أنفسهم.
+
+  - key: sponsors.reactsummit.description
+    t: أكبر مؤتمر React في العالم. واكب الاتجاهات مع أكثر من 50 متحدثًا، وتواصل واحتفل مع 1500 مطور، واستمتع بصيف أمستردام وغير ذلك الكثير!
+
+  - key: sponsors.reactparis.description
+    t: مؤتمر React الرائد الذي يمتد يومين بمسار واحد، ولا ينبغي أن تفوته في عام 2025.
+
+  - key: sponsors.nhost.description
+    t: >
+      Nhost بديل مفتوح المصدر لـ Firebase مزود بـ GraphQL.
+
+  - key: sponsors.apollo.description
+    t: >
+      تمكّن البنية الفائقة من Apollo فرق المنتجات والهندسة من إنشاء تجارب مذهلة لعملائها بسرعة.
+
+  - key: sponsors.the_guild.description
+    t: >
+      توفر أدوات The Guild مفتوحة المصدر ومنظومتها كل ما تحتاج إليه لتطوير واجهات API الخاصة بك.
+
+  - key: sponsors.hasura.description
+    t: >
+      شغّل Hasura محليًا أو على السحابة، واربطها بقواعد بياناتك الجديدة أو الحالية لتحصل فورًا على واجهة GraphQL جاهزة للإنتاج.
+
+  - key: sponsors.graphql_wtf.description
+    t: >
+      تعلّم شيئًا جديدًا عن GraphQL كل أسبوع. تصلك الحلقات الجديدة مباشرةً إلى بريدك الوارد.
+
+  - key: sponsors.grafbase.description
+    t: >
+      أنظمة خلفية فورية لـ GraphQL دون خوادم. توفر Grafbase أفضل تجربة للمطورين لنشر واجهات GraphQL.
+
+  - key: sponsors.cybozu.description
+    t: >
+      مطورو Kintone، الحل الرائد في اليابان لإنشاء التطبيقات دون كتابة شيفرة.
+
+  # midpage sponsors blocks
+
+  - key: tokyodev.relocation
+    t: |
+      اعثر على عمل في اليابان
+
+  - key: tokyodev.relocation.description
+    t: |
+      ليس الانتقال إلى اليابان مجرد حلم. تغطي دورة TokyoDev المكثفة للمطورين الراغبين في الانتقال إلى اليابان نقاط مثل طبيعة العمل في شركة يابانية، والراتب المتوقع، وأنواع التأشيرات المتاحة ومدى صعوبة الحصول عليها.
+
+  - key: frontendmasters.learning_path
+    t: |
+      طريقك لتصبح مطور ويب خبيرًا
+
+  - key: frontendmasters.learning_path.description
+    t: |
+      هل تريد تطوير مسيرتك المهنية؟ تعمق في JavaScript وReact وأداء الويب وCSS ونشر المواقع وTypeScript والبرمجة الوظيفية لتنتقل اليوم من مستوى مبتدئ إلى خبير.
+
+  - key: storyblok.technologies
+    t: React؟ Vue؟ Astro؟ JS؟
+
+  - key: storyblok.technologies.description
+    t: |
+      لا يهم، فنحن نتحدث JSON. Storyblok نظام إدارة محتوى منفصل يعمل مع جميع أطر العمل والمنصات الحديثة، ما يمنحك حرية اختيار الأنسب لمشروعك. ابدأ خلال دقائق!

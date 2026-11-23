@@ -6,7 +6,7 @@ This repository contains the Arabic language files for the Devographics develope
 
 #### 1. Becoming a Translator
 
-To start helping translate the survey, you should [join the Discord](https://discord.com/invite/zRDb35jfrt) and DM me (`SachaG`) your GitHub username, along with the locale code (`fr-FR`, `zh-Hant`, etc.) for the language you'd like to help with.
+To start helping translate the survey, you should [join the Discord](https://discord.com/invite/zRDb35jfrt) and DM me (`SachaG`) your GitHub username, along with the locale code (`ar-EG`, `en-US`, `fr-FR`, etc.) for the language you'd like to help with.
 
 I will then give you maintainer rights over a repo containing all the translation `yaml` files, and from now on you can manage it yourself along with other members of the translation team.  
 
@@ -50,23 +50,27 @@ There is currently no automated hook to update the production apps when a transl
 These strings are related to the app that you use to fill out the actual survey.
 
 - `surveys.yml`
+- `results.yml`
 - `accounts.yml`
-- `state_of_js.yml`
+- `state_of_html.yml`
 - `state_of_css.yml`
+- `state_of_js.yml`
 
 #### Results App
 
 These strings only appear in the static site that displays the survey results and stats.
 
 - `results.yml`
-- `js2020.yml`
-- `css2020.yml`
+- `html2026.yml`
+- `css2026.yml`
+- `js2026.yml`
 
 #### Both
 
 These strings appear in both.
 
 - `common.yml`
+- `state_of_html.yml`
 - `state_of_css.yml`
 - `state_of_js.yml`
 

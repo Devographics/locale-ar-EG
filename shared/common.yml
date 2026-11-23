@@ -6,201 +6,306 @@ translations:
 
   # homepage
   - key: general.why_create_account
-    t: لماذا عليًَ إنشاء حساب؟
+    t: لماذا أحتاج إلى إنشاء حساب؟
   - key: general.create_account_reasons
     t: >
-      نحن نطلب منك إنشاء حساب لكي:
+      نطلب منك إنشاء حساب من أجل:
 
       - تجنب الردود المكررة
 
-      - نمنحك ولوج إلى بياناتك
+      - إتاحة الوصول إلى بياناتك
 
-      - حفظ جلستك وقت التصفح
+      - حفظ جلستك أثناء تقدمك
 
-      - إشعارك عند إعلان النتائج
-
+      - إعلامك عند صدور النتائج
   - key: general.survey_closed_detailed
     t: >
-      نتأسف لك، هذا الاستبيان قد تم إغلاقه! مع هذا ما زال باستطاعتك مراجعة بياناتك ولكن لن تستطيع تعديلها.
+      عذرًا، أُغلق الاستطلاع الآن! لا يزال بإمكانك مراجعة بياناتك، لكن لن تتمكن من تعديلها.
   - key: general.survey_read_only
     t: >
-      حاليًا أنت ترى هذا الاستبيان في وضع القراءة فقط.
+      تشاهد هذا الاستطلاع حاليًا في وضع القراءة فقط.
   - key: general.survey_preview
     t: >
-      هذا الاستبيان في وضع المعاينة. وأسئلته قابلة للتغير، كذلك سيُحذف كل تم إدخاله من البيانات عند بدء الاستبيان الحقيقي.
+      هذا الاستطلاع في **وضع المعاينة**. قد تتغير أسئلته، وستُحذف **جميع البيانات التي تدخلها الآن** عند بدء الاستطلاع الفعلي.
+  - key: general.survey_feedback
+    t: أرسل ملاحظاتك
 
   - key: general.survey_read_only_back
     t: >
-      <a href="{link}">العودة</a>
-      إلى صفحة الاستبيان الأساسية للبدء أو استكمال الجلسة.
+      <a href="{link}">عُد</a> إلى صفحة الاستطلاع الرئيسية لبدء جلسة أو استئنافها.
   - key: general.take_survey
-    t: المشاركة في استبيان {name}
+    t: شارك في استطلاع {name}
+
+  - key: options.na
+    t: 🚫 لا شيء
 
   # surveys
   - key: general.open_surveys
-    t: فتح الاستبيانات.
+    t: الاستطلاعات المفتوحة
   - key: general.no_open_surveys
-    t: لا يوجد استبيان متاح حاليًا.
+    t: لا توجد استطلاعات مفتوحة حاليًا.
   - key: general.closed_surveys
-    t: الاستبيانات المغلقة.
+    t: الاستطلاعات المغلقة
   - key: general.no_closed_surveys
-    t: لا يوجد استبيان مغلق حاليًا.
+    t: لا توجد استطلاعات مغلقة حاليًا.
   - key: general.preview_surveys
-    t: معاينة الاستبيانات.
+    t: استطلاعات المعاينة
   - key: general.no_preview_surveys
-    t: لا يوجد استبيان متاح لمعيانته.
+    t: لا توجد استطلاعات متاحة للمعاينة.
   - key: general.start_survey
-    t: بدء الاستبيان
+    t: ابدأ الاستطلاع »
   - key: general.continue_survey
-    t: استكمال الاستبيان
+    t: تابع الاستطلاع »
+  - key: general.completion
+    t: "اكتمل بنسبة {completion}%"
+  - key: general.started_on
+    t: بدأ في {createdAt}
+  - key: general.last_modified_on
+    t: آخر تعديل في {updatedAt}
   - key: general.review_survey
-    t: مراجعة الاستبيان
+    t: راجع الاستطلاع »
+  - key: general.review_answers
+    t: راجع الإجابات »
   - key: general.preview_survey
-    t: معيانة الاستبيان
+    t: عاين الاستطلاع »
   - key: general.finish_survey
-    t: إنهاء الاستبيان
+    t: أنهِ الاستطلاع
   - key: general.next_section
-    t: الجزء التالي.
+    t: القسم التالي
   - key: general.previous_section
-    t: الجزء السابق.
+    t: القسم السابق
   - key: general.survey_closed
-    t: هذا الاستبيان مغلق حاليًا
+    t: أُغلق هذا الاستطلاع الآن.
+  - key: general.survey_closed_on
+    t: أُغلق هذا الاستطلاع في {endedAt}.
   - key: general.survey_results
-    t: رؤية نتائج الاستبيان
+    t: اعرض نتائج الاستطلاع »
   - key: general.surveys_available_languages
-    t: "الاستبيانات متاحة في:"
+    t: "الاستطلاعات متاحة باللغات التالية:"
   - key: general.help_us_translate
-    t: ساعدنا بترجمة الاستبيانات.
+    t: ساعدنا في ترجمة الاستطلاعات »
   - key: general.translators
     t: المترجمون
   - key: general.translation_help
-    t: المساعدون في الترجمة
+    t: المساعدة في الترجمة
   - key: general.newly_added
-    t: أضيف حديثا هذا العام
+    t: أُضيف حديثًا إلى الاستطلاع هذا العام
   - key: general.new
     t: جديد
+  - key: general.devographics_banner
+    t: <a href="https://www.devographics.com/" target="_blank">Devographics</a> هو الاسم الجديد للمجموعة التي تدير استطلاعات حالة JavaScript وCSS وGraphQL.
+
+  - key: general.start_date
+    t: تاريخ البدء
+  - key: general.end_date
+    t: تاريخ الانتهاء
+  - key: general.number_of_respondents
+    t: المشاركون
+  - key: general.survey_archive
+    t: أرشيف الاستطلاعات
+  - key: general.review_questions
+    t: راجع الأسئلة
+  - key: general.get_data
+    t: احصل على البيانات
+  - key: general.download_data
+    t: تنزيل
 
   # credits
   - key: credits.thanks
-    t: شُكر خاص
+    t: شكر خاص
+  - key: credits.contributors
+    t: المساهمون
+  - key: credits.contributors.description
+    t: نتقدم بجزيل الشكر إلى الأشخاص التاليين لمساعدتهم في تصميم الاستطلاع.
   - key: credits.accessibility
-    t: Accessibility Consulting
+    t: استشارات إمكانية الوصول
   - key: credits.survey_design
-    t: تصميم الاستبيان
+    t: تصميم الاستطلاع
   - key: credits.logo_design
     t: تصميم الشعار
   - key: credits.mobile_testing
-    t: اختبارات الهاتف
+    t: اختبار الأجهزة المحمولة
   - key: credits.data_visualizations
-    t: الرسوم البيانية
+    t: تصورات البيانات
   - key: credits.repo_architecture
-    t: هندسة الريبو
+    t: بنية المستودع
   - key: credits.code_refactoring
     t: إعادة هيكلة الكود
   - key: credits.data_processing
     t: معالجة البيانات
+  - key: credits.back_end_development
+    t: تطوير الواجهة الخلفية
+  - key: credits.survey_review
+    t: مراجعة الاستطلاع
+  - key: credits.conclusion
+    t: الخاتمة
 
   # support
   - key: general.support_from
-    t: مع دعم من
+    t: بدعم من
 
   # footer
   - key: general.privacy_policy
     t: سياسة الخصوصية
   - key: general.leave_issue
-    t: أسئلة؟ وجدت بق؟
-      <a href="{link}" target="_blank">اترك لنا مسألة</a>.
+    t: هل لديك أسئلة أو وجدت خطأً؟ <a href="{link}" target="_blank">أبلغ عن مشكلة</a>.
+  - key: general.leave_issue2
+    t: أبلغ عن مشكلة
   - key: general.emoji_icons
-    t: أيقونات الإموجي بواسطة <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
+    t: أيقونات إيموجي من تصميم <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
 
   # navigation
   - key: general.table_of_contents
-    t: جدول المحتوى
+    t: >
+      {sectionCount} أقسام (اكتمل {completion}%)
   - key: general.all_questions_optional
     t: >
-      ملحوظة: كل الأسئلة اختيارية، ليس عليك استكمالها 100% أو كلها.
+      ملاحظة: جميع الأسئلة اختيارية، ولا يُشترط إكمال الاستطلاع بنسبة 100%.
   - key: general.data_is_saved
-    t: بياناتك محفوظة سواء ذهبت إلى الجزء التالي أم السابق.
+    t: تُحفظ بياناتك كلما انتقلت إلى القسم السابق أو التالي.
   - key: general.close_nav
     t: إغلاق القائمة
   - key: general.open_nav
     t: فتح القائمة
   - key: general.more_actions
-    t: إجراءات زيادة
+    t: مزيد من الإجراءات
   - key: general.skip_to_content
-    t: التخطى إلى المحتوى
+    t: انتقل إلى المحتوى
 
   # thanks
   - key: general.back
-    t: الرجوع
+    t: رجوع
+  - key: general.back_to_survey
+    t: العودة إلى الاستطلاع
   - key: general.thanks
     t: >
-      شكرًا على ملئ الاستبيان!
+      شكرًا لإكمال الاستطلاع! حُفظت بياناتك.
 
-      قد تم حفظ بياناتك. تستطيع مراجعتها أو تعديلها إلى أن يغلق الاستبيان.
 
-      كذلك، بإمكانك مساعدتنا على إسماع صوتنا عن طريق مشاركة هذا الاستبيان. كل بِت مهم بالنسبة لنا، وسيساعدنا هذا على جعل بياناتنا معبرة أكثر:
-  - key: thanks.learn_more_about
-    t: "بعض المميزات التي قد تريد تعلمها:"
-  - key: thanks.knowledge_score
-    t: نقاط المعرفة
-  - key: thanks.score_explanation
+      يمكنك أيضًا مساعدتنا على نشر الخبر بمشاركة هذا الاستطلاع. كل مساهمة مهمة، وستساعد في جعل بياناتنا أكثر
+      تمثيلًا:
+
+  - key: general.thanks1
     t: >
-      قد سمعت عن أو استخدمت <span class="score-number score-number-known">{known}</span>
-      من
-      <span class="score-number score-number-total">{total}</span>
-      المميزات المذكورة بالاستبيان، والتي تجعلق في في أعلى 
-      <span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>
-      من الذين شاركوا بهذا الاستبيان.
+      شكرًا لإكمال الاستطلاع! حُفظت بياناتك.
+  - key: general.thanks2
+    t: >
+      ساعدنا على نشر الخبر بمشاركة هذا الاستطلاع! كل مساهمة مهمة، وستساعد في جعل بياناتنا أكثر
+      تمثيلًا.
+  - key: thanks.learn_more_about
+    t: "بعض الميزات التي قد ترغب في معرفة المزيد عنها:"
+  - key: thanks.knowledge_score
+    t: درجة المعرفة
+  - key: thanks.features_score
+    t: درجة الميزات
+  - key: thanks.quiz_score
+    t: نتيجة الاختبار
+  - key: thanks.score_statistics
+    t: >
+      من بين {total} ميزة وردت في الاستطلاع،
+      استخدمت {usage_count} منها وسمعت عن {awareness_count} أخرى،
+      ما يضعك ضمن أعلى {knowledgeRankingFromTop} من المشاركين.
+      أحسنت!
+  - key: thanks.score_statistics_noranking
+    t: >
+      من بين {total} ميزة وردت في الاستطلاع،
+      استخدمت {usage_count} منها وسمعت عن {awareness_count} أخرى.
+      أحسنت!
+  - key: thanks.points
+    t: >
+      نقطة
+  - key: thanks.score_awareness_explanation
+    t: >
+      لضمان الإنصاف، تُحسب هذه النسبة بناءً على الميزات الـ{awareness_total} التي استطعت تحديد معرفتك بها
   - key: thanks.share_on_twitter
     t: شارك على تويتر
+  - key: thanks.share_on_x
+    t: شارك على X
   - key: thanks.share_score_message
     t: >
-      قد حصلت على {score}% 
-      من النقاط في الاستبيان
-      #{hashtag}! 
-      يمكنك أن تشارك من هنا: {shareUrl}
+      حصلت على {score} نقطة في درجة المعرفة في استطلاع #{hashtag} لهذا العام!
+      استخدمت {usage_count} ميزة، وأعرف {awareness_count} ميزة أخرى،
+      ما يضعني ضمن أعلى {rank}% من جميع المشاركين.
+      هل تستطيع تجاوز نتيجتي؟ {shareUrl}
+
+  - key: share.twitter
+    t: شارك على تويتر
+  - key: share.x
+    t: شارك على X
+  - key: share.bluesky
+    t: شارك على Bluesky
+  - key: share.mastodon
+    t: شارك على Mastodon
+  - key: share.facebook
+    t: شارك على فيسبوك
+  - key: share.linkedin
+    t: شارك على LinkedIn
+  - key: share.email
+    t: شارك عبر البريد الإلكتروني
+  - key: share.image
+    t: احصل على الصورة
+  - key: share.link
+    t: رابط إلى القسم
+  - key: share.url
+    t: نسخ الرابط
+
   # share
   - key: general.share_subject
     t: >
-      {surveyName} استبيان
+      استطلاع {surveyName}
   - key: general.share_text
     t: >
-      استبيان هذا العام{surveyName} 
-      متاح الآن! {link}
+      شارك في استطلاع {surveyName} إذا كان لديك دقيقة! {link}
 
   # forms
   - key: forms.select_option
-    t: حدد اختيار
+    t: اختر خيارًا
   - key: forms.clear_field
-    t: حذف السؤال
+    t: امسح الإجابة
+  - key: forms.more_options
+    t: عرض المزيد…
+  - key: forms.less_options
+    t: عرض أقل
 
-  # partners
+  # partners & sponsors
+  - key: sponsors.with_support_from
+    t: بدعم خاص من
   - key: sponsors.our_partners
     t: شركاؤنا
   - key: sponsors.become_partner
-    t: كن شريكًا
+    t: انضم كشريك
 
   # 404
   - key: notfound.title
-    t: خطأ 404 - لم يُعثر عليه.
+    t: 404 غير موجود
   - key: notfound.description
-    t: معذرةً، لم نستطع إيجاد ما كنت تبحث عنه
+    t: عذرًا، لم نتمكن من العثور على ما تبحث عنه.
 
   # other
   - key: general.join_discord
-    t: انضم إلينا في <a href="{link}">ديسكورد</a>.
+    t: انضم إلينا على <a href="{link}">Discord</a>.
   - key: general.translator_mode
-    t: اضغط option/alt لإتاحة وضع الترجمة.
+    t: اضغط على مفتاح option/alt لتفعيل وضع الترجمة.
   - key: general.charts_nivo
-    t: أنشأ الرسوم البيانية <a href="{link}">Nivo</a>.
+    t: أُنشئت الرسوم البيانية باستخدام <a href="{link}">Nivo</a>.
+  - key: general.made_by_devographics
+    t: صنعته <a href="{link}">Devographics</a>
+  - key: general.view_code_example
+    t: عرض مثال على الكود
+  - key: general.feature_code_example
+    t: "مثال على كود **{featureName}**"
+  - key: general.code_example
+    t: مثال على الكود
+  - key: general.language_code
+    t: |
+      كود {language}
 
   ###########################################################################
   # Nav
   ###########################################################################
 
   - key: nav.surveys
-    t: الاستبيانات
+    t: الاستطلاعات
   - key: nav.account
     t: الحساب
 
@@ -208,155 +313,384 @@ translations:
   # Sections
   ###########################################################################
 
+  - key: sections.overview.title
+    t: نظرة عامة
+
   - key: sections.user_info.title
-    t: عنك
+    t: نبذة عنك
   - key: sections.user_info.description
-    t: دعنا نتعرف على حقيقتك.
+    t: لنتعرف عليك أكثر.
 
   - key: sections.features.title
-    t: مميزات
+    t: الميزات
   - key: sections.features.description
-    t: Syntax, keywords ومميزات أخرى باللغة.
+    t: الصياغة والكلمات المفتاحية وغيرها من ميزات اللغة.
 
   - key: sections.resources.title
-    t: المصادر
+    t: الموارد
   - key: sections.resources.description
-    t: أي resources do you consult?
+    t: ما الموارد التي تستعين بها؟
 
   - key: sections.opinions.title
-    t: اختيارات
+    t: الآراء
   - key: sections.opinions.description
-    t: ما هو شعورك حيال موضوع {topic} ؟
+    t: ما رأيك في الوضع الحالي؟
+
+  - key: opinions.opinions_intro
+    t: في الأسئلة التالية، أخبرنا إلى أي مدى توافق على كل عبارة.
+    aliases:
+      - worldview.opinions_intro
 
   - key: sections.other_tools.title
     t: أدوات أخرى
-  - key: sections.other_tools.description
-    t: بالنسلة لهذه الأدوات والتقنيات، ما عليك سوى التحقق من تلك التي تستخدمها عادةً
 
   - key: sections.report.title
-    t: تقرير اﻷكثر رواجًا
+    t: تقرير الاتجاهات
+
+  - key: sections.usage.title
+    t: الاستخدام
+
+  - key: sections.finish.title
+    t: إنهاء الاستطلاع
+
+  - key: sections.finish.description
+    t: أنهِ الاستطلاع
+
+  - key: sections._external_data.title
+    t: بيانات خارجية
+  - key: sections._external_data.description
+    t: بيانات من مصادر خارجية
+
+  - key: sections.ai_usage.title
+    t: الذكاء الاصطناعي
+  - key: sections.ai_usage.prompt
+    t: استخدام الذكاء الاصطناعي والمخاوف المتعلقة به.
 
   ###########################################################################
   # Options
   ###########################################################################
 
+  - key: options.0_100_scale.0
+    t: 0%
+    aliases:
+      - options.slider.0.description
+  - key: options.0_100_scale.1
+    t: 12.5%
+    aliases:
+      - options.slider.1.description
+      - options.ai_generated_code_balance.1
+      - options.css_ai_generated_code_balance.1
+      - options.html_css_js_balance.1
+  - key: options.0_100_scale.2
+    t: 25%
+    aliases:
+      - options.slider.2.description
+      - options.ai_generated_code_balance.2
+      - options.css_ai_generated_code_balance.2
+      - options.html_css_js_balance.2
+  - key: options.0_100_scale.3
+    t: 37.5%
+    aliases:
+      - options.slider.3.description
+      - options.ai_generated_code_balance.3
+      - options.css_ai_generated_code_balance.3
+      - options.html_css_js_balance.3
+  - key: options.0_100_scale.4
+    t: 50%
+    aliases:
+      - options.slider.4.description
+      - options.ai_generated_code_balance.4
+      - options.css_ai_generated_code_balance.4
+      - options.html_css_js_balance.4
+  - key: options.0_100_scale.5
+    t: 62.5%
+    aliases:
+      - options.slider.5.description
+      - options.ai_generated_code_balance.5
+      - options.css_ai_generated_code_balance.5
+      - options.html_css_js_balance.5
+  - key: options.0_100_scale.6
+    t: 75%
+    aliases:
+      - options.slider.6.description
+      - options.ai_generated_code_balance.6
+      - options.css_ai_generated_code_balance.6
+      - options.html_css_js_balance.6
+  - key: options.0_100_scale.7
+    t: 87.5%
+    aliases:
+      - options.slider.7.description
+      - options.ai_generated_code_balance.7
+      - options.css_ai_generated_code_balance.7
+      - options.html_css_js_balance.7
+  - key: options.0_100_scale.8
+    t: 100%
+    aliases:
+      - options.slider.8.description
+
+  - key: options.experience.title
+    t: الخبرة
+
+  # other answer
+  - key: options.other
+    t: خيار آخر…
+  - key: options.other.placeholder
+    t: خيار آخر غير مذكور أعلاه
+  - key: options.other.placeholder.multiple
+    t: خيارات أخرى غير مذكورة أعلاه، افصل بينها بفواصل
+
   # features
   - key: options.features.never_heard
-    t: <span aria-hidden="true">🤷</span> لم أسمع بها أبدًا/ لست متأكدًا ما هي
+    t: <span aria-hidden="true">🤷</span> لم أسمع به من قبل/لا أعرف ما هو
   - key: options.features.heard
-    t: <span aria-hidden="true">✅</span> أعرفها، ولكن لم أستخدمها أبدًا
+    t: <span aria-hidden="true">✅</span> أعرف ما هو، لكنني لم أستخدمه
   - key: options.features.used
-    t: <span aria-hidden="true">👍</span> استخدمتها من قبل
+    t: <span aria-hidden="true">👍</span> استخدمته
+
+  # features v2
+  - key: options.features2.never_heard
+    t: <span class="option-chip option-main option-main-never_heard">لم أسمع به من قبل/لا أعرف ما هو</option>
+  - key: options.features2.interested
+    t: |
+      <span class="option-chip option-main option-main-heard">سمعت به</span> » <span class="option-chip option-positive">مهتم</span>
+  - key: options.features2.not_interested
+    t: |
+      <span class="option-chip option-main option-main-heard">سمعت به</span> » <span class="option-chip option-negative">غير مهتم</span>
+  - key: options.features2.used_positive
+    t: |
+      <span class="option-chip option-main option-main-used">استخدمته</span> » <span class="option-chip option-positive">تجربة إيجابية</span>
+  - key: options.features2.used_negative
+    t: |
+      <span class="option-chip option-main option-main-used">استخدمته</span> » <span class="option-chip option-negative">تجربة سلبية</span>
+
+  - key: options.features.na
+    t: لا شيء
+
+  # features (short)
+  - key: options.features.never_heard.short
+    t: لم أسمع به
+  - key: options.features.heard.short
+    t: سمعت به
+  - key: options.features.used.short
+    t: استخدمته
+
+  - key: options.experience.never_heard
+    aliasFor: options.features.never_heard.short
+  - key: options.experience.heard
+    aliasFor: options.features.heard.short
+  - key: options.experience.used
+    aliasFor: options.features.used.short
+
+  - key: options.experience.never_heard.short
+    aliasFor: options.features.never_heard.short
+  - key: options.experience.heard.short
+    aliasFor: options.features.heard.short
+  - key: options.experience.used.short
+    aliasFor: options.features.used.short
 
   # features (no emoji)
   - key: options.features.never_heard.label
-    t: لم أسمع بها أبدًا/ لست متأكدًا ما هي
+    t: لم أسمع به من قبل/لا أعرف ما هو
   - key: options.features.heard.label
-    t: أعرفها، ولكن لم أستخدمها أبدًا
+    t: أعرف ما هو، لكنني لم أستخدمه
   - key: options.features.used.label
-    t: استخدمتها من قبل
+    t: استخدمته
 
-  # features (short versions)
-  - key: options.features.never_heard.short
-    t: لم أسمع عنها
-  - key: options.features.heard.short
-    t: أعرفها
-  - key: options.features.used.short
-    t: استخدمتها
+  # features (no emoji, short versions)
+  - key: options.features.never_heard.label.short
+    t: لم أسمع به
+  - key: options.features.heard.label.short
+    t: سمعت به
+  - key: options.features.used.label.short
+    t: استخدمته
+
+  # aliases
+  - key: options.experience.never_heard.label.short
+    aliasFor: options.features.never_heard.label.short
+  - key: options.experience.heard.label.short
+    aliasFor: options.features.heard.label.short
+  - key: options.experience.used.label.short
+    aliasFor: options.features.used.label.short
+
+  - key: options.experience.never_heard.description
+    t: المشاركون الذين لم يسمعوا عن عنصر ما من قبل.
+  - key: options.experience.heard.description
+    t: المشاركون الذين سمعوا عن عنصر ما، لكنهم لم يستخدموه.
+  - key: options.experience.used.description
+    t: المشاركون الذين استخدموا عنصرًا ما.
+
+  # sentiments
+
+  - key: options.sentiment.title
+    t: الانطباع
+
+  - key: options.sentiment.positive.label
+    t: انطباع إيجابي
+  - key: options.sentiment.neutral.label
+    t: انطباع محايد
+  - key: options.sentiment.negative.label
+    t: انطباع سلبي
+
+  - key: options.sentiment.never_heard.positive.label
+    aliasFor: followups.sentiment_interested
+  - key: options.sentiment.never_heard.negative.label
+    aliasFor: followups.sentiment_not_interested
+
+  - key: options.sentiment.heard.positive.label
+    aliasFor: followups.sentiment_interested
+  - key: options.sentiment.heard.negative.label
+    aliasFor: followups.sentiment_not_interested
+
+  - key: options.sentiment.used.positive.label
+    aliasFor: followups.sentiment_positive_experience
+  - key: options.sentiment.used.negative.label
+    aliasFor: followups.sentiment_negative_experience
+
+  - key: options.sentiment.positive.label.short
+    t: إيجابي
+  - key: options.sentiment.neutral.label.short
+    t: محايد
+  - key: options.sentiment.negative.label.short
+    t: سلبي
+  - key: options.sentiment.positive.short
+    aliasFor: options.sentiment.positive.label.short
+  - key: options.sentiment.neutral.short
+    aliasFor: options.sentiment.neutral.label.short
+  - key: options.sentiment.negative.short
+    aliasFor: options.sentiment.negative.label.short
+
+  - key: options.sentiment.never_heard.positive.label.short
+    aliasFor: followups.sentiment_interested
+  - key: options.sentiment.never_heard.negative.label.short
+    aliasFor: followups.sentiment_not_interested
+
+  - key: options.sentiment.heard.positive.label.short
+    aliasFor: followups.sentiment_interested
+  - key: options.sentiment.heard.negative.label.short
+    aliasFor: followups.sentiment_not_interested
+
+  - key: options.sentiment.used.positive.label.short
+    aliasFor: followups.sentiment_positive_experience
+  - key: options.sentiment.used.negative.label.short
+    aliasFor: followups.sentiment_negative_experience
+
+  - key: options.sentiment.positive.description
+    t: المشاركون المهتمون بمعرفة المزيد عن تقنية ما أو المستعدون لاستخدامها مجددًا.
+  - key: options.sentiment.neutral.description
+    t: المشاركون الذين لم يحددوا انطباعًا عن تقنية ما.
+  - key: options.sentiment.negative.description
+    t: المشاركون غير المهتمين بمعرفة المزيد عن تقنية ما، أو الذين استخدموها وكانت تجربتهم سلبية.
+
+  # comments
+
+  - key: options.experience.comments
+    t: تعليقات
+    aliases:
+      - options.sentiment.comments
 
   # patterns
   - key: options.patterns.use_never
-    t: غالبًا ما أتجنبها
+    t: أتجنبها في معظم الأحيان
   - key: options.patterns.use_sparingly
-    t: نادرًا ما أستعملها
+    t: أستخدمها باعتدال
   - key: options.patterns.use_neutral
     t: محايد
   - key: options.patterns.use_frequently
-    t: عادةً ما أستعملها
+    t: أستخدمها كثيرًا
   - key: options.patterns.use_always
-    t: أستعملها قدر الإمكان
+    t: أستخدمها قدر الإمكان
 
   # tools experience
   - key: options.tools.never_heard
-    t: <span aria-hidden="true">🤷</span> لم أسمع بها أبدًا/ لست متأكدًا ما هي
+    t: <span aria-hidden="true">🤷</span> لم أسمع به من قبل/لا أعرف ما هو
   - key: options.tools.interested
-    t: <span aria-hidden="true">✅</span> سمعت عنها / أريد أن أتعلمها
+    t: <span aria-hidden="true">✅</span> سمعت به > أود معرفة المزيد
   - key: options.tools.not_interested
-    t: <span aria-hidden="true">🚫</span> سمعت عنها / لست مهتمًا
+    t: <span aria-hidden="true">🚫</span> سمعت به > غير مهتم
   - key: options.tools.would_use
-    t: <span aria-hidden="true">👍</span> استخدمتها / سأستخدمها ثانيةً
+    t: <span aria-hidden="true">👍</span> استخدمته > سأستخدمه مجددًا
   - key: options.tools.would_not_use
-    t: <span aria-hidden="true">👎</span> استخدمتها / لن أستخدمها مجددًا
+    t: <span aria-hidden="true">👎</span> استخدمته > لن أستخدمه مجددًا
 
   # tools experience (no emoji)
   - key: options.tools.never_heard.legend
-    t: لم أسمع بها أبدًا/ لست متأكدًا ما هي
+    t: لم أسمع به من قبل/لا أعرف ما هو
   - key: options.tools.interested.legend
-    t: سمعت عنها / أريد أن أتعلمها
+    t: سمعت به > أود معرفة المزيد
   - key: options.tools.not_interested.legend
-    t: سمعت عنها / لست مهتمًا
+    t: سمعت به > غير مهتم
   - key: options.tools.would_use.legend
-    t: استخدمتها / سأستخدمها ثانيةً
+    t: استخدمته > سأستخدمه مجددًا
   - key: options.tools.would_not_use.legend
-    t: استخدمتها / لن أستخدمها مجددًا
+    t: استخدمته > لن أستخدمه مجددًا
 
   # tools experience (short versions)
   - key: options.tools.never_heard.short
-    t: لم أسمع عنها
+    t: لم أسمع به
   - key: options.tools.interested.short
     t: مهتم
   - key: options.tools.not_interested.short
-    t: لست مهتمًا
+    t: غير مهتم
   - key: options.tools.would_use.short
-    t: سأستخدمها مجددًا
+    t: سأستخدمه مجددًا
   - key: options.tools.would_not_use.short
-    t: لمَ لا أستخدمها
+    t: لن أستخدمه
 
   # happiness
   - key: options.happiness.0
-    t: غير راضٍ تمامًا
+    t: غير سعيد جدًا
   - key: options.happiness.1
-    t: غير راضٍ
+    t: غير سعيد
   - key: options.happiness.2
     t: محايد
   - key: options.happiness.3
-    t: راضٍ
+    t: سعيد
   - key: options.happiness.4
-    t: راضٍ جدًا
+    t: سعيد جدًا
 
   # happiness (short version)
   - key: options.happiness.0.short
-    t: غير راضٍ تمامًا
+    t: غير سعيد جدًا
   - key: options.happiness.1.short
-    t: غير راضٍ
+    t: غير سعيد
   - key: options.happiness.2.short
     t: محايد
   - key: options.happiness.3.short
-    t: راضٍ
+    t: سعيد
   - key: options.happiness.4.short
-    t: راضٍ جدًا
+    t: سعيد جدًا
 
   # opinions
   - key: options.opinions.0
-    t: أعارض بشدة
+    t: لا أوافق بشدة
+    aliases:
+      - options.opinions.value_0
   - key: options.opinions.1
-    t: أعارض
+    t: لا أوافق
+    aliases:
+      - options.opinions.value_1
   - key: options.opinions.2
     t: محايد
+    aliases:
+      - options.opinions.value_2
   - key: options.opinions.3
-    t: موافق
+    t: أوافق
+    aliases:
+      - options.opinions.value_3
   - key: options.opinions.4
-    t: موافق جدا
+    t: أوافق بشدة
+    aliases:
+      - options.opinions.value_4
 
   # age
   - key: options.age.range_less_than_10
-    t: أقل من 10 أعوام
+    t: 10 سنوات أو أقل
   - key: options.age.range_10_18
-    t: 10-18 سنة
+    t: 11-18 سنة
   - key: options.age.range_18_24
-    t: 18-24 سنة
+    t: 19-24 سنة
   - key: options.age.range_25_34
-    t: 24-34 سنة
+    t: 25-34 سنة
   - key: options.age.range_35_44
     t: 35-44 سنة
   - key: options.age.range_45_54
@@ -370,11 +704,11 @@ translations:
   - key: options.age.range_less_than_10.short
     t: "<10"
   - key: options.age.range_10_18.short
-    t: 10-18
+    t: 11-18
   - key: options.age.range_18_24.short
-    t: 18-24
+    t: 19-24
   - key: options.age.range_25_34.short
-    t: 24-34
+    t: 25-34
   - key: options.age.range_35_44.short
     t: 35-44
   - key: options.age.range_45_54.short
@@ -384,157 +718,220 @@ translations:
   - key: options.age.range_more_than_65.short
     t: ">65"
 
+  # age 2
+  - key: options.age.range_under_20
+    t: 19 سنة أو أقل
+  - key: options.age.range_20_29
+    t: 20-29 سنة
+  - key: options.age.range_30_39
+    t: 30-39 سنة
+  - key: options.age.range_40_49
+    t: 40-49 سنة
+  - key: options.age.range_50_59
+    t: 50-59 سنة
+  - key: options.age.range_over_60
+    t: 60 سنة أو أكثر
+
+  - key: options.age.range_under_20.short
+    t: "<20"
+  - key: options.age.range_20_29.short
+    t: 20-29
+  - key: options.age.range_30_39.short
+    t: 30-39
+  - key: options.age.range_40_49.short
+    t: 40-49
+  - key: options.age.range_50_59.short
+    t: 50-59
+  - key: options.age.range_over_60.short
+    t: ">60"
+
   # years of experience
   - key: options.years_of_experience.range_less_than_1
     t: أقل من سنة
   - key: options.years_of_experience.range_1_2
-    t: سنة إلى سنتين
+    t: من سنة إلى سنتين
   - key: options.years_of_experience.range_2_5
-    t: 2-5 سنين
+    t: من 3 إلى 5 سنوات
   - key: options.years_of_experience.range_5_10
-    t: 5-10 سنين
+    t: من 6 إلى 10 سنوات
   - key: options.years_of_experience.range_10_20
-    t: 10-20 سنة
+    t: من 11 إلى 20 سنة
   - key: options.years_of_experience.range_more_than_20
     t: أكثر من 20 سنة
 
   # years of experience (short versions)
   - key: options.years_of_experience.range_less_than_1.short
-    t: "< سنة"
+    t: "<1 سنة"
   - key: options.years_of_experience.range_1_2.short
-    t: سنة إلى سنتين
+    t: 1-2 سنة
   - key: options.years_of_experience.range_2_5.short
-    t: 2-5 سنين
+    t: 3-5 سنوات
   - key: options.years_of_experience.range_5_10.short
-    t: 5-10 سنين
+    t: 6-10 سنوات
   - key: options.years_of_experience.range_10_20.short
-    t: 10-20 سنين
+    t: 11-20 سنة
   - key: options.years_of_experience.range_more_than_20.short
-    t: ">20 سنين"
+    t: ">20 سنة"
+
+  # years of experience v2
+  - key: options.years_of_experience.range_under_1
+    t: أقل من سنة
+  - key: options.years_of_experience.range_1_3
+    t: من سنة إلى 3 سنوات
+  - key: options.years_of_experience.range_4_6
+    t: من 4 إلى 6 سنوات
+  - key: options.years_of_experience.range_7_9
+    t: من 7 إلى 9 سنوات
+  - key: options.years_of_experience.range_10_12
+    t: من 10 إلى 12 سنة
+  - key: options.years_of_experience.range_13_15
+    t: من 13 إلى 15 سنة
+  - key: options.years_of_experience.range_16_20
+    t: من 16 إلى 20 سنة
+  - key: options.years_of_experience.range_over_20
+    t: أكثر من 20 سنة
+
+  # years of experience v2 (short versions)
+  - key: options.years_of_experience.range_under_1.short
+    t: "<1 سنة"
+  - key: options.years_of_experience.range_1_3.short
+    t: 1-3 سنوات
+  - key: options.years_of_experience.range_4_6.short
+    t: 4-6 سنوات
+  - key: options.years_of_experience.range_7_9.short
+    t: 7-9 سنوات
+  - key: options.years_of_experience.range_10_12.short
+    t: 10-12 سنة
+  - key: options.years_of_experience.range_13_15.short
+    t: 13-15 سنة
+  - key: options.years_of_experience.range_16_20.short
+    t: 16-20 سنة
+  - key: options.years_of_experience.range_over_20.short
+    t: ">20 سنة"
+
+  # years of experience v3
+  - key: options.years_of_experience.range_0_4
+    t: 0-4 سنوات
+  - key: options.years_of_experience.range_5_9
+    t: 5-9 سنوات
+  - key: options.years_of_experience.range_10_14
+    t: 10-14 سنة
+  - key: options.years_of_experience.range_15_19
+    t: 15-19 سنة
+  - key: options.years_of_experience.range_20_24
+    t: 20-24 سنة
+  - key: options.years_of_experience.range_25_29
+    t: 25-29 سنة
+  - key: options.years_of_experience.range_over_30
+    t: أكثر من 30 سنة
+
+  # years of experience v3
+  - key: options.years.range_0_4
+    aliasFor: options.years_of_experience.range_0_4
+  - key: options.years.range_5_9
+    aliasFor: options.years_of_experience.range_5_9
+  - key: options.years.range_10_14
+    aliasFor: options.years_of_experience.range_10_14
+  - key: options.years.range_15_19
+    aliasFor: options.years_of_experience.range_15_19
+  - key: options.years.range_20_24
+    aliasFor: options.years_of_experience.range_20_24
+  - key: options.years.range_25_29
+    aliasFor: options.years_of_experience.range_25_29
+  - key: options.years.range_over_30
+    aliasFor: options.years_of_experience.range_over_30
 
   # company size
+  - key: options.company_size.na
+    t: 🚫 لا ينطبق
   - key: options.company_size.range_1
-    t: موظف واحد
+    t: أنا فقط
   - key: options.company_size.range_1_5
-    t: من موظف إلى 5 موظفين
+    t: من شخصين إلى 5 أشخاص
   - key: options.company_size.range_5_10
-    t: 5-10 موظفين
+    t: من 6 إلى 10 أشخاص
   - key: options.company_size.range_10_20
-    t: 10-20 موظف
+    t: من 11 إلى 20 شخصًا
   - key: options.company_size.range_20_50
-    t: 20-50 موظف
+    t: من 21 إلى 50 شخصًا
   - key: options.company_size.range_50_100
-    t: 50-100 موظف
+    t: من 51 إلى 100 شخص
   - key: options.company_size.range_100_1000
-    t: 100-1000 موظف
+    t: من 101 إلى 1000 شخص
   - key: options.company_size.range_more_than_1000
-    t: أكثر من 1000 موظف
+    t: أكثر من 1000 شخص
 
   # company size (short versions)
+  - key: options.company_size.na.short
+    t: لا ينطبق
   - key: options.company_size.range_1.short
-    t: 1
+    t: "1"
   - key: options.company_size.range_1_5.short
-    t: 1-5
+    t: 2-5
   - key: options.company_size.range_5_10.short
-    t: 5-10
+    t: 6-10
   - key: options.company_size.range_10_20.short
-    t: 10-20
+    t: 11-20
   - key: options.company_size.range_20_50.short
-    t: 20-50
+    t: 21-50
   - key: options.company_size.range_50_100.short
-    t: 50-100
+    t: 51-100
   - key: options.company_size.range_100_1000.short
-    t: 100-1000
+    t: 101-1000
   - key: options.company_size.range_more_than_1000.short
-    t: ">1000"
+    t: "1000+"
 
   # salary
+  - key: options.yearly_salary.na
+    t: 🚫 لا ينطبق
   - key: options.yearly_salary.range_work_for_free
-    t: أعمل مجانًا
+    t: أعمل دون أجر
   - key: options.yearly_salary.range_0_10
-    t: $0k-$10k
+    t: 0–10 آلاف دولار
   - key: options.yearly_salary.range_10_30
-    t: $10k-$30k
+    t: 10–30 ألف دولار
   - key: options.yearly_salary.range_30_50
-    t: $30k-$50k
+    t: 30–50 ألف دولار
   - key: options.yearly_salary.range_50_100
-    t: $50k-$100k
+    t: 50–100 ألف دولار
   - key: options.yearly_salary.range_100_200
-    t: $100k-$200k
+    t: 100–200 ألف دولار
   - key: options.yearly_salary.range_more_than_200
-    t: اكثر من $200k
+    t: أكثر من 200 ألف دولار
+
+  - key: options.yearly_salary.range_0_20
+    t: 0–20 ألف دولار
+  - key: options.yearly_salary.range_20_40
+    t: 20–40 ألف دولار
+  - key: options.yearly_salary.range_40_60
+    t: 40–60 ألف دولار
+  - key: options.yearly_salary.range_60_80
+    t: 60–80 ألف دولار
+  - key: options.yearly_salary.range_80_100
+    t: 80–100 ألف دولار
+  - key: options.yearly_salary.range_100_150
+    t: 100–150 ألف دولار
+  - key: options.yearly_salary.range_150_200
+    t: 150–200 ألف دولار
 
   # salary (short versions)
+  - key: options.yearly_salary.na.short
+    t: لا ينطبق
   - key: options.yearly_salary.range_work_for_free.short
     t: $0
   - key: options.yearly_salary.range_0_10.short
-    t: $0-$10k
+    t: 0–10 آلاف دولار
   - key: options.yearly_salary.range_10_30.short
-    t: $10k-$30k
+    t: 10–30 ألف دولار
   - key: options.yearly_salary.range_30_50.short
-    t: $30k-$50k
+    t: 30–50 ألف دولار
   - key: options.yearly_salary.range_50_100.short
-    t: $50k-$100k
+    t: 50–100 ألف دولار
   - key: options.yearly_salary.range_100_200.short
-    t: $100k-$200k
+    t: 100–200 ألف دولار
   - key: options.yearly_salary.range_more_than_200.short
-    t: ">$200k"
+    t: ">200 ألف دولار"
 
-  # job titles
-  - key: options.job_title.cto
-    t: CTO
-  - key: options.job_title.front_end_developer
-    t: Front End Developer/Engineer
-  - key: options.job_title.back_end_developer
-    t: Back End Developer/Engineer
-  - key: options.job_title.full_stack_developer
-    t: Full Stack Developer/Engineer
-  - key: options.job_title.web_developer
-    t: Web Developer
-  - key: options.job_title.web_designer
-    t: Web Designer
-  - key: options.job_title.ux_designer
-    t: UX Designer
-  - key: options.job_title.ui_designer
-    t: UI Designer
-  - key: options.job_title.back_end_dev
-    t: Back-end Developer/Engineer
-
-  # JavaScript proficiency
-  - key: options.javascript_proficiency.0
-    t: لا أستطيع كتابة جافا سكربيت
-  - key: options.javascript_proficiency.1
-    t: أكتب أساسيات جافا سكريبت وبعض السطور من جي كويري
-  - key: options.javascript_proficiency.2
-    t: أعمل على front-end codebases using modern frameworks (React, Vue, etc.)
-  - key: options.javascript_proficiency.3
-    t: Architecturing entire front-end codebases from scratch
-  - key: options.javascript_proficiency.4
-    t: Handling advanced front-end patterns (state management, data loading, etc.)
-
-  # CSS proficiency
-  - key: options.css_proficiency.0
-    t: عمليا لا توجد معرفة بـ CSS
-  - key: options.css_proficiency.1
-    t: استخدام أطر CSS وأستطيع تعديل الأنماط الموجودة
-  - key: options.css_proficiency.2
-    t: أعرف قواعد التخصيص، وأستطيع صناعة layouts
-  - key: options.css_proficiency.3
-    t: متقن لـ animations, interactions, transitions, إلخ.
-  - key: options.css_proficiency.4
-    t: أقدر على تصميم واجهة أمامية كاملة من الصفر باتباع منهجية متسقة
-
-  # Back-end proficiency
-  - key: options.backend_proficiency.0
-    t: غير قادر على ضبط أي عمل خاص بالـbackend
-  - key: options.backend_proficiency.1
-    t: أستطيع تنصيب all-in-one CMSs (WordPress, etc.) أو مولدات الموقع الثابت مثل (Jekyll, etc.)
-  - key: options.backend_proficiency.2
-    t: قادر على تطوير التطبيقات باستخدام الأطر الموجودة مسبقًا(Rails, Laravel, etc.)
-  - key: options.backend_proficiency.3
-    t: أستطيع تنصيب الـbackend بالكامل من الصفر (Go, Node.js, etc.)
-  - key: options.backend_proficiency.4
-    t: قادر على التعامل مع البنيات المعقدة متعددة الخوادم أو الخدمات المصغرة (complex multi-server or microservices architectures)
   # Proficiency (generic versions)
   - key: options.proficiency.0
     t: لا شيء
@@ -550,13 +947,13 @@ translations:
   # Gender
 
   - key: options.gender.female
-    t: أنثى
+    t: امرأة
   - key: options.gender.male
-    t: ذكر
+    t: رجل
   - key: options.gender.non_binary
-    t: غير ثنائي
+    t: غير ثنائي أو غير مطابق للمعايير الجندرية
   - key: options.gender.questioning
-    t: متسائل
+    t: ما زلت أستكشف هويتي الجندرية
   - key: options.gender.prefer_not_to_say
     t: أفضل عدم الإفصاح
   - key: options.gender.not_listed
@@ -569,9 +966,9 @@ translations:
   - key: options.gender.male.short
     t: رجل
   - key: options.gender.non_binary.short
-    t: غير ثنائي
+    t: غير ثنائي أو غير مطابق للمعايير الجندرية
   - key: options.gender.questioning.short
-    t: متسائل
+    t: ما زلت أستكشف هويتي الجندرية
   - key: options.gender.prefer_not_to_say.short
     t: أفضل عدم الإفصاح
   - key: options.gender.not_listed.short
@@ -580,66 +977,101 @@ translations:
   # Race & Ethnicity
 
   - key: options.race_ethnicity.white_european
-    t: أبيض
+    t: أبيض/قوقازي
   - key: options.race_ethnicity.south_asian
-    t: جنوب أسيوي
+    t: جنوب آسيوي
   - key: options.race_ethnicity.south_east_asian
-    t: جنوب شرق أسيوي
+    t: جنوب شرق آسيوي
   - key: options.race_ethnicity.hispanic_latin
-    t: من أصل أسباني أو لاتيني
+    t: من أصول إسبانية أو لاتينية
   - key: options.race_ethnicity.east_asian
-    t: شرق أسيوي
+    t: شرق آسيوي
   - key: options.race_ethnicity.middle_eastern
     t: شرق أوسطي
   - key: options.race_ethnicity.black_african
-    t: أسود أو من أصول إفريقية
+    t: أسود أو من أصول أفريقية
   - key: options.race_ethnicity.multiracial
-    t: متعدد الأعراق
+    t: متعدد الأعراق أو الإثنيات
   - key: options.race_ethnicity.biracial
     t: من عرقين
   - key: options.race_ethnicity.native_american_islander_australian
-    t: أمريكي أصلي أو من سكان جزر المحيط الهادئ أو أسترالي من السكان الأصليين
+    t: من السكان الأصليين لأمريكا أو جزر المحيط الهادئ أو أستراليا
   - key: options.race_ethnicity.not_listed
     t: غير مدرج
+
+  - key: options.race_ethnicity.european
+    t: أوروبي
+  - key: options.race_ethnicity.indian
+    t: هندي
+  - key: options.race_ethnicity.human
+    t: إنسان
+  - key: options.race_ethnicity.slav
+    t: سلافي
+  - key: options.race_ethnicity.north_african
+    t: شمال أفريقي
+  - key: options.race_ethnicity.jewish
+    t: يهودي
 
   # Race & Ethnicity (short)
 
   - key: options.race_ethnicity.white_european.short
     t: أبيض
   - key: options.race_ethnicity.south_asian.short
-    t: جنوب أسيوي
+    t: جنوب آسيوي
   - key: options.race_ethnicity.south_east_asian.short
-    t: جنوب شرق أسيوي
+    t: جنوب شرق آسيوي
   - key: options.race_ethnicity.hispanic_latin.short
-    t: من أصل أسباني أو لاتيني
+    t: إسباني/لاتيني
   - key: options.race_ethnicity.east_asian.short
-    t: شرق أسيوي
+    t: شرق آسيوي
   - key: options.race_ethnicity.middle_eastern.short
     t: شرق أوسطي
   - key: options.race_ethnicity.black_african.short
-    t: أسود أو من أصول إفريقية
+    t: أسود/أصول أفريقية
   - key: options.race_ethnicity.multiracial.short
     t: متعدد الأعراق
   - key: options.race_ethnicity.biracial.short
     t: من عرقين
   - key: options.race_ethnicity.native_american_islander_australian.short
-    t: أمريكي أصلي أو من سكان جزر المحيط الهادئ أو أسترالي من السكان الأصليين
+    t: سكان أمريكا الأصليون/جزر الهادئ/أستراليا الأصليون
   - key: options.race_ethnicity.not_listed.short
     t: غير مدرج
 
   # Disability Status
+  - key: options.disability_status.na
+    t: 🚫 لا شيء
   - key: options.disability_status.visual_impairments
-    t: >
-      الإعاقات البصرية (مثل: العمى ، عمى الألوان ، إلخ.)
+    t: إعاقات بصرية
+  - key: options.disability_status.visual_impairments.description
+    t: العمى، وعمى الألوان، وغيرها.
   - key: options.disability_status.hearing_impairments
-    t: >
-      ضعف السمع (مثل: الصمم ، طنين الأذن ، إلخ.)
+    t: إعاقات سمعية
+  - key: options.disability_status.hearing_impairments.description
+    t: الصمم، وطنين الأذن، وغيرها.
   - key: options.disability_status.mobility_impairments
-    t: >
-      ضعف الحركة (مثل: التهاب المفاصل ، النفق الرسغي ، إلخ.)
+    t: إعاقات حركية
+  - key: options.disability_status.mobility_impairments.description
+    t: التهاب المفاصل، ومتلازمة النفق الرسغي، وغيرها.
   - key: options.disability_status.cognitive_impairments
-    t: >
-      ضعف الإدراك (مثل: القلق ، وعسر القراءة ، وما إلى ذلك.)
+    t: إعاقات معرفية
+  - key: options.disability_status.cognitive_impairments.description
+    t: القلق، وعسر القراءة، واضطراب فرط الحركة وتشتت الانتباه، وغيرها.
+
+  - key: options.disability_status.neurodivergent_conditions
+    t: حالات التنوع العصبي
+  - key: options.disability_status.neurodivergent_conditions.description
+    t: اضطراب فرط الحركة وتشتت الانتباه، واضطراب طيف التوحد، وعسر القراءة، وغيرها.
+
+  - key: options.disability_status.mental_health_conditions
+    t: حالات الصحة النفسية
+  - key: options.disability_status.mental_health_conditions.description
+    t: القلق، والاكتئاب، واضطراب ما بعد الصدمة، وغيرها.
+
+  - key: options.disability_status.chronic_illnesses
+    t: أمراض مزمنة
+  - key: options.disability_status.chronic_illnesses.description
+    t: السكري، واضطرابات المناعة الذاتية، وغيرها.
+
   - key: options.disability_status.not_listed
     t: >
       غير مدرج
@@ -647,75 +1079,105 @@ translations:
   # Disability Status (short)
   - key: options.disability_status.visual_impairments.short
     t: >
-      الإعاقات البصرية
+      إعاقات بصرية
   - key: options.disability_status.hearing_impairments.short
     t: >
-      ضعف السمع
+      إعاقات سمعية
   - key: options.disability_status.mobility_impairments.short
     t: >
-      ضعف الحركة
+      إعاقات حركية
   - key: options.disability_status.cognitive_impairments.short
     t: >
-      ضعف الإدراك
+      إعاقات معرفية
   - key: options.disability_status.not_listed.short
     t: >
       غير مدرج
 
+  # employment status
+
+  - id: career.job_status
+    t: الحالة الوظيفية
+  - id: career.job_status.question
+    t: أي مما يلي يصف حالتك الوظيفية الحالية على أفضل وجه؟
+
+  - id: options.job_status.employed_full_time
+    t: موظف بدوام كامل
+  - id: options.job_status.freelance
+    t: متعاقد مستقل أو عامل حر أو أعمل لحسابي
+  - id: options.job_status.employed_part_time
+    t: موظف بدوام جزئي
+  - id: options.job_status.student_full_time
+    t: طالب بدوام كامل
+  - id: options.job_status.student_part_time
+    t: طالب بدوام جزئي
+  - id: options.job_status.looking_for_job
+    t: لا أعمل حاليًا، لكنني أبحث عن عمل
+  - id: options.job_status.not_employed_not_looking
+    t: لا أعمل حاليًا ولا أبحث عن عمل
+  - id: options.job_status.retired
+    t: متقاعد
+
   # Form Factors
   - key: options.form_factors.desktop
-    t: سطح المكتب
+    t: حاسوب مكتبي
   - key: options.form_factors.keyboard_only
-    t: سطح المكتب ولوحة المفاتيح
+    t: حاسوب مكتبي بلوحة مفاتيح فقط
   - key: options.form_factors.smartphone
-    t: الهاتف الذكي
+    t: هاتف ذكي
   - key: options.form_factors.feature_phone
-    t: مواصفات الهاتف
+    t: هاتف تقليدي
   - key: options.form_factors.tablet
-    t: تابلت
+    t: جهاز لوحي
   - key: options.form_factors.smart_watch
     t: ساعة ذكية
   - key: options.form_factors.tv
     t: تلفاز
   - key: options.form_factors.gaming_console
-    t: منصة ألعاب
+    t: جهاز ألعاب
   - key: options.form_factors.screen_reader
-    t: قارئ الشاشة
+    t: قارئ شاشة
   - key: options.form_factors.print
-    t: طباعة
+    t: مطبوعات
   - key: options.form_factors.testing_tools
-    t: أدوات اختبار (Axe, Lighthouse, etc.)
+    t: أدوات الاختبار (Axe وLighthouse وغيرها)
   - key: options.form_factors.vision_simulator
-    t: Altered Vision Simulator (color blindness, etc.)
+    t: محاكي اضطرابات الرؤية (مثل عمى الألوان)
+  - key: options.form_factors.pdf_export
+    t: تصدير PDF
 
   # Industry Sector
   - key: options.industry_sector.ecommerce
     t: التجارة الإلكترونية والتجزئة
   - key: options.industry_sector.news_media
-    t: الأخبار ووسائل الإعلام والتدوين
+    t: الأخبار والإعلام والتدوين
   - key: options.industry_sector.healthcare
     t: الرعاية الصحية
+    aliases:
+      - options.industry_sector.health_care
   - key: options.industry_sector.finance
     t: التمويل
   - key: options.industry_sector.programming_tools
-    t: البرمجة والأدوات التقنية
+    t: أدوات البرمجة والأدوات التقنية
   - key: options.industry_sector.socialmedia
     t: وسائل التواصل الاجتماعي
   - key: options.industry_sector.marketing_tools
-    t: أدوات التسويق / المبيعات / التحليلات
+    t: أدوات التسويق والمبيعات والتحليلات
   - key: options.industry_sector.education
     t: التعليم
   - key: options.industry_sector.real_estate
     t: العقارات
   - key: options.industry_sector.government
-    t: حكومي
+    t: القطاع الحكومي
   - key: options.industry_sector.entertainment
-    t: ترفيهي
+    t: الترفيه
   - key: options.industry_sector.consulting
-    t: خدمات استشارية
+    t: الاستشارات والخدمات
   - key: options.industry_sector.travel
-    t: سفر
+    t: السفر
+  - key: options.industry_sector.tourism
+    t: السياحة
   - key: options.industry_sector.insurance
-    t: تأمين
+    t: التأمين
   - key: options.industry_sector.logistics
     t: الخدمات اللوجستية
   - key: options.industry_sector.energy
@@ -725,121 +1187,453 @@ translations:
   - key: options.industry_sector.student
     t: طالب
   - key: options.industry_sector.hospitality
-    t: ضيافة
+    t: الضيافة
   - key: options.industry_sector.cyber_security
     t: الأمن السيبراني
   - key: options.industry_sector.construction
-    t: البناء والتشييد
+    t: البناء
   - key: options.industry_sector.automotive
     t: صناعة السيارات
   - key: options.industry_sector.agriculture
     t: الزراعة
   - key: options.industry_sector.transport
     t: النقل
+    aliases:
+      - options.industry_sector.transportation
   - key: options.industry_sector.manufacturing
     t: التصنيع
 
+  - key: options.industry_sector.tech_it
+    t: التقنية وتقنية المعلومات
+  - key: options.industry_sector.human_resources
+    t: الموارد البشرية
+  - key: options.industry_sector.sports
+    t: الرياضة
+  - key: options.industry_sector.gaming
+    t: الألعاب
+  - key: options.industry_sector.research
+    t: البحث والعلوم
+    aliases:
+      - options.industry_sector.science
+  - key: options.industry_sector.law
+    t: القانون
+  - key: options.industry_sector.non_profit
+    t: المنظمات غير الربحية
+  - key: options.industry_sector.art
+    t: الفن
+  - key: options.industry_sector.crypto
+    t: سلسلة الكتل/العملات المشفرة
+  - key: options.industry_sector.aerospace
+    t: الطيران والفضاء
+  - key: options.industry_sector.web3
+    t: Web3
+  - key: options.industry_sector.iot
+    t: إنترنت الأشياء
+  - key: options.industry_sector.gambling
+    t: المقامرة
+  - key: options.industry_sector.blockchain
+    t: سلسلة الكتل
+  - key: options.industry_sector.design
+    t: التصميم
+  - key: options.industry_sector.unemployed
+    t: عاطل عن العمل
+
+  - key: options.industry_sector.recruiting
+    t: التوظيف
+  - key: options.industry_sector.agency
+    t: وكالة
+  - key: options.industry_sector.business
+    t: الأعمال
+  - key: options.industry_sector.communication
+    t: الاتصالات
+  - key: options.industry_sector.security
+    t: الأمن
+
+  - key: options.industry_sector.ai
+    t: الذكاء الاصطناعي (AI)
+  - key: options.industry_sector.advertising
+    t: الإعلان
+  - key: options.industry_sector.cloud_computing
+    t: الحوسبة السحابية
+  - key: options.industry_sector.consumer_electronics
+    t: الإلكترونيات الاستهلاكية
+  - key: options.industry_sector.food
+    t: الأغذية
+  - key: options.industry_sector.hospitality_tourism
+    t: الضيافة والسياحة
+  - key: options.industry_sector.fashion
+    t: الأزياء
+  - key: options.industry_sector.robotics
+    t: الروبوتات
+  - key: options.industry_sector.saas
+    t: البرمجيات كخدمة (SaaS)
+  - key: options.industry_sector.automation
+    t: الأتمتة
+  - key: options.industry_sector.industrial
+    t: الصناعة
+  - key: options.industry_sector.music
+    t: الموسيقى
+
   # tool evaluation
   - key: options.tool_evaluation.learning_curve_documentation
-    t: المرجع
+    t: الوثائق
   - key: options.tool_evaluation.learning_curve_documentation.description
-    t: سهلة التعلم و/أو موثقة بشكل جيد؟
+    t: هل يسهل تعلمه و/أو تتوفر له وثائق جيدة؟
   - key: options.tool_evaluation.momentum_popularity
-    t: المبالغة في الاشادة و الزخم
+    t: الضجة والزخم
   - key: options.tool_evaluation.momentum_popularity.description
-    t: هل تولد حاليًا الكثير من الضجة؟
+    t: هل يحظى حاليًا باهتمام واسع؟
   - key: options.tool_evaluation.user_base_size
     t: حجم قاعدة المستخدمين
   - key: options.tool_evaluation.user_base_size.description
-    t: هل هي خيار راسخ ولها سجل طويل ؟
+    t: هل هو خيار راسخ وله سجل طويل؟
   - key: options.tool_evaluation.developer_experience_tooling
-    t: تجربة المطورين
+    t: تجربة المطور
   - key: options.tool_evaluation.developer_experience_tooling.description
-    t: هل تحتوي علي ادوات مطورين جيدة, نظام كبير من الإضافات، إلخ،؟
+    t: هل يوفر أدوات جيدة للمطورين ومنظومة واسعة من الإضافات وغيرها؟
   - key: options.tool_evaluation.performance_user_experience
     t: تجربة المستخدم
   - key: options.tool_evaluation.performance_user_experience.description
-    t: هل تساعدك على إنشاء تجربة مستخدم سلسة وفعالة ؟
+    t: هل يساعدك على إنشاء تجارب مستخدم سلسة وعالية الأداء؟
   - key: options.tool_evaluation.creator_team
     t: المنشئ والفريق
   - key: options.tool_evaluation.creator_team.description
-    t: هل يدعمها فريق معروف جيداً أو ممول جيداً أو من ذوي الخبرة؟
+    t: هل يدعمه فريق معروف أو ممول جيدًا أو ذو خبرة؟
   - key: options.tool_evaluation.accessibility_features
-    t: مزايا إمكانية الوصول
+    t: ميزات إمكانية الوصول
   - key: options.tool_evaluation.accessibility_features.description
-    t: هل هي جيدة في إنشاء تجارب يمكن الوصول اليها لجميع المستخدمين؟
+    t: هل يساعد على إنشاء تجارب ميسّرة لجميع المستخدمين؟
   - key: options.tool_evaluation.community_inclusivity
-    t: المجتمع و الشمولية
+    t: المجتمع والشمولية
   - key: options.tool_evaluation.community_inclusivity.description
-    t: هل يوجد بها مجتمع ترحيبي وحيوي ؟
+    t: هل يحيط به مجتمع مرحّب ونشط؟
 
   # accessibility features
   - key: options.accessibility_features.keyboard_navigation
-    t: التنقل باستخدام لوحة المفاتيح
+    t: التنقل بلوحة المفاتيح
   - key: options.accessibility_features.compliant_contrast
-    t: تباين متوافق مع إرشادات إتاحة محتوي الويب
+    t: تباين متوافق مع WCAG
   - key: options.accessibility_features.focus_indicators
     t: مؤشرات التركيز
   - key: options.accessibility_features.skip_to_content_link
-    t: رابط تخطي الى المحتوى
+    t: رابط الانتقال إلى المحتوى
   - key: options.accessibility_features.color_themes
-    t: سمات الألوان (الوضع الداكن ، وضع التباين العالي ، إلخ.)
+    t: سمات الألوان (مثل الوضع الداكن والتباين العالي)
   - key: options.accessibility_features.prefers_reduced_motion
-    t: تفضيل الحركة المختصرة
+    t: تفضيل تقليل الحركة
   - key: options.accessibility_features.alt_text
-    t: النص البديل
+    t: النصوص البديلة
   - key: options.accessibility_features.semantic_markup
     t: الترميز الدلالي
   - key: options.accessibility_features.aria_attributes
-    t: ARIA HTML attributes
+    t: سمات ARIA في HTML
 
   # learning methods
+  - key: options.first_steps.na
+    t: 🚫 لا شيء
   - key: options.first_steps.books
     t: الكتب
   - key: options.first_steps.videos
-    t: الفيديوهات
+    t: مقاطع الفيديو وتسجيلات الشاشة
   - key: options.first_steps.school
     t: المدرسة والتعليم العالي
   - key: options.first_steps.courses_free
-    t: المساقات الأونلاين (المجانية)
+    t: دورات عبر الإنترنت (مجانية)
   - key: options.first_steps.courses_paid
-    t: المساقات الأونلاين (المدفوعة)
+    t: دورات عبر الإنترنت (مدفوعة)
   - key: options.first_steps.podcasts
-    t: بودكاستات
+    t: بودكاست
   - key: options.first_steps.bootcamp
-    t: Coding bootcamp
+    t: معسكر تدريبي للبرمجة
   - key: options.first_steps.on_the_job
-    t: تدريب العمل
+    t: تدريب أثناء العمل
   - key: options.first_steps.self_directed
-    t: تعليم ذاتي (Google, Stack Overflow, etc.)
+    t: تعلم ذاتي (مثل Google وStack Overflow)
   - key: options.first_steps.mentoring
-    t: إشراف
+    t: إرشاد
+
+  - key: options.first_steps.documentation
+    t: الوثائق
+  - key: options.first_steps.blogs
+    t: المدونات
+  - key: options.first_steps.view_source
+    t: الاطلاع على الشيفرة المصدرية
+  - key: options.first_steps.trial_and_error
+    t: التجربة والخطأ
+  - key: options.first_steps.forums
+    t: المنتديات
+  - key: options.first_steps.newsletters
+    t: النشرات الإخبارية
+  - key: options.first_steps.events
+    t: الفعاليات
+
+  # web_platform_resources
+
+  - key: resources.web_platform_resources
+    t: موارد منصة الويب
+    aliases:
+      - other_tools.web_platform_resources
+  - key: resources.web_platform_resources.question
+    t: أي من هذه الموارد تستعين به لمتابعة ميزات منصة الويب؟
+    aliases:
+      - other_tools.web_platform_resources.question
+
+  # learning methods
+
+  - key: resources.learning_methods
+    t: أساليب التعلم
+
+  - key: options.learning_methods.na
+    aliasFor: options.first_steps.na
+  - key: options.learning_methods.books
+    aliasFor: options.first_steps.books
+  - key: options.learning_methods.videos
+    aliasFor: options.first_steps.videos
+  - key: options.learning_methods.school
+    aliasFor: options.first_steps.school
+  - key: options.learning_methods.courses_free
+    aliasFor: options.first_steps.courses_free
+  - key: options.learning_methods.courses_paid
+    aliasFor: options.first_steps.courses_paid
+  - key: options.learning_methods.podcasts
+    aliasFor: options.first_steps.podcasts
+  - key: options.learning_methods.bootcamp
+    aliasFor: options.first_steps.bootcamp
+  - key: options.learning_methods.on_the_job
+    aliasFor: options.first_steps.on_the_job
+  - key: options.learning_methods.self_directed
+    aliasFor: options.first_steps.self_directed
+  - key: options.learning_methods.mentoring
+    aliasFor: options.first_steps.mentoring
+  - key: options.learning_methods.documentation
+    aliasFor: options.first_steps.documentation
+  - key: options.learning_methods.blogs
+    aliasFor: options.first_steps.blogs
+  - key: options.learning_methods.view_source
+    aliasFor: options.first_steps.view_source
+  - key: options.learning_methods.documentation
+    aliasFor: options.first_steps.documentation
+  - key: options.learning_methods.trial_and_error
+    aliasFor: options.first_steps.trial_and_error
+  - key: options.learning_methods.forums
+    aliasFor: options.first_steps.forums
+  - key: options.learning_methods.newsletters
+    aliasFor: options.first_steps.newsletters
+  - key: options.learning_methods.events
+    aliasFor: options.first_steps.events
+
+  - key: options.learning_methods.ai_tools
+    t: أدوات الذكاء الاصطناعي (مثل ChatGPT وClaude)
 
   # degree
   - key: options.higher_education_degree.no_degree
     t: لا
   - key: options.higher_education_degree.yes_related
-    t: بلى، بمجال قريب من مهنتي الحالية.
+    t: نعم، في مجال مرتبط بمهنته الحالية
   - key: options.higher_education_degree.yes_unrelated
-    t: بلى، ولكن بمجال غير متعلق بمهنتي الحالية.
+    t: نعم، لكن في مجال غير مرتبط بمهنته الحالية
 
   # degree (short versions)
   - key: options.higher_education_degree.no_degree.short
     t: لا
   - key: options.higher_education_degree.yes_related.short
-    t: بلى، مجال قريب.
+    t: نعم، مجال مرتبط
   - key: options.higher_education_degree.yes_unrelated.short
-    t: بلى، مجال بعيد.
+    t: نعم، مجال غير مرتبط
+
+  # employment_status
+
+  - key: user_info.employment_status
+    t: الحالة الوظيفية
+  - key: user_info.employment_status.question
+    t: ما حالتك الوظيفية الحالية؟
+
+  - key: options.employment_status.employed_full_time
+    t: موظف بدوام كامل
+  - key: options.employment_status.freelance
+    t: متعاقد مستقل أو عامل حر أو أعمل لحسابي
+  - key: options.employment_status.employed_part_time
+    t: موظف بدوام جزئي
+  - key: options.employment_status.student_full_time
+    t: طالب بدوام كامل
+  - key: options.employment_status.student_part_time
+    t: طالب بدوام جزئي
+  - key: options.employment_status.looking_for_job
+    t: لا أعمل حاليًا، لكنني أبحث عن عمل
+  - key: options.employment_status.not_employed_not_looking
+    t: لا أعمل حاليًا ولا أبحث عن عمل
+
+  - key: options.employment_status.full_time
+    t: دوام كامل
+  - key: options.employment_status.student
+    t: طالب
+  - key: options.employment_status.self_employed
+    t: أعمل لحسابي
+  - key: options.employment_status.contractor
+    t: متعاقد
+  - key: options.employment_status.part_time
+    t: دوام جزئي
+  - key: options.employment_status.between_jobs
+    t: بين وظيفتين
+  - key: options.employment_status.retired
+    t: متقاعد
+
+  - key: options.employment_status.company_employee
+    t: موظف في شركة
+  - key: options.employment_status.unemployed
+    t: عاطل عن العمل
+  - key: options.employment_status.ceo_founder
+    t: مدير تنفيذي/مؤسس/رائد أعمال
+
+  - key: options.employment_status.freelance.short
+    t: عامل حر/أعمل لحسابي
+  - key: options.employment_status.professor
+    t: أستاذ جامعي
 
   # bracket
   - key: options.bracket.round1
-    t: Round 1 wins
+    t: انتصارات الجولة الأولى
   - key: options.bracket.round2
-    t: Round 2 wins
+    t: انتصارات الجولة الثانية
   - key: options.bracket.round3
-    t: Round 3 wins
+    t: انتصارات الجولة الثالثة
   - key: options.bracket.combined
-    t: Combined
+    t: الإجمالي
+
+  # email_temporary (receive updates?)
+  - key: options.receive_notifications.yes
+    t: نعم، أرسل إليّ بريدًا إلكترونيًا عند نشر نتائج الاستطلاع
+
+  # usage type
+
+  - key: usage.usage_type
+    t: نوع الاستخدام
+
+  - key: options.usage_type.professionally
+    t: لأغراض مهنية
+  - key: options.usage_type.student
+    t: كطالب
+  - key: options.usage_type.hobby
+    t: كهواية
+
+  - key: options.percentage_segments.range_0_10
+    t: 0-10%
+  - key: options.percentage_segments.range_11_20
+    t: 11-20%
+  - key: options.percentage_segments.range_21_30
+    t: 21-30%
+  - key: options.percentage_segments.range_31_40
+    t: 31-40%
+  - key: options.percentage_segments.range_41_50
+    t: 41-50%
+  - key: options.percentage_segments.range_51_60
+    t: 51-60%
+  - key: options.percentage_segments.range_61_70
+    t: 61-70%
+  - key: options.percentage_segments.range_71_80
+    t: 71-80%
+  - key: options.percentage_segments.range_81_90
+    t: 81-90%
+  - key: options.percentage_segments.range_91_100
+    t: 91-100%
+
+  # - key: options.percentage_segments.range_0_10
+  #   t: 0-10%
+  - key: options.percentage_segments.range_10_20
+    t: 10-20%
+  - key: options.percentage_segments.range_20_30
+    t: 20-30%
+  - key: options.percentage_segments.range_30_40
+    t: 30-40%
+  - key: options.percentage_segments.range_40_50
+    t: 40-50%
+  - key: options.percentage_segments.range_50_60
+    t: 50-60%
+  - key: options.percentage_segments.range_60_70
+    t: 60-70%
+  - key: options.percentage_segments.range_70_80
+    t: 70-80%
+  - key: options.percentage_segments.range_80_90
+    t: 80-90%
+  - key: options.percentage_segments.range_90_100
+    t: 90-100%
+
+  - key: options.completion_stats.range_0_10
+    aliasFor: options.percentage_segments.range_0_10
+  - key: options.completion_stats.range_11_20
+    aliasFor: options.percentage_segments.range_11_20
+  - key: options.completion_stats.range_21_30
+    aliasFor: options.percentage_segments.range_21_30
+  - key: options.completion_stats.range_31_40
+    aliasFor: options.percentage_segments.range_31_40
+  - key: options.completion_stats.range_41_50
+    aliasFor: options.percentage_segments.range_41_50
+  - key: options.completion_stats.range_51_60
+    aliasFor: options.percentage_segments.range_51_60
+  - key: options.completion_stats.range_61_70
+    aliasFor: options.percentage_segments.range_61_70
+  - key: options.completion_stats.range_71_80
+    aliasFor: options.percentage_segments.range_71_80
+  - key: options.completion_stats.range_81_90
+    aliasFor: options.percentage_segments.range_81_90
+  - key: options.completion_stats.range_91_100
+    aliasFor: options.percentage_segments.range_91_100
+
+  - key: options.completion_stats.range_0_10
+    aliasFor: options.percentage_segments.range_0_10
+  - key: options.completion_stats.range_10_20
+    aliasFor: options.percentage_segments.range_10_20
+  - key: options.completion_stats.range_20_30
+    aliasFor: options.percentage_segments.range_20_30
+  - key: options.completion_stats.range_30_40
+    aliasFor: options.percentage_segments.range_30_40
+  - key: options.completion_stats.range_40_50
+    aliasFor: options.percentage_segments.range_40_50
+  - key: options.completion_stats.range_50_60
+    aliasFor: options.percentage_segments.range_50_60
+  - key: options.completion_stats.range_60_70
+    aliasFor: options.percentage_segments.range_60_70
+  - key: options.completion_stats.range_70_80
+    aliasFor: options.percentage_segments.range_70_80
+  - key: options.completion_stats.range_80_90
+    aliasFor: options.percentage_segments.range_80_90
+  - key: options.completion_stats.range_90_100
+    aliasFor: options.percentage_segments.range_90_100
+
+  - key: options.knowledge_score.range_0_10
+    aliasFor: options.percentage_segments.range_0_10
+  - key: options.knowledge_score.range_11_20
+    aliasFor: options.percentage_segments.range_11_20
+  - key: options.knowledge_score.range_21_30
+    aliasFor: options.percentage_segments.range_21_30
+  - key: options.knowledge_score.range_31_40
+    aliasFor: options.percentage_segments.range_31_40
+  - key: options.knowledge_score.range_41_50
+    aliasFor: options.percentage_segments.range_41_50
+  - key: options.knowledge_score.range_51_60
+    aliasFor: options.percentage_segments.range_51_60
+  - key: options.knowledge_score.range_61_70
+    aliasFor: options.percentage_segments.range_61_70
+  - key: options.knowledge_score.range_71_80
+    aliasFor: options.percentage_segments.range_71_80
+  - key: options.knowledge_score.range_81_90
+    aliasFor: options.percentage_segments.range_81_90
+  - key: options.knowledge_score.range_91_100
+    aliasFor: options.percentage_segments.range_91_100
+
+  # source
+  - key: options.source.angular_community
+    t: مجتمع Angular
+  - key: options.source.work
+    t: مكان العمل
+  - key: options.source.word_of_mouth
+    t: التوصيات الشفهية
+  - key: options.source.podcast
+    t: البودكاست
+  - key: options.source.other_online_sources
+    t: مصادر أخرى عبر الإنترنت
+  - key: options.source.blog
+    t: المدونات
 
   ###########################################################################
   # Tools
@@ -848,263 +1642,1170 @@ translations:
   - key: tools.other_tools
     t: خيارات أخرى
   - key: tools.other_tools.description
-    t: الخيارات الأخرى التي تستخدمها للقسم الحالي وغير مذكورة في القائمة العُليا.
+    t: خيارات أخرى تستخدمها في هذا القسم ولم تُذكر أعلاه.
   - key: tools.happiness
-    t: مستوى الرضا
-  - key: tools.happiness.description
-    t: >
-      على مقياس واحد (غير راضٍ تمامًا) إلى خمسة (راضٍ جدًا)، ما مدى رضاك عن المستوى العام الحالي للأشياء من حيث صلتها بالخيارات المذكورة أعلاه؟
+    t: السعادة العامة
+  - key: tools.happiness.question
+    t: ما مدى رضاك عن الوضع الحالي فيما يتعلق بالخيارات المذكورة أعلاه؟
+
+  # ai_browser_apis
+
+  - key: other_tools.ai_browser_apis
+    t: واجهات الذكاء الاصطناعي في المتصفح
+    aliases:
+      - tools.ai_browser_apis
+      - usage.ai_browser_apis
+  - key: other_tools.ai_browser_apis.question
+    t: ما واجهات الذكاء الاصطناعي التي تود أن تدعمها المتصفحات مباشرة؟
+    aliases:
+      - tools.ai_browser_apis.question
+      - usage.ai_browser_apis.question
+
+  - key: options.ai_uses.code_generation
+    t: إنشاء الكود
+    aliases:
+      - options.ai_browser_apis.code_generation
+
+  - key: options.ai_uses.code_generation.description
+    t: إنشاء الكود أو إعادة هيكلته بناءً على مطالبة.
+    aliases:
+      - options.ai_browser_apis.code_generation.description
+
+  - key: options.ai_uses.translation
+    t: الترجمة
+    aliases:
+      - options.ai_browser_apis.translation
+
+  - key: options.ai_uses.translation.description
+    t: ترجمة المحتوى من لغة إلى أخرى.
+    aliases:
+      - options.ai_browser_apis.translation.description
+
+  - key: options.ai_uses.language_detection
+    t: اكتشاف اللغة
+    aliases:
+      - options.ai_browser_apis.language_detection
+
+  - key: options.ai_uses.language_detection.description
+    t: اكتشاف اللغة المكتوب بها نص.
+    aliases:
+      - options.ai_browser_apis.language_detection.description
+
+  - key: options.ai_uses.summarization
+    t: التلخيص
+    aliases:
+      - options.ai_browser_apis.summarization
+
+  - key: options.ai_uses.summarization.description
+    t: تلخيص نص أو مجموعة بيانات واستخلاص محاورها الرئيسية.
+    aliases:
+      - options.ai_browser_apis.summarization.description
+
+  - key: options.ai_uses.text_generation
+    t: إنشاء النصوص
+    aliases:
+      - options.ai_browser_apis.text_generation
+
+  - key: options.ai_uses.text_generation.description
+    t: إنشاء نص بناءً على مطالبة.
+    aliases:
+      - options.ai_browser_apis.text_generation.description
+
+  - key: options.ai_uses.image_generation
+    t: إنشاء الصور
+    aliases:
+      - options.ai_browser_apis.image_generation
+
+  - key: options.ai_uses.image_generation.description
+    t: إنشاء صورة بناءً على مطالبة.
+    aliases:
+      - options.ai_browser_apis.image_generation.description
+
+  - key: options.ai_uses.speech_generation
+    t: إنشاء الكلام
+    aliases:
+      - options.ai_browser_apis.speech_generation
+
+  - key: options.ai_uses.speech_generation.description
+    t: إنشاء كلام بناءً على مطالبة أو نص.
+    aliases:
+      - options.ai_browser_apis.speech_generation.description
+
+  - key: options.ai_uses.speech_recognition
+    t: التعرّف على الكلام
+    aliases:
+      - options.ai_browser_apis.speech_recognition
+
+  - key: options.ai_uses.speech_recognition.description
+    t: تحويل الكلام المسجل أو المباشر إلى نص.
+    aliases:
+      - options.ai_browser_apis.speech_recognition.description
+
+  - key: options.ai_uses.computer_vision
+    t: الرؤية الحاسوبية
+    aliases:
+      - options.ai_browser_apis.computer_vision
+
+  - key: options.ai_uses.computer_vision.description
+    t: اكتشاف العناصر في صورة أو مقطع فيديو.
+    aliases:
+      - options.ai_browser_apis.computer_vision.description
+
+  - key: options.ai_uses.sentiment_analysis
+    t: تحليل الانطباع
+    aliases:
+      - options.ai_browser_apis.sentiment_analysis
+
+  - key: options.ai_uses.sentiment_analysis.description
+    t: تصنيف البيانات النصية بناءً على الانطباع.
+    aliases:
+      - options.ai_browser_apis.sentiment_analysis.description
+
+  - key: options.ai_uses.caption_generation
+    t: إنشاء التعليقات التوضيحية
+    aliases:
+      - options.ai_browser_apis.caption_generation
+
+  - key: options.ai_uses.caption_generation.description
+    t: إنشاء أوصاف أو ترجمات للصور أو مقاطع الفيديو.
+    aliases:
+      - options.ai_browser_apis.caption_generation.description
+
+  - key: options.ai_uses.learning_research
+    t: التعلم والبحث
+    aliases:
+      - options.ai_browser_apis.learning_research
+
+  - key: options.ai_uses.learning_research.description
+    t: تعلم مهارات جديدة أو البحث في موضوع ما.
+    aliases:
+      - options.ai_browser_apis.learning_research.description
+
+  - key: options.ai_uses.no_browser_ai_apis
+    t: 🚫 لا شيء
+    aliases:
+      - options.ai_browser_apis.no_browser_ai_apis
+      - options.ai_uses.na
+      - options.ai_browser_apis.na
+
+  - key: options.ai_uses.debugging
+    t: تصحيح الأخطاء
+    aliases:
+      - options.ai_browser_apis.debugging
+
   ###########################################################################
   # Demographics (About You/User Info)
   ###########################################################################
 
   # age
   - key: user_info.age
-    t: السن
+    t: العمر
+    aliases:
+      - health.age
   - key: user_info.age.question
-    t: كم عمرك، بالسنين؟
+    t: كم عمرك بالسنوات؟
+    aliases:
+      - health.age.question
 
   # years of experience
   - key: user_info.years_of_experience
-    t: سنوات من الخبرة
+    t: سنوات الخبرة
+    aliases:
+      - career.years_of_experience
   - key: user_info.years_of_experience.question
-    t: ما هي المدة التي قضيتها في التعلم أو العمل بهذا المجال، بالسنين؟
+    t: كم سنة من الخبرة لديك كمطور؟
+    aliases:
+      - career.years_of_experience.question
+  - key: user_info.years_of_experience.prompt
+    t: سواء اكتسبتها كمحترف أو طالب أو هاوٍ أو غير ذلك.
+    aliases:
+      - career.years_of_experience.prompt
 
   # company size
   - key: user_info.company_size
     t: حجم الشركة
   - key: user_info.company_size.question
-    t: ما حجم شركتك، وفقا لعدد العاملين؟
+    t: كم شخصًا يعمل في مؤسستك، بمن فيهم أنت؟
 
   # salary ranges
   - key: user_info.yearly_salary
-    t: الراتب السنوي
+    t: الدخل السنوي
+    aliases:
+      - workplace.yearly_salary
   - key: user_info.yearly_salary.question
-    t: راتبك السنوي بالدولار الأمريكي
+    t: ما إجمالي دخلك السنوي قبل الضرائب بالدولار الأمريكي؟
+    aliases:
+      - workplace.yearly_salary.question
+
+  # income_evolution
+  - key: user_info.income_evolution
+    t: تغير الدخل
+  - key: user_info.income_evolution.question
+    t: كيف تغير إجمالي دخلك خلال الأشهر الاثني عشر الماضية؟
+
+  - key: options.income_evolution.increased
+    t: ازداد
+  - key: options.income_evolution.stayed_same
+    t: بقي كما هو
+  - key: options.income_evolution.decreased
+    t: انخفض
 
   # job title
   - key: user_info.job_title
     t: المسمى الوظيفي
   - key: user_info.job_title.question
-    t: كيف تعرف نفسك للآخرين؟
+    t: ما مسماك الوظيفي؟
+
+  # work_areas
+  - key: user_info.work_areas
+    t: مجالات العمل
+    aliases:
+      - workplace.work_areas
+      - technology.work_areas
+  - key: user_info.work_areas.question
+    t: أي من مجالات تطوير البرمجيات هذه جزء من عملك اليومي؟
+    aliases:
+      - workplace.work_areas.question
+      - technology.work_areas.question
+
+  - key: options.work_areas.web_dev
+    t: تطوير الويب
+  - key: options.work_areas.native_dev
+    t: التطوير الأصلي للمنصات
+  - key: options.work_areas.infrastructure
+    t: البنية التحتية
+  - key: options.work_areas.data_ai
+    t: البيانات والذكاء الاصطناعي
+  - key: options.work_areas.management
+    t: الإدارة
+  - key: options.work_areas.other
+    t: مجالات أخرى
+  - key: options.work_areas.software_engineering
+    t: هندسة البرمجيات
+
+  - key: options.work_areas.front_end
+    t: تطوير الواجهة الأمامية
+  - key: options.work_areas.front_end_js
+    t: تطوير الواجهة الأمامية (JS/TS)
+  - key: options.work_areas.front_end_css
+    t: تطوير الواجهة الأمامية (CSS)
+  - key: options.work_areas.back_end
+    t: تطوير الواجهة الخلفية
+  - key: options.work_areas.mobile
+    t: تطوير تطبيقات الأجهزة المحمولة
+  - key: options.work_areas.desktop
+    t: تطوير تطبيقات الحاسوب
+  - key: options.work_areas.devops
+    t: (DevOps) نهج التطوير والتشغيل
+  - key: options.work_areas.qa_testing
+    t: ضمان الجودة
+  - key: options.work_areas.sre
+    t: هندسة موثوقية المواقع (SRE)
+  - key: options.work_areas.platform_engineering
+    t: هندسة المنصات
+  - key: options.work_areas.data_engineering
+    t: هندسة البيانات ومعالجتها
+  - key: options.work_areas.ai_llm
+    t: هندسة تطبيقات الذكاء الاصطناعي والنماذج اللغوية الكبيرة
+  - key: options.work_areas.machine_learning
+    t: التعلم الآلي
+  - key: options.work_areas.security
+    t: الأمن
+  - key: options.work_areas.performance
+    t: تحسين الأداء
+  - key: options.work_areas.embedded_software
+    t: البرمجيات المضمنة
+  - key: options.work_areas.game_development
+    t: تطوير الألعاب
+  - key: options.work_areas.systems_design
+    t: تصميم الأنظمة ومعماريتها
+  - key: options.work_areas.devrel
+    t: علاقات المطورين
+  - key: options.work_areas.tooling
+    t: أدوات المطورين
+  - key: options.work_areas.cloud
+    t: البنية التحتية السحابية
+  - key: options.work_areas.accessibility
+    t: اختبار إمكانية الوصول
+
+  - key: options.work_areas.people_management
+    t: إدارة الأفراد
+  - key: options.work_areas.technical_leadership
+    t: القيادة التقنية
+  - key: options.work_areas.project_management
+    t: إدارة المشاريع
+  - key: options.work_areas.product_management
+    t: إدارة المنتجات
+  - key: options.work_areas.hiring_interviewing
+    t: التوظيف وإجراء المقابلات
+
+  - key: options.work_areas.design
+    t: التصميم
+  - key: options.work_areas.product_design
+    t: تصميم المنتجات
+  - key: options.work_areas.ui_ux_design
+    t: تصميم واجهة وتجربة المستخدم
+  - key: options.work_areas.user_research
+    t: أبحاث المستخدمين
+  - key: options.work_areas.design_systems
+    t: أنظمة التصميم
+
+  - key: options.work_areas.quality_assurance
+    t: ضمان الجودة
+  - key: options.work_areas.manual_testing
+    t: الاختبار اليدوي
+  - key: options.work_areas.test_automation
+    t:  الاختبار الآلي
+  - key: options.work_areas.performance_testing
+    t: اختبار الأداء
+  - key: options.work_areas.accessibility_testing
+    t: اختبار إمكانية الوصول
+  - key: options.work_areas.quality_engineering
+    t: هندسة الجودة
 
   # javascript proficiency
   - key: user_info.javascript_proficiency
-    t: إتقانك لجافا سكريبت
+    t: مستوى إتقان JavaScript
   - key: user_info.javascript_proficiency.question
-    t: ما مدى إتقانك لجافا سكريبت؟
+    t: ما مدى إتقانك لـ JavaScript؟
 
   # css proficiency
   - key: user_info.css_proficiency
-    t: CSS إتقانك لـ
+    t: مستوى إتقان CSS
   - key: user_info.css_proficiency.question
-    t: ما مدى إتقانك لـ CSS?
+    t: ما مدى إتقانك لـ CSS؟
 
   # backend proficiency
   - key: user_info.backend_proficiency
-    t: Back-end إتقانك للـ
+    t: مستوى إتقان تطوير الواجهة الخلفية
   - key: user_info.backend_proficiency.question
-    t: ما مدى إتقان لتطوير الـ back-end?
+    t: ما مدى إتقانك لتطوير الواجهة الخلفية؟
 
   # gender
   - key: user_info.gender
-    t: الجنس
+    t: النوع الاجتماعي
   - key: user_info.gender.question
     t: >
-      أي من الخيارات التالية يصفك، إن وجد؟ الرجاء اختيار واحدة.
+      أي من الخيارات التالية يصفك؟
   - key: user_info.gender.note
     t: >
-      رغم علمنا أن تجميع ونشر بيانات متنوعة يمكن أن تكون مشكلة حساسة،
-      إلا أننا نعتقد أن الحصول على هذه البيانات مهم للمساعدة في قياس وتحسين جهود الاستبيان
-      من حيث الشمولية والتعبير.
+      ندرك أن جمع بيانات التنوع ونشرها قد يكون أمرًا حساسًا،
+      لكننا نرى أهمية جمعها للمساعدة في قياس جهود الاستطلاع
+      وتحسينها من حيث الشمولية والتمثيل.
 
   # race & ethnicity
   - key: user_info.race_ethnicity
-    t: العرق والإثن
+    t: العرق والأصل الإثني
   - key: user_info.race_ethnicity.question
     t: >
-      أي من الخيارات التالية يصفك، إن وجد؟ الرجاء اختيار واحدة.
+      أي من الخيارات التالية يصفك؟
   - key: user_info.race_ethnicity.note
     t: >
-      رغم علمنا أن تجميع ونشر بيانات متنوعة يمكن أن تكون مشكلة حساسة،
-      إلا أننا نعتقد أن الحصول على هذه البيانات مهم للمساعدة في قياس وتحسين جهود الاستبيان
-      من حيث الشمولية والتعبير.
+      ندرك أن جمع بيانات التنوع ونشرها قد يكون أمرًا حساسًا،
+      لكننا نرى أهمية جمعها للمساعدة في قياس جهود الاستطلاع
+      وتحسينها من حيث الشمولية والتمثيل.
+  - key: user_info.race_ethnicity.not_allowed
+    t: >
+      امتثالًا للسياسات المحلية، عُطّل جمع بيانات العرق أو الأصل الإثني
+      في بلدك أو منطقتك.
+  - key: user_info.race_ethnicity.others
+    t: أعراق أو أصول إثنية أخرى
+  - key: user_info.race_ethnicity_freeform
+    aliasFor: user_info.race_ethnicity.others
 
   # disability status
   - key: user_info.disability_status
     t: حالة الإعاقة
+    aliases:
+      - health.disability_status
   - key: user_info.disability_status.question
     t: >
-      أي من الإعاقات التالية تواجهها ، إن وجدت؟ يرجى التحقق من كل ما ينطبق.
-      لاحظ أن هذا يمكن أن يشمل الإعاقات أو الإصابات المؤقتة.
+      أي من الإعاقات التالية تعاني منها؟
+    aliases:
+      - health.disability_status.question
+  - key: user_info.disability_status.prompt
+    t: >
+      يشمل ذلك الإعاقات أو الإصابات المؤقتة.
+    aliases:
+      - health.disability_status.prompt
 
   # disability status (other)
   - key: user_info.disability_status.others
     t: إعاقات أخرى
+  - key: user_info.disability_status_freeform
+    aliasFor: user_info.disability_status.others
 
   # other info
   - key: user_info.how_did_user_find_out_about_the_survey
-    t: كيف عرفت بهذا الاستبيان
+    t: المصدر
+  - key: user_info.how_did_user_find_out_about_the_survey.question
+    t: كيف سمعت عن هذا الاستطلاع؟
   - key: user_info.email
-    t: بريدك
+    t: بريدك الإلكتروني
+  - key: user_info.email.description
+    t: >
+      أكملت الاستطلاع دون الكشف عن هويتك. إذا رغبت، يمكنك إدخال بريدك الإلكتروني اختياريًا للوصول إلى بياناتك لاحقًا
+      وتلقي إشعار عند نشر نتائج الاستطلاع.
+  - key: user_info.email.note
+    t: >
+      لا نخزن أي بيانات شخصية. بعد إدخال بريدك الإلكتروني، سنستخدمه لإنشاء معرّف فريد مجهول الهوية،
+      ثم نحذف عنوان البريد نفسه من سجلاتنا.
+
   - key: user_info.country
-    t: بلدك أو منطقتك
-  - key: user_info.country.description
+    t: البلد أو المنطقة
+  - key: user_info.country.question
     t: أين تقيم حاليًا؟
 
-  - key: user_info.github_username
-    t: اسم مستخدم (github) الخاص بك
-  - key: user_info.github_username.description
-    t: >
-      قد نستخدم مستقبلًا اسم مستخدم 
-      GitHub
-      للنظر في المستودعات والمعلومات المتاحة للجمهور
+  - key: user_info.country_of_origin
+    t: بلد المنشأ
+  - key: user_info.country_of_origin.question
+    t: أين وُلدت؟
 
-  - key: user_info.twitter_username
-    t: اسم المستخدم الخاص بك على تويتر
-  - key: user_info.twitter_username.description
-    t: >
-      قد نستخدم مستقبلًا اسم مستخدم تويتر للنظر في المستودعات والمعلومات المتاحة للجمهور
-      (كالأشخاص الذين تتابعهم).
+  # migration_experience
+  - key: user_info.migration_experience
+    t: تجربة الهجرة
+  - key: user_info.migration_experience.question
+    t: هل وُلدت في بلد إقامتك الحالي؟
+
+  - key: options.migration_experience.same_country
+    t: نعم
+  - key: options.migration_experience.same_country_immigrant_parents
+    t: نعم، أحد والديّ أو كلاهما مهاجر
+  - key: options.migration_experience.different_country
+    t: لا، وُلدت في بلد آخر
+  - key: options.migration_experience.different_country_immigrant_parents
+    t: لا، وُلدت في بلد آخر لأحد والدين مهاجرين أو كليهما
+
+  # native_languages
+  - key: user_info.native_languages
+    t: اللغات الأم
+  - key: user_info.native_languages.question
+    t: ما لغاتك الأم؟
+  - key: user_info.native_languages.prompt
+    t: اللغات التي نشأت على التحدث بها.
+
+  # other_languages
+  - key: user_info.other_languages
+    t: لغات أخرى
+  - key: user_info.other_languages.question
+    t: ما اللغات الأخرى التي تتحدث بها؟
+  - key: user_info.other_languages.prompt
+    t: اللغات التي تعلمت التحدث بها بمستوى المحادثة أو أعلى.
+
+  # sexual_orientation
+  - key: user_info.sexual_orientation
+    t: التوجه الجنسي
+  - key: user_info.sexual_orientation.question
+    t: ما توجهك الجنسي؟
+  - key: user_info.sexual_orientation.prompt
+    t: مع أن هذا الاستطلاع مجهول الهوية تمامًا، نوصي بتخطي هذا السؤال إذا كان الإفصاح عن هذه المعلومات قد يعرضك للخطر.
+
+  - key: options.sexual_orientation.heterosexual
+    t: مغاير/مغاير جنسيًا
+  - key: options.sexual_orientation.gay_or_lesbian
+    t: مثلي أو مثلية
+  - key: options.sexual_orientation.bisexual
+    t: مزدوج التوجه الجنسي
+  - key: options.sexual_orientation.questioning
+    t: أستكشف توجهي/غير متأكد
 
   - key: user_info.industry_sector
-    t: قطاع الصناعة؟
+    t: قطاع العمل
   - key: user_info.industry_sector.question
-    t: في أي قطاع صناعي تعمل حاليًا؟
+    t: في أي قطاع أو قطاعات تعمل؟
   - key: user_info.industry_sector.others
-    t: قطاعات صناعة أخرى
+    t: قطاعات عمل أخرى
   - key: user_info.industry_sector.others.description
-    t: قطاع آخر غير مذكور
+    t: قطاعات أخرى تعمل فيها ولم تُذكر أعلاه.
+
+  - key: usage.industry_sector
+    aliasFor: user_info.industry_sector
+  - key: usage.industry_sector.question
+    aliasFor: user_info.industry_sector.question
+  - key: usage.industry_sector.others
+    aliasFor: user_info.industry_sector.others
+  - key: usage.industry_sector_freeform
+    aliasFor: user_info.industry_sector.others
+  - key: usage.industry_sector.others.description
+    aliasFor: user_info.industry_sector.question
 
   # degree
   - key: user_info.higher_education_degree
-    t: درجة التعليم العالي
+    t: مؤهل تعليم عالٍ
+    aliases:
+      - career.higher_education_degree
   - key: user_info.higher_education_degree.question
-    t: هل حصلت على درجة تعليم عالي؟
+    t: هل لديك مؤهل في التعليم العالي؟
+    aliases:
+      - career.higher_education_degree.question
+
+  # email_temporary (receive updates?)
+  - key: user_info.receive_notifications
+    t: الإشعارات
+  - key: user_info.receive_notifications.question
+    t: هل ترغب في تلقي إشعار عند صدور نتائج الاستطلاع؟
+  - key: user_info.receive_notifications.note
+    t: >
+      سيُضاف بريدك الإلكتروني إلى قائمتنا البريدية، لكنه لن يرتبط بأي شكل من الأشكال بإجاباتك في الاستطلاع.
+
+  # how can we improve the survey?
+  - key: user_info.did_you_run_into_technical_issues
+    t: مشكلات تقنية
+    aliases:
+      - _user_metadata.did_you_run_into_technical_issues
+  - key: user_info.did_you_run_into_technical_issues.question
+    t: ما المشكلات التقنية التي واجهتك أثناء المشاركة في هذا الاستطلاع، إن وُجدت؟
+    aliases:
+      - _user_metadata.did_you_run_into_technical_issues.question
+
+  # survey_length
+  - key: user_info.survey_length
+    t: طول الاستطلاع
+    aliases:
+      - _user_metadata.survey_length
+  - key: user_info.survey_length.question
+    t: ما رأيك في طول هذا الاستطلاع؟
+    aliases:
+      - _user_metadata.survey_length.question
+  - key: user_info.survey_length.lower
+    t: قصير جدًا
+    aliases:
+      - _user_metadata.survey_length.lower
+  - key: user_info.survey_length.higher
+    t: طويل جدًا
+    aliases:
+      - _user_metadata.survey_length.higher
+
+  - key: options.survey_length.0
+    t: كنت سأجيب عن أسئلة أكثر بكثير
+  - key: options.survey_length.1
+    t: كنت سأجيب عن بضعة أسئلة أخرى
+  - key: options.survey_length.2
+    t: كان مناسبًا تمامًا
+  - key: options.survey_length.3
+    t: كان طويلًا بعض الشيء
+  - key: options.survey_length.4
+    t: كان طويلًا جدًا
+
+  # missing questions
+  - key: user_info.missing_questions
+    t: أسئلة ناقصة
+    aliases:
+      - _user_metadata.missing_questions
+  - key: user_info.missing_questions.question
+    t: ما الأسئلة الأخرى التي كنت تتمنى أن يطرحها الاستطلاع، إن وُجدت؟
+    aliases:
+      - _user_metadata.missing_questions.question
+
+  # how can we improve the survey?
+  - key: user_info.how_can_we_improve
+    t: تحسينات الاستطلاع
+    aliases:
+      - _user_metadata.how_can_we_improve
+  - key: user_info.how_can_we_improve.question
+    t: كيف يمكننا تحسين هذا الاستطلاع أيضًا؟
+    aliases:
+      - _user_metadata.how_can_we_improve.question
+
+  # why_did_you_take_the_survey
+  - key: user_info.why_did_you_take_the_survey
+    t: دوافع المشاركة في الاستطلاع
+    aliases:
+      - _user_metadata.why_did_you_take_the_survey
+  - key: user_info.why_did_you_take_the_survey.question
+    t: ما الفوائد الرئيسية التي تجنيها من المشاركة في هذا الاستطلاع؟
+    aliases:
+      - _user_metadata.why_did_you_take_the_survey.question
+
+  - key: options.why_did_you_take_the_survey.stay_informed
+    t: يساعدني على متابعة المستجدات ومواكبة المنظومة.
+  - key: options.why_did_you_take_the_survey.interested_in_data
+    t: أهتم بالبيانات والاتجاهات الناتجة عنه.
+  - key: options.why_did_you_take_the_survey.help_with_representation
+    t: أريد المساعدة في جعل مجموعة البيانات أكثر تمثيلًا.
+  - key: options.why_did_you_take_the_survey.for_fun
+    t: أشارك بدافع الفضول أو لمجرد المتعة.
+  - key: options.why_did_you_take_the_survey.affect_change
+    t: أريد إيصال صوتي والتأثير في منظومة المطورين.
+  - key: options.why_did_you_take_the_survey.gauge_my_knowledge
+    t: أريد تقييم مستوى معرفتي الحالي.
 
   ###########################################################################
-  # Other Tools
+  # Usage
   ###########################################################################
 
-  - key: tools_others.libraries
-    t: المكتبات
-  - key: tools_others.libraries.question
-    t: أي مكتبة تستخدمها عادةً؟
-  - key: tools_others.libraries.others
-    t: مكتبات أخرى
-  - key: tools_others.libraries.others.description
-    t: إجابات أخرى (حقل حر).
+  # RISKS & PAIN POINTS
 
-  - key: tools_others.text_editors
-    t: محرري النصوص
-  - key: tools_others.text_editors.question
-    t: أي محرر/و نص تستخدمه/هم عادةً؟
-  - key: tools_others.text_editors.others
-    t: محررو نصوص غيرهم
-  - key: tools_others.text_editors.others.description
-    t: إجابات أخرى (حقل حر)
+  - key: usage.ai_risks
+    t: مخاطر الذكاء الاصطناعي
+    aliases:
+      - risks_pain_points.ai_risks
+  - key: usage.ai_risks.question
+    t: أي من المخاطر والقضايا العامة المتعلقة بالذكاء الاصطناعي تثير قلقك أكثر؟
+    aliases:
+      - risks_pain_points.ai_risks.question
 
-  - key: tools_others.utilities
-    t: الخدمات
-  - key: tools_others.utilities.question
-    t: أي خدمات أو أدوات تستخدمها عادةً؟
-  - key: tools_others.utilities.others
-    t: خدمات أخرى
-  - key: tools_others.utilities.others.description
-    t: إجابات أخرى (حقل حر)
+  - key: options.ai_risks.militaristic_uses
+    t: الاستخدام العسكري للذكاء الاصطناعي
+  - key: options.ai_risks.militaristic_uses.description
+    t: الطائرات المسيّرة ذاتية التحكم، واتخاذ القرارات بالذكاء الاصطناعي، وغيرها.
 
-  - key: tools_others.browsers
-    t: المتصفحات
-  - key: tools_others.browsers.question
-    t: أي متصفح/ـات تستخدمه بشكلٍ أساسي أثناء التطوير؟
-  - key: tools_others.browsers.others
-    t: متصفحات أخرى
-  - key: tools_others.browsers.others.description
-    t: إجابات أخرى (حقل حر)
+  - key: options.ai_risks.environmental_impact
+    t: الأثر البيئي
+  - key: options.ai_risks.environmental_impact.description
+    t: ارتفاع تكاليف الطاقة، والأثر في الاحتباس الحراري، وغيرها.
 
-  - key: tools_others.build_tools
-    t: أدوات البناء
-  - key: tools_others.build_tools.question
-    t: أي أدوات بناء تستخدمها عادةً؟
-  - key: tools_others.build_tools.others
-    t: أدوات أخرى
-  - key: tools_others.build_tools.others.description
-    t: إجابات أخرى (حقل حر)
+  - key: options.ai_risks.reaching_agi
+    t: الوصول إلى الذكاء الاصطناعي العام
+  - key: options.ai_risks.reaching_agi.description
+    t: أن يصبح الذكاء الاصطناعي واعيًا بذاته ويشكل تهديدًا للبشر
 
-  - key: tools_others.non_js_languages
-    t: لغات غير الجافاسكريبت
-  - key: tools_others.non_js_languages.question
-    t: أي لغات برمجة تستعملها؟
-  - key: tools_others.non_js_languages.others
-    t: لغات أخرى
-  - key: tools_others.non_js_languages.others.description
-    t: إجابات أخرى (حقل حر)
+  - key: options.ai_risks.job_displacement
+    t: فقدان الوظائف
+  - key: options.ai_risks.job_displacement.description
+    t: الآثار الاقتصادية والاجتماعية لفقدان الوظائف بسبب الذكاء الاصطناعي
 
-  - key: tools_others.javascript_flavors
-    t: نكهات جافا سكريبت
-  - key: tools_others.javascript_flavors.question
-    t: اللغات التي تترجم إلى JavaScript
-  - key: tools_others.javascript_flavors.others
-    t: نكهات أخرى للجافا سكريبت
-  - key: tools_others.javascript_flavors.others.description
-    t: إجابات أخرى (حقل حر)
+  - key: options.ai_risks.security_issues
+    t: مشكلات أمنية
+  - key: options.ai_risks.security_issues.description
+    t: المشكلات والثغرات الأمنية في الكود الذي ينشئه الذكاء الاصطناعي
+
+  - key: options.ai_risks.rising_costs
+    t: ارتفاع تكاليف الذكاء الاصطناعي
+  - key: options.ai_risks.rising_costs.description
+    t: ارتفاع تكاليف الذكاء الاصطناعي مع محاولة الشركات استرداد استثماراتها
+
+  - key: options.ai_risks.entranched_stack_bias
+    t: الانحياز إلى التقنيات الشائعة
+  - key: options.ai_risks.entranched_stack_bias.description
+    t: ميل الذكاء الاصطناعي إلى إنشاء كود يعتمد على التقنيات الشائعة
+
+  - key: options.ai_risks.open_source_disruption
+    t: الإضرار بالبرمجيات مفتوحة المصدر
+  - key: options.ai_risks.open_source_disruption.description
+    t: طلبات سحب مزعجة ينشئها الذكاء الاصطناعي، وكود رديء، وتهديد التمويل، وغيرها.
+
+  - key: options.ai_risks.ai_overuse
+    t: الإفراط في استخدام الذكاء الاصطناعي
+  - key: options.ai_risks.ai_overuse.description
+    t: الإفراط في استخدام الذكاء الاصطناعي حتى في المنتجات التي لا تحتاج إليه
+
+  - key: options.ai_risks.copyright_ethics_issues
+    t: قضايا حقوق النشر والأخلاقيات
+  - key: options.ai_risks.copyright_ethics_issues.description
+    t: الانتحال، والنسخ دون إذن، والتدريب دون إذن، وغيرها.
+
+  - key: options.ai_risks.slop_takeover
+    t: طغيان المحتوى الرديء الناتج عن الذكاء الاصطناعي
+  - key: options.ai_risks.slop_takeover.description
+    t: انتشار الروبوتات والمحتوى الرديء بما يخفض جودة محتوى الإنترنت
+
+  - key: options.ai_risks.cognitive_impact
+    t: آثار سلبية على القدرات المعرفية
+  - key: options.ai_risks.cognitive_impact.description
+    t: الإفراط في استخدام الذكاء الاصطناعي بما يجعل المستخدمين عاجزين من دونه
+
+  - key: options.ai_risks.ai_career_impact
+    t: أثر الذكاء الاصطناعي في المسار المهني
+
+  - key: options.ai_risks.junior_pipeline_impact
+    t: أثره في فرص المبتدئين والتعليم
+  - key: options.ai_risks.career_change_consideration
+    t: التفكير في تغيير المسار المهني أو مغادرة القطاع
+  - key: options.ai_risks.role_shift_to_reviewer
+    t: تحول الدور إلى المراجعة والإشراف
+
+  - key: options.ai_risks.ai_developer_impact
+    t: أثره في المطورين
+
+  - key: options.ai_risks.skill_atrophy
+    t: تراجع المهارات وفقدانها
+  - key: options.ai_risks.loss_of_joy_in_coding
+    t: فقدان متعة البرمجة ومعناها
+  - key: options.ai_risks.pace_of_change_anxiety
+    t: القلق من وتيرة التغيير
+  - key: options.ai_risks.unrealistic_productivity_expectations
+    t: توقعات غير واقعية للإنتاجية
+  - key: options.ai_risks.mental_health_impact
+    t: الأثر على الصحة النفسية
+  - key: options.ai_risks.discourse_fatigue
+    t: الإرهاق من النقاش حول الذكاء الاصطناعي
+  - key: options.ai_risks.moral_injury
+    t: الأذى الأخلاقي
+
+  - key: options.ai_risks.ai_industry_impact
+    t: أثره في القطاع
+
+  - key: options.ai_risks.economic_collapse
+    t: الانهيار الاقتصادي
+  - key: options.ai_risks.concentration_of_power
+    t: تركّز السلطة
+  - key: options.ai_risks.labor_exploitation
+    t: استغلال العمالة
+  - key: options.ai_risks.forced_adoption_by_management
+    t: فرض الإدارة استخدام الذكاء الاصطناعي
+  - key: options.ai_risks.management_misunderstanding
+    t: سوء فهم الإدارة
+  - key: options.ai_risks.vendor_lock_in
+    t: الارتهان للمورّد والاعتماد عليه
+  - key: options.ai_risks.decline_in_human_collaboration
+    t: تراجع التعاون البشري
+  - key: options.ai_risks.false_expertise
+    t: خبرة زائفة
+
+  - key: options.ai_risks.ai_ethics_impact
+    t: الأثر الأخلاقي
+  - key: options.ai_risks.creative_industries_impact
+    t: أثره في الصناعات الإبداعية
+  - key: options.ai_risks.social_polarization
+    t: الاستقطاب الاجتماعي
+  - key: options.ai_risks.ai_misinformation
+    t: المعلومات المضللة
+  - key: options.ai_risks.mass_surveillance
+    t: المراقبة الجماعية
+
+  - key: options.ai_risks.ai_technical_impact
+    t: الأثر التقني
+
+  - key: options.ai_risks.code_review_burden
+    t: عبء المراجعة والاختبار
+  - key: options.ai_risks.correctness_and_hallucination
+    t: الصحة والهلوسة
+  - key: options.ai_risks.technical_debt_and_maintainability
+    t: الدين التقني وصعوبة الفهم
+  - key: options.ai_risks.increased_code_volume
+    t: زيادة حجم الكود
+  - key: options.ai_risks.non_determinism
+    t: عدم الحتمية
+  - key: options.ai_risks.vibe_coding_and_prompt_engineering
+    t: البرمجة بالحدس وهندسة المطالبات
 
   ###########################################################################
   # Resources
   ###########################################################################
 
-  # learning method
+  # first steps
   - key: resources.first_steps
-    t: طرق التعلم الأولى
+    t: أساليب التعلم الأولى
   - key: resources.first_steps.question
-    t: عند البدء، كيف تعلمت البرمجة في البداية؟
+    t: عندما بدأت، كيف تعلمت البرمجة أول مرة؟
   - key: resources.first_steps.others
-    t: طرق تعلم أولية أخرى
+    t: أساليب أخرى للتعلم الأولي
   - key: resources.first_steps.others.description
-    t: إجابات أخرى (حقل حر)
+    t: إجابات أخرى (حقل نص حر).
 
   # blogs & magazines
   - key: resources.blogs_news_magazines
     t: المدونات والمجلات
   - key: resources.blogs_news_magazines.question
-    t: أي مدونات أو مجلات إلخ تقرأ؟
+    t: ما المدونات أو المجلات أو النشرات الإخبارية وغيرها التي تقرؤها؟
   - key: resources.blogs_news_magazines.others
     t: مدونات ومجلات أخرى
   - key: resources.blogs_news_magazines.others.description
-    t: إجابات أخرى (حقل حر)
+    t: إجابات أخرى (حقل نص حر).
+  - key: options.blogs_news_magazines.na
+    t: 🚫 لا شيء
+  - key: resources.blogs_news_magazines.placeholder
+    t: |
+      مدونة/نشرة إخبارية رقم #{index}…
+
+  # newsletters
+
+  - key: resources.newsletters
+    t: النشرات الإخبارية
+  - key: resources.newsletters.question
+    t: ما النشرات الإخبارية التي تقرؤها لمتابعة أخبار تطوير الويب؟
 
   # sites & courses
   - key: resources.sites_courses
-    t: المواقع والمساقات
+    t: المواقع والدورات
   - key: resources.sites_courses.question
-    t: أي موقع أو مساق إلخ، ترجع إليه؟
+    t: ما المواقع أو الدورات وغيرها التي تستعين بها لتعلم JavaScript؟
   - key: resources.sites_courses.others
-    t: مواقع ومساقات أخرى
+    t: مواقع ودورات أخرى
   - key: resources.sites_courses.others.description
-    t: إجابات أخرى (حقل حر)
+    t: إجابات أخرى (حقل نص حر).
+  - key: options.sites_courses.na
+    t: 🚫 لا شيء
+  - key: resources.sites_courses.placeholder
+    t: |
+      موقع/دورة رقم #{index}…
+
+  # paid courses
+  - key: resources.paid_courses
+    t: دورات مدفوعة
+  - key: resources.paid_courses.question
+    t: ما **الموارد المدفوعة** (الدورات أو مقاطع الفيديو أو الكتب وغيرها) التي استخدمتها؟
+  - key: options.paid_courses.na
+    t: 🚫 لا شيء
+  - key: resources.paid_courses.placeholder
+    t: |
+      دورة/كتاب رقم #{index}…
+
+  # courses
+  - key: resources.courses
+    t: الدورات والمواد التدريبية
+  - key: resources.courses.question
+    t: ما الدورات أو المواد التدريبية (مقاطع الفيديو أو الكتب وغيرها) التي استخدمتها لتعلم JavaScript؟
+  - key: options.courses.na
+    t: 🚫 لا شيء
+  - key: resources.courses.placeholder
+    t: |
+      دورة/كتاب/غير ذلك رقم #{index}…
 
   # podcasts
   - key: resources.podcasts
-    t: بودكاستات
+    t: البودكاست
   - key: resources.podcasts.question
-    t: أي بودكاست متعلق بالبرمجة تستمع إليه؟
+    t: ما البودكاستات المتعلقة بالبرمجة التي تستمع إليها؟
   - key: resources.podcasts.others
-    t: أخرى
+    t: بودكاستات أخرى
   - key: resources.podcasts.others.description
-    t: إجابات أخرى (حقل حر)
+    t: إجابات أخرى (حقل نص حر).
+  - key: options.podcasts.na
+    t: 🚫 لا شيء
+  - key: resources.podcasts.placeholder
+    t: |
+      بودكاست رقم #{index}…
 
   # people
   - key: resources.people
-    t: الشخصيات
-  - key: resources.people.description
-    t: أشخاص تقرأ لهم، أو تتابعهم، أو تريد إبرازهم
+    t: الأشخاص
+  - key: resources.people.question
+    t: من الأشخاص الذين تقرأ لهم أو تتابعهم أو ترغب في تسليط الضوء عليهم؟
   # - key: resources.people.others
   #   t: Other People
   # - key: resources.people.others.description
   #   t: Other answers (freeform field).
   - key: resources.people.others
-    t: آخرين
+    t: أشخاص آخرون
   - key: resources.people.others.description
     t: >
-      أشخاص تقرأ لهم، أو تتابعهم، أو تريد إبرازهم لعملهم
-      (حقل حر، قم بفصل أساميهم باستخدام الفاصلة)
+      أشخاص تقرأ لهم أو تتابعهم أو ترغب في تسليط الضوء على أعمالهم
+      (حقل نص حر، والأسماء مفصولة بفواصل).
+  - key: options.people.na
+    t: 🚫 لا شيء
+  - key: resources.people.placeholder
+    t: |
+      شخص رقم #{index}…
+
+  # other surveys
+  - key: resources.other_surveys
+    t: استطلاعات أخرى
+  - key: resources.other_surveys.question
+    t: ما استطلاعات المطورين الأخرى التي تشارك فيها؟
+  - key: resources.other_surveys.others
+    t: استطلاعات إضافية لم تُذكر أعلاه
+  - key: options.other_surveys.na
+    t: 🚫 لا شيء
+    # TODO: temporary fix, this should not be needed in the first place
+  - key: user_info.other_surveys.question
+    t: ما استطلاعات المطورين الأخرى التي تشارك فيها؟
+
+  - key: user_info.other_surveys
+    aliasFor: resources.other_surveys
+  - key: user_info.other_surveys.question
+    aliasFor: resources.other_surveys.question
+
+  # video creators
+  - key: resources.video_creators
+    t: صنّاع محتوى الفيديو
+  - key: resources.video_creators.question
+    t: من صنّاع محتوى الفيديو المتعلق بالبرمجة الذين تتابعهم (على YouTube أو Twitch وغيرها)؟
+  - key: resources.video_creators.others
+    t: صنّاع محتوى فيديو آخرون
+  - key: options.video_creators.na
+    t: 🚫 لا شيء
+  - key: resources.video_creators.placeholder
+    t: |
+      صانع محتوى فيديو رقم #{index}…
+
+  ###########################################################################
+  # Follow-Up Questions
+  ###########################################################################
+
+  - key: followups.button
+    t: أخبرنا بالمزيد…
+
+  - key: followups.description
+    t: |
+      يمكنك اختياريًا إخبارنا بالمزيد عن سبب اختيارك لهذه الإجابة:
+
+  - key: followups.description.short
+    t: |
+      أخبرنا بالمزيد:
+
+  - key: followups.placeholder
+    t: سبب آخر…
+
+  - key: followups.want_to_learn_more
+    t: أريد معرفة المزيد
+  - key: followups.not_interested
+    t: لست مهتمًا
+  - key: followups.insufficient_browser_support
+    t: دعم المتصفح غير كافٍ
+  - key: followups.not_needed
+    t: لم أحتج إليه
+  - key: followups.hard_to_use
+    t: كان استخدامه صعبًا
+  - key: followups.positive_experience
+    t: كانت تجربتي إيجابية
+  - key: followups.not_powerful
+    t: لم يكن قويًا بما يكفي
+
+  - key: followups.sentiment_interested
+    t: مهتم
+  - key: followups.sentiment_not_interested
+    t: غير مهتم
+  - key: followups.sentiment_positive_experience
+    t: تجربة إيجابية
+  - key: followups.sentiment_negative_experience
+    t: تجربة سلبية
+
+  # entities info
+
+  - key: entity.learn_more
+    t: اعرف المزيد…
+
+  ###########################################################################
+  # Baseline
+  ###########################################################################
+
+  - key: baseline.baseline
+    t: "المعيار الأساسي:"
+  - key: baseline.learn_more
+    t: اعرف المزيد
+  - key: baseline.support.false
+    t: توفر محدود
+  - key: baseline.support.false.description
+    t: مدعوم في بعض المتصفحات فقط.
+
+  - key: baseline.support.low
+    t: متاح حديثًا
+  - key: baseline.support.low.description
+    t: مدعوم في المتصفحات الرئيسية الأربعة.
+
+  - key: baseline.support.high
+    t: متاح على نطاق واسع
+  - key: baseline.support.high.description
+    t: مرّ 30 شهرًا على إتاحته حديثًا.
+
+  - key: baseline.support.unknown
+    t: غير معروف
+  - key: baseline.support.unknown.description
+    t: لا تتوفر بيانات للمعيار الأساسي.
+
+  - key: feature.experimental
+    t: ميزة أو مقترح غير مدعوم حاليًا
+
+  ###########################################################################
+  # Locales
+  ###########################################################################
+
+  - key: options.locale.en-US
+    t: الإنجليزية
+    aliases:
+      - options.native_languages.english
+      - options.other_languages.english
+  - key: options.locale.ca-ES
+    t: الكتالونية
+    aliases:
+      - options.native_languages.catalan
+      - options.other_languages.catalan
+  - key: options.locale.es-ES
+    t: الإسبانية
+    aliases:
+      - options.native_languages.spanish
+      - options.other_languages.spanish
+  - key: options.locale.ru-RU
+    t: الروسية
+    aliases:
+      - options.native_languages.russian
+      - options.other_languages.russian
+  - key: options.locale.fr-FR
+    t: الفرنسية
+    aliases:
+      - options.native_languages.french
+      - options.other_languages.french
+  - key: options.locale.zh-Hant
+    t: الصينية (التقليدية)
+  - key: options.locale.de-DE
+    t: الألمانية
+    aliases:
+      - options.native_languages.german
+      - options.other_languages.german
+  - key: options.locale.cs-CZ
+    t: التشيكية
+    aliases:
+      - options.native_languages.czech
+      - options.other_languages.czech
+  - key: options.locale.pt-PT
+    t: البرتغالية
+    aliases:
+      - options.native_languages.portuguese
+      - options.other_languages.portuguese
+  - key: options.locale.pt-BR
+    t: البرتغالية (البرازيل)
+    aliases:
+      - options.native_languages.portuguese_brazil
+      - options.other_languages.portuguese_brazil
+  - key: options.locale.it-IT
+    t: الإيطالية
+    aliases:
+      - options.native_languages.italian
+      - options.other_languages.italian
+  - key: options.locale.sv-SE
+    t: السويدية
+    aliases:
+      - options.native_languages.swedish
+      - options.other_languages.swedish
+  - key: options.locale.tr-TR
+    t: التركية
+    aliases:
+      - options.native_languages.turkish
+      - options.other_languages.turkish
+  - key: options.locale.id-ID
+    t: الإندونيسية
+    aliases:
+      - options.native_languages.indonesian
+      - options.other_languages.indonesian
+  - key: options.locale.hi-IN
+    t: الهندية
+    aliases:
+      - options.native_languages.hindi
+      - options.other_languages.hindi
+  - key: options.locale.zh-Hans
+    t: الصينية (المبسطة)
+  - key: options.locale.ja-JP
+    t: اليابانية
+    aliases:
+      - options.native_languages.japanese
+      - options.other_languages.japanese
+  - key: options.locale.ua-UA
+    t: الأوكرانية
+    aliases:
+      - options.native_languages.ukrainian
+      - options.other_languages.ukrainian
+  - key: options.locale.pl-PL
+    t: البولندية
+    aliases:
+      - options.native_languages.polish
+      - options.other_languages.polish
+  - key: options.locale.fa-IR
+    t: الفارسية
+    aliases:
+      - options.native_languages.farsi
+      - options.other_languages.farsi
+  - key: options.locale.nl-NL
+    t: الهولندية
+    aliases:
+      - options.native_languages.dutch
+      - options.other_languages.dutch
+  - key: options.locale.ko-KR
+    t: الكورية
+    aliases:
+      - options.native_languages.korean
+      - options.other_languages.korean
+  - key: options.locale.ro-RO
+    t: الرومانية
+    aliases:
+      - options.native_languages.romanian
+      - options.other_languages.romanian
+  - key: options.locale.am-ET
+    t: الأمهرية
+    aliases:
+      - options.native_languages.amharic
+      - options.other_languages.amharic
+  - key: options.locale.ar-EG
+    t: العربية
+    aliases:
+      - options.native_languages.arabic
+      - options.other_languages.arabic
+  - key: options.locale.af
+    t: الأفريكانية
+    aliases:
+      - options.native_languages.afrikaans
+      - options.other_languages.afrikaans
+  - key: options.locale.cn
+    t: الصينية
+    aliases:
+      - options.native_languages.chinese
+      - options.other_languages.chinese
+  - key: options.locale.el-GR
+    t: اليونانية
+    aliases:
+      - options.native_languages.greek
+      - options.other_languages.greek
+  - key: options.locale.gl-ES
+    t: الجاليكية
+    aliases:
+      - options.native_languages.galician
+      - options.other_languages.galician
+  - key: options.locale.hr-HR
+    t: الكرواتية
+    aliases:
+      - options.native_languages.croatian
+      - options.other_languages.croatian
+  - key: options.locale.hu-HU
+    t: المجرية
+    aliases:
+      - options.native_languages.hungarian
+      - options.other_languages.hungarian
+  - key: options.locale.sk-SK
+    t: السلوفاكية
+    aliases:
+      - options.native_languages.slovak
+      - options.other_languages.slovak
+  - key: options.locale.vi-VN
+    t: الفيتنامية
+    aliases:
+      - options.native_languages.vietnamese
+      - options.other_languages.vietnamese
+
+  - key: options.locale.he-IL
+    t: العبرية
+    aliases:
+      - options.native_languages.hebrew
+      - options.other_languages.hebrew
+
+  - key: options.locale.da-DK
+    t: الدنماركية
+    aliases:
+      - options.native_languages.danish
+      - options.other_languages.danish
+
+  - key: options.locale.no-NO
+    t: النرويجية
+    aliases:
+      - options.native_languages.norwegian
+      - options.other_languages.norwegian
+
+  - key: options.locale.sr-RS
+    t: الصربية
+    aliases:
+      - options.native_languages.serbian
+      - options.other_languages.serbian
+
+  - key: options.locale.fi-FI
+    t: الفنلندية
+    aliases:
+      - options.native_languages.finnish
+      - options.other_languages.finnish
+
+  - key: options.locale.bg-BG
+    t: البلغارية
+    aliases:
+      - options.native_languages.bulgarian
+      - options.other_languages.bulgarian
+
+  - key: options.locale.be-BY
+    t: البيلاروسية
+    aliases:
+      - options.native_languages.belarussian
+      - options.other_languages.belarussian
+
+  - key: options.locale.zh-mandarin
+    t: الصينية المندرينية
+    aliases:
+      - options.native_languages.mandarin
+      - options.other_languages.mandarin
