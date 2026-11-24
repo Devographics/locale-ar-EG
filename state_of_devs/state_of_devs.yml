@@ -1,3 +1,1877 @@
 locale: ar-EG
-namespace: devs
-translations: []
+translations:
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  - key: general.state_of_devs.description
+    t: استطلاع المطورين عن كل ما عدا ذلك.
+
+  - key: general.state_of_devs.intro
+    t: |
+      بينما يُعدّ السؤال عن إطار عمل جافا سكريبت المفضل لديك مرارًا وتكرارًا أمرًا جيدًا، فقد رأينا أنه قد حان الوقت لتناول الأسئلة الأكبر في الحياة: من أنت؟ ماذا تفعل إلى جانب البرمجة؟ وماذا تؤمن به وتأمل؟
+
+      هذا هو جوهر استطلاع حالة المطورين. هذه المرة، يتناول كل ما ليس برمجة.
+
+  - key: tools.tools_intro.ai2025
+    t: |
+      يدور هذا الجزء الأول من الاستطلاع حول أدوات الذكاء الاصطناعي التي تستخدمها أو سمعت عنها.
+
+  ###########################################################################
+  # Sections
+  ###########################################################################
+
+  - key: sections.career.title
+    t: المسيرة المهنية
+  - key: sections.career.prompt
+    t: مسيرتك المهنية وخبراتك العملية حتى الآن.
+
+  - key: sections.workplace.title
+    t: مكان العمل
+  - key: sections.workplace.prompt
+    t: مكان عملك الحالي.
+
+  - key: sections.technology.title
+    t: التقنية
+  - key: sections.technology.prompt
+    t: التطبيقات واللغات والمنصات التي تستخدمها.
+
+  - key: sections.health.title
+    t: الصحة
+  - key: sections.health.prompt
+    t: الصحة واللياقة البدنية.
+
+  - key: sections.worldview.title
+    t: نظرتك إلى العالم
+  - key: sections.worldview.prompt
+    t: نظرتك إلى العالم والسياسة والأحداث الراهنة.
+
+  - key: sections.hobbies.title
+    t: الهوايات
+  - key: sections.hobbies.prompt
+    t: اهتماماتك الأخرى.
+
+  # employment_status
+  - key: career.employment_status
+    aliasFor: user_info.employment_status
+  - key: career.employment_status.question
+    aliasFor: user_info.employment_status.question
+
+  # how_many_jobs
+  - key: career.how_many_jobs
+    t: عدد جهات العمل
+  - key: career.how_many_jobs.question
+    t: كم جهة عملت لديها حتى الآن؟
+  - key: career.how_many_jobs.prompt
+    t: يشمل ذلك وظائف المطورين بأجر فقط.
+
+  - key: options.how_many_jobs.range_1
+    t: 1
+  - key: options.how_many_jobs.range_2
+    t: 2
+  - key: options.how_many_jobs.range_3
+    t: 3
+  - key: options.how_many_jobs.range_4
+    t: 4
+  - key: options.how_many_jobs.range_5
+    t: 5
+  - key: options.how_many_jobs.range_6_10
+    t: 6-10
+  - key: options.how_many_jobs.range_11_20
+    t: 11-20
+  - key: options.how_many_jobs.range_over_20
+    t: أكثر من 20
+  # career_issues
+
+  - key: career.career_issues
+    t: مشكلات مكان العمل
+  - key: career.career_issues.question
+    t: أيًّا من مشكلات مكان العمل التالية واجهت خلال مسيرتك المهنية؟
+
+  - key: career.career_issues.commentPrompt
+    t: |
+      أخبرنا بالمزيد عن المشكلات المحددة التي واجهتها إن رغبت.
+
+      ⚠️ تحذير: **سيُنشر تعليقك للعامة**، لذا يُرجى عدم تضمينه
+      أي معلومات قد تكشف هويتك أو هوية شركتك.
+
+  - key: options.career_issues.harassment
+    t: المضايقة
+  - key: options.career_issues.harassment.description
+    t: سلوك غير مرغوب فيه يخلق بيئة عمل عدائية.
+
+  - key: options.career_issues.sexual_harassment
+    t: التحرش الجنسي
+  - key: options.career_issues.sexual_harassment.description
+    t: سلوك غير مرغوب فيه ذو طابع جنسي يخلق بيئة عمل عدائية.
+
+  - key: options.career_issues.non_sexual_harassment
+    t: مضايقات غير جنسية
+  - key: options.career_issues.non_sexual_harassment.description
+    t: أشكال أخرى من المضايقات الموجهة التي تخلق بيئة عمل عدائية.
+
+  - key: options.career_issues.gender_discrimination
+    t: التمييز على أساس النوع الاجتماعي
+  - key: options.career_issues.gender_discrimination.description
+    t: التعرض للتمييز بسبب نوعك الاجتماعي.
+
+  - key: options.career_issues.race_discrimination
+    t: التمييز على أساس العرق
+  - key: options.career_issues.race_discrimination.description
+    t: التعرض للتمييز بسبب عرقك.
+
+  - key: options.career_issues.discrimination
+    t: التمييز
+  - key: options.career_issues.discrimination.description
+    t: التعرض للتمييز بسبب سماتك الشخصية.
+
+  - key: options.career_issues.mental_health_issues
+    t: مشكلات الصحة النفسية
+  - key: options.career_issues.mental_health_issues.description
+    t: مشكلات نفسية ناتجة عن العمل، مثل التوتر أو القلق.
+
+  - key: options.career_issues.excessive_overtime
+    t: مشكلات التوازن بين العمل والحياة
+  - key: options.career_issues.excessive_overtime.description
+    t: ساعات عمل إضافية مفرطة، أو غياب الحدود بين العمل والحياة، وغيرها.
+
+  - key: options.career_issues.underpaid_work
+    t: أجر غير كافٍ
+  - key: options.career_issues.underpaid_work.description
+    t: راتب أو دخل غير كافٍ.
+
+  - key: options.career_issues.burnout
+    t: الإنهاك الوظيفي
+  - key: options.career_issues.burnout.description
+    t: الشعور بالإرهاق الشديد من العمل، ما يؤدي إلى فقدان الحافز أو الاكتئاب.
+
+  - key: options.career_issues.job_insecurity
+    t: انعدام الأمان الوظيفي
+  - key: options.career_issues.job_insecurity.description
+    t: الخوف من فقدان وظيفتك أو صعوبة العثور على وظيفة جديدة.
+
+  - key: options.career_issues.bad_management
+    t: سوء الإدارة
+  - key: options.career_issues.bad_management.description
+    t: بيئة عمل سيئة عمومًا بسبب ممارسات الإدارة الضعيفة.
+
+  - key: options.career_issues.boredom
+    t: الملل
+  - key: options.career_issues.boredom.description
+    t: فقدان الحافز بسبب طبيعة عملك.
+
+  # discrimination_issues
+
+  - key: career.discrimination_issues
+    t: التمييز
+  - key: career.discrimination_issues.question
+    t: هل تعرضت يومًا للتمييز في مكان العمل بسبب أيٍّ من العوامل التالية؟
+
+  - key: options.discrimination_issues.gender
+    t: النوع الاجتماعي أو الهوية الجندرية
+  - key: options.discrimination_issues.sexual_orientation
+    t: التوجه الجنسي
+  - key: options.discrimination_issues.race
+    t: العرق
+  - key: options.discrimination_issues.religion
+    t: الدين أو المعتقدات الروحية
+  - key: options.discrimination_issues.age
+    t: العمر
+  - key: options.discrimination_issues.political_views
+    t: المعتقدات أو الانتماءات السياسية
+  - key: options.discrimination_issues.caregiving_status
+    t: مسؤوليات الرعاية
+  - key: options.discrimination_issues.caregiving_status.description
+    t: مثل الحمل ورعاية الأطفال ورعاية كبار السن وغيرها.
+  - key: options.discrimination_issues.disability
+    t: الإعاقات
+  - key: options.discrimination_issues.disability.description
+    t: تشمل الحالات الجسدية والنفسية والعصبية المتنوعة.
+
+  - key: options.discrimination_issues.country_citizenship
+    t: بلد المنشأ
+  - key: options.discrimination_issues.appearance_body
+    t: المظهر أو السمات الجسدية
+
+  - key: career.discrimination_issues.commentPrompt
+    aliasFor: career.career_issues.commentPrompt
+
+  # negative_impacts
+
+  - key: career.negative_impacts
+    t: ردود الفعل تجاه مشكلات العمل
+  - key: career.negative_impacts.question
+    t: هل اتخذت أيًا من الإجراءات التالية استجابةً لمشكلات في مكان العمل؟
+
+  - key: options.negative_impacts.changing_appearance
+    t: غيّرت مظهرك أو طريقة لباسك
+  - key: options.negative_impacts.changing_appearance.short
+    t: تغيير المظهر
+
+  - key: options.negative_impacts.changing_behavior
+    t: غيّرت طريقة حديثك أو تصرفك أو تعبيرك عن نفسك
+  - key: options.negative_impacts.changing_behavior.short
+    t: تغيير السلوك
+
+  - key: options.negative_impacts.reported_someone
+    t: أبلغت الإدارة أو الموارد البشرية بالمشكلة
+  - key: options.negative_impacts.reported_someone.short
+    t: إبلاغ الموارد البشرية
+
+  - key: options.negative_impacts.isolating_yourself
+    t: تجنبت زملاءك أو ابتعدت عنهم
+  - key: options.negative_impacts.isolating_yourself.short
+    t: تجنب الزملاء
+
+  - key: options.negative_impacts.internal_transfer
+    t: طلبت الانتقال إلى فريق أو قسم آخر
+  - key: options.negative_impacts.internal_transfer.short
+    t: طلب الانتقال
+
+  - key: options.negative_impacts.time_off
+    t: أخذت إجازة أو توقفت عن العمل لفترة
+  - key: options.negative_impacts.time_off.short
+    t: أخذ إجازة
+
+  - key: options.negative_impacts.quitting_job
+    t: استقلت من وظيفة
+  - key: options.negative_impacts.quitting_job.short
+    t: استقالة
+
+  - key: options.negative_impacts.shifting_careers
+    t: غيّرت مسارك المهني أو قطاع عملك
+  - key: options.negative_impacts.shifting_careers.short
+    t: تغيير المسار المهني
+
+  - key: options.negative_impacts.seeking_counseling
+    t: لجأت إلى العلاج أو الاستشارات أو دعم الصحة النفسية
+  - key: options.negative_impacts.seeking_counseling.short
+    t: طلب العلاج
+
+  - key: options.negative_impacts.engaging_legal_counsel
+    t: استشرت مستشارًا قانونيًا
+  - key: options.negative_impacts.engaging_legal_counsel.short
+    t: استشارة قانونية
+
+  - key: options.negative_impacts.scaling_back
+    t: قلّصت ساعات عملك أو توليت دورًا أقل تطلبًا
+  - key: options.negative_impacts.scaling_back.short
+    t: تقليص ساعات العمل
+
+  - key: options.negative_impacts.taking_medicine
+    t: تناولت أدوية للتوتر أو القلق أو الاكتئاب وغيرها.
+  - key: options.negative_impacts.taking_medicine.short
+    t: تناول الأدوية
+
+  - key: career.negative_impacts.commentPrompt
+    aliasFor: career.career_issues.commentPrompt
+
+  # past_year_conferences
+
+  - key: career.past_year_conferences
+    t: المؤتمرات
+  - key: career.past_year_conferences.question
+    t: كم مؤتمرًا حضرت خلال العام الماضي؟
+
+  - key: career.past_year_meetups_events
+    t: اللقاءات والفعاليات
+  - key: career.past_year_meetups_events.question
+    t: كم لقاءً وفعالية محلية حضرت خلال العام الماضي؟
+
+  - key: options.past_year_conferences.range_0
+    t: لا شيء
+    aliases:
+      - options.past_year_meetups_events.range_0
+  - key: options.past_year_conferences.range_1
+    t: 1
+    aliases:
+      - options.past_year_meetups_events.range_1
+  - key: options.past_year_conferences.range_2_5
+    t: 2-5
+    aliases:
+      - options.past_year_meetups_events.range_2_5
+  - key: options.past_year_conferences.range_6_10
+    t: 6-10
+    aliases:
+      - options.past_year_meetups_events.range_6_10
+  - key: options.past_year_conferences.range_11_15
+    t: 11-15
+    aliases:
+      - options.past_year_meetups_events.range_11_15
+  - key: options.past_year_conferences.range_more_than_15
+    t: أكثر من 15
+    aliases:
+      - options.past_year_meetups_events.range_more_than_15
+
+  # laid_off
+
+  - key: career.laid_off
+    t: التسريح من العمل
+  - key: career.laid_off.question
+    t: هل سبق أن سُرّحت من وظيفة؟
+
+  - key: options.laid_off.yes_past_year
+    t: نعم، خلال الاثني عشر شهرًا الماضية
+  - key: options.laid_off.yes_before
+    t: نعم، قبل ذلك بمدة
+  - key: options.laid_off.no
+    t: لم يسبق أن سُرّحت من وظيفة
+
+  # job_security
+
+  - key: career.job_security
+    t: الأمان الوظيفي
+  - key: career.job_security.question
+    t: ما مدى احتمال اضطرارك إلى تغيير وظيفتك خلال السنوات الخمس المقبلة لأسباب خارجة عن إرادتك؟
+  - key: career.job_security.prompt
+    t: مثل الاستغناء عنك. إذا لم ينطبق ذلك، ففكر في أي تغيير كبير مماثل في نشاطك مع الاستمرار في العمل مطورًا.
+
+  - key: options.job_security.0
+    t: مستبعد جدًا
+  - key: options.job_security.1
+    t: مستبعد إلى حد ما
+  - key: options.job_security.2
+    t: محتمل ومستبعد بالقدر نفسه
+  - key: options.job_security.3
+    t: محتمل إلى حد ما
+  - key: options.job_security.4
+    t: محتمل جدًا
+
+  # career_security
+
+  - key: career.career_security
+    t: الأمان المهني
+  - key: career.career_security.question
+    t: ما مدى احتمال اضطرارك إلى تغيير مسارك المهني خلال السنوات الخمس المقبلة لأسباب خارجة عن إرادتك؟
+  - key: career.career_security.prompt
+    t: مثل عدم التمكن من مواصلة العمل مطورًا.
+
+  - key: options.career_security.0
+    aliasFor: options.job_security.0
+  - key: options.career_security.1
+    aliasFor: options.job_security.1
+  - key: options.career_security.2
+    aliasFor: options.job_security.2
+  - key: options.career_security.3
+    aliasFor: options.job_security.3
+  - key: options.career_security.4
+    aliasFor: options.job_security.4
+
+  # WORKPLACE
+
+  - key: workplace.company_size
+    aliasFor: user_info.company_size
+  - key: workplace.company_size.question
+    aliasFor: user_info.company_size.question
+
+  - key: workplace.job_title
+    aliasFor: user_info.job_title
+  - key: workplace.job_title.question
+    aliasFor: user_info.job_title.question
+
+  - key: workplace.income_evolution
+    aliasFor: user_info.income_evolution
+  - key: workplace.income_evolution.question
+    aliasFor: user_info.income_evolution.question
+
+  - key: workplace.remote_work_policy
+    t: العمل عن بُعد
+  - key: workplace.remote_work_policy.question
+    t: ما هو الوصف الأنسب لسياسة العمل عن بعد لدى صاحب العمل؟
+
+  - key: options.remote_work_policy.no_remote_work
+    t: لا يوجد عمل عن بُعد
+  - key: options.remote_work_policy.no_remote_work.description
+    t: يجب على جميع الموظفين الحضور إلى المكتب.
+  - key: options.remote_work_policy.hybrid
+    t: هجين
+  - key: options.remote_work_policy.hybrid.description
+    t: يُسمح ببعض العمل عن بُعد، لكن يجب على الموظفين الحضور إلى المكتب بانتظام.
+  - key: options.remote_work_policy.up_to_employee
+    t: حسب اختيار الموظف
+  - key: options.remote_work_policy.up_to_employee.description
+    t: يمكن للموظفين اختيار العمل عن بُعد أو من المكتب.
+  - key: options.remote_work_policy.fully_remote
+    t: عن بُعد بالكامل
+  - key: options.remote_work_policy.fully_remote.description
+    t: يعمل جميع الموظفين عن بُعد بالكامل.
+  - key: options.remote_work_policy.na
+    t: 🚫 لا ينطبق
+  - key: options.remote_work_policy.na.description
+    t: أعمل بمفردي
+
+  - key: options.remote_work_policy.depends_on_role
+    t: يعتمد على الدور الوظيفي
+  - key: options.remote_work_policy.mostly_remote
+    t: عن بُعد في الغالب
+  - key: options.remote_work_policy.hybrid_remote_work
+    t: هجين
+  - key: options.remote_work_policy.freelance_self_employed
+    t: عمل حر/عمل لحسابي الخاص
+  - key: options.remote_work_policy.remote_based_on_distance
+    t: يعتمد على بُعد المسافة عن الشركة
+  - key: options.remote_work_policy.work_from_home
+    t: العمل من المنزل
+
+  - key: workplace.work_hours_per_week
+    t: ساعات العمل
+  - key: workplace.work_hours_per_week.question
+    t: كم ساعة تعمل في أسبوع عادي؟
+
+  - key: options.work_hours_per_week.range_under_30
+    t: أقل من 30
+  - key: options.work_hours_per_week.range_31_35
+    t: 31-35
+  - key: options.work_hours_per_week.range_36_40
+    t: 36-40
+  - key: options.work_hours_per_week.range_41_45
+    t: 41-45
+  - key: options.work_hours_per_week.range_46_50
+    t: 46-50
+  - key: options.work_hours_per_week.range_over_50
+    t: أكثر من 50
+
+  - key: workplace.job_happiness
+    t: السعادة الوظيفية
+  - key: workplace.job_happiness.question
+    t: ما مدى سعادتك بوظيفتك الحالية؟
+
+  - key: options.job_happiness.0
+    aliasFor: options.happiness.0
+  - key: options.job_happiness.1
+    aliasFor: options.happiness.1
+  - key: options.job_happiness.2
+    aliasFor: options.happiness.2
+  - key: options.job_happiness.3
+    aliasFor: options.happiness.3
+  - key: options.job_happiness.4
+    aliasFor: options.happiness.4
+
+  # workplace_difficulties
+
+  - key: workplace.workplace_difficulties
+    t: صعوبات مكان العمل
+  - key: workplace.workplace_difficulties.question
+    t: ما الجوانب السلبية لبيئة العمل لدى جهة عملك الحالية؟
+
+  - key: options.workplace_difficulties.coworker_relations
+    t: العلاقات مع الزملاء
+  - key: options.workplace_difficulties.coworker_relations.description
+    t: المضايقات وضعف التواصل وغيرها.
+
+  - key: options.workplace_difficulties.company_culture
+    t: ثقافة الشركة
+  - key: options.workplace_difficulties.company_culture.description
+    t: ثقافة سامة وممارسات عمل سيئة وغيرها.
+
+  - key: options.workplace_difficulties.working_conditions
+    t: ظروف العمل
+  - key: options.workplace_difficulties.working_conditions.description
+    t: معدات قديمة ومساحات ضيقة وغيرها.
+
+  - key: options.workplace_difficulties.job_security
+    t: الأمان الوظيفي
+  - key: options.workplace_difficulties.job_security.description
+    t: ضعف الأمان الوظيفي والعقود قصيرة الأجل وغيرها.
+
+  - key: options.workplace_difficulties.work_content
+    t: طبيعة العمل
+  - key: options.workplace_difficulties.work_content.description
+    t: مهام غير ممتعة أو لا تتوافق مع الوصف الوظيفي، ووقت خمول مفرط، وغيرها.
+
+  - key: options.workplace_difficulties.work_life_balance
+    t: التوازن بين العمل والحياة
+  - key: options.workplace_difficulties.work_life_balance.description
+    t: الإنهاك الوظيفي وساعات العمل الإضافية المفرطة والفعاليات الإلزامية للشركة وغيرها.
+
+  - key: options.workplace_difficulties.compensation
+    t: التعويضات
+  - key: options.workplace_difficulties.compensation.description
+    t: تعويضات غير كافية.
+
+  - key: options.workplace_difficulties.training
+    t: التدريب والتطوير المهني
+  - key: options.workplace_difficulties.training.description
+    t: نقص التدريب وفرص التطوير.
+
+  - key: options.workplace_difficulties.bad_management
+    t: سوء الإدارة
+  - key: options.workplace_difficulties.bad_management.description
+    t: ممارسات إدارية سيئة أو إدارة غير كفؤة وغيرها.
+
+  - key: options.workplace_difficulties.in_person_work
+    t: اشتراط العمل من مقر الشركة
+  - key: options.workplace_difficulties.lack_of_human_contact
+    t: نقص التواصل الإنساني
+  - key: options.workplace_difficulties.bureaucracy
+    t: البيروقراطية المفرطة
+
+    # workplace_perks
+
+  - key: workplace.workplace_perks
+    t: مزايا مكان العمل
+  - key: workplace.workplace_perks.question
+    t: ما الأمور التي تستمتع بها في مكان عملك الحالي؟
+
+  - key: options.workplace_perks.coworker_relations
+    aliasFor: options.workplace_difficulties.coworker_relations
+  - key: options.workplace_perks.coworker_relations.description
+    t: علاقات جيدة مع الزملاء.
+
+  - key: options.workplace_perks.company_culture
+    aliasFor: options.workplace_difficulties.company_culture
+  - key: options.workplace_perks.company_culture.description
+    t: ثقافة إيجابية للشركة واهتمام بالجودة وغيرها.
+
+  - key: options.workplace_perks.working_conditions
+    aliasFor: options.workplace_difficulties.working_conditions
+  - key: options.workplace_perks.working_conditions.description
+    t: بيئة عمل جيدة ومعدات حديثة وغيرها.
+
+  - key: options.workplace_perks.job_security
+    aliasFor: options.workplace_difficulties.job_security
+  - key: options.workplace_perks.job_security.description
+    t: وظيفة مستقرة وعقود طويلة الأجل وغيرها.
+
+  - key: options.workplace_perks.work_content
+    aliasFor: options.workplace_difficulties.work_content
+  - key: options.workplace_perks.work_content.description
+    t: مهام ممتعة وعمل مُرضٍ وغيرها.
+
+  - key: options.workplace_perks.work_life_balance
+    aliasFor: options.workplace_difficulties.work_life_balance
+  - key: options.workplace_perks.work_life_balance.description
+    t: عدم وجود ساعات إضافية وساعات عمل مرنة وغيرها.
+
+  - key: options.workplace_perks.compensation
+    aliasFor: options.workplace_difficulties.compensation
+  - key: options.workplace_perks.compensation.description
+    t: تعويضات جيدة.
+
+  - key: options.workplace_perks.training
+    aliasFor: options.workplace_difficulties.training
+  - key: options.workplace_perks.training.description
+    t: تدريب توفره الشركة وتطوير للمهارات.
+
+  - key: options.workplace_perks.remote_work_benefit
+    t: مزايا العمل عن بُعد
+
+  - key: options.workplace_perks.being_self_employed
+    t: العمل لحسابك الخاص
+
+  # workplace_burnout
+  - key: workplace.workplace_burnout
+    t: الحالة النفسية
+  - key: workplace.workplace_burnout.question
+    t: أيًّا مما يلي اختبرت مؤخرًا؟
+  - key: workplace.workplace_burnout.prompt
+    t: خلال العام الماضي تقريبًا
+
+  - key: options.workplace_burnout.emotionally_drained
+    t: الشعور بالاستنزاف العاطفي في نهاية يوم العمل
+  - key: options.workplace_burnout.trouble_focusing
+    t: صعوبة التركيز على المهام التي كنت أستمتع بها
+  - key: options.workplace_burnout.reduced_motivation
+    t: انخفاض الدافع أو الاهتمام بالعمل
+  - key: options.workplace_burnout.increased_cynicism
+    t: تزايد التشاؤم تجاه عملي أو القطاع الذي أعمل فيه
+  - key: options.workplace_burnout.increased_procrastination
+    t: ملاحظة أنني أؤجل المهام أكثر
+  - key: options.workplace_burnout.sleep_difficulties
+    t: صعوبة النوم أو اضطراب مواعيده
+  - key: options.workplace_burnout.trouble_disconnecting
+    t: صعوبة الانفصال عن العمل خارج ساعات الدوام
+  - key: options.workplace_burnout.feel_less_effective
+    t: الشعور بانخفاض كفاءتي في العمل
+  - key: options.workplace_burnout.reduced_sense_of_accomplishment
+    t: تراجع شعوري بالإنجاز في العمل
+
+  - key: options.workplace_burnout.ai_fatigue
+    t: إرهاق الذكاء الاصطناعي
+
+  # job_finding_application_count
+
+  - key: workplace.job_finding_application_count
+    t: عدد طلبات التوظيف
+  - key: workplace.job_finding_application_count.question
+    t: إلى كم وظيفة تقدمت قبل الحصول على وظيفتك الحالية؟
+
+  - key: options.job_finding_application_count.range_0
+    t: لا شيء (لم أتقدم لأي وظيفة)
+  - key: options.job_finding_application_count.range_1
+    t: 1
+  - key: options.job_finding_application_count.range_2_5
+    t: 2-5
+  - key: options.job_finding_application_count.range_5_10
+    t: 5-10
+  - key: options.job_finding_application_count.range_10_50
+    t: 10-50
+  - key: options.job_finding_application_count.range_50_100
+    t: 50-100
+  - key: options.job_finding_application_count.range_over_100
+    t: 100 فأكثر
+
+  # job_finding_methods
+
+  - key: workplace.job_finding_methods
+    t: العثور على وظيفة
+  - key: workplace.job_finding_methods.question
+    t: كيف عثرت على وظيفتك الحالية؟
+
+  - key: options.job_finding_methods.job_board
+    t: منصة توظيف
+  - key: options.job_finding_methods.direct_application
+    t: التقديم مباشرةً إلى الشركة
+  - key: options.job_finding_methods.recruiter
+    t: مسؤول توظيف
+  - key: options.job_finding_methods.personal_network
+    t: شبكة علاقات شخصية
+  - key: options.job_finding_methods.referral
+    t: ترشيح
+  - key: options.job_finding_methods.linkedin
+    t: LinkedIn
+  - key: options.job_finding_methods.social_media
+    t: وسائل التواصل الاجتماعي الأخرى (فيسبوك، إكس، إلخ)
+  - key: options.job_finding_methods.internal_transfer
+    t: ترقية أو انتقال داخلي
+  - key: options.job_finding_methods.open_source_community
+    t: المساهمة في المصادر المفتوحة أو المجتمع
+  - key: options.job_finding_methods.company_founder
+    t: تأسيس شركة أو العمل لحسابي الخاص
+
+  - key: options.job_finding_methods.contacted_by_company
+    t: تواصلت معي الشركة
+  - key: options.job_finding_methods.internship
+    t: تدريب عملي
+  - key: options.job_finding_methods.through_university
+    t: عن طريق الجامعة
+  - key: options.job_finding_methods.merger_acquisition
+    t: اندماج أو استحواذ
+  - key: options.job_finding_methods.career_fair
+    t: معرض توظيف
+
+  ###########################################################################
+  # AI
+  ###########################################################################
+
+  # ai_management_pressure
+
+  - key: ai_usage.ai_management_pressure
+    t: موقف الشركة من الذكاء الاصطناعي
+  - key: ai_usage.ai_management_pressure.question
+    t: ما موقف شركتك من استخدام الذكاء الاصطناعي؟
+  - key: ai_usage.ai_management_pressure.prompt
+    t: إذا لم تكن تعمل لدى شركة، يمكنك تخطي هذا السؤال.
+
+  - key: options.ai_management_pressure.0
+    t: لا تشجع شركتي استخدام الذكاء الاصطناعي
+
+  - key: options.ai_management_pressure.1
+    t: تتخذ شركتي موقفًا محايدًا من الذكاء الاصطناعي
+
+  - key: options.ai_management_pressure.2
+    t: تشجع شركتي استخدام الذكاء الاصطناعي، لكن ذلك لا يؤثر في سلوكي
+
+  - key: options.ai_management_pressure.3
+    t: تشجع شركتي استخدام الذكاء الاصطناعي، ولذلك أستخدمه أكثر مما كنت سأستخدمه لولا ذلك
+  - key: options.ai_management_pressure.3.description
+    t: |
+      مثال: حد أدنى إلزامي لاستخدام الذكاء الاصطناعي، أو لوحة ترتيب لاستهلاك الرموز، وغيرها.
+
+  # job_security_threat
+
+  - key: ai_usage.job_security_threat
+    aliasFor: opinions.job_security_threat
+  - key: ai_usage.job_security_threat.question
+    aliasFor: opinions.job_security_threat.question
+
+  # ai_sentiment
+
+  - key: ai_usage.ai_sentiment
+    t: الانطباع عن الذكاء الاصطناعي
+  - key: ai_usage.ai_sentiment.question
+    t: على مقياس يتراوح من 100% سلبي إلى 100% إيجابي، ما هو رأيك العام بشأن الذكاء الاصطناعي؟
+  - key: ai_usage.ai_sentiment.lower
+    t: معارض للذكاء الاصطناعي
+  - key: ai_usage.ai_sentiment.higher
+    t: مؤيد للذكاء الاصطناعي
+
+  - key: options.ai_sentiment.0
+    t: سلبي بنسبة 100%
+    aliases:
+      - options.ai_impact_on_js_ecosystem.0
+      - options.ai_mental_state_spectrum.0
+    contexts:
+      - state_of_js
+  - key: options.ai_sentiment.1
+    t: سلبي في الغالب
+    aliases:
+      - options.ai_impact_on_js_ecosystem.1
+      - options.ai_mental_state_spectrum.1
+    contexts:
+      - state_of_js
+  - key: options.ai_sentiment.2
+    t: سلبي
+    aliases:
+      - options.ai_impact_on_js_ecosystem.2
+      - options.ai_mental_state_spectrum.2
+    contexts:
+      - state_of_js
+  - key: options.ai_sentiment.3
+    t: سلبي قليلًا
+    aliases:
+      - options.ai_impact_on_js_ecosystem.3
+      - options.ai_mental_state_spectrum.3
+    contexts:
+      - state_of_js
+  - key: options.ai_sentiment.4
+    t: محايد
+    aliases:
+      - options.ai_impact_on_js_ecosystem.4
+      - options.ai_mental_state_spectrum.4
+    contexts:
+      - state_of_js
+  - key: options.ai_sentiment.5
+    t: إيجابي قليلًا
+    aliases:
+      - options.ai_impact_on_js_ecosystem.5
+      - options.ai_mental_state_spectrum.5
+    contexts:
+      - state_of_js
+  - key: options.ai_sentiment.6
+    t: إيجابي
+    aliases:
+      - options.ai_impact_on_js_ecosystem.6
+      - options.ai_mental_state_spectrum.6
+    contexts:
+      - state_of_js
+  - key: options.ai_sentiment.7
+    t: إيجابي في الغالب
+    aliases:
+      - options.ai_impact_on_js_ecosystem.7
+      - options.ai_mental_state_spectrum.7
+    contexts:
+      - state_of_js
+  - key: options.ai_sentiment.8
+    t: إيجابي بنسبة 100%
+    aliases:
+      - options.ai_impact_on_js_ecosystem.8
+      - options.ai_mental_state_spectrum.8
+    contexts:
+      - state_of_js
+
+  # ai_mental_state
+  - key: ai_usage.ai_mental_state
+    t: تأثير الذكاء الاصطناعي في الحالة النفسية
+    aliases:
+      - opinions.ai_mental_state
+  - key: ai_usage.ai_mental_state.question
+    t: كان لأدوات الذكاء الاصطناعي تأثير إيجابي إجمالًا على حالتي النفسية
+    aliases:
+      - opinions.ai_mental_state.question
+
+  # ai_mental_state
+  - key: ai_usage.ai_mental_state_spectrum
+    t: الحالة النفسية والذكاء الاصطناعي
+    contexts:
+      - state_of_js
+  - key: ai_usage.ai_mental_state_spectrum.question
+    t: كيف تقيّم التأثير الإجمالي للذكاء الاصطناعي على حالتك النفسية؟
+    contexts:
+      - state_of_js
+  - key: ai_usage.ai_mental_state_spectrum.prompt
+    t: مع مراعاة العوامل الإيجابية (مثل زيادة الإنتاجية واكتساب قدرات جديدة) والسلبية (مثل زيادة التوتر وفقدان الحافز).
+    contexts:
+      - state_of_js
+
+  # ai_risks
+
+  - key: ai_usage.ai_risks
+    aliasFor: usage.ai_risks
+  - key: ai_usage.ai_risks.question
+    aliasFor: usage.ai_risks.question
+
+  # ai_outlook
+  - key: ai_usage.ai_outlook
+    t: نظرتك إلى الذكاء الاصطناعي
+    contexts:
+      - state_of_js
+  - key: ai_usage.ai_outlook.question
+    t: ما الذي تود إضافته عن نظرتك العامة إلى الذكاء الاصطناعي؟
+    contexts:
+      - state_of_js
+
+  - key: options.ai_outlook.anti_ai_sentiment
+    t: مشاعر معارضة للذكاء الاصطناعي
+  - key: options.ai_outlook.distrust_of_ai_leaders
+    t: انعدام الثقة بقادة الذكاء الاصطناعي ومختبراته
+  - key: options.ai_outlook.wish_it_didnt_exist
+    t: الرفض/تمني عدم وجوده
+  - key: options.ai_outlook.worker_solidarity_call
+    t: الدعوة إلى نقابات العمال والتضامن بينهم
+  - key: options.ai_outlook.regulation_and_guardrails
+    t: التنظيم والضوابط الوقائية
+  - key: options.ai_outlook.speculative_bubble_and_hype
+    t: فقاعة مضاربات وضجة إعلامية
+  - key: options.ai_outlook.bubble_burst_anticipation
+    t: توقع انفجار الفقاعة
+  - key: options.ai_outlook.pro_ai_sentiment
+    t: مشاعر مؤيدة للذكاء الاصطناعي
+  - key: options.ai_outlook.productivity_gains
+    t: مكاسب الإنتاجية
+  - key: options.ai_outlook.useful_tool_for_specific_tasks
+    t: الذكاء الاصطناعي أداة مفيدة لمهام محددة
+  - key: options.ai_outlook.augments_skilled_engineers
+    t: يعزز قدرات المهندسين ذوي الخبرة
+  - key: options.ai_outlook.optimism_about_future
+    t: التفاؤل بإمكانات الذكاء الاصطناعي المستقبلية
+  - key: options.ai_outlook.neutral_ai_sentiment
+    t: انطباع محايد
+  - key: options.ai_outlook.inevitability
+    t: الحتمية
+  - key: options.ai_outlook.tool_framing
+    t: الذكاء الاصطناعي مجرد أداة
+  - key: options.ai_outlook.still_learning_navigating
+    t: ما زلنا نحاول فهمه والتعامل معه
+  - key: options.ai_outlook.not_using_ai
+    t: عدم الاستخدام
+  - key: options.ai_outlook.agentic_workflows
+    t: سير عمل الوكلاء وأدواتهم
+  - key: options.ai_outlook.skill_dependent_outcomes
+    t: نتائج تعتمد على المهارات
+  - key: options.ai_outlook.terminology_imprecision
+    t: عدم دقة المصطلحات
+  - key: options.ai_outlook.local_and_open_weight_models
+    t: النماذج المحلية ومفتوحة الأوزان
+
+  # what_kind_keyboard
+  - key: workplace.keyboard
+    t: لوحة المفاتيح
+  - key: workplace.keyboard.question
+    t: ما نوع لوحة المفاتيح التي تستخدمها عادةً في العمل؟
+  - key: workplace.keyboard.prompt
+    t: يمكن ذكر نوع لوحة المفاتيح أو علامتها التجارية أو طرازها وغيرها.
+
+  # monitors
+  - key: workplace.monitors
+    t: الشاشات
+  - key: workplace.monitors.question
+    t: كم شاشة تستخدم عادةً أثناء العمل؟
+
+  - key: options.monitors.0
+    t: لا شيء
+  - key: options.monitors.1
+    t: 1
+  - key: options.monitors.2
+    t: 2
+  - key: options.monitors.3
+    t: 3
+  - key: options.monitors.4
+    t: 4 أو أكثر
+
+  ###########################################################################
+  # Technology
+  ###########################################################################
+
+  # mobile_os
+  - key: technology.mobile_os
+    t: نظام تشغيل الهاتف المحمول
+  - key: technology.mobile_os.question
+    t: ما نظام تشغيل الهاتف المحمول الذي تستخدمه أكثر؟
+
+  - key: options.mobile_os.ios
+    t: نظام التشغيل iOS
+  - key: options.mobile_os.android
+    t: نظام التشغيل أندرويد
+  - key: options.mobile_os.no_smartphone
+    t: ليس لدي هاتف ذكي
+
+  # desktop_os
+  - key: technology.desktop_os
+    t: نظام تشغيل الحاسوب
+  - key: technology.desktop_os.question
+    t: ما نظام تشغيل الحاسوب الذي تستخدمه أكثر؟
+
+  - key: options.desktop_os.mac_os
+    t: نظام التشغيل macOS
+  - key: options.desktop_os.windows
+    t: نظام التشغيل Windows
+  - key: options.desktop_os.linux
+    t: نظام التشغيل Linux
+    
+
+  # programming_languages
+  - key: technology.programming_languages
+    t: لغات البرمجة
+  - key: technology.programming_languages.question
+    t: ما لغات البرمجة التي تستخدمها في البرمجة؟
+
+  # ai_tools
+  - key: technology.ai_tools
+    t: أدوات الذكاء الاصطناعي
+  - key: technology.ai_tools.question
+    t: ما أدوات الذكاء الاصطناعي التي تستخدمها بانتظام؟
+
+  # productivity_apps
+  - key: technology.productivity_apps
+    t: تطبيقات الإنتاجية
+  - key: technology.productivity_apps.question
+    t: ما تطبيقات الإنتاجية التي تستخدمها بانتظام؟
+
+  # chat_apps
+  - key: technology.chat_apps
+    t: تطبيقات المراسلة
+  - key: technology.chat_apps.question
+    t: ما تطبيقات المراسلة التي تستخدمها بانتظام؟
+
+  # social_media
+  - key: technology.social_media
+    t: وسائل التواصل الاجتماعي
+  - key: technology.social_media.question
+    t: ما مواقع التواصل الاجتماعي التي تستخدمها بانتظام؟
+
+  # community_involvement
+
+  - key: technology.community_involvement
+    t: المشاركة في المجتمع
+  - key: technology.community_involvement.question
+    t: أيًّا من هذه الطرق تستخدم للبقاء على تواصل مع مجتمع المطورين؟
+
+  - key: options.community_involvement.meetups
+    t: اللقاءات المحلية
+  - key: options.community_involvement.conferences
+    t: المؤتمرات
+  - key: options.community_involvement.forums
+    t: المنصات الإلكترونية (GitHub، Stack Overflow، إلخ)
+  - key: options.community_involvement.chatrooms
+    t: غرف الدردشة عبر الإنترنت (ديسكورد، سلاك، إلخ).
+  - key: options.community_involvement.social_media
+    t: وسائل التواصل الاجتماعي
+  - key: options.community_involvement.newsletters
+    t: النشرات البريدية
+  - key: options.community_involvement.videos
+    t: مقاطع الفيديو (يوتيوب، إلخ)
+  - key: options.community_involvement.streaming
+    t: البث المباشر (تويتش، إلخ)
+  - key: options.community_involvement.podcasts
+    t: البودكاست
+
+  - key: options.community_involvement.blogs_websites
+    t: المدونات والمواقع الإلكترونية
+  - key: options.community_involvement.rss_feeds
+    t: موجزات RSS
+
+  # community_contributions
+
+  - key: technology.community_contributions
+    t: المساهمات المجتمعية
+  - key: technology.community_contributions.question
+    t: أيًّا من هذه الطرق استخدمت للمساهمة في المجتمع خلال الاثني عشر شهرًا الماضية؟
+
+  - key: options.community_contributions.conference
+    t: حضرت لقاءً أو مؤتمرًا
+  - key: options.community_contributions.talk
+    t: ألقيت محاضرة
+  - key: options.community_contributions.blog_post
+    t: كتبت تدوينة
+  - key: options.community_contributions.answer_question
+    t: أجبت عن سؤال أو مشكلة
+  - key: options.community_contributions.financial_support
+    t: دعمت مطورًا أو مشروعًا ماليًا
+  - key: options.community_contributions.event_organization
+    t: نظمت فعالية
+  - key: options.community_contributions.open_source_contribution
+    t: ساهمت في برمجيات مفتوحة المصدر
+
+  - key: options.community_contributions.mentoring
+    t: الإرشاد
+
+  # open_source_involvement
+  - key: technology.open_source_involvement
+    t: المصادر المفتوحة
+  - key: technology.open_source_involvement.question
+    t: كيف شاركت في البرمجيات مفتوحة المصدر خلال مسيرتك المهنية؟
+
+  - key: options.open_source_involvement.regular_use
+    t: استخدمت برمجيات مفتوحة المصدر
+  - key: options.open_source_involvement.code_contribution
+    t: ساهمت بشيفرة في مشاريع مفتوحة المصدر
+  - key: options.open_source_involvement.documentation
+    t: ساهمت في التوثيق أو أصول أخرى غير برمجية
+  - key: options.open_source_involvement.submit_issues
+    t: أرسلت بلاغات عن مشكلات أو أخطاء
+  - key: options.open_source_involvement.created_projects
+    t: أنشأت مشاريع مفتوحة المصدر أو توليت صيانتها
+  - key: options.open_source_involvement.financial_support
+    t: دعمت مشاريع مفتوحة المصدر ماليًا
+  - key: options.open_source_involvement.na
+    t: لم أشارك
+
+  # health
+
+  - key: health.health_issues
+    t: مشكلات صحية
+  - key: health.health_issues.question
+    t: ما المشكلات الصحية المستمرة التي تعاني منها؟
+
+  - key: options.health_issues.poor_sleep
+    t: سوء النوم
+  - key: options.health_issues.weight_issues
+    t: مشكلات الوزن
+  - key: options.health_issues.respiratory_issues
+    t: مشكلات الجهاز التنفسي
+  - key: options.health_issues.diabetes
+    t: السكري
+  - key: options.health_issues.chronic_fatigue
+    t: الإرهاق المزمن
+  - key: options.health_issues.heart_disease
+    t: أمراض القلب
+  - key: options.health_issues.cancer
+    t: السرطان
+  - key: options.health_issues.mental_health_issues
+    t: مشكلات الصحة النفسية
+  - key: options.health_issues.substance_abuse_issues
+    t: مشكلات إساءة استخدام المواد
+  - key: options.health_issues.back_pain
+    t: آلام الظهر
+  - key: options.health_issues.wrist_hand_pain
+    t: آلام الرسغ أو اليد
+  - key: options.health_issues.other_joint_pain
+    t: آلام المفاصل الأخرى
+  - key: options.health_issues.skin_issues
+    t: مشكلات الجلد
+  - key: options.health_issues.headaches
+    t: الصداع والشقيقة
+
+  - key: options.health_issues.gastrointestinal_issues
+    t: مشكلات الجهاز الهضمي
+  - key: options.health_issues.high_blood_pressure
+    t: ارتفاع ضغط الدم
+
+  # sleep_quantity
+  - key: health.sleep_quantity
+    t: مدة النوم
+  - key: health.sleep_quantity.question
+    t: كم ساعة تنام في الليلة في المتوسط؟
+
+  - key: options.sleep_quantity.range_5_or_less
+    t: 5 أو أقل
+  - key: options.sleep_quantity.range_6
+    t: 6
+  - key: options.sleep_quantity.range_7
+    t: 7
+  - key: options.sleep_quantity.range_8
+    t: 8
+  - key: options.sleep_quantity.range_9
+    t: 9
+  - key: options.sleep_quantity.range_10
+    t: 10
+  - key: options.sleep_quantity.more_than_10
+    t: 10 أو أكثر
+
+  # sleep_bedtime
+  - key: health.sleep_bedtime
+    t: موعد النوم
+  - key: health.sleep_bedtime.question
+    t: في أي وقت تخلد إلى النوم عادةً؟
+
+  - key: health.sleep_wakeuptime
+    t: موعد الاستيقاظ
+  - key: health.sleep_wakeuptime.question
+    t: في أي وقت تستيقظ عادةً؟
+
+  - key: health.sleep_measures
+    t: أساليب تحسين النوم
+  - key: health.sleep_measures.question
+    t: ما الطرق التي جربتها لتحسين نومك، إن وُجدت؟
+
+  - key: options.sleep_measures.consistent_bedtime
+    t: موعد نوم ثابت
+  - key: options.sleep_measures.darkened_curtains
+    t: ستائر معتمة
+  - key: options.sleep_measures.sleep_mask
+    t: قناع للنوم
+  - key: options.sleep_measures.avoid_screens
+    t: تجنب الشاشات قبل النوم
+  - key: options.sleep_measures.screen_dimming
+    t: خفض سطوع الشاشات قبل النوم
+  - key: options.sleep_measures.earplugs
+    t: سدادات الأذن
+  - key: options.sleep_measures.sleeping_pills
+    t: حبوب منومة
+  - key: options.sleep_measures.supplements
+    t: مكملات غذائية
+
+  - key: options.sleep_measures.exercise
+    t: ممارسة الرياضة
+  - key: options.sleep_measures.meditation_relaxation
+    t: التأمل والاسترخاء
+  - key: options.sleep_measures.sleep_environment
+    t: تهيئة بيئة مناسبة للنوم
+  - key: options.sleep_measures.noise_machine
+    t: جهاز لإصدار الضوضاء البيضاء
+  - key: options.sleep_measures.cpap_machine
+    t: جهاز ضغط مجرى التنفس الإيجابي المستمر (CPAP)
+  - key: options.sleep_measures.cannabis_cbd
+    t: القنب أو CBD
+  - key: options.sleep_measures.reading_books
+    t: القراءة
+  - key: options.sleep_measures.sound_therapy
+    t: العلاج بالصوت
+  - key: options.sleep_measures.better_sleep_schedule
+    t: تحسين مواعيد النوم
+  - key: options.sleep_measures.audiobooks_podcasts
+    t: الكتب الصوتية أو البودكاست
+  - key: options.sleep_measures.music
+    t: الموسيقى
+  - key: options.sleep_measures.controlling_light_exposure
+    t: التحكم في التعرض للضوء
+
+  # worldview
+
+  - key: worldview.left_right
+    t: اليسار مقابل اليمين
+  - key: worldview.left_right.question
+    t: أين تضع نفسك على المحور الاقتصادي من اليسار إلى اليمين؟
+
+  - key: options.left_right.0
+    t: أقصى اليسار
+  - key: options.left_right.4
+    t: الوسط
+  - key: options.left_right.8
+    t: أقصى اليمين
+
+  # policies
+
+  - key: worldview.global_issues
+    t: قضايا عالمية
+  - key: worldview.global_issues.question
+    t: ما القضايا العالمية التي تثير قلقك أكثر حاليًا؟
+
+  - key: options.global_issues.climate_change
+    t: تغير المناخ
+  - key: options.global_issues.global_pandemics
+    t: الجوائح العالمية
+  - key: options.global_issues.refugees_immigration
+    t: أزمة اللاجئين والهجرة
+  - key: options.global_issues.economic_inequality
+    t: التفاوت الاقتصادي
+  - key: options.global_issues.economic_inequality.description
+    t: يشمل ذلك إمكانية الحصول على السكن.
+  - key: options.global_issues.healthcare_access
+    t: إمكانية الحصول على الرعاية الصحية
+  - key: options.global_issues.geopolitical_tensions
+    t: التوترات الجيوسياسية
+  - key: options.global_issues.geopolitical_tensions.description
+    t: تشمل الحروب والنزاعات المسلحة.
+  - key: options.global_issues.ai_threats
+    t: تهديدات الذكاء الاصطناعي
+  - key: options.global_issues.rising_authoritarianism
+    t: تصاعد النزعة السلطوية
+  - key: options.global_issues.rising_intolerance
+    t: تصاعد التعصب
+  - key: options.global_issues.rising_intolerance.description
+    t: يشمل ذلك قضايا مجتمع LGBTQ والأشخاص العابرين جندريًا.
+  - key: options.global_issues.erosion_traditional_values
+    t: تآكل القيم التقليدية
+  - key: options.global_issues.globalization
+    t: العولمة
+  - key: options.global_issues.lack_of_free_speech
+    t: غياب حرية التعبير
+
+  - key: options.global_issues.war_and_conflict
+    t: الحرب والنزاع
+  - key: options.global_issues.gaza_israel_conflict
+    t: النزاع في غزة
+  - key: options.global_issues.trump
+    t: ترامب
+  - key: options.global_issues.lgbtq_rights
+    t: حقوق مجتمع LGBTQ
+
+  # political_expression_at_work
+
+  - key: worldview.political_expression_at_work
+    t: التعبير عن الآراء السياسية
+  - key: worldview.political_expression_at_work.question
+    t: ما مدى ارتياحك للتعبير عن آرائك السياسية في سياق مهني؟
+  - key: worldview.political_expression_at_work.prompt
+    t: سواء في مكان العمل أو علنًا عبر وسائل التواصل المرتبطة بالعمل وغيرها.
+
+  - key: worldview.political_expression_at_work.lower
+    t: أقل ارتياحًا
+  - key: worldview.political_expression_at_work.higher
+    t: أكثر ارتياحًا
+
+  - key: options.political_expression_at_work.0
+    t: غير مرتاح إطلاقًا
+  - key: options.political_expression_at_work.1
+    t: غير مرتاح قليلًا
+  - key: options.political_expression_at_work.2
+    t: محايد
+  - key: options.political_expression_at_work.3
+    t: مرتاح في الغالب
+  - key: options.political_expression_at_work.4
+    t: مرتاح تمامًا
+
+  # workers_union
+
+  - key: worldview.workers_union
+    t: نقابة العمال
+  - key: worldview.workers_union.question
+    t: هل أنت حاليًا عضو في نقابة عمالية؟
+
+  - key: options.workers_union.no_no_interest
+    t: لا، ولا أرغب في الانضمام إلى واحدة
+  - key: options.workers_union.no_but_interested
+    t: لا، لكنني أرغب في الانضمام إلى واحدة
+  - key: options.workers_union.yes
+    t: "نعم"
+  - key: options.workers_union.na
+    t: لا ينطبق
+    aliases:
+      - options.workers_union.na.short
+
+  # political_spectrum
+
+  - key: worldview.political_spectrum
+    t: الطيف السياسي
+  - key: worldview.political_spectrum.question
+    t: أين تضع نفسك على الطيف السياسي بين اليسار واليمين؟
+  - key: worldview.political_spectrum.lower
+    t: نحو اليسار
+  - key: worldview.political_spectrum.higher
+    t: نحو اليمين
+
+  - key: options.political_spectrum.0
+    t: أقصى اليسار
+  - key: options.political_spectrum.1
+    t: يساري جدًا
+  - key: options.political_spectrum.2
+    t: يساري
+  - key: options.political_spectrum.3
+    t: يسار الوسط
+  - key: options.political_spectrum.4
+    t: الوسط
+  - key: options.political_spectrum.5
+    t: يمين الوسط
+  - key: options.political_spectrum.6
+    t: يميني
+  - key: options.political_spectrum.7
+    t: يميني جدًا
+  - key: options.political_spectrum.8
+    t: أقصى اليمين
+
+  # happiness_factors
+  - key: worldview.happiness_factors
+    t: عوامل السعادة
+  - key: worldview.happiness_factors.question
+    t: ما العوامل الأكثر تأثيرًا في سعادتك الشخصية؟
+
+  - key: options.happiness_factors.health
+    t: الصحة الجيدة
+  - key: options.happiness_factors.career_progress
+    t: التقدم المهني
+  - key: options.happiness_factors.romantic_relationships
+    t: العلاقات العاطفية
+  - key: options.happiness_factors.other_relationships
+    t: الصداقات
+  - key: options.happiness_factors.hobbies
+    t: الهوايات
+  - key: options.happiness_factors.family
+    t: الأسرة
+  - key: options.happiness_factors.community
+    t: المجتمع
+  - key: options.happiness_factors.material_possessions
+    t: الثروة والممتلكات المادية
+  - key: options.happiness_factors.living_environment
+    t: بيئة المعيشة
+  - key: options.happiness_factors.religion_spirituality
+    t: الدين و/أو الروحانية
+
+  - key: options.happiness_factors.pets
+    t: الحيوانات الأليفة
+  - key: options.happiness_factors.exercise
+    t: ممارسة الرياضة
+  - key: options.happiness_factors.freedom
+    t: الحرية
+
+  - key: worldview.tech_industry_emotion
+    t: مشاعرك تجاه قطاع التقنية
+  - key: worldview.tech_industry_emotion.question
+    t: ما المشاعر التي تصف أفضل وصف شعورك الحالي تجاه قطاع التقنية؟
+
+  - key: options.tech_industry_emotion.overwhelmed
+    t: مثقل
+  - key: options.tech_industry_emotion.disillusioned
+    t: محبط
+  - key: options.tech_industry_emotion.angry
+    t: غاضب
+  - key: options.tech_industry_emotion.exhausted
+    t: منهك
+  - key: options.tech_industry_emotion.anxious
+    t: قلق
+
+  - key: options.tech_industry_emotion.excited
+    t: متحمس
+  - key: options.tech_industry_emotion.curious
+    t: فضولي
+  - key: options.tech_industry_emotion.hopeful
+    t: متفائل
+  - key: options.tech_industry_emotion.engaged
+    t: منخرط
+  - key: options.tech_industry_emotion.motivated
+    t: متحفز
+
+  - key: options.tech_industry_emotion.disappointed
+    t: خائب الأمل
+
+  # overall_happiness
+
+  - key: worldview.overall_happiness
+    t: السعادة العامة
+    aliases:
+      - happiness.overall_happiness
+  - key: worldview.overall_happiness.question
+    t: عمومًا، ما مدى سعادتك هذه الأيام؟
+    aliases:
+      - happiness.overall_happiness.question
+
+  # relocation
+
+  - key: worldview.relocation
+    t: الانتقال إلى بلد آخر
+    aliases:
+      - country.relocation
+  - key: worldview.relocation.question
+    t: إذا أتيحت لك فرصة العيش في بلد آخر لبضع سنوات، فأين تود الذهاب؟
+    aliases:
+      - country.relocation.question
+
+  # hobbies
+
+  - key: hobbies.physical_activity
+    t: النشاط البدني
+  - key: hobbies.physical_activity.question
+    t: أيًّا من الأنشطة البدنية التالية تمارس بانتظام، إن وُجد؟
+
+  - key: options.physical_activity.climbing
+    t: تسلق الجبال
+  - key: options.physical_activity.martial_arts
+    t: الفنون القتالية
+  - key: options.physical_activity.running
+    t: الجري
+  - key: options.physical_activity.strength_training
+    t: تدريبات القوة
+  - key: options.physical_activity.swimming
+    t: السباحة
+  - key: options.physical_activity.yoga
+    t: اليوغا
+  - key: options.physical_activity.gymnastics
+    t: الجمباز
+  - key: options.physical_activity.golf
+    t: الغولف
+  - key: options.physical_activity.tennis
+    t: التنس
+  - key: options.physical_activity.soccer
+    t: كرة القدم
+  - key: options.physical_activity.biking
+    t: ركوب الدراجات
+  - key: options.physical_activity.hiking_walking
+    t: التنزه/المشي
+
+  - key: options.physical_activity.dancing
+    t: الرقص
+  - key: options.physical_activity.basketball
+    t: كرة السلة
+  - key: options.physical_activity.badminton
+    t: كرة الريشة
+  - key: options.physical_activity.pilates
+    t: البيلاتس
+  - key: options.physical_activity.volleyball
+    t: الكرة الطائرة
+  - key: options.physical_activity.rowing
+    t: التجديف
+  - key: options.physical_activity.padel
+    t: البادل
+  - key: options.physical_activity.skiing
+    t: التزلج
+
+  - key: health.physical_activity_frequency
+    t: معدل ممارسة الرياضة
+  - key: health.physical_activity_frequency.question
+    t: كم يومًا في الأسبوع تمارس الرياضة عادةً؟
+
+  - key: options.physical_activity_frequency.0
+    t: 0
+  - key: options.physical_activity_frequency.1
+    t: 1
+  - key: options.physical_activity_frequency.2
+    t: 2
+  - key: options.physical_activity_frequency.3
+    t: 3
+  - key: options.physical_activity_frequency.4
+    t: 4
+  - key: options.physical_activity_frequency.5
+    t: 5
+  - key: options.physical_activity_frequency.6
+    t: 6
+  - key: options.physical_activity_frequency.7
+    t: 7
+
+  - key: hobbies.hobbies
+    t: الهوايات
+  - key: hobbies.hobbies.question
+    t: ما هواياتك؟
+
+  - key: options.hobbies.woodworking
+    t: الأعمال الخشبية/الأعمال اليدوية
+  - key: options.hobbies.table_top_gaming
+    t: ألعاب الطاولة
+  - key: options.hobbies.video_games
+    t: ألعاب الفيديو
+  - key: options.hobbies.music
+    t: عزف الموسيقى
+  - key: options.hobbies.cooking
+    t: الطهي
+  - key: options.hobbies.reading
+    t: القراءة
+  - key: options.hobbies.arts_and_crafts
+    t: الفنون والحرف اليدوية
+  - key: options.hobbies.electronics
+    t: الإلكترونيات
+  - key: options.hobbies.gardening
+    t: البستنة
+  - key: options.hobbies.camping
+    t: التخييم
+  - key: options.hobbies.sports_exercise
+    t: الرياضة/التمارين
+  - key: options.hobbies.movies_tv
+    t: الأفلام/التلفاز
+
+  - key: options.hobbies.programming
+    t: البرمجة
+  - key: options.hobbies.photography
+    t: التصوير الفوتوغرافي
+  - key: options.hobbies.hiking_walking
+    t: التنزه أو المشي
+  - key: options.hobbies.writing
+    t: الكتابة
+  - key: options.hobbies.travel
+    t: السفر
+  - key: options.hobbies.dancing
+    t: الرقص
+  - key: options.hobbies.3d_printing
+    t: الطباعة ثلاثية الأبعاد
+  - key: options.hobbies.language_learning
+    t: تعلم اللغات
+  - key: options.hobbies.motorcycles
+    t: الدراجات النارية
+  - key: options.hobbies.game_development
+    t: تطوير الألعاب
+
+  # hobbies_frequency
+
+  - key: hobbies.hobbies_frequency
+    t: معدل ممارسة الهوايات
+  - key: hobbies.hobbies_frequency.question
+    t: كم مرة تتمكن من ممارسة هواياتك؟
+
+  - key: options.hobbies_frequency.once_a_year_less
+    t: مرة في السنة أو أقل
+  - key: options.hobbies_frequency.few_times_per_year
+    t: بضع مرات في السنة
+  - key: options.hobbies_frequency.few_times_per_month
+    t: بضع مرات في الشهر
+  - key: options.hobbies_frequency.few_times_per_week
+    t: بضع مرات في الأسبوع
+  - key: options.hobbies_frequency.every_day
+    t: كل يوم
+
+  # video_game_platforms
+
+  - key: hobbies.video_game_platforms
+    t: منصات ألعاب الفيديو
+  - key: hobbies.video_game_platforms.question
+    t: ما منصات ألعاب الفيديو التي تلعب عليها؟
+
+  - key: options.video_game_platforms.nintendo_switch
+    t: Switch
+  - key: options.video_game_platforms.playstation
+    t: PlayStation
+  - key: options.video_game_platforms.xbox
+    t: Xbox
+  - key: options.video_game_platforms.pc
+    t: جهاز كمبيوتر
+  - key: options.video_game_platforms.mac
+    t: نظام التشغيل macOS
+  - key: options.video_game_platforms.ios
+    t: نظام التشغيل iOS
+  - key: options.video_game_platforms.android
+    t: نظام التشغيل أندرويد
+  - key: options.video_game_platforms.steamdeck
+    t: Steam Deck
+  - key: options.video_game_platforms.retro_emulation_console
+    t: أجهزة ألعاب قديمة ومحاكياتها
+
+  # favorite_beverages
+
+  - key: hobbies.favorite_beverages
+    t: المشروبات المفضلة
+  - key: hobbies.favorite_beverages.question
+    t: أيًّا من هذه المشروبات تتناول بانتظام (مرة واحدة أسبوعيًا أو أكثر)؟
+
+  - key: options.favorite_beverages.tea
+    t: الشاي
+  - key: options.favorite_beverages.coffee
+    t: القهوة
+  - key: options.favorite_beverages.sports_energy_drinks
+    t: مشروبات رياضية أو مشروبات طاقة
+  - key: options.favorite_beverages.soda
+    t: الصودا أو مشروبات غازية أخرى
+  - key: options.favorite_beverages.sparkling_water
+    t: مياه فوارة
+  - key: options.favorite_beverages.fruit_juice
+    t: عصير أو عصائر مخفوقة
+  - key: options.favorite_beverages.beer
+    t: البيرة
+  - key: options.favorite_beverages.other_alcoholic_beverages
+    t: مشروبات كحولية أخرى
+  - key: options.favorite_beverages.na
+    t: لا شيء (الماء فقط)
+
+  # favorite_books
+
+  - key: hobbies.favorite_books
+    t: الكتب المفضلة
+  - key: hobbies.favorite_books.question
+    t: ما بعض الكتب التي أعجبتك مؤخرًا؟
+  - key: hobbies.favorite_books.prompt
+    t: الكتب التي قرأتها خلال الاثني عشر شهرًا الماضية.
+
+  # favorite_video_games
+
+  - key: hobbies.favorite_video_games
+    t: ألعاب الفيديو المفضلة
+  - key: hobbies.favorite_video_games.question
+    t: ما بعض ألعاب الفيديو التي أعجبتك مؤخرًا؟
+  - key: hobbies.favorite_video_games.prompt
+    t: الألعاب التي لعبتها خلال الاثني عشر شهرًا الماضية.
+
+  # favorite_musical_artists
+
+  - key: hobbies.favorite_musical_artists
+    t: الموسيقى المفضلة
+  - key: hobbies.favorite_musical_artists.question
+    t: ما بعض الفنانين الموسيقيين الذين أعجبتك أعمالهم مؤخرًا؟
+  - key: hobbies.favorite_musical_artists.prompt
+    t: الفنانون الذين استمعت إليهم خلال الاثني عشر شهرًا الماضية.
+
+  # favorite_movies
+
+  - key: hobbies.favorite_movies
+    t: الأفلام المفضلة
+  - key: hobbies.favorite_movies.question
+    t: ما بعض الأفلام التي أعجبتك مؤخرًا؟
+  - key: hobbies.favorite_movies.prompt
+    t: الأفلام التي شاهدتها خلال الاثني عشر شهرًا الماضية.
+
+  # favorite_tv
+
+  - key: hobbies.favorite_tv
+    t: المسلسلات والبرامج التلفزيونية المفضلة
+  - key: hobbies.favorite_tv.question
+    t: ما بعض المسلسلات أو البرامج التلفزيونية التي أعجبتك مؤخرًا؟
+  - key: hobbies.favorite_tv.prompt
+    t: البرامج التلفزيونية أو برامج البث التي شاهدتها خلال الاثني عشر شهرًا الماضية.
+
+    # musical_genres
+
+  - key: hobbies.musical_genres
+    t: الموسيقى
+  - key: hobbies.musical_genres.question
+    t: ما أنواع الموسيقى المفضلة لديك؟
+
+  - key: options.musical_genres.rock
+    t: الروك
+  - key: options.musical_genres.hip_hop
+    t: الهيب هوب
+  - key: options.musical_genres.pop
+    t: البوب
+  - key: options.musical_genres.edm
+    t: موسيقى الرقص الإلكترونية
+  - key: options.musical_genres.country
+    t: موسيقى الكانتري
+  - key: options.musical_genres.classical
+    t: الموسيقى الكلاسيكية
+  - key: options.musical_genres.jazz
+    t: الجاز
+  - key: options.musical_genres.latin
+    t: الموسيقى اللاتينية
+  - key: options.musical_genres.soul
+    t: السول
+  - key: options.musical_genres.funk
+    t: الفانك
+  - key: options.musical_genres.reggae
+    t: الريغي
+  - key: options.musical_genres.metal
+    t: الميتال
+  - key: options.musical_genres.kpop
+    t: الكيبوب
+  - key: options.musical_genres.soundtracks
+    t: الموسيقى التصويرية
+
+  # user_info
+
+  - key: user_info.number_of_kids
+    t: عدد الأطفال
+  - key: user_info.number_of_kids.question
+    t: كم طفلًا لديك؟
+
+  - key: options.number_of_kids.range_0
+    t: لا يوجد
+  - key: options.number_of_kids.range_1
+    t: 1
+  - key: options.number_of_kids.range_2
+    t: 2
+  - key: options.number_of_kids.range_3
+    t: 3
+  - key: options.number_of_kids.range_4
+    t: 4
+  - key: options.number_of_kids.range_over_5
+    t: 5 أو أكثر
+
+  - key: user_info.relationship_status
+    t: الحالة الاجتماعية
+  - key: user_info.relationship_status.question
+    t: ما حالتك الاجتماعية حاليًا؟
+
+  - key: options.relationship_status.single
+    t: أعزب/عزباء
+  - key: options.relationship_status.in_a_relationship
+    t: متزوج/مرتبط
+  - key: options.relationship_status.its_complicated
+    t: الأمر معقد
+
+  - key: options.relationship_status.divorced_separated
+    t: مطلق/منفصل
+  - key: options.relationship_status.married
+    t: متزوج
+  - key: options.relationship_status.polyamorous
+    t: في علاقة متعددة الأطراف
+  - key: options.relationship_status.widowed
+    t: أرمل
+
+  # FAQ
+
+  - key: faq.who_should_take_survey_devs
+    t: من ينبغي له المشاركة في هذا الاستطلاع؟
+  - key: faq.who_should_take_survey_devs.description
+    t: >
+      هذا الاستطلاع مخصص لكل من يعمل أو يدرس في مجال التطوير أو البرمجة أو الهندسة، مهما كان مستوى خبرته أو خلفيته.
+
+  - key: faq.survey_goals_devs
+    t: ما أهداف هذا الاستطلاع؟
+  - key: faq.survey_goals_devs.description
+    t: >
+      يهدف هذا الاستطلاع إلى تكوين صورة أشمل عن منظومة المطورين تتجاوز الاتجاهات التقنية البحتة.
+
+  - key: faq.data_used_devs
+    t: كيف ستُستخدم البيانات التي جُمعت؟
+  - key: faq.data_used_devs.description
+    t: >
+      سيُنشر تقرير مفصل يستند إلى البيانات المجموعة ويكون متاحًا مجانًا. كما ستتوفر مجموعة البيانات كاملةً مجانًا [عند الطلب](https://discord.gg/2E7bbgnrJJ).
+
+  # tabs
+  - key: tabs.vs_sleep_quantity
+    t: مقارنة بمدة النوم
+  - key: tabs.vs_income_evolution
+    t: مقارنة بتطور الدخل
+  - key: tabs.vs_relationship_status
+    t: مقارنة بالحالة الاجتماعية
+  - key: tabs.vs_number_of_kids
+    t: مقارنة بعدد الأطفال
+  - key: tabs.by_work_hours
+    t: حسب ساعات العمل
+  - key: tabs.vs_country_of_origin
+    t: مقارنة ببلد المنشأ
+  - key: tabs.vs_migration_experience
+    t: مقارنة بتجربة الهجرة
+  - key: tabs.vs_job_security
+    t: مقارنة بالأمان الوظيفي
+  - key: tabs.by_tech_emotion
+    t: حسب المشاعر
+
+  # relocation countries
+
+  - key: options.relocation.AFG
+    aliasFor: options.country.AFG
+  - key: options.relocation.DZA
+    aliasFor: options.country.DZA
+  - key: options.relocation.ARG
+    aliasFor: options.country.ARG
+  - key: options.relocation.ARM
+    aliasFor: options.country.ARM
+  - key: options.relocation.AUS
+    aliasFor: options.country.AUS
+  - key: options.relocation.AUT
+    aliasFor: options.country.AUT
+  - key: options.relocation.BGD
+    aliasFor: options.country.BGD
+  - key: options.relocation.BEL
+    aliasFor: options.country.BEL
+  - key: options.relocation.BLR
+    aliasFor: options.country.BLR
+  - key: options.relocation.BIH
+    aliasFor: options.country.BIH
+  - key: options.relocation.BRA
+    aliasFor: options.country.BRA
+  - key: options.relocation.BGR
+    aliasFor: options.country.BGR
+  - key: options.relocation.CAN
+    aliasFor: options.country.CAN
+  - key: options.relocation.CRI
+    aliasFor: options.country.CRI
+  - key: options.relocation.HRV
+    aliasFor: options.country.HRV
+  - key: options.relocation.CHE
+    aliasFor: options.country.CHE
+  - key: options.relocation.CHL
+    aliasFor: options.country.CHL
+  - key: options.relocation.CHN
+    aliasFor: options.country.CHN
+  - key: options.relocation.COD
+    aliasFor: options.country.COD
+  - key: options.relocation.COL
+    aliasFor: options.country.COL
+  - key: options.relocation.CIV
+    aliasFor: options.country.CIV
+  - key: options.relocation.CYP
+    aliasFor: options.country.CYP
+  - key: options.relocation.CZE
+    aliasFor: options.country.CZE
+  - key: options.relocation.DEU
+    aliasFor: options.country.DEU
+  - key: options.relocation.GRC
+    aliasFor: options.country.GRC
+  - key: options.relocation.DNK
+    aliasFor: options.country.DNK
+  - key: options.relocation.EGY
+    aliasFor: options.country.EGY
+  - key: options.relocation.EST
+    aliasFor: options.country.EST
+  - key: options.relocation.ETH
+    aliasFor: options.country.ETH
+  - key: options.relocation.FIN
+    aliasFor: options.country.FIN
+  - key: options.relocation.FRA
+    aliasFor: options.country.FRA
+  - key: options.relocation.GEO
+    aliasFor: options.country.GEO
+  - key: options.relocation.GHA
+    aliasFor: options.country.GHA
+  - key: options.relocation.HKG
+    aliasFor: options.country.HKG
+  - key: options.relocation.HUN
+    aliasFor: options.country.HUN
+  - key: options.relocation.IND
+    aliasFor: options.country.IND
+  - key: options.relocation.IDN
+    aliasFor: options.country.IDN
+  - key: options.relocation.IRL
+    aliasFor: options.country.IRL
+  - key: options.relocation.ISL
+    aliasFor: options.country.ISL
+  - key: options.relocation.IRN
+    aliasFor: options.country.IRN
+  - key: options.relocation.IRQ
+    aliasFor: options.country.IRQ
+  - key: options.relocation.ITA
+    aliasFor: options.country.ITA
+  - key: options.relocation.ISR
+    aliasFor: options.country.ISR
+  - key: options.relocation.JPN
+    aliasFor: options.country.JPN
+  - key: options.relocation.KEN
+    aliasFor: options.country.KEN
+  - key: options.relocation.LTU
+    aliasFor: options.country.LTU
+  - key: options.relocation.LVA
+    aliasFor: options.country.LVA
+  - key: options.relocation.LUX
+    aliasFor: options.country.LUX
+  - key: options.relocation.MDA
+    aliasFor: options.country.MDA
+  - key: options.relocation.MEX
+    aliasFor: options.country.MEX
+  - key: options.relocation.MMR
+    aliasFor: options.country.MMR
+  - key: options.relocation.NPL
+    aliasFor: options.country.NPL
+  - key: options.relocation.MKD
+    aliasFor: options.country.MKD
+  - key: options.relocation.NOR
+    aliasFor: options.country.NOR
+  - key: options.relocation.NLD
+    aliasFor: options.country.NLD
+  - key: options.relocation.NGA
+    aliasFor: options.country.NGA
+  - key: options.relocation.NZL
+    aliasFor: options.country.NZL
+  - key: options.relocation.POL
+    aliasFor: options.country.POL
+  - key: options.relocation.PRT
+    aliasFor: options.country.PRT
+  - key: options.relocation.PAK
+    aliasFor: options.country.PAK
+  - key: options.relocation.PER
+    aliasFor: options.country.PER
+  - key: options.relocation.PHL
+    aliasFor: options.country.PHL
+  - key: options.relocation.ROU
+    aliasFor: options.country.ROU
+  - key: options.relocation.RUS
+    aliasFor: options.country.RUS
+  - key: options.relocation.SAU
+    aliasFor: options.country.SAU
+  - key: options.relocation.SRB
+    aliasFor: options.country.SRB
+  - key: options.relocation.SGP
+    aliasFor: options.country.SGP
+  - key: options.relocation.SVK
+    aliasFor: options.country.SVK
+  - key: options.relocation.SVN
+    aliasFor: options.country.SVN
+  - key: options.relocation.ZAF
+    aliasFor: options.country.ZAF
+  - key: options.relocation.KOR
+    aliasFor: options.country.KOR
+  - key: options.relocation.ESP
+    aliasFor: options.country.ESP
+  - key: options.relocation.SWE
+    aliasFor: options.country.SWE
+  - key: options.relocation.TWN
+    aliasFor: options.country.TWN
+  - key: options.relocation.TZA
+    aliasFor: options.country.TZA
+  - key: options.relocation.THA
+    aliasFor: options.country.THA
+  - key: options.relocation.TUR
+    aliasFor: options.country.TUR
+  - key: options.relocation.UGA
+    aliasFor: options.country.UGA
+  - key: options.relocation.UKR
+    aliasFor: options.country.UKR
+  - key: options.relocation.URY
+    aliasFor: options.country.URY
+  - key: options.relocation.ARE
+    aliasFor: options.country.ARE
+  - key: options.relocation.GBR
+    aliasFor: options.country.GBR
+  - key: options.relocation.SCT
+    aliasFor: options.country.SCT
+  - key: options.relocation.USA
+    aliasFor: options.country.USA
+  - key: options.relocation.VEN
+    aliasFor: options.country.VEN
+  - key: options.relocation.VNM
+    aliasFor: options.country.VNM
