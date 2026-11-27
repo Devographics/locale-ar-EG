@@ -1,3 +1,1524 @@
 locale: ar-EG
 namespace: html
-translations: []
+translations:
+  ###########################################################################
+  # General
+  ###########################################################################
+  # Intro for stateofhtml.com
+  - key: general.state_of_html.intro
+    # aliasFor: general.html2023.survey_intro # Can we do that?
+    t: |
+      بينما يميل مطورو الويب إلى التركيز على جافا سكريبت و CSS، فإن أيًا مما نقوم به لن يكون ممكنًا بدون HTML الذي يعمل كأساس.
+
+      لطالما بدا أن لغة HTML لا تتطور، لكن الأمور قد تتغير.
+
+      عناصر جديدة، وميزات جديدة،
+      وتتم الآن إضافة واجهات برمجة تطبيقات المتصفح الجديدة إلى منصة الويب بشكل سنوي.
+
+      وبناءً على نجاح [State of JS](http://stateofjs.com/) و[State of CSS](https://stateofcss.com/)، كان من المنطقي إضافة استطلاع **State of HTML**؛
+
+      القطعة الأخيرة المفقودة التي تُكمل الثلاثية، حتى نتمكن من تتبع تطور منصة الويب ككل.
+
+  - key: general.state_of_html.description
+    t: الاستطلاع السنوي للمطورين حول منصة الويب
+
+  ###########################################################################
+  # Tshirt
+  ###########################################################################
+
+  - key: tshirt.description.state_of_html
+    t: |
+      ## ادعم الاستطلاع بارتداء قميص حالة HTML
+
+      هل تشتاق إلى الأيام الجميلة في منتصف التسعينيات، حين كان HTML في الصدارة وكانت أغلفة أشرطة VHS تتزين برسوم ملونة مستقبلية؟
+
+      الخبر السيئ هو أنه حتى بتقنيات اليوم، لا يمكنك العودة بالزمن لتعيش تلك الأيام المجيدة من جديد. لكن ما *يمكنك* فعله هو ارتداء هذا القميص الرجعي الرائع، من تصميم الموهوب Christopher Kirk-Nielsen.
+
+  ###########################################################################
+  # Sections
+  ###########################################################################
+
+  - key: sections.forms.title
+    t: النماذج
+    aliases:
+      - features.forms
+  - key: sections.forms.prompt
+    t: العناصر والسمات المتعلقة بالنماذج
+    aliases:
+      - features.forms.description
+
+  - key: sections.interactivity.title
+    t: التفاعلية
+    aliases:
+      - features.interactivity
+  - key: sections.interactivity.prompt
+    t: واجهات برمجة التطبيقات التي تتيح تفاعلات أغنى للمستخدمين.
+    aliases:
+      - features.interactivity.description
+
+  - key: sections.web_components.title
+    t: مكونات الويب
+    aliases:
+      - features.web_components
+  - key: sections.web_components.prompt
+    t: إنشاء مكونات الويب واستخدامها.
+    aliases:
+      - features.web_components.description
+
+  - key: sections.content.title
+    t: المحتوى
+    aliases:
+      - features.content
+  - key: sections.content.prompt
+    t: تضمين المحتوى والوسائط المتعددة والبيانات وغيرها من الميزات المتعلقة بالمحتوى.
+    aliases:
+      - features.content.description
+
+  - key: sections.external_content.title
+    t: المحتوى الخارجي
+  - key: sections.external_content.prompt
+    t: تضمين الموارد الخارجية وغيرها من واجهات برمجة تطبيقات الوسائط المتعددة.
+
+  - key: sections.accessibility.title
+    t: إمكانية الوصول
+    aliases:
+      - features.accessibility
+  - key: sections.accessibility.prompt
+    t: إتاحة استخدام المواقع والتطبيقات للجميع.
+    aliases:
+      - features.accessibility.description
+      - sections.accessibility.description
+
+  - key: sections.mobile_web_apps.title
+    t: تطبيقات الويب القريبة من التطبيقات الأصلية
+  - key: sections.mobile_web_apps.prompt
+    t: إنشاء تطبيقات ويب محسّنة للهواتف والحواسيب.
+
+  - key: sections.other_features.title
+    t: ميزات أخرى
+  - key: sections.other_features.prompt
+    t: عناصر HTML وواجهات برمجة تطبيقات المتصفح الأخرى.
+
+  - key: sections.usage.title
+    t: الاستخدام
+  - key: sections.usage.prompt
+    t: كيفية استخدامك لـHTML.
+
+  - key: sections.graphics_multimedia.title
+    t: الرسومات والوسائط المتعددة
+    aliases:
+      - features.graphics_multimedia
+  - key: sections.graphics_multimedia.title.short
+    t: الرسومات
+    aliases:
+      - features.graphics_multimedia.short
+  - key: sections.graphics_multimedia.prompt
+    t: عرض الرسومات والرسوم المتحركة.
+    aliases:
+      - features.graphics_multimedia.description
+
+  - key: sections.performance.title
+    t: الأداء
+    aliases:
+      - features.performance
+  - key: sections.performance.prompt
+    t: جعل موقعك أسرع.
+    aliases:
+      - features.performance.description
+
+  - key: sections.security.title
+    t: الأمان
+  - key: sections.security.prompt
+    t: حماية شيفرتك من المهاجمين.
+
+  - key: sections.system_capabilities.title
+    t: إمكانات النظام
+    aliases:
+      - features.system_capabilities
+  - key: sections.system_capabilities.prompt
+    t: الوصول إلى واجهات برمجة تطبيقات الجهاز والنظام.
+    aliases:
+      - features.system_capabilities.description
+
+  - key: sections.other_tools.prompt
+    t: أدوات أخرى متعلقة بمنصة الويب.
+
+  ###########################################################################
+  # Other Section Content
+  ###########################################################################
+
+  - key: features.all_features.description
+    t: |
+      يلخص هذا الرسم البياني جميع أسئلة الميزات في الاستطلاع. تمثل الأعمدة الرئيسية خبرة المشارك، ثم تُقسّم وفقًا لموقفه. ويمكنك تغيير التجميع للتبديل بين الطريقتين.
+
+
+      يمكنك أيضًا العثور على تفصيل أكثر تحديدًا للبيانات نفسها في القسم الفرعي لكل ميزة.
+
+  - key: features.forms_features
+    t: الخبرة في النماذج والموقف منها
+    aliases:
+      - forms.forms_features
+
+  - key: features.interactivity_features
+    t: الخبرة في التفاعلية والموقف منها
+    aliases:
+      - interactivity.interactivity_features
+
+  - key: features.content_features
+    t: الخبرة في المحتوى والموقف منه
+    aliases:
+      - content.content_features
+
+  - key: features.accessibility_features
+    t: الخبرة في إمكانية الوصول والموقف منها
+    aliases:
+      - accessibility.accessibility_features
+
+  - key: features.system_capabilities_features
+    t: الخبرة في إمكانات النظام والموقف منها
+    aliases:
+      - system_capabilities.system_capabilities_features
+
+  - key: features.performance_features
+    t: الخبرة في الأداء والموقف منه
+    aliases:
+      - performance.performance_features
+
+  - key: features.graphics_multimedia_features
+    t: الخبرة في الرسومات والوسائط المتعددة والموقف منها
+    aliases:
+      - graphics_multimedia.graphics_multimedia_features
+
+  - key: features.graphics_multimedia_features.short
+    t: الخبرة في الرسومات والموقف منها
+    aliases:
+      - graphics_multimedia.graphics_multimedia_features.short
+  ###########################################################################
+  # Features
+  ###########################################################################
+
+  # forms
+
+  - key: features.form_controls
+    t: عناصر التحكم في النماذج
+  - key: features.form_controls.question
+    t: ما عناصر التحكم في النماذج التي استخدمتها؟
+
+  - key: features.form_input_types
+    t: أنواع الإدخال
+  - key: features.form_input_types.question
+    t: ما أنواع الإدخال التي استخدمتها؟
+  - key: options.form_input_types.na
+    t: <span aria-hidden="true">🚫</span> لا شيء مما سبق
+
+  - key: features.form_validation_features
+    t: التحقق من صحة النماذج
+  - key: features.form_validation_features.question
+    t: أيًا من ميزات التحقق من صحة النماذج التالية استخدمت؟
+  - key: options.form_validation_features.na
+    t: <span aria-hidden="true">🚫</span> لا شيء مما سبق
+
+  - key: features.forms_pain_points
+    t: مشكلات النماذج
+    aliases:
+      - forms.forms_pain_points
+  - key: features.forms_pain_points.question
+    t: ما أبرز المشكلات التي تواجهك مع نماذج HTML؟
+    aliases:
+      - forms.forms_pain_points.question
+  - key: features.forms_pain_points.prompt
+    t: |
+      فكّر في عناصر التحكم المختلفة في النماذج (مثل `<input>` و`<textarea>` و`<select>` و`<button>` وغيرها)،
+      والسلوكيات (مثل التحقق والإكمال التلقائي)، والتعامل مع النماذج عبر JS، وواجهات برمجة تطبيقات التحرير (مثل `contentEditable`) وغيرها.
+      كل ما يزعجك مهم هنا — دعم المتصفحات، والميزات الناقصة، والتنسيق، وغيرها.
+    aliases:
+      - forms.forms_pain_points.prompt
+  - key: features.forms_pain_points.placeholder
+    t: |
+      المشكلة رقم #{index}…
+
+  # interactivity
+
+  - key: features.dom_attribute_features
+    t: أساليب DOM المتعلقة بالسمات
+  - key: features.dom_attribute_features.question
+    t: أيًا من أساليب DOM التالية المتعلقة بالسمات استخدمت؟
+
+  - key: features.dom_html_features
+    t: ميزات التعامل مع سلاسل HTML
+  - key: features.dom_html_features.question
+    t: أيًا من ميزات DOM التالية للتعامل مع سلاسل HTML استخدمت؟
+
+  - key: features.dom_methods
+    t: أساليب DOM لنقل العناصر بين العناصر الأب
+
+  - key: features.dom_moving_element_features
+    t: أساليب DOM لنقل العناصر
+  - key: features.dom_moving_element_features.question
+    t: أيًا من أساليب DOM التالية لنقل العناصر استخدمت؟
+  
+  - key: options.dom_methods.na
+    t: <span aria-hidden="true">🚫</span> لا شيء مما سبق
+
+  - key: features.interactivity_pain_points
+    t: مشكلات التفاعلية
+    aliases:
+      - interactivity.interactivity_pain_points
+  - key: features.interactivity_pain_points.question
+    t: ما أبرز المشكلات التي تواجهك مع تغييرات HTML الديناميكية؟
+    aliases:
+      - interactivity.interactivity_pain_points.question
+  - key: features.interactivity_pain_points.prompt
+    t: |
+      عدم التوافق بين المتصفحات أو غياب الدعم، والميزات الناقصة، وغيرها من المشكلات التي تواجهك
+      مع العناصر والسلوكيات التفاعلية (باستثناء النماذج) والتعامل مع DOM والأحداث وواجهات برمجة التطبيقات ذات الصلة.
+    aliases:
+      - interactivity.interactivity_pain_points.prompt
+
+  - key: features.interactivity_pain_points.placeholder
+    aliasFor: features.forms_pain_points.placeholder
+
+  - key: features.interactivity_techniques
+    t: أساليب إضافة التفاعلية
+  - key: features.interactivity_techniques.question
+    t: أي من هذه الطرق استخدمت لإضافة التفاعلية أو لتعديل HTML ديناميكيًا؟
+  - key: options.interactivity_techniques.css_for_interactivity
+    t: CSS للتفاعلية (مفاتيح التبديل، وعلامات التبويب، وغيرها)
+  - key: options.interactivity_techniques.js_dom_libraries
+    t: مكتبات جافا سكريبت DOM (jQuery، إلخ)
+  - key: options.interactivity_techniques.js_framework
+    t: أطر عمل جافا سكريبت (React، Vue، إلخ).
+  - key: options.interactivity_techniques.vanilla_js
+    t: جافا سكريبت بسيطة (بدون أطر عمل أو مكتبات)
+  - key: options.interactivity_techniques.web_components
+    t: مكونات الويب
+  - key: options.interactivity_techniques.na
+    t: <span aria-hidden="true">🚫</span> لا شيء مما سبق
+
+  # content
+
+  - key: features.machine_readable_features
+    t: بيانات قابلة للقراءة آليًا
+  - key: features.machine_readable_features.question
+    t: أيًا مما يلي استخدمت لتضمين بيانات قابلة للقراءة آليًا في HTML؟
+  - key: options.machine_readable_features.rdfa.description
+    t: |
+      `property`, `typeof`, etc.
+  - key: options.machine_readable_features.json_ld.description
+    t: |
+      `<script type="application/ld+json">`
+  - key: options.machine_readable_features.microdata.description
+    t: |
+      `itemprop`, `itemscope`, etc.
+
+  - key: features.multiple_languages_support
+    t: دعم لغات متعددة
+  - key: features.multiple_languages_support.question
+    t: كم مرة تعمل على مشروعات تتطلب دعم أكثر من لغة؟
+  - key: options.multiple_languages_support.never
+    t: أبدًا
+  - key: options.multiple_languages_support.infrequently
+    t: نادرًا (أقل من مرة في السنة)
+  - key: options.multiple_languages_support.frequently
+    t: كثيرًا (أكثر من مرة في السنة)
+  - key: options.multiple_languages_support.all_the_time
+    t: طوال الوقت
+
+  - key: features.i18n_features
+    t: ميزات التدويل
+  - key: features.i18n_features.question
+    t: أيًا من ميزات التدويل التالية استخدمت؟
+  - key: options.i18n_features.na
+    t: <span aria-hidden="true">🚫</span> لا شيء مما سبق
+
+  - key: features.content_pain_points
+    t: مشكلات المحتوى
+    aliases:
+      - content.content_pain_points
+  - key: features.content_pain_points.question
+    t: ما أبرز المشكلات التي تواجهك عند إدارة المحتوى في HTML؟
+    aliases:
+      - content.content_pain_points.question
+  - key: features.content_pain_points.prompt
+    t: |
+      فكّر في عناصر المحتوى (إطارات iframe والعناوين والجداول والأقسام)، والبيانات القابلة للقراءة آليًا، والتدويل والتوطين، وغيرها.
+      الميزات الناقصة وعدم التوافق بين المتصفحات وغيرها من المشكلات التي تواجهك كلها موضع ترحيب.
+    aliases:
+      - content.content_pain_points.prompt
+  - key: features.content_pain_points.placeholder
+    aliasFor: features.forms_pain_points.placeholder
+
+  # Graphics & Multimedia
+
+  - key: features.graphics_pain_points
+    t: مشكلات الرسومات والوسائط المتعددة
+    aliases:
+      - graphics_multimedia.graphics_pain_points
+  - key: features.graphics_pain_points.short
+    t: مشكلات الرسومات
+    aliases:
+      - graphics_multimedia.graphics_pain_points.short
+  - key: features.graphics_pain_points.question
+    t: ما أبرز المشكلات التي تواجهك عند عرض الرسومات ومقاطع الفيديو والرسوم المتحركة والوسائط الأخرى؟
+    aliases:
+      - graphics_multimedia.graphics_pain_points.question
+  - key: features.graphics_pain_points.prompt
+    t: |
+      فكّر في المشكلات المتعلقة باستخدام Canvas وSVG وWebGL وغيرها من واجهات برمجة التطبيقات لعرض الرسومات والرسوم المتحركة، وأداء الرسومات، وغياب العناصر الرسومية الأساسية أو واجهات برمجة التطبيقات، وغيرها.
+    aliases:
+      - graphics_multimedia.graphics_pain_points.prompt
+  - key: features.graphics_pain_points.placeholder
+    aliasFor: features.forms_pain_points.placeholder
+
+  # Performance
+
+  - key: features.performance_pain_points
+    t: مشكلات الأداء
+    aliases:
+      - performance.performance_pain_points
+  - key: features.performance_pain_points.question
+    t: ما أبرز المشكلات التي تواجهك فيما يتعلق بالأداء؟
+    aliases:
+      - performance.performance_pain_points.question
+  - key: features.performance_pain_points.prompt
+    t: |
+      المشكلات المتعلقة بمؤشرات الأداء الضعيفة، وبطء تحميل الصفحات، وتأخر العرض، والرسوم المتحركة أو التمرير المتقطع، وغيرها.
+    aliases:
+      - performance.performance_pain_points.prompt
+  - key: features.performance_pain_points.placeholder
+    aliasFor: features.forms_pain_points.placeholder
+
+  # Security
+
+  - key: features.security_pain_points
+    t: مشكلات الأمان
+    aliases:
+      - security.security_pain_points
+  - key: features.security_pain_points.question
+    t: ما أبرز المشكلات التي تواجهك فيما يتعلق بالأمان؟
+    aliases:
+      - security.security_pain_points.question
+  - key: features.security_pain_points.prompt
+    t: |
+      قيد الإعداد
+    aliases:
+      - security.security_pain_points.prompt
+  - key: features.security_pain_points.placeholder
+    aliasFor: features.forms_pain_points.placeholder
+
+  # Content
+
+  - key: features.external_content_elements
+    t: عناصر المحتوى الخارجي
+  - key: features.external_content_elements.question
+    t: أيًا من العناصر التالية استخدمت؟
+  - key: options.external_content_elements.na
+    t: <span aria-hidden="true">🚫</span> لا شيء مما سبق
+
+  - key: features.privacy_security_features
+    t: |
+      ميزات الأمان والخصوصية
+  - key: features.privacy_security_features.question
+    t: |
+      أيًا من ميزات الأمان والخصوصية التالية استخدمت؟
+  - key: options.privacy_security_features.na
+    t: <span aria-hidden="true">🚫</span> لا شيء مما سبق
+
+  - key: features.rel_attribute
+    t: تلميحات الموارد
+  - key: features.rel_attribute.question
+    t: |
+      أيًا من القيم التالية استخدمت لسمة `rel` في `<link>`؟
+
+  # Web Components
+
+  - key: features.web_components_libraries
+    t: مكتبات مكونات الويب
+  - key: features.web_components_libraries.question
+    t: هل استخدمت أي مكتبات لمكونات الويب؟
+
+  - key: web_components_main_features
+    t: ميزات مكونات الويب
+    aliases:
+      - features.features.web_components_features
+      - web_components.web_components_features
+
+  - key: features.web_components_main_features.question
+    t: أيًا من ميزات مكونات الويب التالية استخدمت؟
+    aliases:
+      - features.web_components_features.question
+      - web_components.web_components_features.question
+      - features.web_components_other_features.question
+
+  - key: features.web_components_other_features
+    t: ميزات أخرى لمكونات الويب
+  - key: options.web_components_features.host_pseudos.description
+    t: |
+      `:host` , `:host()` , `:host-context()`
+  - key: options.web_components_features.is_attribute.description
+    t: |
+      `<button is="fancy-button">`
+  - key: options.web_components_features.na
+    t: <span aria-hidden="true">🚫</span> لا شيء مما سبق
+
+  - key: features.web_components_pain_points
+    t: مشكلات مكونات الويب
+    aliases:
+      - web_components.web_components_pain_points
+  - key: features.web_components_pain_points.question
+    t: ما أبرز المشكلات التي تواجهك عند إنشاء مكونات الويب أو استخدامها؟
+    aliases:
+      - web_components.web_components_pain_points.question
+
+  - key: features.using_web_components_pain_points
+    t: مشكلات استخدام مكونات الويب
+  - key: features.using_web_components_pain_points.question
+    t: ما أبرز المشكلات التي تواجهك عند *استخدام* مكونات الويب؟
+  - key: features.using_web_components_pain_points.prompt
+    t: استخدام مكونات ويب أنشأتها أنت أو أنشأها آخرون. الميزات الناقصة، وعدم التوافق بين المتصفحات، وغيرها.
+  - key: features.using_web_components_pain_points.placeholder
+    aliasFor: features.forms_pain_points.placeholder
+
+  - key: features.making_web_components_pain_points
+    t: مشكلات إنشاء مكونات الويب
+  - key: features.making_web_components_pain_points.question
+    t: ما أبرز المشكلات التي تواجهك عند *إنشاء* مكونات الويب؟
+  - key: features.making_web_components_pain_points.prompt
+    t: |
+      ما الذي يمنعك من إنشاء المكونات الرائعة التي تتخيلها؟ الميزات الناقصة، وعدم التوافق بين المتصفحات، وغيرها.
+  - key: features.making_web_components_pain_points.placeholder
+    aliasFor: features.forms_pain_points.placeholder
+
+  # web_components_common_pain_points
+
+  - key: features.web_components_common_pain_points
+    t: مشكلات مكونات الويب
+    aliases:
+      - web_components.web_components_common_pain_points
+  - key: features.web_components_common_pain_points.question
+    t: ما أبرز المشكلات التي تواجهك عند إنشاء مكونات الويب واستخدامها؟
+    aliases:
+      - web_components.web_components_common_pain_points.question
+
+  - key: options.web_components_common_pain_points.complex_apis
+    t: تعقيد مفرط
+  - key: options.web_components_common_pain_points.complex_apis.description
+    t: واجهات برمجة تطبيقات مكونات الويب صعبة الاستخدام أو منخفضة المستوى أكثر من اللازم أو معقدة للغاية.
+
+  - key: options.web_components_common_pain_points.a11y_issues
+    t: مشكلات إمكانية الوصول
+  - key: options.web_components_common_pain_points.a11y_issues.description
+    t: يصعب تطبيق إدارة التركيز وARIA وما شابه ذلك.
+
+  - key: options.web_components_common_pain_points.i18n_issues
+    t: مشكلات التوطين والتدويل
+  - key: options.web_components_common_pain_points.i18n_issues.description
+    t: يصعب إنشاء مكونات ويب تتكيف مع إعدادات اللغة المحلية للصفحة أو يمكن تخصيص نصوصها.
+
+  - key: options.web_components_common_pain_points.low_shadow_dom_specificity
+    t: ضعف خصوصية محددات CSS في Shadow DOM
+  - key: options.web_components_common_pain_points.low_shadow_dom_specificity.description
+    t: |
+      مثلًا، يتغلب `* { margin: 0 }` على أي هامش محدد عبر `::slotted()` أو `:host` وغيرها.
+
+  - key: options.web_components_common_pain_points.overly_strict_encapsulation
+    t: عزل مفرط الصرامة للتنسيقات
+  - key: options.web_components_common_pain_points.overly_strict_encapsulation.description
+    t: إمكانات تنسيق Shadow DOM من الخارج (أو العكس) محدودة جدًا.
+
+  - key: options.web_components_common_pain_points.overreliance_on_js
+    t: الاعتماد المفرط على JavaScript ومشكلات العرض من جهة الخادم
+  - key: options.web_components_common_pain_points.overreliance_on_js.description
+    t: تحتاج مكونات الويب إلى JavaScript لعرضها، حتى إن لم تكن تفاعلية، ما لم تُعرض من جهة الخادم.
+
+  
+  - key: options.web_components_common_pain_points.design_tokens_access
+    t: الوصول إلى رموز التصميم
+  - key: options.web_components_common_pain_points.design_tokens_access.description
+    t: يجب تمرير الألوان والخطوط والمسافات وغيرها إلى كل مكون على حدة.
+
+  - key: options.web_components_common_pain_points.native_element_extension
+    t: توسيع العناصر الأصلية
+  - key: options.web_components_common_pain_points.native_element_extension.description
+    t: يجب إعادة إنشاء العناصر الأصلية بالكامل لإضافة ميزة واحدة.
+
+  - key: options.web_components_common_pain_points.slotted_descendants_style
+    t: تنسيق العناصر الفرعية المُسقطة
+  - key: options.web_components_common_pain_points.slotted_descendants_style.description
+    t: لا يمكن تنسيق العناصر الفرعية المُسقطة (مثلًا، لا يمكن استخدام `::slotted(ul) > li`).
+
+  # web_components_other_pain_points
+
+  - key: features.web_components_other_pain_points
+    t: مشكلات أخرى في مكونات الويب
+    aliases:
+      - web_components.web_components_other_pain_points
+  - key: features.web_components_other_pain_points.question
+    aliases:
+      - web_components.web_components_other_pain_points.question
+    t: هل تواجه أي مشكلات أخرى عند إنشاء مكونات الويب واستخدامها؟
+  - key: features.web_components_other_pain_points.placeholder
+    aliasFor: features.forms_pain_points.placeholder
+
+  # component_strategies
+
+  - key: usage.component_strategies
+    t: إعادة استخدام HTML
+  - key: usage.component_strategies.question
+    t: ما الاستراتيجيات التي تستخدمها لتنفيذ المكونات أو لإعادة استخدام شيفرة HTML بطرق أخرى؟
+
+  - key: options.component_strategies.server_side_templating
+    t: إنشاء القوالب من جهة الخادم
+  - key: options.component_strategies.server_side_templating.description
+    t: قوالب تُنشأ من جهة الخادم باستخدام PHP أو Node.js وغيرها.
+
+  - key: options.component_strategies.build_time_templating
+    t: إنشاء القوالب وقت البناء
+  - key: options.component_strategies.build_time_templating.description
+    t: Astro وJekyll ومولدات المواقع الثابتة الأخرى.
+
+  - key: options.component_strategies.client_side_templating
+    t: إنشاء القوالب من جهة العميل
+  - key: options.component_strategies.client_side_templating.description
+    t: التعامل مع DOM وjQuery وHandlebars وغيرها.
+
+  - key: options.component_strategies.component_based_frameworks
+    t: أطر عمل JavaScript قائمة على المكونات
+  - key: options.component_strategies.component_based_frameworks.description
+    t: React وVue.js وAngular وغيرها.
+
+  - key: options.component_strategies.web_components
+    t: مكونات الويب
+  - key: options.component_strategies.web_components.description
+    t: مكونات الويب، مع مكتبة مساعدة أو من دونها.
+
+  - key: options.component_strategies.web_components_frameworks
+    t: مكتبات مساعدة لمكونات الويب
+  - key: options.component_strategies.web_components_frameworks.description
+    t: Stencil وLit وPolymer وغيرها.
+
+  - key: options.component_strategies.copy_paste
+    t: النسخ واللصق
+  - key: options.component_strategies.copy_paste.description
+    t: نسخ مقتطفات من مصادر داخلية أو خارجية ولصقها.
+
+  # reasons_for_not_using_web_components
+
+  - key: features.reasons_for_not_using_web_components
+    t: أسباب عدم الاستخدام
+  - key: features.reasons_for_not_using_web_components.question
+    t: إذا كنت *لا* تستخدم مكونات الويب حاليًا، فهل يمكنك إخبارنا بالسبب؟
+
+  - key: options.reasons_for_not_using_web_components.not_interested
+    t: لست مهتمًا بها أو لا أرى حاجة إليها
+  - key: options.reasons_for_not_using_web_components.no_chance
+    t: مهتم بها، لكن لم تتح لي فرصة استخدامها بعد
+  - key: options.reasons_for_not_using_web_components.negative_experience
+    t: استخدمتها لكن تجربتي كانت سلبية
+  - key: options.reasons_for_not_using_web_components.use_frameworks_instead
+    t: يمكنني تحقيق النتيجة نفسها باستخدام أطر عمل JS بدلًا منها
+  - key: options.reasons_for_not_using_web_components.compatibility_issues
+    t: أرغب في استخدامها لكن لا أستطيع بسبب مشكلات التوافق أو الدعم.
+
+  # Accessibility
+
+  # accessibility_ai_impact
+  - key: features.accessibility_ai_impact
+    t: تأثير الذكاء الاصطناعي
+    aliases:
+      - accessibility.accessibility_ai_impact
+  - key: features.accessibility_ai_impact.question
+    t: بحسب تجربتك، ما تأثير البرمجة بمساعدة الذكاء الاصطناعي في إمكانية الوصول إلى الويب؟
+    aliases:
+      - accessibility.accessibility_ai_impact.question
+
+  - key: options.accessibility_ai_impact.0
+    t: سلبي جدًا
+  - key: options.accessibility_ai_impact.1
+    t: سلبي إلى حد ما
+  - key: options.accessibility_ai_impact.2
+    t: محايد/لا تأثير
+  - key: options.accessibility_ai_impact.3
+    t: إيجابي إلى حد ما
+  - key: options.accessibility_ai_impact.4
+    t: إيجابي جدًا
+
+  - key: accessibility.accessibility_ai_impact.lower
+    t: أكثر سلبية
+  - key: accessibility.accessibility_ai_impact.higher
+    t: أكثر إيجابية
+
+  # accessibility_tools
+  - key: features.accessibility_tools
+    t: أدوات إمكانية الوصول
+    aliases:
+      - accessibility.accessibility_tools
+  - key: features.accessibility_tools.question
+    t: ما الأدوات التي تستخدمها لاختبار إمكانية الوصول؟
+    aliases:
+      - accessibility.accessibility_tools.question
+
+  - key: features.accessibility_pain_points
+    t: مشكلات إمكانية الوصول
+    aliases:
+      - accessibility.accessibility_pain_points
+  - key: features.accessibility_pain_points.question
+    t: ما أبرز المشكلات التي تواجهك فيما يتعلق بإمكانية الوصول إلى الويب؟
+    aliases:
+      - accessibility.accessibility_pain_points.question
+  - key: features.accessibility_pain_points.placeholder
+    aliasFor: features.forms_pain_points.placeholder
+
+  - key: features.accessibility_disabilities
+    t: إعاقات المستخدمين
+    aliases:
+      - accessibility.accessibility_disabilities
+  - key: features.accessibility_disabilities.question
+    t: ما أنواع إعاقات المستخدمين التي تراعيها عند إنشاء المواقع؟
+    aliases:
+      - accessibility.accessibility_disabilities.question
+
+  - key: options.accessibility_disabilities.hearing_impairments
+    t: إعاقات سمعية
+  - key: options.accessibility_disabilities.hearing_impairments.description
+    t: الصمم وطنين الأذن وغيرهما.
+
+  - key: options.accessibility_disabilities.mobility_impairments
+    t: إعاقات حركية
+  - key: options.accessibility_disabilities.mobility_impairments.description
+    t: التهاب المفاصل ومتلازمة النفق الرسغي وغيرهما.
+
+  - key: options.accessibility_disabilities.learning_disabilities
+    t: صعوبات التعلم
+  - key: options.accessibility_disabilities.learning_disabilities.description
+    t: عسر القراءة وعسر الحساب وغيرهما.
+
+  - key: options.accessibility_disabilities.cognitive_impairments
+    t: |
+      إعاقات معرفية أخرى
+  - key: options.accessibility_disabilities.cognitive_impairments.description
+    t: |
+      القلق والتوحد والوسواس القهري واضطراب فرط الحركة ونقص الانتباه وغيرها.
+
+  - key: options.accessibility_disabilities.vestibular_disorders
+    t: اضطرابات الجهاز الدهليزي
+  - key: options.accessibility_disabilities.vestibular_disorders.description
+    t: الصرع والدوار وغيرهما.
+
+  - key: options.accessibility_disabilities.low_vision
+    t: ضعف البصر
+  - key: options.accessibility_disabilities.low_vision.description
+    t: العمى وقصر النظر الشديد وغيرهما.
+
+  - key: options.accessibility_disabilities.atypical_vision
+    t: رؤية لونية غير نمطية
+  - key: options.accessibility_disabilities.atypical_vision.description
+    t: عمى الألوان
+
+  - key: features.accessibility_screenreaders
+    t: قارئات الشاشة
+    aliases:
+      - accessibility.accessibility_screenreaders
+  - key: features.accessibility_screenreaders.question
+    t: ما قارئات الشاشة التي تستخدمها لاختبار إمكانية الوصول؟
+    aliases:
+      - accessibility.accessibility_screenreaders.question
+
+  - key: features.accessibility_techniques
+    t: تقنيات أخرى لإمكانية الوصول
+    aliases:
+      - accessibility.accessibility_techniques
+  - key: features.accessibility_techniques.question
+    t: ما التقنيات الأخرى التي تشكل جزءًا من استراتيجيتك المعتادة لإمكانية الوصول؟
+    aliases:
+      - accessibility.accessibility_techniques.question
+
+  - key: options.accessibility_techniques.tabindex
+    t: |
+      تحسين ترتيب التركيز باستخدام `tabindex`
+  - key: options.accessibility_techniques.tabindex.description
+    t: |
+      التنقل بين قيم `tabindex`، واستخدام `tabindex="0"` لإتاحة التركيز، وغيرها.
+  - key: options.accessibility_techniques.keyboard_navigation
+    t: تنقل بديهي باستخدام لوحة المفاتيح
+  - key: options.accessibility_techniques.keyboard_navigation.description
+    t: بخلاف ترتيب الانتقال باستخدام Tab.
+  - key: options.accessibility_techniques.aria_attributes
+    t: سمات ARIA
+  - key: options.accessibility_techniques.aria_attributes.description
+    t: |
+      سمات `role` و`aria-*`
+  - key: options.accessibility_techniques.descriptive_alt_text
+    t: |
+      نص `alt` وصفي
+  - key: options.accessibility_techniques.descriptive_alt_text.description
+    t: توفير نص بديل يصف غرض الصورة أو محتواها.
+  - key: options.accessibility_techniques.skip_to_content
+    t: رابط تخطي إلى المحتوى
+  - key: options.accessibility_techniques.skip_to_content.description
+    t: إتاحة الانتقال مباشرةً إلى المحتوى الرئيسي للصفحة.
+  - key: options.accessibility_techniques.fieldset_and_legend
+    t: |
+      العنصران `<fieldset>` و`<legend>`
+  - key: options.accessibility_techniques.fieldset_and_legend.description
+    t: |
+      استخدام `<fieldset>` و`<legend>` لتجميع عناصر النماذج المرتبطة.
+  - key: options.accessibility_techniques.headings_hierarchy
+    t: التسلسل الهرمي للمعلومات
+  - key: options.accessibility_techniques.headings_hierarchy.description
+    t: |
+      استخدام العناوين (`<h1>` إلى `<h6>`) التي تمثل التسلسل الهرمي لمعلومات الصفحة تمثيلًا صحيحًا.
+  - key: options.accessibility_techniques.meaningful_link_text
+    t: نصوص روابط ذات معنى
+  - key: options.accessibility_techniques.meaningful_link_text.description
+    t: التأكد من أن نص الرابط مفهوم حتى خارج سياقه.
+  - key: options.accessibility_techniques.form_control_label
+    t: تسميات عناصر التحكم في النماذج
+  - key: options.accessibility_techniques.form_control_label.description
+    t: |
+      التأكد من أن لكل عنصر تحكم في النموذج تسمية `<label>` (أو `aria-label` وما شابه).
+  - key: options.accessibility_techniques.visible_focus
+    t: مؤشر تركيز مرئي
+  - key: options.accessibility_techniques.visible_focus.description
+    t: التأكد من أن إطار التركيز واضح عند الحاجة.
+  - key: options.accessibility_techniques.pointer_alternative
+    t: عدم الاعتماد على المؤشر وحده
+  - key: options.accessibility_techniques.pointer_alternative.description
+    t: التأكد من وجود بديل بلوحة المفاتيح للتفاعلات بالمؤشر (مثل التحويم).
+  - key: options.accessibility_techniques.good_color_contrast
+    t: تباين كافٍ
+  - key: options.accessibility_techniques.good_color_contrast.description
+    t: استخدام أدوات فحص التباين لضمان كفاية تباين الألوان.
+  - key: options.accessibility_techniques.color_alternative
+    t: عدم الاعتماد على اللون وحده
+  - key: options.accessibility_techniques.color_alternative.description
+    t: التأكد من عدم إيصال أي معلومة باللون وحده.
+  - key: options.accessibility_techniques.prefers_reduced_motion
+    t: |
+      استعلام الوسائط `prefers-reduced-motion`
+  - key: options.accessibility_techniques.prefers_reduced_motion.description
+    t: توفير CSS بديل للمستخدمين الذين يفضلون تقليل الحركة.
+  - key: options.accessibility_techniques.prefers_contrast
+    t: |
+      استعلام الوسائط `prefers-contrast`
+  - key: options.accessibility_techniques.prefers_contrast.description
+    t: توفير CSS بديل للمستخدمين الذين يفضلون زيادة التباين.
+
+  # PWAs
+
+  - key: features.pwa_features
+    t: ميزات تطبيقات الويب التقدمية
+  - key: features.pwa_features.question
+    t: هل استخدمت أيًا من تقنيات أو واجهات برمجة تطبيقات تطبيقات الويب التقدمية التالية؟
+  - key: options.pwa_features.na
+    t: <span aria-hidden="true">🚫</span> لا شيء مما سبق
+
+  - key: features.local_storage_features
+    t: ميزات التخزين المحلي
+  - key: features.local_storage_features.question
+    t: هل استخدمت أيًا مما يلي لتخزين البيانات من جهة العميل؟
+  - key: options.local_storage_features.na
+    t: <span aria-hidden="true">🚫</span> لا شيء مما سبق
+
+  - key: features.pwa_app_manifest_fields
+    t: حقول بيان التطبيق
+  - key: features.pwa_app_manifest_fields.question
+    t: |
+      أيًا من حقول بيان التطبيق هذه (`<link rel="manifest">`) استخدمت، إن وُجد؟
+
+  - key: features.native_apps_tools
+    t: أدوات إنشاء تطبيقات ويب قريبة من التطبيقات الأصلية
+  - key: features.native_apps_tools.question
+    t: هل استخدمت أيًا من هذه الأدوات لإنشاء تطبيقات أصلية؟
+  - key: features.native_apps_tools.description
+    t: باستثناء البرامج النصية وتطبيقات سطر الأوامر والشيفرة من جهة الخادم وغيرها.
+  - key: options.native_apps_tools.na
+    t: <span aria-hidden="true">🚫</span> لم أطور تطبيقات أصلية
+  - key: options.native_apps_tools.native_languages
+    t: تقنيات أصلية
+  - key: options.native_apps_tools.native_languages.description
+    t: Objective-C وSwift وKotlin و.NET وغيرها.
+  - key: options.native_apps_tools.webviews
+    t: تطبيق ويب يُحمّل عبر WebViews
+  - key: options.native_apps_tools.js_frameworks
+    t: أطر عمل قائمة على JavaScript
+  - key: options.native_apps_tools.js_frameworks.description
+    t: React Native وIonic وElectron وغيرها.
+  - key: options.native_apps_tools.other_frameworks
+    t: أطر عمل غير قائمة على JavaScript
+  - key: options.native_apps_tools.other_frameworks.description
+    t: Tauri وFlutter وغيرها.
+
+  - key: features.mobile_web_apps_pain_points
+    t: مشكلات تطبيقات الويب القريبة من التطبيقات الأصلية
+  - key: features.mobile_web_apps_pain_points.question
+    t: ما أبرز المشكلات التي تواجهك عند إنشاء تطبيقات ويب تبدو كتطبيقات أصلية؟
+  - key: features.mobile_web_apps_pain_points.description
+    t: الإمكانات التي لا تتوفر بعد في منصة الويب، والاختلافات بين المتصفحات في واجهات برمجة التطبيقات ذات الصلة، وغيرها.
+  - key: features.mobile_web_apps_pain_points.placeholder
+    t: |
+      المشكلة رقم #{index}
+
+  # System Capabilities
+
+  - key: features.system_capabilities_pain_points
+    t: مشكلات إمكانات النظام
+    aliases:
+      - system_capabilities.system_capabilities_pain_points
+  - key: features.system_capabilities_pain_points.question
+    t: ما أبرز المشكلات التي تواجهك عند الوصول إلى إمكانات النظام والجهاز الأصلية؟
+    aliases:
+      - system_capabilities.system_capabilities_pain_points.question
+  - key: features.system_capabilities_pain_points.prompt
+    t: |
+      المشكلات المتعلقة بالوصول إلى إمكانات الجهاز أو نظام التشغيل، والتفاعل مع نظام الملفات، ومضاهاة مجموعة ميزات التطبيقات الأصلية، وغيرها.
+    aliases:
+      - system_capabilities.system_capabilities_pain_points.prompt
+  - key: features.system_capabilities_pain_points.placeholder
+    aliasFor: features.forms_pain_points.placeholder
+
+  # other features
+
+  - key: features.foo_attribute
+    t: "السمة `{id}`"
+
+  - key: features.landmark_elements
+    t: عناصر المعالم
+
+  - key: features.tabindex_attribute
+    t: "السمة `tabindex`"
+
+  - key: features.respimg_attributes
+    t: "السمتان `srcset` و`sizes`"
+
+  - key: features.model_element
+    t: "`<model>` لمحتوى الواقع المعزز/الافتراضي وثلاثي الأبعاد"
+
+  - key: features.slot_def
+    t: تعريف الخانات (`<slot>` و`::slotted()`)
+
+  - key: features.controlslist_attribute
+    t: "السمة `controlslist`"
+
+  - key: features.popover_api
+    t: واجهة Popover API
+
+  - key: features.lazy_loading
+    t: التحميل الكسول
+
+  - key: features.sandbox_attr
+    t: "السمة `sandbox` لإطارات iframe"
+
+  - key: features.details_element
+    t: العنصران `<details>` و`<summary>`
+
+  - key: features.crossorigin
+    t: "السمة `crossorigin`"
+
+  - key: features.host_css
+    t: تنسيق مضيف المكون (`:host` و`:host()` و`:host-context()`)
+
+  - key: features.element_internals
+    t: واجهة `ElementInternals` API
+
+  - key: features.cors
+    t: CORS
+
+  - key: features.content_security_policy
+    t: سياسة أمن المحتوى (CSP)
+
+  - key: features.structured_data
+    t: بيانات منظمة (RDFa وMicrodata وMicroformats)
+
+  - key: features.extended_builtins
+    t: العناصر المضمنة الموسعة
+
+  - key: features.html_modules
+    t: وحدات HTML
+
+  
+  - key: features.imperative_slot
+    t: تعيين الخانات بأسلوب إجرائي
+
+  - key: features.focusgroup_attribute
+    t: السمة `focusgroup`
+
+  - key: features.form_validation
+    t: التحقق من صحة النماذج
+
+  - key: features.aria
+    t: ARIA
+
+  - key: features.rh_preconnect
+    t: "تلميحات الموارد: الاتصال المسبق (`<link rel=preconnect>`)"
+
+  - key: features.rh_prerender
+    t: "تلميحات الموارد: العرض المسبق (`<link rel=prerender>`)"
+
+  - key: features.rh_preload
+    t: "تلميحات الموارد: التحميل المسبق (`<link rel=preload>`)"
+
+  - key: features.resource_hints
+    t: تلميحات الموارد (الكل)
+
+  - key: features.rh_prefetch
+    t: "تلميحات الموارد: الجلب المسبق (`<link rel=prefetch>`)"
+
+  - key: features.shadow_dom
+    t: DOM شجرةالظل
+
+  - key: features.declarative_shadow_dom
+    t: شجرةالظل DOM التصريحي
+
+  - key: features.referrerpolicy
+    t: السمة `referrerpolicy`
+
+  - key: features.integrity
+    t: سلامة الموارد الفرعية (السمة `integrity`)
+
+  - key: features.pwa_manifest
+    t: بيان تطبيق ويب تقدمي
+
+  - key: features.part_attr
+    t: إتاحة أجزاء المكون (السمة `part`)
+
+  - key: features.part_selector
+    t: تنسيق أجزاء المكون (`::part()`)
+
+  - key: features.svg_element
+    t: |
+      `<svg>` (SVG مضمن)
+
+  - key: features.math_element
+    t: |
+      `<math>` (MathML مضمن)
+
+  - key: features.mapviewer_element
+    t: |
+      `<mapviewer>` (MapML مضمن)
+
+  - key: features.scoped_element_registries
+    t: سجلات مخصصة محددة النطاق للعناصر
+
+  - key: features.navigation_api
+    t: واجهة Navigation API
+
+  - key: features.custom_elements_defining
+    t: تعريف العناصر المخصصة
+
+  - key: features.decoding
+    t: السمة `decoding`
+
+  - key: features.custom_elements_using
+    t: استخدام العناصر المخصصة
+
+  - key: features.fencedframe
+    t: الإطارات المعزولة
+
+  - key: features.credentialless
+    t: إطارات iframe بلا بيانات اعتماد
+
+  - key: features.media_capture
+    t: التقاط الوسائط في HTML
+
+  - key: features.formdata
+    t: واجهة FormData API
+
+  - key: features.customizable_select
+    t: عنصر Select قابل للتخصيص
+
+  - key: features.dom_parts
+    t: أجزاء DOM
+
+  - key: features.fetchpriority_attribute
+    t: السمة `fetchpriority`
+
+  - key: features.autocomplete_attribute
+    t: السمة `autocomplete`
+
+  - key: features.inert_attribute
+    t: السمة `inert`
+
+  - key: features.client_hints
+    t: تلميحات العميل في HTTP
+
+  - key: features.clipboard_api
+    t: واجهة Clipboard API
+
+  - key: features.custom_highlight_api
+    t: واجهة CSS Custom Highlight API
+
+  - key: features.intl_segmenter
+    t: واجهة `Intl.Segmenter` API
+
+  - key: features.filesystem_access
+    t: واجهة File System Access API
+
+  - key: features.badging_api
+    t: واجهة Badging API
+
+  - key: features.web_share_api
+    t: واجهة Web Share API
+
+  - key: features.launch_handler_api
+    t: واجهة Launch Handler API
+
+  - key: features.file_handling_api
+    t: واجهة File Handling API
+
+  - key: features.window_controls_overlay
+    t: واجهة Window Controls Overlay API
+
+  - key: features.isolated_webapps
+    t: تطبيقات ويب معزولة
+
+  ###########################################################################
+  # Other Tools
+  ###########################################################################
+
+  - key: other_tools.site_generators
+    t: مولدات المواقع
+  - key: other_tools.site_generators.question
+    t: أيًا من مولدات المواقع الثابتة أو الديناميكية التالية تستخدم بانتظام؟
+
+  - key: other_tools.browsers
+    aliasFor: tools_others.browsers
+  - key: other_tools.browsers.question
+    aliasFor: tools_others.browsers.question
+
+  - key: other_tools.validation_tools
+    t: أدوات التحقق
+  - key: other_tools.validation_tools.question
+    t: أيًا من أدوات التحقق التالية تستخدم بانتظام؟
+
+  - key: other_tools.ai_tools
+    t: أدوات الذكاء الاصطناعي
+  - key: other_tools.ai_tools.question
+    t: أيًا من أدوات الذكاء الاصطناعي التالية تستخدم بانتظام لمساعدتك في كتابة الشيفرة؟
+
+  - key: other_tools.machine_readable_features
+    aliasFor: features.machine_readable_features
+  - key: other_tools.machine_readable_features.question
+    aliasFor: features.machine_readable_features.question
+
+  - key: options.machine_readable_features.na
+    t: <span aria-hidden="true">🚫</span> لا شيء مما سبق
+
+  - key: other_tools.blast_from_the_past
+    t: لمحة من الماضي!
+  - key: other_tools.blast_from_the_past.question
+    t: هل سبق أن استخدمت أيًا من العناصر القديمة التالية؟
+  - key: other_tools.blast_from_the_past.description
+    t: لمحة من الماضي!
+  - key: options.blast_from_the_past.na
+    t: <span aria-hidden="true">🚫</span> لا شيء مما سبق
+
+  - key: other_tools.performance_tools
+    t: أدوات الأداء
+  - key: other_tools.performance_tools.question
+    t: ما الأدوات والخدمات التي تستخدمها لمتابعة أداء مواقعك وتحسينه؟
+
+  - key: options.performance_tools.browser_devtools
+    t: أدوات المطور في المتصفح
+
+  - key: other_tools.analytics_tools
+    t: أدوات التحليلات
+  - key: other_tools.analytics_tools.question
+    t: ما أدوات وخدمات التحليلات التي تستخدمها لمراقبة مواقعك؟
+
+  
+  - key: usage.html_interoperability_features
+    t: التوافق بين المتصفحات
+  - key: usage.html_interoperability_features.question
+    t: ما ميزات HTML الحالية أو واجهات برمجة تطبيقات المتصفح التي لا تستطيع استخدامها بسبب اختلافات المتصفحات أو غياب الدعم؟
+  
+  #     Any type of API the survey has asked about is within scope.
+  - key: usage.html_interoperability_features.placeholder
+    t: |
+      الميزة رقم #{index}
+
+  - key: usage.html_functionality_features
+    t: وظائف محدودة
+  - key: usage.html_functionality_features.question
+    t: ما ميزات HTML الحالية أو واجهات برمجة تطبيقات المتصفح التي لا تستطيع استخدامها لأسباب أخرى (وما هذه الأسباب)؟
+  - key: usage.html_functionality_features.prompt
+    t: |
+      ميزات HTML الحالية التي تضطر غالبًا إلى إعادة إنشائها أو تعزيزها باستخدام JS.
+  
+  - key: usage.html_functionality_features.placeholder.1
+    t: |
+      الميزة رقم 1 (يصعب تنسيقها)
+  - key: usage.html_functionality_features.placeholder.2
+    t: |
+      الميزة رقم 2 (وظائف محدودة وإمكانية وصول ضعيفة)
+
+  - key: usage.html_new_features
+    t: ميزات جديدة
+  - key: usage.html_new_features.question
+    t: أيًا من هذه الميزات الجديدة والقادمة تثير حماسك أكثر؟
+
+  - key: usage.what_do_you_use_html_for
+    t: استخدام HTML
+  - key: usage.what_do_you_use_html_for.question
+    t: فيمَ تستخدم HTML؟
+  - key: options.what_do_you_use_html_for.blogs
+    aliasFor: options.what_do_you_use_css_for.blogs
+  - key: options.what_do_you_use_html_for.design_systems
+    aliasFor: options.what_do_you_use_css_for.design_systems
+  - key: options.what_do_you_use_html_for.desktop_apps
+    aliasFor: options.what_do_you_use_css_for.desktop_apps
+  - key: options.what_do_you_use_html_for.emails
+    aliasFor: options.what_do_you_use_css_for.emails
+  - key: options.what_do_you_use_html_for.marketing_sites
+    aliasFor: options.what_do_you_use_css_for.marketing_sites
+  - key: options.what_do_you_use_html_for.mobile_apps
+    aliasFor: options.what_do_you_use_css_for.mobile_apps
+  - key: options.what_do_you_use_html_for.printed_documents
+    aliasFor: options.what_do_you_use_css_for.printed_documents
+  - key: options.what_do_you_use_html_for.web_apps
+    aliasFor: options.what_do_you_use_css_for.web_apps
+
+  - key: usage.tools_for_other_developers
+    t: التأثير في المنظومة
+  - key: usage.tools_for_other_developers.question
+    t: باستثنائك، كم مطورًا يستخدم المكتبات والحزم والمكونات وواجهات برمجة التطبيقات وغيرها التي تنشئها أو تتولى صيانتها؟
+  - key: usage.tools_for_other_developers.description
+    t: |
+      العدد الإجمالي، إذا كنت تعمل على عدة مشروعات يستخدمها مطورون آخرون.
+      إذا لم تكن متأكدًا، فاختر الخيار الأقرب إلى أفضل تقدير لديك.
+      قد توفر تنزيلات npm مؤشرًا مفيدًا للشيفرة مفتوحة المصدر.
+  - key: options.tools_for_other_developers.na
+    t: 🚫 لا أحد (أنا فقط)
+  - key: options.tools_for_other_developers.a_few
+    t: بضعة مطورين آخرين (مثل المطورين ضمن فريق صغير)
+  - key: options.tools_for_other_developers.less_than_100
+    t: أقل من مئة مطور
+  - key: options.tools_for_other_developers.less_than_1000
+    t: أقل من ألف مطور
+  - key: options.tools_for_other_developers.more_than_100
+    t: مئات المطورين
+  - key: options.tools_for_other_developers.more_than_1000
+    t: آلاف المطورين
+  - key: options.tools_for_other_developers.more_than_1000000
+    t: ملايين المطورين
+
+  - key: usage.html_missing_elements
+    t: عناصر مفقودة
+  - key: usage.html_missing_elements.question
+    t: إذا أمكنك إضافة عناصر جديدة إلى HTML، فما هي؟
+  
+    #     These could be things like Accordion, Alert, Calendar, Carousel, Combobox/Autocomplete, Context menu, Data Grid, Rating, Tabs, Image Zoom, Switch, Skeleton loading pattern etc.
+
+  - key: options.html_missing_elements.accordion
+    t: قائمة أكورديون
+  - key: options.html_missing_elements.alert
+    t: تنبيه
+
+  - key: options.html_missing_elements.callout
+    t: مربع تنبيه بارز
+  - key: options.html_missing_elements.callout.description
+    t: كتلة نصية مميزة بصريًا لرسائل المعلومات والأخطاء والتحذيرات وغيرها.
+
+  - key: options.html_missing_elements.calendar
+    t: تقويم
+  - key: options.html_missing_elements.carousel
+    t: عرض دوار
+  - key: options.html_missing_elements.combobox_autocomplete
+    t: مربع اختيار/إكمال تلقائي
+  - key: options.html_missing_elements.command_palette
+    t: لوحة الأوامر
+  - key: options.html_missing_elements.context_menu
+    t: قائمة سياقية/قائمة النقر بزر الفأرة الأيمن
+  - key: options.html_missing_elements.datatable
+    t: جدول بيانات
+  - key: options.html_missing_elements.datatable.description
+    t: جدول بيانات يدعم الفرز والتصفية وغيرها.
+  - key: options.html_missing_elements.dropdown_menu
+    t: قائمة منسدلة
+  - key: options.html_missing_elements.image_zoom
+    t: تكبير الصور
+  - key: options.html_missing_elements.progress_bar
+    t: شريط تقدم
+  - key: options.html_missing_elements.skeleton_loading_placeholder
+    t: واجهة هيكلية/عنصر نائب للتحميل
+
+  - key: options.html_missing_elements.sortable_list
+    t: قائمة قابلة للفرز بالسحب والإفلات
+
+  - key: options.html_missing_elements.switch
+    t: مفتاح/زر تبديل
+  - key: options.html_missing_elements.tabs
+    t: علامات تبويب
+  
+  - key: options.html_missing_elements.tooltip
+    t: تلميح
+  - key: options.html_missing_elements.offcanvas
+    t: قائمة خارج مساحة العرض (لوحة جانبية)
+  - key: options.html_missing_elements.spinner
+    t: مؤشر تحميل دوار
+  - key: options.html_missing_elements.segmented_button
+    t: زر مقسم
+  - key: options.html_missing_elements.scroll_area
+    t: تمرير لا نهائي
+  - key: options.html_missing_elements.icon
+    t: أيقونة
+  - key: options.html_missing_elements.star_rating
+    t: تقييم بالنجوم
+  - key: options.html_missing_elements.html_include
+    t: تضمين HTML
+  - key: options.html_missing_elements.html_include.description
+    t: عنصر يضمّن محتوى صفحة أخرى داخل المستند مباشرةً.
+  - key: options.html_missing_elements.range_slider
+    t: شريط تمرير للنطاق
+  - key: options.html_missing_elements.range_slider.description
+    t: شريط تمرير بمقبضين لاختيار نطاق من الأرقام.
+
+  - key: options.html_missing_elements.charts
+    t: مخططات/رسوم بيانية
+  - key: options.html_missing_elements.rich_text_editor
+    t: محرر نص منسق
+  - key: options.html_missing_elements.rich_code_block
+    t: كتلة شيفرة منسقة
+  - key: options.html_missing_elements.rich_code_block.description
+    t: مع تمييز بناء الجملة وتحرير الشيفرة وزر النسخ وغيرها.
+  - key: options.html_missing_elements.footnotes
+    t: حواشٍ/ملاحظات جانبية
+  - key: options.html_missing_elements.maps
+    t: خريطة
+
+  - key: usage.html_pain_points_freeform
+    t: مشكلات أخرى
+  - key: usage.html_pain_points_freeform.question
+    t: هل تواجه أي مشكلات أخرى عند استخدام HTML والتقنيات ذات الصلة؟
+
+  # html_css_js_balance
+  - key: usage.html_css_js_balance
+    t: التوازن بين HTML/CSS وJS/TS
+  - key: usage.html_css_js_balance.question
+    t: كيف توزع وقتك بين كتابة HTML/CSS وشيفرة JavaScript (أو TypeScript)؟
+  - key: options.html_css_js_balance.0
+    t: 100% HTML/CSS
+  - key: options.html_css_js_balance.4
+    t: 50%–50%
+  - key: options.html_css_js_balance.8
+    t: 100% JS
+
+  # design_system_strategies
+  - key: usage.design_system_strategies
+    t: أنظمة التصميم
+
+  - key: usage.design_system_strategies.question
+    t: هل تستخدم أيًا من استراتيجيات أنظمة التصميم التالية للحفاظ على اتساق واجهة المستخدم؟
+
+  - key: options.design_system_strategies.elements_components
+    t: عناصر/مكونات
+  - key: options.design_system_strategies.elements_components.description
+    t: |
+      مكتبة من اللبنات القابلة لإعادة الاستخدام مثل الأزرار أو القوائم المنسدلة، منفذة بأي تقنية (مثل React ومكونات الويب وغيرها).
+
+  - key: options.design_system_strategies.design_tokens
+    t: رموز التصميم
+  - key: options.design_system_strategies.design_tokens.description
+    t: |
+      متغيرات أساسية لأمور مثل الألوان والمسافات والطباعة، مثل `--color-accent-dark` و`--font-heading` وغيرها.
+
+  - key: options.design_system_strategies.utilities
+    t: أدوات مساعدة
+  - key: options.design_system_strategies.utilities.description
+    t: |
+      أصناف CSS منخفضة المستوى تطبق تنسيقًا أو سلوكًا محددًا واحدًا، مثل .`visually-hidden` و`.grid-2x2` و`.text-center` وغيرها.
+
+  - key: options.design_system_strategies.guidelines
+    t: إرشادات
+  - key: options.design_system_strategies.guidelines.description
+    t: |
+      معايير وأفضل ممارسات للحفاظ على الاتساق وضمان تحقيق أهداف معينة (مثل إمكانية الوصول وسهولة الاستخدام وغيرها).
+
+  - key: options.design_system_strategies.patterns
+    t: أنماط
+  - key: options.design_system_strategies.patterns.description
+    t: |
+      تركيبات أعلى مستوى مما سبق، قابلة للنسخ واللصق، وتحل مشكلات شائعة في واجهة وتجربة المستخدم، مثل أشرطة التنقل أو حتى تخطيطات صفحات متجاوبة بالكامل.
+
+  # html_styling_issues
+
+  - key: usage.html_styling_issues
+    t: مشكلات التنسيق
+  - key: usage.html_styling_issues.question
+    t: ما العناصر التي تجد صعوبة أكبر في تنسيقها أو تخصيص مظهرها؟
+
+  - key: options.html_styling_issues.validation_errors
+    t: أخطاء التحقق
+
+  - key: options.html_styling_issues.fieldset_and_legend
+    t: |
+      `<fieldset>` and `<legend>`
+
+  # progressive_enhancement_priority
+
+  - key: usage.progressive_enhancement_priority
+    t: التحسين التدريجي
+  - key: usage.progressive_enhancement_priority.question
+    t: في سياق عملك المعتاد، ما مدى أهمية أن تتمكن المواقع أو تطبيقات الويب التي تنشئها من العمل دون JavaScript؟
+
+  - key: options.progressive_enhancement_priority.not_a_concern
+    t: ليس أمرًا مقلقًا
+  - key: options.progressive_enhancement_priority.not_a_concern.description
+    t: يُفترض أن JavaScript مفعّل لدى جميع المستخدمين في كل الأوقات
+
+  - key: options.progressive_enhancement_priority.low_priority
+    t: أولوية منخفضة
+  - key: options.progressive_enhancement_priority.low_priority.description
+    t: تُتبع أفضل الممارسات، لكن لا يُخصص وقت إضافي لدعم العمل دون JS
+
+  - key: options.progressive_enhancement_priority.high_priority
+    t: أولوية عالية
+  - key: options.progressive_enhancement_priority.high_priority.description
+    t: يُخصص وقت لاختبار العمل دون JS وإعادة الهيكلة وغيرها
+
+  - key: options.progressive_enhancement_priority.required
+    t: مطلوب
+  - key: options.progressive_enhancement_priority.required.description
+    t: يجب أن تعمل المواقع والتطبيقات دون تفعيل JavaScript.
+
+  ###########################################################################
+  # Opinions
+  ###########################################################################
+
+  - key: opinions.accessibility_is_valued
+    t: إمكانية الوصول
+  - key: opinions.accessibility_is_valued.question
+    t: تحظى إمكانية الوصول بالتقدير في مكان عملي أو بيئتي المهنية
+
+  - key: options.accessibility_is_valued.0
+    aliasFor: options.opinions.0
+  - key: options.accessibility_is_valued.1
+    aliasFor: options.opinions.1
+  - key: options.accessibility_is_valued.2
+    aliasFor: options.opinions.2
+  - key: options.accessibility_is_valued.3
+    aliasFor: options.opinions.3
+  - key: options.accessibility_is_valued.4
+    aliasFor: options.opinions.4
+
+  - key: opinions.keeping_informed_is_challenging
+    t: مواكبة المستجدات
+  - key: opinions.keeping_informed_is_challenging.question
+    t: تمثل مواكبة ميزات منصة الويب الجديدة تحديًا
+
+  - key: options.keeping_informed_is_challenging.0
+    aliasFor: options.opinions.0
+  - key: options.keeping_informed_is_challenging.1
+    aliasFor: options.opinions.1
+  - key: options.keeping_informed_is_challenging.2
+    aliasFor: options.opinions.2
+  - key: options.keeping_informed_is_challenging.3
+    aliasFor: options.opinions.3
+  - key: options.keeping_informed_is_challenging.4
+    aliasFor: options.opinions.4
+
+  - key: opinions.browser_interoperability_is_obstacle
+    t: التوافق بين المتصفحات
+  - key: opinions.browser_interoperability_is_obstacle.question
+    t: يُعد نقص التوافق بين المتصفحات حاليًا عقبة كبيرة أمام تطوير الويب
+
+  - key: options.browser_interoperability_is_obstacle.0
+    aliasFor: options.opinions.0
+  - key: options.browser_interoperability_is_obstacle.1
+    aliasFor: options.opinions.1
+  - key: options.browser_interoperability_is_obstacle.2
+    aliasFor: options.opinions.2
+  - key: options.browser_interoperability_is_obstacle.3
+    aliasFor: options.opinions.3
+  - key: options.browser_interoperability_is_obstacle.4
+    aliasFor: options.opinions.4
+
+  - key: opinions.browser_interoperability_pace
+    t: وتيرة التوافق
+  - key: opinions.browser_interoperability_pace.question
+    t: خلال السنوات القليلة الماضية، أصبحت ميزات الويب الجديدة مستقرة عبر المتصفحات بوتيرة أسرع
+
+  - key: options.browser_interoperability_pace.0
+    aliasFor: options.opinions.0
+  - key: options.browser_interoperability_pace.1
+    aliasFor: options.opinions.1
+  - key: options.browser_interoperability_pace.2
+    aliasFor: options.opinions.2
+  - key: options.browser_interoperability_pace.3
+    aliasFor: options.opinions.3
+  - key: options.browser_interoperability_pace.4
+    aliasFor: options.opinions.4
+
+  - key: opinions.web_platform_right_direction
+    t: منصة الويب
+  - key: opinions.web_platform_right_direction.question
+    t: تسير منصة الويب عمومًا في الاتجاه الصحيح
+
+  - key: options.web_platform_right_direction.0
+    aliasFor: options.opinions.0
+  - key: options.web_platform_right_direction.1
+    aliasFor: options.opinions.1
+  - key: options.web_platform_right_direction.2
+    aliasFor: options.opinions.2
+  - key: options.web_platform_right_direction.3
+    aliasFor: options.opinions.3
+  - key: options.web_platform_right_direction.4
+    aliasFor: options.opinions.4
+
+  - key: opinions.validation_is_important
+    t: التحقق من صحة HTML
+  - key: opinions.validation_is_important.question
+    t: |
+      من المهم التأكد من اجتياز شيفرة HTML التي أكتبها للتحقق من الصحة
+
+  - key: options.validation_is_important.0
+    aliasFor: options.opinions.0
+  - key: options.validation_is_important.1
+    aliasFor: options.opinions.1
+  - key: options.validation_is_important.2
+    aliasFor: options.opinions.2
+  - key: options.validation_is_important.3
+    aliasFor: options.opinions.3
+  - key: options.validation_is_important.4
+    aliasFor: options.opinions.4
+
+  ###########################################################################
+  # Survey Help
+  ###########################################################################
+
+  - key: features.features_intro_html
+    t: |
+      أهلًا بك في الاستطلاع! يهدف القسمان الأولان إلى معرفة
+      **ميزات** HTML (وواجهات برمجة التطبيقات المرتبطة بها) التي تعرفها.
+
+      بالمناسبة، إذا أردت معرفة المزيد عن أي بند في الاستطلاع، يمكنك إضافته إلى قائمة القراءة بالنقر على أيقونة "+" الصغيرة الخاصة به!
+
+  ###########################################################################
+  # FAQ
+  ###########################################################################
+
+  - key: faq.how_long_will_survey_take_html
+    t: كم يستغرق إكمال الاستطلاع؟
+  - key: faq.how_long_will_survey_take_html.description
+    t: >
+      وفقًا لعدد الأسئلة التي تجيب عنها (يمكن تخطي جميع الأسئلة)،
+      يستغرق ملء الاستطلاع نحو 10 إلى 15 دقيقة.
+
+  - key: faq.who_should_take_survey_html
+    t: من ينبغي له المشاركة في هذا الاستطلاع؟
+  - key: faq.who_should_take_survey_html.description
+    t: >
+      هذا استطلاع مفتوح لكل من ينشئ مواقع أو تطبيقات ويب، سواء بانتظام أو من حين لآخر، ضمن عمله أو بصفته طالبًا أو لمجرد المتعة!
+
+  - key: faq.data_used_html
+    t: كيف ستُستخدم هذه البيانات؟
+  - key: faq.data_used_html.description
+    t: >
+      ستُنشر جميع البيانات المجموعة علنًا كي يطلع عليها أي مطور أو شركة.
+      كما [تستخدم شركات المتصفحات هذه البيانات](https://web.dev/blog/interop-2024) لتحديد مجالات التركيز وإرشاد خططها المستقبلية.
+
+  - key: faq.survey_goals_html
+    t: ما أهداف هذا الاستطلاع؟
+  - key: faq.survey_goals_html.description
+    t: >
+      يهدف الاستطلاع إلى قياس مدى الوعي بميزات HTML وواجهات برمجة تطبيقات المتصفح الجديدة، ومساعدة المطورين على متابعة تطور استخدامها.
