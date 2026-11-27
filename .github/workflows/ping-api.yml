@@ -10,20 +10,15 @@ jobs:
     runs-on: ubuntu-26.04
     permissions:
       contents: read
-    timeout-minutes: 1
 
     steps:
       - name: Get Repository Name
         id: repo_name
-        run: echo "{name}={basename $GITHUB_REPOSITORY}" >> $GITHUB_OUTPUT
+        run: echo "name=${GITHUB_REPOSITORY##*/}" >> "$GITHUB_OUTPUT"
 
       - name: Ping API
         env:
           I18N_SECRET_KEY: ${{ secrets.I18N_SECRET_KEY }}   # Set your secret in repository settings
           ACTIONS_ENDPOINT_URL: ${{ secrets.ACTIONS_ENDPOINT_URL }}   # Set your secret in repository settings
         run: |
-          if [[ -z "$I18N_SECRET_KEY" || -z "$ACTIONS_ENDPOINT_URL" ]]; then
-            echo "::error::I18N_SECRET_KEY and ACTIONS_ENDPOINT_URL must be configured as repository secrets."
-            exit 1
-          fi
           curl -X GET "$ACTIONS_ENDPOINT_URL?locale=${{ steps.repo_name.outputs.name }}&secretKey=$I18N_SECRET_KEY"
